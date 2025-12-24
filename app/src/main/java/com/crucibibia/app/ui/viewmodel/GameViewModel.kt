@@ -53,11 +53,8 @@ class GameViewModel(
             val puzzleData = repository.loadPuzzleData(puzzleId)
             if (puzzleData != null) {
                 // Initialize empty user grid
-                val userGrid = List(puzzleData.grid.size) { row ->
-                    List(puzzleData.grid.size) { col ->
-                        if (puzzleData.grid.cells[row][col].isBlocked) null
-                        else null
-                    }
+                val userGrid = List(puzzleData.grid.size) {
+                    List(puzzleData.grid.size) { null }
                 }
 
                 // Load saved game state if exists
@@ -362,11 +359,8 @@ class GameViewModel(
         val state = _uiState.value
         val puzzleData = state.puzzleData ?: return
 
-        val emptyGrid = List(puzzleData.grid.size) { row ->
-            List(puzzleData.grid.size) { col ->
-                if (puzzleData.grid.cells[row][col].isBlocked) null
-                else null
-            }
+        val emptyGrid = List(puzzleData.grid.size) {
+            List(puzzleData.grid.size) { null }
         }
 
         _uiState.value = state.copy(

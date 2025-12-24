@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Crucibibia</string>
+    <string name="app_subtitle">Cruciverba dalla Bibbia</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="settings">Impostazioni</string>
+    <string name="back">Indietro</string>
+
+    <!-- Home Screen -->
+    <string name="select_year">Seleziona Anno</string>
+    <string name="puzzles_count">%d cruciverba</string>
+    <string name="completed">Completato</string>
+    <string name="in_progress">In corso</string>
+    <string name="not_started">Non iniziato</string>
+
+    <!-- Game Screen -->
+    <string name="horizontal">Orizzontali</string>
+    <string name="vertical">Verticali</string>
+    <string name="check">Verifica</string>
+    <string name="hint">Suggerimento</string>
+    <string name="solution">Soluzione</string>
+    <string name="clear">Cancella</string>
+    <string name="restart">Ricomincia</string>
+
+    <!-- Dialogs -->
+    <string name="congratulations">Complimenti!</string>
+    <string name="puzzle_completed">Hai completato il cruciverba!</string>
+    <string name="errors_found">Trovati %d errori</string>
+    <string name="no_errors">Nessun errore! Continua così!</string>
+    <string name="confirm_solution">Sei sicuro di voler vedere la soluzione?</string>
+    <string name="confirm_restart">Sei sicuro di voler ricominciare?</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annulla</string>
+
+    <!-- Settings -->
+    <string name="dark_mode">Tema scuro</string>
+    <string name="sound_effects">Effetti sonori</string>
+    <string name="vibration">Vibrazione</string>
+    <string name="auto_check">Verifica automatica</string>
+    <string name="show_timer">Mostra timer</string>
+    <string name="about">Informazioni</string>
+    <string name="version">Versione %s</string>
+
+    <!-- About -->
+    <string name="about_description">Crucibibia è una raccolta di cruciverba tratti dalla Bibbia, originariamente pubblicati nelle riviste Svegliatevi! dal 1994 al 2005.</string>
+    <string name="source_attribution">Fonte: jw.org</string>
+</resources>

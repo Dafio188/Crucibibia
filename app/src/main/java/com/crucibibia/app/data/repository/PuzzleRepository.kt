@@ -59,12 +59,13 @@ class PuzzleRepository(
         try {
             val puzzle = puzzleDao.getPuzzleById(puzzleId) ?: return@withContext null
 
-            // Carica griglia da assets/puzzles/{year}/{puzzleId}_grid.json
-            val gridJson = loadJsonFromAssets("puzzles/${puzzle.year}/${puzzleId}_grid.json")
+            // Carica griglia da assets/puzzles/{year}/{month}/{puzzleId}_grid.json
+            val monthStr = String.format("%02d", puzzle.month)
+            val gridJson = loadJsonFromAssets("puzzles/${puzzle.year}/$monthStr/${puzzleId}_grid.json")
             val grid = parseGrid(gridJson)
 
-            // Carica definizioni da assets/puzzles/{year}/{puzzleId}_clues.json
-            val cluesJson = loadJsonFromAssets("puzzles/${puzzle.year}/${puzzleId}_clues.json")
+            // Carica definizioni da assets/puzzles/{year}/{month}/{puzzleId}_clues.json
+            val cluesJson = loadJsonFromAssets("puzzles/${puzzle.year}/$monthStr/${puzzleId}_clues.json")
             val (horizontal, vertical) = parseClues(cluesJson, grid)
 
             val puzzleData = PuzzleData(

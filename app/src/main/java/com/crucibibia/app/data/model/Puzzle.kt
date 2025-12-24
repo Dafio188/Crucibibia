@@ -9,11 +9,12 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "puzzles")
 data class Puzzle(
     @PrimaryKey
-    val id: String,           // es. "1994_01"
+    val id: String,           // es. "2005_08_08"
     val year: Int,            // Anno di pubblicazione (1994-2005)
+    val month: Int = 1,       // Mese di pubblicazione (1-12)
     val number: Int,          // Numero nel anno (1-6)
     val title: String,        // Titolo del cruciverba
-    val source: String,       // Fonte (es. "Svegliatevi! Gennaio 1994")
+    val source: String,       // Fonte (es. "Svegliatevi! 8 agosto 2005")
     val gridSize: Int = 15,   // Dimensione griglia (15x15)
     val isCompleted: Boolean = false,
     val completedTime: Long? = null,  // Tempo impiegato in secondi

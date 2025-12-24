@@ -1,25 +1,8 @@
 [
   {
-    "id": "1994_01",
-    "year": 1994,
-    "number": 1,
-    "title": "Cruciverba Biblico 1",
-    "source": "Svegliatevi! Gennaio 1994",
-    "gridSize": 15,
-    "isCompleted": false
-  },
-  {
-    "id": "1994_02",
-    "year": 1994,
-    "number": 2,
-    "title": "Cruciverba Biblico 2",
-    "source": "Svegliatevi! Marzo 1994",
-    "gridSize": 15,
-    "isCompleted": false
-  },
-  {
     "id": "2005_08_08",
     "year": 2005,
+    "month": 8,
     "number": 4,
     "title": "Cruciverba Biblico",
     "source": "Svegliatevi! 8 agosto 2005",

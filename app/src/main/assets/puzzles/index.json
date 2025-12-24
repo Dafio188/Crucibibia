@@ -16,5 +16,14 @@
     "source": "Svegliatevi! Marzo 1994",
     "gridSize": 15,
     "isCompleted": false
+  },
+  {
+    "id": "2005_08_08",
+    "year": 2005,
+    "number": 4,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 agosto 2005",
+    "gridSize": 15,
+    "isCompleted": false
   }
 ]

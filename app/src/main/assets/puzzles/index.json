@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1994_01",
+    "year": 1994,
+    "number": 1,
+    "title": "Cruciverba Biblico 1",
+    "source": "Svegliatevi! Gennaio 1994",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
+    "id": "1994_02",
+    "year": 1994,
+    "number": 2,
+    "title": "Cruciverba Biblico 2",
+    "source": "Svegliatevi! Marzo 1994",
+    "gridSize": 15,
+    "isCompleted": false
+  }
+]

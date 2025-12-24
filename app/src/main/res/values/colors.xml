@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors - Blue theme (Bible inspired) -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_variant">#0D47A1</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Secondary colors - Gold/Amber -->
+    <color name="secondary">#FFB300</color>
+    <color name="secondary_variant">#FF8F00</color>
+    <color name="on_secondary">#000000</color>
+
+    <!-- Background colors -->
+    <color name="background_light">#FAFAFA</color>
+    <color name="background_dark">#121212</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_dark">#1E1E1E</color>
+
+    <!-- Grid colors -->
+    <color name="grid_cell_empty">#FFFFFF</color>
+    <color name="grid_cell_blocked">#212121</color>
+    <color name="grid_cell_selected">#BBDEFB</color>
+    <color name="grid_cell_highlighted">#E3F2FD</color>
+    <color name="grid_cell_correct">#C8E6C9</color>
+    <color name="grid_cell_error">#FFCDD2</color>
+    <color name="grid_border">#9E9E9E</color>
+    <color name="grid_text">#212121</color>
+    <color name="grid_number">#757575</color>
+
+    <!-- Status colors -->
+    <color name="success">#4CAF50</color>
+    <color name="error">#F44336</color>
+    <color name="warning">#FF9800</color>
+</resources>

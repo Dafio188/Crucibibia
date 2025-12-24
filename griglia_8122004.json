@@ -1,0 +1,716 @@
+{
+  "gridSize": 15,
+  "structure": [
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "numberedCells": [
+    {
+      "row": 0,
+      "col": 0,
+      "num": 1,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "num": 2,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "num": 3,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "num": 4,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "num": 5,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 8,
+      "num": 6,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 9,
+      "num": 7,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 11,
+      "num": 8,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 13,
+      "num": 9,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 14,
+      "num": 10,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "num": 11,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "num": 12,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 1,
+      "col": 8,
+      "num": 13,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 1,
+      "col": 13,
+      "num": 14,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "num": 15,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 2,
+      "col": 11,
+      "num": 16,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 3,
+      "col": 0,
+      "num": 17,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "num": 18,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "num": 19,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "num": 20,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 3,
+      "col": 8,
+      "num": 21,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 3,
+      "col": 10,
+      "num": 22,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 3,
+      "col": 13,
+      "num": 23,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 5,
+      "col": 0,
+      "num": 24,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "num": 25,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 5,
+      "col": 8,
+      "num": 26,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 5,
+      "col": 11,
+      "num": 27,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 5,
+      "col": 13,
+      "num": 28,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 5,
+      "col": 14,
+      "num": 29,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 6,
+      "col": 0,
+      "num": 30,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "num": 31,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "num": 32,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 6,
+      "col": 10,
+      "num": 33,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 6,
+      "col": 12,
+      "num": 34,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "num": 35,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 7,
+      "col": 8,
+      "num": 36,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 8,
+      "col": 0,
+      "num": 37,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "num": 38,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "num": 39,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "num": 40,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 8,
+      "col": 10,
+      "num": 41,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 8,
+      "col": 11,
+      "num": 42,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 8,
+      "col": 13,
+      "num": 43,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 9,
+      "col": 0,
+      "num": 44,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "num": 45,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 9,
+      "col": 8,
+      "num": 46,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 9,
+      "col": 13,
+      "num": 47,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 11,
+      "col": 0,
+      "num": 48,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "num": 49,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 5,
+      "num": 50,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 9,
+      "num": 51,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 11,
+      "num": 52,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 13,
+      "num": 53,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 11,
+      "col": 14,
+      "num": 54,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 12,
+      "col": 0,
+      "num": 55,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 12,
+      "col": 11,
+      "num": 56,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 13,
+      "col": 0,
+      "num": 57,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "num": 58,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 13,
+      "col": 6,
+      "num": 59,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 13,
+      "col": 8,
+      "num": 60,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 13,
+      "col": 13,
+      "num": 61,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 14,
+      "col": 0,
+      "num": 62,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 14,
+      "col": 5,
+      "num": 63,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 14,
+      "col": 11,
+      "num": 64,
+      "hasH": true,
+      "hasV": false
+    }
+  ],
+  "metadata": {
+    "totalNumbers": 64,
+    "horizontalStarts": 40,
+    "verticalStarts": 32,
+    "exportedAt": "2025-12-24T11:50:17.605Z"
+  }
+}

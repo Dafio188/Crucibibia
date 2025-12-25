@@ -1,0 +1,2998 @@
+{
+  "gridSize": 15,
+  "structure": [
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "numberedCells": [
+    {
+      "row": 0,
+      "col": 0,
+      "num": 1,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "num": 2,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "num": 3,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 9,
+      "num": 4,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 11,
+      "num": 5,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 0,
+      "col": 14,
+      "num": 6,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "num": 7,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "num": 8,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 1,
+      "col": 9,
+      "num": 9,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 1,
+      "col": 10,
+      "num": 10,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "num": 11,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "num": 12,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "num": 13,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 2,
+      "col": 8,
+      "num": 14,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 2,
+      "col": 13,
+      "num": 15,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "num": 16,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 3,
+      "col": 8,
+      "num": 17,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 3,
+      "col": 11,
+      "num": 18,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "num": 19,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "num": 20,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 4,
+      "col": 11,
+      "num": 21,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 4,
+      "col": 12,
+      "num": 22,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 5,
+      "col": 0,
+      "num": 23,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "num": 24,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "num": 25,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 5,
+      "col": 9,
+      "num": 26,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 5,
+      "col": 11,
+      "num": 27,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 5,
+      "col": 14,
+      "num": 28,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "num": 29,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 6,
+      "col": 9,
+      "num": 30,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 7,
+      "col": 0,
+      "num": 31,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "num": 32,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 7,
+      "col": 12,
+      "num": 33,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "num": 34,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "num": 35,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 8,
+      "col": 9,
+      "num": 36,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 8,
+      "col": 11,
+      "num": 37,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 9,
+      "col": 0,
+      "num": 38,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "num": 39,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 9,
+      "col": 5,
+      "num": 40,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 9,
+      "col": 6,
+      "num": 41,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 9,
+      "col": 8,
+      "num": 42,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 9,
+      "col": 11,
+      "num": 43,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 9,
+      "col": 13,
+      "num": 44,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "num": 45,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 10,
+      "col": 11,
+      "num": 46,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 11,
+      "col": 0,
+      "num": 47,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "num": 48,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "num": 49,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 5,
+      "num": 50,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 8,
+      "num": 51,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 11,
+      "col": 9,
+      "num": 52,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 10,
+      "num": 53,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 14,
+      "num": 54,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 12,
+      "col": 4,
+      "num": 55,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 12,
+      "col": 7,
+      "num": 56,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "num": 57,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 13,
+      "col": 9,
+      "num": 58,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 14,
+      "col": 0,
+      "num": 59,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 14,
+      "col": 5,
+      "num": 60,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 14,
+      "col": 11,
+      "num": 61,
+      "hasH": true,
+      "hasV": false
+    }
+  ],
+  "words": {
+    "orizzontali": [
+      {
+        "num": 1,
+        "word": "ZELO",
+        "clue": "1. Gesù lo dimostrò per il tempio (Giovanni 2:15-17)"
+      },
+      {
+        "num": 2,
+        "word": "GOSEN",
+        "clue": "2. Regione dell’Egitto in cui si stabilirono gli israeliti (Genesi 47:27)"
+      },
+      {
+        "num": 5,
+        "word": "CIRO",
+        "clue": "5. Il suo nome e il suo ruolo furono profetizzati molto in anticipo (Isaia 44:28–45:3)"
+      },
+      {
+        "num": 7,
+        "word": "PALO",
+        "clue": "7. Vi appesero Gesù (Matteo 27:35)"
+      },
+      {
+        "num": 9,
+        "word": "ONAN",
+        "clue": "9. Morì per non aver rispettato l’istituzione del matrimonio del cognato (Genesi 38:6-10)"
+      },
+      {
+        "num": 12,
+        "word": "ELETTRO",
+        "clue": "12. Lega lucente composta di oro e argento (Ezechiele 1:27)"
+      },
+      {
+        "num": 16,
+        "word": "BAAL",
+        "clue": "16. Gedeone ne demolì l’altare (Giudici 6:25-27)"
+      },
+      {
+        "num": 17,
+        "word": "ADES",
+        "clue": "17. Cristo non vi rimase (Atti 2:31)"
+      },
+      {
+        "num": 19,
+        "word": "AVI",
+        "clue": "19. Antenati (Esodo 12:3)"
+      },
+      {
+        "num": 21,
+        "word": "UVA",
+        "clue": "21. Era proibita ai nazirei (Numeri 6:2, 3)"
+      },
+      {
+        "num": 23,
+        "word": "OFEL",
+        "clue": "23. Altura fortificata di Gerusalemme (Neemia 3:26, 27)"
+      },
+      {
+        "num": 24,
+        "word": "RUBEN",
+        "clue": "24. Il figlio di Giacobbe che violò la concubina del padre (Genesi 35:22)"
+      },
+      {
+        "num": 27,
+        "word": "SEIR",
+        "clue": "27. Antico nome del paese di Edom (Numeri 24:18)"
+      },
+      {
+        "num": 29,
+        "word": "NAVI",
+        "clue": "29. Quelle di Tarsis erano famose (1 Re 10:22)"
+      },
+      {
+        "num": 30,
+        "word": "AGAR",
+        "clue": "30. La madre di Ismaele (Genesi 16:15)"
+      },
+      {
+        "num": 31,
+        "word": "EUD",
+        "clue": "31. Il giudice mancino (Giudici 3:15)"
+      },
+      {
+        "num": 32,
+        "word": "CERVO",
+        "clue": "32. Quadrupede agilissimo (Isaia 35:6)"
+      },
+      {
+        "num": 33,
+        "word": "GAT",
+        "clue": "33. La città di Golia (1 Samuele 17:4)"
+      },
+      {
+        "num": 34,
+        "word": "ENOC",
+        "clue": "34. Il primo di cui si dice che ‘camminò con Dio’ (Genesi 5:22)"
+      },
+      {
+        "num": 36,
+        "word": "MARI",
+        "clue": "36. Comparvero nel terzo giorno creativo (Genesi 1:10)"
+      },
+      {
+        "num": 38,
+        "word": "TERA",
+        "clue": "38. Padre di Abraamo (Luca 3:34)"
+      },
+      {
+        "num": 40,
+        "word": "OCCHI",
+        "clue": "40. Si alzano senza fatica (Matteo 17:8)"
+      },
+      {
+        "num": 43,
+        "word": "ONDE",
+        "clue": "43. Agitano il mare (Geremia 5:22)"
+      },
+      {
+        "num": 45,
+        "word": "DEI",
+        "clue": "45. Geova svergognò quelli d’Egitto (Esodo 12:12)"
+      },
+      {
+        "num": 46,
+        "word": "DIO",
+        "clue": "46. È amore (1 Giovanni 4:8)"
+      },
+      {
+        "num": 48,
+        "word": "NAAS",
+        "clue": "48. Voleva cavare un occhio a tutti gli abitanti di una città (1 Samuele 11:1, 2)"
+      },
+      {
+        "num": 51,
+        "word": "ESCA",
+        "clue": "51. Si tende a una vittima ignara (Isaia 29:21)"
+      },
+      {
+        "num": 55,
+        "word": "SBAGLIO",
+        "clue": "55. Si fa senza volere (Levitico 5:18)"
+      },
+      {
+        "num": 57,
+        "word": "RAAB",
+        "clue": "57. Grazie alla sua fede salvò anche la sua famiglia (Giosuè 6:25)"
+      },
+      {
+        "num": 58,
+        "word": "ORME",
+        "clue": "58. Dobbiamo seguire quelle di Gesù (1 Pietro 2:21)"
+      },
+      {
+        "num": 59,
+        "word": "ELIA",
+        "clue": "59. Pregò per la siccità e per la pioggia (Giacomo 5:17, 18)"
+      },
+      {
+        "num": 60,
+        "word": "ABDON",
+        "clue": "60. Prolifico giudice d’Israele (Giudici 12:13, 14)"
+      },
+      {
+        "num": 61,
+        "word": "RENI",
+        "clue": "61. Rappresentano i pensieri più intimi e le emozioni più profonde (Salmo 26:2)"
+      }
+    ],
+    "verticali": [
+      {
+        "num": 1,
+        "word": "ZEUS",
+        "clue": "1. Antica divinità greca (Atti 14:13)"
+      },
+      {
+        "num": 2,
+        "word": "GOLA",
+        "clue": "2. Valle stretta e profonda (1 Samuele 13:23)"
+      },
+      {
+        "num": 3,
+        "word": "SET",
+        "clue": "3. Il figlio di Adamo da cui discendiamo (1 Cronache 1:1)"
+      },
+      {
+        "num": 4,
+        "word": "NORD",
+        "clue": "4. Dio lo distende “sullo spazio vuoto” (Giobbe 26:7)"
+      },
+      {
+        "num": 6,
+        "word": "ODIO",
+        "clue": "6. Il contrario dell’amore (Salmo 109:5)"
+      },
+      {
+        "num": 8,
+        "word": "LEA",
+        "clue": "8. La madre di sei dei dodici figli di Giacobbe (Genesi 35:23)"
+      },
+      {
+        "num": 10,
+        "word": "NOE",
+        "clue": "10. Ricevette il comando di ‘riempire la terra’ (Genesi 9:1)"
+      },
+      {
+        "num": 11,
+        "word": "ASAF",
+        "clue": "11. Gli sono attribuiti molti salmi (Salmo 73, soprascritta)"
+      },
+      {
+        "num": 13,
+        "word": "ELIU",
+        "clue": "13. Corresse Giobbe (Giobbe 32:1, 2)"
+      },
+      {
+        "num": 14,
+        "word": "TANE",
+        "clue": "14. Le “case” degli animali (Giobbe 37:8)"
+      },
+      {
+        "num": 15,
+        "word": "GUAI",
+        "clue": "15. Furono predetti per ‘la terra e il mare’ dopo la caduta di Satana (Rivelazione 12:12)"
+      },
+      {
+        "num": 16,
+        "word": "BILA",
+        "clue": "16. La madre di Dan (Genesi 35:25)"
+      },
+      {
+        "num": 18,
+        "word": "SUSA",
+        "clue": "18. La città in cui Neemia serviva come coppiere (Neemia 1:1, 11)"
+      },
+      {
+        "num": 20,
+        "word": "VENDERE",
+        "clue": "20. Era proibito farlo di sabato (Neemia 10:31)"
+      },
+      {
+        "num": 22,
+        "word": "VERGINI",
+        "clue": "22. In una parabola cinque erano stolte e cinque no (Matteo 25:1, 2)"
+      },
+      {
+        "num": 23,
+        "word": "OVEST",
+        "clue": "23. Punto cardinale (1 Re 7:25)"
+      },
+      {
+        "num": 24,
+        "word": "RICCO",
+        "clue": "24. Ha molti “amici” (Proverbi 14:20)"
+      },
+      {
+        "num": 25,
+        "word": "BARUC",
+        "clue": "25. Segretario di Geremia (Geremia 36:4)"
+      },
+      {
+        "num": 26,
+        "word": "NAOMI",
+        "clue": "26. Suocera di Rut (Rut 1:3, 4)"
+      },
+      {
+        "num": 28,
+        "word": "RETTE",
+        "clue": "28. Lo sono “le vie di Geova” (Osea 14:9)"
+      },
+      {
+        "num": 35,
+        "word": "NAIN",
+        "clue": "35. Città in cui Gesù risuscitò il figlio di una vedova (Luca 7:11, 12)"
+      },
+      {
+        "num": 37,
+        "word": "RODA",
+        "clue": "37. Per la gioia si dimenticò di aprire la porta a Pietro che bussava (Atti 12:13, 14)"
+      },
+      {
+        "num": 39,
+        "word": "EDEN",
+        "clue": "39. La dimora di Adamo (Genesi 2:8)"
+      },
+      {
+        "num": 41,
+        "word": "CASA",
+        "clue": "41. Ha sempre un costruttore (Ebrei 3:4)"
+      },
+      {
+        "num": 42,
+        "word": "HIEL",
+        "clue": "42. Perse due figli per avere riedificato Gerico (1 Re 16:34)"
+      },
+      {
+        "num": 44,
+        "word": "DONO",
+        "clue": "44. Può “distruggere il cuore” (Ecclesiaste 7:7)"
+      },
+      {
+        "num": 47,
+        "word": "RANE",
+        "clue": "47. Una delle dieci piaghe (Esodo 8:6)"
+      },
+      {
+        "num": 49,
+        "word": "ASA",
+        "clue": "49. Terzo re di Giuda (1 Re 15:9)"
+      },
+      {
+        "num": 50,
+        "word": "ABBA",
+        "clue": "50. Significa “padre” (Galati 4:6)"
+      },
+      {
+        "num": 52,
+        "word": "SION",
+        "clue": "52. Il monte su cui Giovanni vide l’Agnello e i 144.000 (Rivelazione 14:1)"
+      },
+      {
+        "num": 53,
+        "word": "COR",
+        "clue": "53. Misura di capacità (1 Re 5:11)"
+      },
+      {
+        "num": 54,
+        "word": "PANI",
+        "clue": "54. Gesù li moltiplicò (Marco 6:41-44)"
+      },
+      {
+        "num": 56,
+        "word": "GAD",
+        "clue": "56. Tribù di Israele (Rivelazione 7:5)"
+      }
+    ]
+  },
+  "placements": [
+    {
+      "num": 1,
+      "word": "ZELO",
+      "clue": "1. Gesù lo dimostrò per il tempio (Giovanni 2:15-17)",
+      "type": "H",
+      "start": "A1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 0,
+          "letter": "Z"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "letter": "E"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "letter": "L"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "word": "GOSEN",
+      "clue": "2. Regione dell’Egitto in cui si stabilirono gli israeliti (Genesi 47:27)",
+      "type": "H",
+      "start": "F1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 5,
+          "letter": "G"
+        },
+        {
+          "row": 0,
+          "col": 6,
+          "letter": "O"
+        },
+        {
+          "row": 0,
+          "col": 7,
+          "letter": "S"
+        },
+        {
+          "row": 0,
+          "col": 8,
+          "letter": "E"
+        },
+        {
+          "row": 0,
+          "col": 9,
+          "letter": "N"
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "word": "CIRO",
+      "clue": "5. Il suo nome e il suo ruolo furono profetizzati molto in anticipo (Isaia 44:28–45:3)",
+      "type": "H",
+      "start": "L1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 11,
+          "letter": "C"
+        },
+        {
+          "row": 0,
+          "col": 12,
+          "letter": "I"
+        },
+        {
+          "row": 0,
+          "col": 13,
+          "letter": "R"
+        },
+        {
+          "row": 0,
+          "col": 14,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "word": "PALO",
+      "clue": "7. Vi appesero Gesù (Matteo 27:35)",
+      "type": "H",
+      "start": "C2",
+      "positions": [
+        {
+          "row": 1,
+          "col": 2,
+          "letter": "P"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "letter": "A"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "letter": "L"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 9,
+      "word": "ONAN",
+      "clue": "9. Morì per non aver rispettato l’istituzione del matrimonio del cognato (Genesi 38:6-10)",
+      "type": "H",
+      "start": "J2",
+      "positions": [
+        {
+          "row": 1,
+          "col": 9,
+          "letter": "O"
+        },
+        {
+          "row": 1,
+          "col": 10,
+          "letter": "N"
+        },
+        {
+          "row": 1,
+          "col": 11,
+          "letter": "A"
+        },
+        {
+          "row": 1,
+          "col": 12,
+          "letter": "N"
+        }
+      ]
+    },
+    {
+      "num": 12,
+      "word": "ELETTRO",
+      "clue": "12. Lega lucente composta di oro e argento (Ezechiele 1:27)",
+      "type": "H",
+      "start": "E3",
+      "positions": [
+        {
+          "row": 2,
+          "col": 4,
+          "letter": "E"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "letter": "L"
+        },
+        {
+          "row": 2,
+          "col": 6,
+          "letter": "E"
+        },
+        {
+          "row": 2,
+          "col": 7,
+          "letter": "T"
+        },
+        {
+          "row": 2,
+          "col": 8,
+          "letter": "T"
+        },
+        {
+          "row": 2,
+          "col": 9,
+          "letter": "R"
+        },
+        {
+          "row": 2,
+          "col": 10,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 16,
+      "word": "BAAL",
+      "clue": "16. Gedeone ne demolì l’altare (Giudici 6:25-27)",
+      "type": "H",
+      "start": "D4",
+      "positions": [
+        {
+          "row": 3,
+          "col": 3,
+          "letter": "B"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "letter": "A"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "letter": "A"
+        },
+        {
+          "row": 3,
+          "col": 6,
+          "letter": "L"
+        }
+      ]
+    },
+    {
+      "num": 17,
+      "word": "ADES",
+      "clue": "17. Cristo non vi rimase (Atti 2:31)",
+      "type": "H",
+      "start": "I4",
+      "positions": [
+        {
+          "row": 3,
+          "col": 8,
+          "letter": "A"
+        },
+        {
+          "row": 3,
+          "col": 9,
+          "letter": "D"
+        },
+        {
+          "row": 3,
+          "col": 10,
+          "letter": "E"
+        },
+        {
+          "row": 3,
+          "col": 11,
+          "letter": "S"
+        }
+      ]
+    },
+    {
+      "num": 19,
+      "word": "AVI",
+      "clue": "19. Antenati (Esodo 12:3)",
+      "type": "H",
+      "start": "B5",
+      "positions": [
+        {
+          "row": 4,
+          "col": 1,
+          "letter": "A"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "letter": "V"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 21,
+      "word": "UVA",
+      "clue": "21. Era proibita ai nazirei (Numeri 6:2, 3)",
+      "type": "H",
+      "start": "L5",
+      "positions": [
+        {
+          "row": 4,
+          "col": 11,
+          "letter": "U"
+        },
+        {
+          "row": 4,
+          "col": 12,
+          "letter": "V"
+        },
+        {
+          "row": 4,
+          "col": 13,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 23,
+      "word": "OFEL",
+      "clue": "23. Altura fortificata di Gerusalemme (Neemia 3:26, 27)",
+      "type": "H",
+      "start": "A6",
+      "positions": [
+        {
+          "row": 5,
+          "col": 0,
+          "letter": "O"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "letter": "F"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "letter": "E"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "letter": "L"
+        }
+      ]
+    },
+    {
+      "num": 24,
+      "word": "RUBEN",
+      "clue": "24. Il figlio di Giacobbe che violò la concubina del padre (Genesi 35:22)",
+      "type": "H",
+      "start": "F6",
+      "positions": [
+        {
+          "row": 5,
+          "col": 5,
+          "letter": "R"
+        },
+        {
+          "row": 5,
+          "col": 6,
+          "letter": "U"
+        },
+        {
+          "row": 5,
+          "col": 7,
+          "letter": "B"
+        },
+        {
+          "row": 5,
+          "col": 8,
+          "letter": "E"
+        },
+        {
+          "row": 5,
+          "col": 9,
+          "letter": "N"
+        }
+      ]
+    },
+    {
+      "num": 27,
+      "word": "SEIR",
+      "clue": "27. Antico nome del paese di Edom (Numeri 24:18)",
+      "type": "H",
+      "start": "L6",
+      "positions": [
+        {
+          "row": 5,
+          "col": 11,
+          "letter": "S"
+        },
+        {
+          "row": 5,
+          "col": 12,
+          "letter": "E"
+        },
+        {
+          "row": 5,
+          "col": 13,
+          "letter": "I"
+        },
+        {
+          "row": 5,
+          "col": 14,
+          "letter": "R"
+        }
+      ]
+    },
+    {
+      "num": 29,
+      "word": "NAVI",
+      "clue": "29. Quelle di Tarsis erano famose (1 Re 10:22)",
+      "type": "H",
+      "start": "C7",
+      "positions": [
+        {
+          "row": 6,
+          "col": 2,
+          "letter": "N"
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "letter": "A"
+        },
+        {
+          "row": 6,
+          "col": 4,
+          "letter": "V"
+        },
+        {
+          "row": 6,
+          "col": 5,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 30,
+      "word": "AGAR",
+      "clue": "30. La madre di Ismaele (Genesi 16:15)",
+      "type": "H",
+      "start": "J7",
+      "positions": [
+        {
+          "row": 6,
+          "col": 9,
+          "letter": "A"
+        },
+        {
+          "row": 6,
+          "col": 10,
+          "letter": "G"
+        },
+        {
+          "row": 6,
+          "col": 11,
+          "letter": "A"
+        },
+        {
+          "row": 6,
+          "col": 12,
+          "letter": "R"
+        }
+      ]
+    },
+    {
+      "num": 31,
+      "word": "EUD",
+      "clue": "31. Il giudice mancino (Giudici 3:15)",
+      "type": "H",
+      "start": "A8",
+      "positions": [
+        {
+          "row": 7,
+          "col": 0,
+          "letter": "E"
+        },
+        {
+          "row": 7,
+          "col": 1,
+          "letter": "U"
+        },
+        {
+          "row": 7,
+          "col": 2,
+          "letter": "D"
+        }
+      ]
+    },
+    {
+      "num": 32,
+      "word": "CERVO",
+      "clue": "32. Quadrupede agilissimo (Isaia 35:6)",
+      "type": "H",
+      "start": "F8",
+      "positions": [
+        {
+          "row": 7,
+          "col": 5,
+          "letter": "C"
+        },
+        {
+          "row": 7,
+          "col": 6,
+          "letter": "E"
+        },
+        {
+          "row": 7,
+          "col": 7,
+          "letter": "R"
+        },
+        {
+          "row": 7,
+          "col": 8,
+          "letter": "V"
+        },
+        {
+          "row": 7,
+          "col": 9,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 33,
+      "word": "GAT",
+      "clue": "33. La città di Golia (1 Samuele 17:4)",
+      "type": "H",
+      "start": "M8",
+      "positions": [
+        {
+          "row": 7,
+          "col": 12,
+          "letter": "G"
+        },
+        {
+          "row": 7,
+          "col": 13,
+          "letter": "A"
+        },
+        {
+          "row": 7,
+          "col": 14,
+          "letter": "T"
+        }
+      ]
+    },
+    {
+      "num": 34,
+      "word": "ENOC",
+      "clue": "34. Il primo di cui si dice che ‘camminò con Dio’ (Genesi 5:22)",
+      "type": "H",
+      "start": "C9",
+      "positions": [
+        {
+          "row": 8,
+          "col": 2,
+          "letter": "E"
+        },
+        {
+          "row": 8,
+          "col": 3,
+          "letter": "N"
+        },
+        {
+          "row": 8,
+          "col": 4,
+          "letter": "O"
+        },
+        {
+          "row": 8,
+          "col": 5,
+          "letter": "C"
+        }
+      ]
+    },
+    {
+      "num": 36,
+      "word": "MARI",
+      "clue": "36. Comparvero nel terzo giorno creativo (Genesi 1:10)",
+      "type": "H",
+      "start": "J9",
+      "positions": [
+        {
+          "row": 8,
+          "col": 9,
+          "letter": "M"
+        },
+        {
+          "row": 8,
+          "col": 10,
+          "letter": "A"
+        },
+        {
+          "row": 8,
+          "col": 11,
+          "letter": "R"
+        },
+        {
+          "row": 8,
+          "col": 12,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 38,
+      "word": "TERA",
+      "clue": "38. Padre di Abraamo (Luca 3:34)",
+      "type": "H",
+      "start": "A10",
+      "positions": [
+        {
+          "row": 9,
+          "col": 0,
+          "letter": "T"
+        },
+        {
+          "row": 9,
+          "col": 1,
+          "letter": "E"
+        },
+        {
+          "row": 9,
+          "col": 2,
+          "letter": "R"
+        },
+        {
+          "row": 9,
+          "col": 3,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 40,
+      "word": "OCCHI",
+      "clue": "40. Si alzano senza fatica (Matteo 17:8)",
+      "type": "H",
+      "start": "F10",
+      "positions": [
+        {
+          "row": 9,
+          "col": 5,
+          "letter": "O"
+        },
+        {
+          "row": 9,
+          "col": 6,
+          "letter": "C"
+        },
+        {
+          "row": 9,
+          "col": 7,
+          "letter": "C"
+        },
+        {
+          "row": 9,
+          "col": 8,
+          "letter": "H"
+        },
+        {
+          "row": 9,
+          "col": 9,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 43,
+      "word": "ONDE",
+      "clue": "43. Agitano il mare (Geremia 5:22)",
+      "type": "H",
+      "start": "L10",
+      "positions": [
+        {
+          "row": 9,
+          "col": 11,
+          "letter": "O"
+        },
+        {
+          "row": 9,
+          "col": 12,
+          "letter": "N"
+        },
+        {
+          "row": 9,
+          "col": 13,
+          "letter": "D"
+        },
+        {
+          "row": 9,
+          "col": 14,
+          "letter": "E"
+        }
+      ]
+    },
+    {
+      "num": 45,
+      "word": "DEI",
+      "clue": "45. Geova svergognò quelli d’Egitto (Esodo 12:12)",
+      "type": "H",
+      "start": "B11",
+      "positions": [
+        {
+          "row": 10,
+          "col": 1,
+          "letter": "D"
+        },
+        {
+          "row": 10,
+          "col": 2,
+          "letter": "E"
+        },
+        {
+          "row": 10,
+          "col": 3,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 46,
+      "word": "DIO",
+      "clue": "46. È amore (1 Giovanni 4:8)",
+      "type": "H",
+      "start": "L11",
+      "positions": [
+        {
+          "row": 10,
+          "col": 11,
+          "letter": "D"
+        },
+        {
+          "row": 10,
+          "col": 12,
+          "letter": "I"
+        },
+        {
+          "row": 10,
+          "col": 13,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 48,
+      "word": "NAAS",
+      "clue": "48. Voleva cavare un occhio a tutti gli abitanti di una città (1 Samuele 11:1, 2)",
+      "type": "H",
+      "start": "D12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 3,
+          "letter": "N"
+        },
+        {
+          "row": 11,
+          "col": 4,
+          "letter": "A"
+        },
+        {
+          "row": 11,
+          "col": 5,
+          "letter": "A"
+        },
+        {
+          "row": 11,
+          "col": 6,
+          "letter": "S"
+        }
+      ]
+    },
+    {
+      "num": 51,
+      "word": "ESCA",
+      "clue": "51. Si tende a una vittima ignara (Isaia 29:21)",
+      "type": "H",
+      "start": "I12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 8,
+          "letter": "E"
+        },
+        {
+          "row": 11,
+          "col": 9,
+          "letter": "S"
+        },
+        {
+          "row": 11,
+          "col": 10,
+          "letter": "C"
+        },
+        {
+          "row": 11,
+          "col": 11,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 55,
+      "word": "SBAGLIO",
+      "clue": "55. Si fa senza volere (Levitico 5:18)",
+      "type": "H",
+      "start": "E13",
+      "positions": [
+        {
+          "row": 12,
+          "col": 4,
+          "letter": "S"
+        },
+        {
+          "row": 12,
+          "col": 5,
+          "letter": "B"
+        },
+        {
+          "row": 12,
+          "col": 6,
+          "letter": "A"
+        },
+        {
+          "row": 12,
+          "col": 7,
+          "letter": "G"
+        },
+        {
+          "row": 12,
+          "col": 8,
+          "letter": "L"
+        },
+        {
+          "row": 12,
+          "col": 9,
+          "letter": "I"
+        },
+        {
+          "row": 12,
+          "col": 10,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 57,
+      "word": "RAAB",
+      "clue": "57. Grazie alla sua fede salvò anche la sua famiglia (Giosuè 6:25)",
+      "type": "H",
+      "start": "C14",
+      "positions": [
+        {
+          "row": 13,
+          "col": 2,
+          "letter": "R"
+        },
+        {
+          "row": 13,
+          "col": 3,
+          "letter": "A"
+        },
+        {
+          "row": 13,
+          "col": 4,
+          "letter": "A"
+        },
+        {
+          "row": 13,
+          "col": 5,
+          "letter": "B"
+        }
+      ]
+    },
+    {
+      "num": 58,
+      "word": "ORME",
+      "clue": "58. Dobbiamo seguire quelle di Gesù (1 Pietro 2:21)",
+      "type": "H",
+      "start": "J14",
+      "positions": [
+        {
+          "row": 13,
+          "col": 9,
+          "letter": "O"
+        },
+        {
+          "row": 13,
+          "col": 10,
+          "letter": "R"
+        },
+        {
+          "row": 13,
+          "col": 11,
+          "letter": "M"
+        },
+        {
+          "row": 13,
+          "col": 12,
+          "letter": "E"
+        }
+      ]
+    },
+    {
+      "num": 59,
+      "word": "ELIA",
+      "clue": "59. Pregò per la siccità e per la pioggia (Giacomo 5:17, 18)",
+      "type": "H",
+      "start": "A15",
+      "positions": [
+        {
+          "row": 14,
+          "col": 0,
+          "letter": "E"
+        },
+        {
+          "row": 14,
+          "col": 1,
+          "letter": "L"
+        },
+        {
+          "row": 14,
+          "col": 2,
+          "letter": "I"
+        },
+        {
+          "row": 14,
+          "col": 3,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 60,
+      "word": "ABDON",
+      "clue": "60. Prolifico giudice d’Israele (Giudici 12:13, 14)",
+      "type": "H",
+      "start": "F15",
+      "positions": [
+        {
+          "row": 14,
+          "col": 5,
+          "letter": "A"
+        },
+        {
+          "row": 14,
+          "col": 6,
+          "letter": "B"
+        },
+        {
+          "row": 14,
+          "col": 7,
+          "letter": "D"
+        },
+        {
+          "row": 14,
+          "col": 8,
+          "letter": "O"
+        },
+        {
+          "row": 14,
+          "col": 9,
+          "letter": "N"
+        }
+      ]
+    },
+    {
+      "num": 61,
+      "word": "RENI",
+      "clue": "61. Rappresentano i pensieri più intimi e le emozioni più profonde (Salmo 26:2)",
+      "type": "H",
+      "start": "L15",
+      "positions": [
+        {
+          "row": 14,
+          "col": 11,
+          "letter": "R"
+        },
+        {
+          "row": 14,
+          "col": 12,
+          "letter": "E"
+        },
+        {
+          "row": 14,
+          "col": 13,
+          "letter": "N"
+        },
+        {
+          "row": 14,
+          "col": 14,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 1,
+      "word": "ZEUS",
+      "clue": "1. Antica divinità greca (Atti 14:13)",
+      "type": "V",
+      "start": "A1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 0,
+          "letter": "Z"
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "letter": "E"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "letter": "U"
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "letter": "S"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "word": "GOLA",
+      "clue": "2. Valle stretta e profonda (1 Samuele 13:23)",
+      "type": "V",
+      "start": "F1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 5,
+          "letter": "G"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "letter": "O"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "letter": "L"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "word": "SET",
+      "clue": "3. Il figlio di Adamo da cui discendiamo (1 Cronache 1:1)",
+      "type": "V",
+      "start": "H1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 7,
+          "letter": "S"
+        },
+        {
+          "row": 1,
+          "col": 7,
+          "letter": "E"
+        },
+        {
+          "row": 2,
+          "col": 7,
+          "letter": "T"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "word": "NORD",
+      "clue": "4. Dio lo distende “sullo spazio vuoto” (Giobbe 26:7)",
+      "type": "V",
+      "start": "J1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 9,
+          "letter": "N"
+        },
+        {
+          "row": 1,
+          "col": 9,
+          "letter": "O"
+        },
+        {
+          "row": 2,
+          "col": 9,
+          "letter": "R"
+        },
+        {
+          "row": 3,
+          "col": 9,
+          "letter": "D"
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "word": "ODIO",
+      "clue": "6. Il contrario dell’amore (Salmo 109:5)",
+      "type": "V",
+      "start": "O1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 14,
+          "letter": "O"
+        },
+        {
+          "row": 1,
+          "col": 14,
+          "letter": "D"
+        },
+        {
+          "row": 2,
+          "col": 14,
+          "letter": "I"
+        },
+        {
+          "row": 3,
+          "col": 14,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "word": "LEA",
+      "clue": "8. La madre di sei dei dodici figli di Giacobbe (Genesi 35:23)",
+      "type": "V",
+      "start": "E2",
+      "positions": [
+        {
+          "row": 1,
+          "col": 4,
+          "letter": "L"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "letter": "E"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 10,
+      "word": "NOE",
+      "clue": "10. Ricevette il comando di ‘riempire la terra’ (Genesi 9:1)",
+      "type": "V",
+      "start": "K2",
+      "positions": [
+        {
+          "row": 1,
+          "col": 10,
+          "letter": "N"
+        },
+        {
+          "row": 2,
+          "col": 10,
+          "letter": "O"
+        },
+        {
+          "row": 3,
+          "col": 10,
+          "letter": "E"
+        }
+      ]
+    },
+    {
+      "num": 11,
+      "word": "ASAF",
+      "clue": "11. Gli sono attribuiti molti salmi (Salmo 73, soprascritta)",
+      "type": "V",
+      "start": "B3",
+      "positions": [
+        {
+          "row": 2,
+          "col": 1,
+          "letter": "A"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "letter": "S"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "letter": "A"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "letter": "F"
+        }
+      ]
+    },
+    {
+      "num": 13,
+      "word": "ELIU",
+      "clue": "13. Corresse Giobbe (Giobbe 32:1, 2)",
+      "type": "V",
+      "start": "G3",
+      "positions": [
+        {
+          "row": 2,
+          "col": 6,
+          "letter": "E"
+        },
+        {
+          "row": 3,
+          "col": 6,
+          "letter": "L"
+        },
+        {
+          "row": 4,
+          "col": 6,
+          "letter": "I"
+        },
+        {
+          "row": 5,
+          "col": 6,
+          "letter": "U"
+        }
+      ]
+    },
+    {
+      "num": 14,
+      "word": "TANE",
+      "clue": "14. Le “case” degli animali (Giobbe 37:8)",
+      "type": "V",
+      "start": "I3",
+      "positions": [
+        {
+          "row": 2,
+          "col": 8,
+          "letter": "T"
+        },
+        {
+          "row": 3,
+          "col": 8,
+          "letter": "A"
+        },
+        {
+          "row": 4,
+          "col": 8,
+          "letter": "N"
+        },
+        {
+          "row": 5,
+          "col": 8,
+          "letter": "E"
+        }
+      ]
+    },
+    {
+      "num": 15,
+      "word": "GUAI",
+      "clue": "15. Furono predetti per ‘la terra e il mare’ dopo la caduta di Satana (Rivelazione 12:12)",
+      "type": "V",
+      "start": "N3",
+      "positions": [
+        {
+          "row": 2,
+          "col": 13,
+          "letter": "G"
+        },
+        {
+          "row": 3,
+          "col": 13,
+          "letter": "U"
+        },
+        {
+          "row": 4,
+          "col": 13,
+          "letter": "A"
+        },
+        {
+          "row": 5,
+          "col": 13,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 16,
+      "word": "BILA",
+      "clue": "16. La madre di Dan (Genesi 35:25)",
+      "type": "V",
+      "start": "D4",
+      "positions": [
+        {
+          "row": 3,
+          "col": 3,
+          "letter": "B"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "letter": "I"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "letter": "L"
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 18,
+      "word": "SUSA",
+      "clue": "18. La città in cui Neemia serviva come coppiere (Neemia 1:1, 11)",
+      "type": "V",
+      "start": "L4",
+      "positions": [
+        {
+          "row": 3,
+          "col": 11,
+          "letter": "S"
+        },
+        {
+          "row": 4,
+          "col": 11,
+          "letter": "U"
+        },
+        {
+          "row": 5,
+          "col": 11,
+          "letter": "S"
+        },
+        {
+          "row": 6,
+          "col": 11,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 20,
+      "word": "VENDERE",
+      "clue": "20. Era proibito farlo di sabato (Neemia 10:31)",
+      "type": "V",
+      "start": "C5",
+      "positions": [
+        {
+          "row": 4,
+          "col": 2,
+          "letter": "V"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "letter": "E"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "letter": "N"
+        },
+        {
+          "row": 7,
+          "col": 2,
+          "letter": "D"
+        },
+        {
+          "row": 8,
+          "col": 2,
+          "letter": "E"
+        },
+        {
+          "row": 9,
+          "col": 2,
+          "letter": "R"
+        },
+        {
+          "row": 10,
+          "col": 2,
+          "letter": "E"
+        }
+      ]
+    },
+    {
+      "num": 22,
+      "word": "VERGINI",
+      "clue": "22. In una parabola cinque erano stolte e cinque no (Matteo 25:1, 2)",
+      "type": "V",
+      "start": "M5",
+      "positions": [
+        {
+          "row": 4,
+          "col": 12,
+          "letter": "V"
+        },
+        {
+          "row": 5,
+          "col": 12,
+          "letter": "E"
+        },
+        {
+          "row": 6,
+          "col": 12,
+          "letter": "R"
+        },
+        {
+          "row": 7,
+          "col": 12,
+          "letter": "G"
+        },
+        {
+          "row": 8,
+          "col": 12,
+          "letter": "I"
+        },
+        {
+          "row": 9,
+          "col": 12,
+          "letter": "N"
+        },
+        {
+          "row": 10,
+          "col": 12,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 23,
+      "word": "OVEST",
+      "clue": "23. Punto cardinale (1 Re 7:25)",
+      "type": "V",
+      "start": "A6",
+      "positions": [
+        {
+          "row": 5,
+          "col": 0,
+          "letter": "O"
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "letter": "V"
+        },
+        {
+          "row": 7,
+          "col": 0,
+          "letter": "E"
+        },
+        {
+          "row": 8,
+          "col": 0,
+          "letter": "S"
+        },
+        {
+          "row": 9,
+          "col": 0,
+          "letter": "T"
+        }
+      ]
+    },
+    {
+      "num": 24,
+      "word": "RICCO",
+      "clue": "24. Ha molti “amici” (Proverbi 14:20)",
+      "type": "V",
+      "start": "F6",
+      "positions": [
+        {
+          "row": 5,
+          "col": 5,
+          "letter": "R"
+        },
+        {
+          "row": 6,
+          "col": 5,
+          "letter": "I"
+        },
+        {
+          "row": 7,
+          "col": 5,
+          "letter": "C"
+        },
+        {
+          "row": 8,
+          "col": 5,
+          "letter": "C"
+        },
+        {
+          "row": 9,
+          "col": 5,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 25,
+      "word": "BARUC",
+      "clue": "25. Segretario di Geremia (Geremia 36:4)",
+      "type": "V",
+      "start": "H6",
+      "positions": [
+        {
+          "row": 5,
+          "col": 7,
+          "letter": "B"
+        },
+        {
+          "row": 6,
+          "col": 7,
+          "letter": "A"
+        },
+        {
+          "row": 7,
+          "col": 7,
+          "letter": "R"
+        },
+        {
+          "row": 8,
+          "col": 7,
+          "letter": "U"
+        },
+        {
+          "row": 9,
+          "col": 7,
+          "letter": "C"
+        }
+      ]
+    },
+    {
+      "num": 26,
+      "word": "NAOMI",
+      "clue": "26. Suocera di Rut (Rut 1:3, 4)",
+      "type": "V",
+      "start": "J6",
+      "positions": [
+        {
+          "row": 5,
+          "col": 9,
+          "letter": "N"
+        },
+        {
+          "row": 6,
+          "col": 9,
+          "letter": "A"
+        },
+        {
+          "row": 7,
+          "col": 9,
+          "letter": "O"
+        },
+        {
+          "row": 8,
+          "col": 9,
+          "letter": "M"
+        },
+        {
+          "row": 9,
+          "col": 9,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 28,
+      "word": "RETTE",
+      "clue": "28. Lo sono “le vie di Geova” (Osea 14:9)",
+      "type": "V",
+      "start": "O6",
+      "positions": [
+        {
+          "row": 5,
+          "col": 14,
+          "letter": "R"
+        },
+        {
+          "row": 6,
+          "col": 14,
+          "letter": "E"
+        },
+        {
+          "row": 7,
+          "col": 14,
+          "letter": "T"
+        },
+        {
+          "row": 8,
+          "col": 14,
+          "letter": "T"
+        },
+        {
+          "row": 9,
+          "col": 14,
+          "letter": "E"
+        }
+      ]
+    },
+    {
+      "num": 35,
+      "word": "NAIN",
+      "clue": "35. Città in cui Gesù risuscitò il figlio di una vedova (Luca 7:11, 12)",
+      "type": "V",
+      "start": "D9",
+      "positions": [
+        {
+          "row": 8,
+          "col": 3,
+          "letter": "N"
+        },
+        {
+          "row": 9,
+          "col": 3,
+          "letter": "A"
+        },
+        {
+          "row": 10,
+          "col": 3,
+          "letter": "I"
+        },
+        {
+          "row": 11,
+          "col": 3,
+          "letter": "N"
+        }
+      ]
+    },
+    {
+      "num": 37,
+      "word": "RODA",
+      "clue": "37. Per la gioia si dimenticò di aprire la porta a Pietro che bussava (Atti 12:13, 14)",
+      "type": "V",
+      "start": "L9",
+      "positions": [
+        {
+          "row": 8,
+          "col": 11,
+          "letter": "R"
+        },
+        {
+          "row": 9,
+          "col": 11,
+          "letter": "O"
+        },
+        {
+          "row": 10,
+          "col": 11,
+          "letter": "D"
+        },
+        {
+          "row": 11,
+          "col": 11,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 39,
+      "word": "EDEN",
+      "clue": "39. La dimora di Adamo (Genesi 2:8)",
+      "type": "V",
+      "start": "B10",
+      "positions": [
+        {
+          "row": 9,
+          "col": 1,
+          "letter": "E"
+        },
+        {
+          "row": 10,
+          "col": 1,
+          "letter": "D"
+        },
+        {
+          "row": 11,
+          "col": 1,
+          "letter": "E"
+        },
+        {
+          "row": 12,
+          "col": 1,
+          "letter": "N"
+        }
+      ]
+    },
+    {
+      "num": 41,
+      "word": "CASA",
+      "clue": "41. Ha sempre un costruttore (Ebrei 3:4)",
+      "type": "V",
+      "start": "G10",
+      "positions": [
+        {
+          "row": 9,
+          "col": 6,
+          "letter": "C"
+        },
+        {
+          "row": 10,
+          "col": 6,
+          "letter": "A"
+        },
+        {
+          "row": 11,
+          "col": 6,
+          "letter": "S"
+        },
+        {
+          "row": 12,
+          "col": 6,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 42,
+      "word": "HIEL",
+      "clue": "42. Perse due figli per avere riedificato Gerico (1 Re 16:34)",
+      "type": "V",
+      "start": "I10",
+      "positions": [
+        {
+          "row": 9,
+          "col": 8,
+          "letter": "H"
+        },
+        {
+          "row": 10,
+          "col": 8,
+          "letter": "I"
+        },
+        {
+          "row": 11,
+          "col": 8,
+          "letter": "E"
+        },
+        {
+          "row": 12,
+          "col": 8,
+          "letter": "L"
+        }
+      ]
+    },
+    {
+      "num": 44,
+      "word": "DONO",
+      "clue": "44. Può “distruggere il cuore” (Ecclesiaste 7:7)",
+      "type": "V",
+      "start": "N10",
+      "positions": [
+        {
+          "row": 9,
+          "col": 13,
+          "letter": "D"
+        },
+        {
+          "row": 10,
+          "col": 13,
+          "letter": "O"
+        },
+        {
+          "row": 11,
+          "col": 13,
+          "letter": "N"
+        },
+        {
+          "row": 12,
+          "col": 13,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 47,
+      "word": "RANE",
+      "clue": "47. Una delle dieci piaghe (Esodo 8:6)",
+      "type": "V",
+      "start": "A12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 0,
+          "letter": "R"
+        },
+        {
+          "row": 12,
+          "col": 0,
+          "letter": "A"
+        },
+        {
+          "row": 13,
+          "col": 0,
+          "letter": "N"
+        },
+        {
+          "row": 14,
+          "col": 0,
+          "letter": "E"
+        }
+      ]
+    },
+    {
+      "num": 49,
+      "word": "ASA",
+      "clue": "49. Terzo re di Giuda (1 Re 15:9)",
+      "type": "V",
+      "start": "E12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 4,
+          "letter": "A"
+        },
+        {
+          "row": 12,
+          "col": 4,
+          "letter": "S"
+        },
+        {
+          "row": 13,
+          "col": 4,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 50,
+      "word": "ABBA",
+      "clue": "50. Significa “padre” (Galati 4:6)",
+      "type": "V",
+      "start": "F12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 5,
+          "letter": "A"
+        },
+        {
+          "row": 12,
+          "col": 5,
+          "letter": "B"
+        },
+        {
+          "row": 13,
+          "col": 5,
+          "letter": "B"
+        },
+        {
+          "row": 14,
+          "col": 5,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 52,
+      "word": "SION",
+      "clue": "52. Il monte su cui Giovanni vide l’Agnello e i 144.000 (Rivelazione 14:1)",
+      "type": "V",
+      "start": "J12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 9,
+          "letter": "S"
+        },
+        {
+          "row": 12,
+          "col": 9,
+          "letter": "I"
+        },
+        {
+          "row": 13,
+          "col": 9,
+          "letter": "O"
+        },
+        {
+          "row": 14,
+          "col": 9,
+          "letter": "N"
+        }
+      ]
+    },
+    {
+      "num": 53,
+      "word": "COR",
+      "clue": "53. Misura di capacità (1 Re 5:11)",
+      "type": "V",
+      "start": "K12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 10,
+          "letter": "C"
+        },
+        {
+          "row": 12,
+          "col": 10,
+          "letter": "O"
+        },
+        {
+          "row": 13,
+          "col": 10,
+          "letter": "R"
+        }
+      ]
+    },
+    {
+      "num": 54,
+      "word": "PANI",
+      "clue": "54. Gesù li moltiplicò (Marco 6:41-44)",
+      "type": "V",
+      "start": "O12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 14,
+          "letter": "P"
+        },
+        {
+          "row": 12,
+          "col": 14,
+          "letter": "A"
+        },
+        {
+          "row": 13,
+          "col": 14,
+          "letter": "N"
+        },
+        {
+          "row": 14,
+          "col": 14,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 56,
+      "word": "GAD",
+      "clue": "56. Tribù di Israele (Rivelazione 7:5)",
+      "type": "V",
+      "start": "H13",
+      "positions": [
+        {
+          "row": 12,
+          "col": 7,
+          "letter": "G"
+        },
+        {
+          "row": 13,
+          "col": 7,
+          "letter": "A"
+        },
+        {
+          "row": 14,
+          "col": 7,
+          "letter": "D"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "totalNumbers": 61,
+    "horizontalStarts": 33,
+    "verticalStarts": 33,
+    "totalWords": 66,
+    "createdAt": "2025-12-25T16:23:30.479Z"
+  }
+}

@@ -8,8 +8,6 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.automirrored.filled.Backspace
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -67,7 +65,7 @@ fun GameScreen(
                 navigationIcon = {
                     IconButton(onClick = onBackClick) {
                         Icon(
-                            imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                            imageVector = Icons.Default.ArrowBack,
                             contentDescription = stringResource(R.string.back)
                         )
                     }
@@ -461,7 +459,7 @@ fun CustomKeyboard(
                         contentAlignment = Alignment.Center
                     ) {
                         Icon(
-                            imageVector = Icons.AutoMirrored.Filled.Backspace,
+                            imageVector = Icons.Default.Backspace,
                             contentDescription = stringResource(R.string.clear),
                             tint = MaterialTheme.colorScheme.onErrorContainer,
                             modifier = Modifier.size(20.dp)

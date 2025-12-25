@@ -125,7 +125,8 @@ class PuzzleRepository(
 
         // Processa le definizioni orizzontali
         for (clue in schema.horizontal) {
-            val position = findAnswerInGrid(cellsWithoutNumbers, clue.answer, Direction.HORIZONTAL)
+            val answer = clue.answer ?: continue // Salta se non c'è risposta
+            val position = findAnswerInGrid(cellsWithoutNumbers, answer, Direction.HORIZONTAL)
             if (position != null) {
                 numberPositions[position] = clue.number
             }
@@ -133,7 +134,8 @@ class PuzzleRepository(
 
         // Processa le definizioni verticali
         for (clue in schema.vertical) {
-            val position = findAnswerInGrid(cellsWithoutNumbers, clue.answer, Direction.VERTICAL)
+            val answer = clue.answer ?: continue // Salta se non c'è risposta
+            val position = findAnswerInGrid(cellsWithoutNumbers, answer, Direction.VERTICAL)
             if (position != null) {
                 // Se la posizione ha già un numero (dalla definizione orizzontale), usa quello
                 // altrimenti usa il numero della definizione verticale
@@ -229,12 +231,13 @@ class PuzzleRepository(
      */
     private fun parseCluesWithGrid(schema: SchemaJson, grid: Grid): Pair<List<Clue>, List<Clue>> {
         val horizontalClues = schema.horizontal.mapNotNull { clueJson ->
-            findCluePositionByAnswer(grid, clueJson.answer, Direction.HORIZONTAL)?.let { (startRow, startCol, length) ->
+            val answer = clueJson.answer ?: return@mapNotNull null
+            findCluePositionByAnswer(grid, answer, Direction.HORIZONTAL)?.let { (startRow, startCol, length) ->
                 Clue(
                     number = clueJson.number,
                     direction = Direction.HORIZONTAL,
                     text = clueJson.clue,
-                    answer = clueJson.answer,
+                    answer = answer,
                     startRow = startRow,
                     startCol = startCol,
                     length = length
@@ -243,12 +246,13 @@ class PuzzleRepository(
         }
 
         val verticalClues = schema.vertical.mapNotNull { clueJson ->
-            findCluePositionByAnswer(grid, clueJson.answer, Direction.VERTICAL)?.let { (startRow, startCol, length) ->
+            val answer = clueJson.answer ?: return@mapNotNull null
+            findCluePositionByAnswer(grid, answer, Direction.VERTICAL)?.let { (startRow, startCol, length) ->
                 Clue(
                     number = clueJson.number,
                     direction = Direction.VERTICAL,
                     text = clueJson.clue,
-                    answer = clueJson.answer,
+                    answer = answer,
                     startRow = startRow,
                     startCol = startCol,
                     length = length

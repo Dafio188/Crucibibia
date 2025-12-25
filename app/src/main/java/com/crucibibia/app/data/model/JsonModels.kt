@@ -11,13 +11,16 @@ package com.crucibibia.app.data.model
 data class GridJson(
     val size: Int = 15,
     val grid: List<List<String>>,  // Griglia con lettere o "#" per celle nere
-    val numbers: List<NumberPosition>? = null  // Posizioni dei numeri
+    val numberedCells: List<NumberedCellJson>? = null  // Posizioni dei numeri dalla griglia
 )
 
-data class NumberPosition(
-    val number: Int,
+/**
+ * Cella numerata nel formato JSON della griglia
+ */
+data class NumberedCellJson(
     val row: Int,
-    val col: Int
+    val col: Int,
+    val num: Int  // Numero della cella
 )
 
 /**

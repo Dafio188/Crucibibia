@@ -102,128 +102,32 @@ class PuzzleRepository(
     }
 
     /**
-     * Parsa la griglia usando le definizioni per determinare la numerazione corretta
+     * Parsa la griglia usando numberedCells dal JSON per la numerazione corretta
      */
     private fun parseGridWithClues(json: String, schema: SchemaJson): Grid {
         val gridJson = gson.fromJson(json, GridJson::class.java)
 
-        // Prima crea la griglia senza numeri
-        val cellsWithoutNumbers = mutableListOf<MutableList<Cell>>()
+        // Crea una mappa delle celle numerate da numberedCells
+        val numberPositions = mutableMapOf<Pair<Int, Int>, Int>()
+        gridJson.numberedCells?.forEach { cell ->
+            numberPositions[Pair(cell.row, cell.col)] = cell.num
+        }
+
+        // Crea la griglia con i numeri dalle posizioni specificate
+        val cells = mutableListOf<List<Cell>>()
         for (row in 0 until gridJson.size) {
             val rowCells = mutableListOf<Cell>()
             for (col in 0 until gridJson.size) {
                 val cellValue = gridJson.grid.getOrNull(row)?.getOrNull(col) ?: "#"
                 val isBlocked = cellValue == "#" || cellValue == "."
                 val solution = if (isBlocked) null else cellValue.firstOrNull()?.uppercaseChar()
-                rowCells.add(Cell(row, col, solution, null, isBlocked))
+                val number = numberPositions[Pair(row, col)]
+                rowCells.add(Cell(row, col, solution, number, isBlocked))
             }
-            cellsWithoutNumbers.add(rowCells)
-        }
-
-        // Trova le posizioni di tutte le risposte e associa i numeri
-        val numberPositions = mutableMapOf<Pair<Int, Int>, Int>()
-
-        // Processa le definizioni orizzontali
-        for (clue in schema.horizontal) {
-            val answer = clue.answer ?: continue // Salta se non c'è risposta
-            val position = findAnswerInGrid(cellsWithoutNumbers, answer, Direction.HORIZONTAL)
-            if (position != null) {
-                numberPositions[position] = clue.number
-            }
-        }
-
-        // Processa le definizioni verticali
-        for (clue in schema.vertical) {
-            val answer = clue.answer ?: continue // Salta se non c'è risposta
-            val position = findAnswerInGrid(cellsWithoutNumbers, answer, Direction.VERTICAL)
-            if (position != null) {
-                // Se la posizione ha già un numero (dalla definizione orizzontale), usa quello
-                // altrimenti usa il numero della definizione verticale
-                if (!numberPositions.containsKey(position)) {
-                    numberPositions[position] = clue.number
-                }
-            }
-        }
-
-        // Assegna i numeri alle celle
-        val cells = cellsWithoutNumbers.map { row ->
-            row.map { cell ->
-                val position = Pair(cell.row, cell.col)
-                val number = numberPositions[position]
-                if (number != null) {
-                    cell.copy(number = number)
-                } else {
-                    cell
-                }
-            }
+            cells.add(rowCells)
         }
 
         return Grid(size = gridJson.size, cells = cells)
-    }
-
-    /**
-     * Trova la posizione di una risposta nella griglia
-     */
-    private fun findAnswerInGrid(
-        cells: List<List<Cell>>,
-        answer: String,
-        direction: Direction
-    ): Pair<Int, Int>? {
-        val size = cells.size
-
-        for (row in 0 until size) {
-            for (col in 0 until size) {
-                if (matchesAnswerAtPosition(cells, row, col, answer, direction, size)) {
-                    return Pair(row, col)
-                }
-            }
-        }
-        return null
-    }
-
-    /**
-     * Verifica se la risposta corrisponde alla posizione data
-     */
-    private fun matchesAnswerAtPosition(
-        cells: List<List<Cell>>,
-        startRow: Int,
-        startCol: Int,
-        answer: String,
-        direction: Direction,
-        size: Int
-    ): Boolean {
-        var row = startRow
-        var col = startCol
-
-        // Verifica che sia l'inizio di una parola (cella precedente bloccata o bordo)
-        when (direction) {
-            Direction.HORIZONTAL -> {
-                if (col > 0 && !cells[row][col - 1].isBlocked) return false
-            }
-            Direction.VERTICAL -> {
-                if (row > 0 && !cells[row - 1][col].isBlocked) return false
-            }
-        }
-
-        // Verifica che le lettere corrispondano
-        for (i in answer.indices) {
-            if (row >= size || col >= size) return false
-            val cell = cells[row][col]
-            if (cell.isBlocked) return false
-            if (cell.solution != answer[i].uppercaseChar()) return false
-
-            when (direction) {
-                Direction.HORIZONTAL -> col++
-                Direction.VERTICAL -> row++
-            }
-        }
-
-        // Verifica che la parola finisca (cella successiva bloccata o bordo)
-        if (row < size && col < size && !cells[row][col].isBlocked) {
-            return false // La parola continua, non è la posizione giusta
-        }
-
-        return true
     }
 
     /**

@@ -30,8 +30,15 @@ class PuzzleRepository(
 
     suspend fun getCompletedCountByYear(year: Int): Int = puzzleDao.getCompletedCountByYear(year)
 
-    suspend fun markAsCompleted(puzzleId: String, time: Long) {
-        puzzleDao.markAsCompleted(puzzleId, time)
+    suspend fun markAsCompleted(
+        puzzleId: String,
+        time: Long,
+        score: Int,
+        hintsUsed: Int,
+        errorsCount: Int,
+        perfectCompletion: Boolean
+    ) {
+        puzzleDao.markAsCompleted(puzzleId, time, score, hintsUsed, errorsCount, perfectCompletion)
     }
 
     suspend fun updateLastPlayed(puzzleId: String) {
@@ -216,6 +223,68 @@ class PuzzleRepository(
     suspend fun getTotalPuzzleCount(): Int = puzzleDao.getTotalPuzzleCount()
     suspend fun getCompletedPuzzleCount(): Int = puzzleDao.getCompletedPuzzleCount()
     suspend fun getAverageCompletionTime(): Double? = puzzleDao.getAverageCompletionTime()
+
+    // Scoring
+    suspend fun getTotalScore(): Int = puzzleDao.getTotalScore() ?: 0
+    suspend fun getPerfectPuzzleCount(): Int = puzzleDao.getPerfectPuzzleCount()
+    suspend fun getTotalHintsUsed(): Int = puzzleDao.getTotalHintsUsed() ?: 0
+
+    // Resume and progression
+    suspend fun getLastInProgressPuzzle(): Puzzle? = puzzleDao.getLastInProgressPuzzle()
+    suspend fun getNextSuggestedPuzzle(): Puzzle? = puzzleDao.getNextSuggestedPuzzle()
+    fun getInProgressPuzzles(): Flow<List<Puzzle>> = puzzleDao.getInProgressPuzzles()
+    suspend fun getActiveGamesCount(): Int = puzzleDao.getActiveGamesCount()
+
+    // Streak calculation
+    suspend fun calculateCurrentStreak(): Int {
+        val recentPuzzles = puzzleDao.getRecentCompletedPuzzles()
+        if (recentPuzzles.isEmpty()) return 0
+
+        var streak = 0
+        val today = System.currentTimeMillis()
+        val oneDayMs = 24 * 60 * 60 * 1000L
+
+        // Sort by completion time descending
+        val sortedPuzzles = recentPuzzles.sortedByDescending { it.lastPlayedAt ?: 0 }
+
+        var lastDate = today
+        for (puzzle in sortedPuzzles) {
+            val puzzleDate = puzzle.lastPlayedAt ?: continue
+            val daysDiff = (lastDate - puzzleDate) / oneDayMs
+
+            if (daysDiff <= 1) {
+                streak++
+                lastDate = puzzleDate
+            } else {
+                break
+            }
+        }
+
+        return streak
+    }
+
+    suspend fun getPlayerStats(): PlayerStats {
+        val totalScore = getTotalScore()
+        val totalCompleted = getCompletedPuzzleCount()
+        val totalPuzzles = getTotalPuzzleCount()
+        val perfectPuzzles = getPerfectPuzzleCount()
+        val averageTime = getAverageCompletionTime()?.toLong()
+        val currentStreak = calculateCurrentStreak()
+        val totalHintsUsed = getTotalHintsUsed()
+        val level = PlayerLevel.fromScore(totalScore)
+
+        return PlayerStats(
+            totalScore = totalScore,
+            totalCompleted = totalCompleted,
+            totalPuzzles = totalPuzzles,
+            perfectPuzzles = perfectPuzzles,
+            averageTime = averageTime,
+            currentStreak = currentStreak,
+            bestStreak = currentStreak, // TODO: Store best streak separately
+            totalHintsUsed = totalHintsUsed,
+            level = level
+        )
+    }
 }
 
 private data class CluePosition(

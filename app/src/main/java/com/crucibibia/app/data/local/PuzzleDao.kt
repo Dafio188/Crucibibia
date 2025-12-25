@@ -12,7 +12,7 @@ interface PuzzleDao {
     @Query("SELECT * FROM puzzles ORDER BY year, number")
     fun getAllPuzzles(): Flow<List<Puzzle>>
 
-    @Query("SELECT * FROM puzzles WHERE year = :year ORDER BY number")
+    @Query("SELECT * FROM puzzles WHERE year = :year ORDER BY month, number")
     fun getPuzzlesByYear(year: Int): Flow<List<Puzzle>>
 
     @Query("SELECT * FROM puzzles WHERE id = :id")
@@ -36,8 +36,8 @@ interface PuzzleDao {
     @Update
     suspend fun updatePuzzle(puzzle: Puzzle)
 
-    @Query("UPDATE puzzles SET isCompleted = 1, completedTime = :time WHERE id = :puzzleId")
-    suspend fun markAsCompleted(puzzleId: String, time: Long)
+    @Query("UPDATE puzzles SET isCompleted = 1, completedTime = :time, score = :score, hintsUsed = :hints, errorsCount = :errors, perfectCompletion = :perfect WHERE id = :puzzleId")
+    suspend fun markAsCompleted(puzzleId: String, time: Long, score: Int, hints: Int, errors: Int, perfect: Boolean)
 
     @Query("UPDATE puzzles SET lastPlayedAt = :timestamp WHERE id = :puzzleId")
     suspend fun updateLastPlayed(puzzleId: String, timestamp: Long)
@@ -64,4 +64,34 @@ interface PuzzleDao {
 
     @Query("SELECT AVG(completedTime) FROM puzzles WHERE isCompleted = 1 AND completedTime IS NOT NULL")
     suspend fun getAverageCompletionTime(): Double?
+
+    // Scoring queries
+    @Query("SELECT SUM(score) FROM puzzles WHERE isCompleted = 1")
+    suspend fun getTotalScore(): Int?
+
+    @Query("SELECT COUNT(*) FROM puzzles WHERE perfectCompletion = 1")
+    suspend fun getPerfectPuzzleCount(): Int
+
+    @Query("SELECT SUM(hintsUsed) FROM puzzles WHERE isCompleted = 1")
+    suspend fun getTotalHintsUsed(): Int?
+
+    // Resume and progression queries
+    @Query("SELECT * FROM puzzles WHERE lastPlayedAt IS NOT NULL AND isCompleted = 0 ORDER BY lastPlayedAt DESC LIMIT 1")
+    suspend fun getLastInProgressPuzzle(): Puzzle?
+
+    @Query("SELECT * FROM game_states ORDER BY lastModified DESC LIMIT 1")
+    suspend fun getLastGameState(): GameState?
+
+    @Query("SELECT * FROM puzzles WHERE isCompleted = 0 ORDER BY year, month, number LIMIT 1")
+    suspend fun getNextSuggestedPuzzle(): Puzzle?
+
+    @Query("SELECT * FROM puzzles WHERE lastPlayedAt IS NOT NULL AND isCompleted = 0")
+    fun getInProgressPuzzles(): Flow<List<Puzzle>>
+
+    @Query("SELECT COUNT(*) FROM game_states")
+    suspend fun getActiveGamesCount(): Int
+
+    // Recent completed puzzles for streak calculation
+    @Query("SELECT * FROM puzzles WHERE isCompleted = 1 ORDER BY lastPlayedAt DESC LIMIT 30")
+    suspend fun getRecentCompletedPuzzles(): List<Puzzle>
 }

@@ -9,7 +9,7 @@ import com.crucibibia.app.data.model.Puzzle
 
 @Database(
     entities = [Puzzle::class, GameState::class],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {

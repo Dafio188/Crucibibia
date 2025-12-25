@@ -8,6 +8,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.crucibibia.app.data.repository.PuzzleRepository
 import com.crucibibia.app.ui.screens.GameScreen
+import com.crucibibia.app.ui.screens.HelpScreen
 import com.crucibibia.app.ui.screens.HomeScreen
 import com.crucibibia.app.ui.screens.SettingsScreen
 import com.crucibibia.app.ui.screens.YearPuzzlesScreen
@@ -21,6 +22,7 @@ sealed class Screen(val route: String) {
         fun createRoute(puzzleId: String) = "game/$puzzleId"
     }
     object Settings : Screen("settings")
+    object Help : Screen("help")
 }
 
 @Composable
@@ -40,8 +42,14 @@ fun CrucibibiaNavHost(
                 onYearClick = { year ->
                     navController.navigate(Screen.YearPuzzles.createRoute(year))
                 },
+                onPuzzleClick = { puzzleId ->
+                    navController.navigate(Screen.Game.createRoute(puzzleId))
+                },
                 onSettingsClick = {
                     navController.navigate(Screen.Settings.route)
+                },
+                onHelpClick = {
+                    navController.navigate(Screen.Help.route)
                 }
             )
         }
@@ -77,6 +85,12 @@ fun CrucibibiaNavHost(
             SettingsScreen(
                 isDarkTheme = isDarkTheme,
                 onThemeChange = onThemeChange,
+                onBackClick = { navController.popBackStack() }
+            )
+        }
+
+        composable(Screen.Help.route) {
+            HelpScreen(
                 onBackClick = { navController.popBackStack() }
             )
         }

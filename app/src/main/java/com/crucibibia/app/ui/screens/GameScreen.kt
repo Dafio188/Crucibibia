@@ -160,9 +160,66 @@ fun GameScreen(
             onDismissRequest = { viewModel.dismissCompletionDialog() },
             title = { Text(stringResource(R.string.congratulations)) },
             text = {
-                val minutes = uiState.elapsedSeconds / 60
-                val seconds = uiState.elapsedSeconds % 60
-                Text("${stringResource(R.string.puzzle_completed)}\nTempo: ${minutes}m ${seconds}s")
+                Column {
+                    val minutes = uiState.elapsedSeconds / 60
+                    val seconds = uiState.elapsedSeconds % 60
+                    Text(stringResource(R.string.puzzle_completed))
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        text = "Tempo: ${minutes}m ${seconds}s",
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+
+                    uiState.scoreBreakdown?.let { score ->
+                        Spacer(modifier = Modifier.height(12.dp))
+                        Divider()
+                        Spacer(modifier = Modifier.height(12.dp))
+
+                        Text(
+                            text = stringResource(R.string.score_earned),
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+
+                        Spacer(modifier = Modifier.height(8.dp))
+
+                        CompletionScoreRow(stringResource(R.string.score_base_short), "+${score.baseScore}")
+                        if (score.timeBonus > 0) {
+                            CompletionScoreRow(stringResource(R.string.score_time_short), "+${score.timeBonus}")
+                        }
+                        if (score.perfectBonus > 0) {
+                            CompletionScoreRow(stringResource(R.string.score_perfect_short), "+${score.perfectBonus}")
+                        }
+                        if (score.hintPenalty > 0) {
+                            CompletionScoreRow(stringResource(R.string.score_hints_short), "-${score.hintPenalty}")
+                        }
+                        if (score.errorPenalty > 0) {
+                            CompletionScoreRow(stringResource(R.string.score_errors_short), "-${score.errorPenalty}")
+                        }
+
+                        Spacer(modifier = Modifier.height(8.dp))
+                        Divider()
+                        Spacer(modifier = Modifier.height(8.dp))
+
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+                            Text(
+                                text = stringResource(R.string.total),
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold
+                            )
+                            Text(
+                                text = "${score.total} ${stringResource(R.string.points)}",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.primary
+                            )
+                        }
+                    }
+                }
             },
             confirmButton = {
                 TextButton(onClick = {
@@ -491,6 +548,31 @@ fun KeyboardKey(
             fontSize = 16.sp,
             fontWeight = FontWeight.Medium,
             color = MaterialTheme.colorScheme.onSurface
+        )
+    }
+}
+
+@Composable
+fun CompletionScoreRow(label: String, value: String) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 2.dp),
+        horizontalArrangement = Arrangement.SpaceBetween
+    ) {
+        Text(
+            text = label,
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurface
+        )
+        Text(
+            text = value,
+            style = MaterialTheme.typography.bodySmall,
+            fontWeight = FontWeight.Bold,
+            color = if (value.startsWith("-"))
+                MaterialTheme.colorScheme.error
+            else
+                MaterialTheme.colorScheme.primary
         )
     }
 }

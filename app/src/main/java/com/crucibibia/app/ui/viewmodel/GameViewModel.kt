@@ -28,7 +28,10 @@ data class GameUiState(
     val isCompleted: Boolean = false,
     val showCompletionDialog: Boolean = false,
     val showErrorDialog: Boolean = false,
-    val errorCount: Int = 0
+    val errorCount: Int = 0,
+    val hintsUsed: Int = 0,
+    val totalErrorsFound: Int = 0,
+    val scoreBreakdown: ScoreBreakdown? = null
 )
 
 class GameViewModel(
@@ -62,19 +65,21 @@ class GameViewModel(
 
                 // Load saved game state if exists
                 val savedState = repository.getGameState(puzzleId)
-                val (loadedGrid, elapsedTime) = if (savedState != null) {
+                val (loadedGrid, elapsedTime, hints, errors) = if (savedState != null) {
                     val type = object : TypeToken<List<List<Char?>>>() {}.type
                     val grid: List<List<Char?>> = gson.fromJson(savedState.userInput, type)
-                    Pair(grid, savedState.elapsedTime)
+                    SavedGameData(grid, savedState.elapsedTime, savedState.hintsUsed, savedState.errorsFound)
                 } else {
-                    Pair(userGrid, 0L)
+                    SavedGameData(userGrid, 0L, 0, 0)
                 }
 
                 _uiState.value = _uiState.value.copy(
                     isLoading = false,
                     puzzleData = puzzleData,
                     userGrid = loadedGrid,
-                    elapsedSeconds = elapsedTime
+                    elapsedSeconds = elapsedTime,
+                    hintsUsed = hints,
+                    totalErrorsFound = errors
                 )
 
                 // Start timer
@@ -299,8 +304,9 @@ class GameViewModel(
         _uiState.value = state.copy(
             errorCells = errors,
             correctCells = correct,
-            showErrorDialog = errors.isNotEmpty(),
-            errorCount = errors.size
+            showErrorDialog = true,
+            errorCount = errors.size,
+            totalErrorsFound = state.totalErrorsFound + errors.size
         )
 
         if (errors.isEmpty() && isGridComplete()) {
@@ -314,6 +320,9 @@ class GameViewModel(
         val puzzleData = state.puzzleData ?: return
         val solution = puzzleData.grid.cells[row][col].solution ?: return
 
+        // Only count as hint if cell wasn't already revealed
+        val isNewReveal = Pair(row, col) !in state.revealedCells
+
         val newGrid = state.userGrid.mapIndexed { r, rowList ->
             rowList.mapIndexed { c, char ->
                 if (r == row && c == col) solution
@@ -323,7 +332,8 @@ class GameViewModel(
 
         _uiState.value = state.copy(
             userGrid = newGrid,
-            revealedCells = state.revealedCells + Pair(row, col)
+            revealedCells = state.revealedCells + Pair(row, col),
+            hintsUsed = if (isNewReveal) state.hintsUsed + 1 else state.hintsUsed
         )
 
         saveGameState()
@@ -426,13 +436,32 @@ class GameViewModel(
 
     private fun markCompleted() {
         val state = _uiState.value
+
+        // Calculate score
+        val scoreBreakdown = ScoreCalculator.getScoreBreakdown(
+            completedTime = state.elapsedSeconds,
+            hintsUsed = state.hintsUsed,
+            errorsCount = state.totalErrorsFound,
+            currentStreak = 0 // Will be calculated by repository
+        )
+
+        val isPerfect = state.hintsUsed == 0 && state.totalErrorsFound == 0
+
         _uiState.value = state.copy(
             isCompleted = true,
-            showCompletionDialog = true
+            showCompletionDialog = true,
+            scoreBreakdown = scoreBreakdown
         )
 
         viewModelScope.launch {
-            repository.markAsCompleted(puzzleId, state.elapsedSeconds)
+            repository.markAsCompleted(
+                puzzleId = puzzleId,
+                time = state.elapsedSeconds,
+                score = scoreBreakdown.total,
+                hintsUsed = state.hintsUsed,
+                errorsCount = state.totalErrorsFound,
+                perfectCompletion = isPerfect
+            )
             repository.deleteGameState(puzzleId)
         }
 
@@ -448,7 +477,10 @@ class GameViewModel(
                     GameState(
                         puzzleId = puzzleId,
                         userInput = gridJson,
-                        elapsedTime = state.elapsedSeconds
+                        elapsedTime = state.elapsedSeconds,
+                        hintsUsed = state.hintsUsed,
+                        errorsFound = state.totalErrorsFound,
+                        cellsRevealed = state.revealedCells.size
                     )
                 )
             }
@@ -490,7 +522,10 @@ class GameViewModel(
                     GameState(
                         puzzleId = puzzleId,
                         userInput = gridJson,
-                        elapsedTime = state.elapsedSeconds
+                        elapsedTime = state.elapsedSeconds,
+                        hintsUsed = state.hintsUsed,
+                        errorsFound = state.totalErrorsFound,
+                        cellsRevealed = state.revealedCells.size
                     )
                 )
             }
@@ -507,3 +542,10 @@ class GameViewModel(
         }
     }
 }
+
+private data class SavedGameData(
+    val grid: List<List<Char?>>,
+    val elapsedTime: Long,
+    val hintsUsed: Int,
+    val errorsFound: Int
+)

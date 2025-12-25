@@ -30,8 +30,15 @@ class PuzzleRepository(
 
     suspend fun getCompletedCountByYear(year: Int): Int = puzzleDao.getCompletedCountByYear(year)
 
-    suspend fun markAsCompleted(puzzleId: String, time: Long) {
-        puzzleDao.markAsCompleted(puzzleId, time)
+    suspend fun markAsCompleted(
+        puzzleId: String,
+        time: Long,
+        score: Int,
+        hintsUsed: Int,
+        errorsCount: Int,
+        perfectCompletion: Boolean
+    ) {
+        puzzleDao.markAsCompleted(puzzleId, time, score, hintsUsed, errorsCount, perfectCompletion)
     }
 
     suspend fun updateLastPlayed(puzzleId: String) {
@@ -59,13 +66,21 @@ class PuzzleRepository(
         try {
             val puzzle = puzzleDao.getPuzzleById(puzzleId) ?: return@withContext null
 
-            // Carica griglia da assets/puzzles/{year}/{puzzleId}_grid.json
-            val gridJson = loadJsonFromAssets("puzzles/${puzzle.year}/${puzzleId}_grid.json")
-            val grid = parseGrid(gridJson)
+            // Carica griglia da assets/puzzles/{year}/{month}/{puzzleId}_grid.json
+            val monthStr = String.format("%02d", puzzle.month)
+            val gridJson = loadJsonFromAssets("puzzles/${puzzle.year}/$monthStr/${puzzleId}_grid.json")
 
-            // Carica definizioni da assets/puzzles/{year}/{puzzleId}_clues.json
-            val cluesJson = loadJsonFromAssets("puzzles/${puzzle.year}/${puzzleId}_clues.json")
-            val (horizontal, vertical) = parseClues(cluesJson, grid)
+            // Carica definizioni da assets/puzzles/{year}/{month}/{puzzleId}_clues.json
+            val cluesJson = loadJsonFromAssets("puzzles/${puzzle.year}/$monthStr/${puzzleId}_clues.json")
+
+            // Prima parsa le definizioni per ottenere i numeri corretti
+            val schemaJson = gson.fromJson(cluesJson, SchemaJson::class.java)
+
+            // Poi parsa la griglia usando le definizioni per la numerazione
+            val grid = parseGridWithClues(gridJson, schemaJson)
+
+            // Infine crea le definizioni con le posizioni corrette
+            val (horizontal, vertical) = parseCluesWithGrid(schemaJson, grid)
 
             val puzzleData = PuzzleData(
                 puzzle = puzzle,
@@ -86,37 +101,28 @@ class PuzzleRepository(
         return context.assets.open(path).bufferedReader().use { it.readText() }
     }
 
-    private fun parseGrid(json: String): Grid {
+    /**
+     * Parsa la griglia usando numberedCells dal JSON per la numerazione corretta
+     */
+    private fun parseGridWithClues(json: String, schema: SchemaJson): Grid {
         val gridJson = gson.fromJson(json, GridJson::class.java)
-        val cells = mutableListOf<List<Cell>>()
-        var numberCounter = 1
 
+        // Crea una mappa delle celle numerate da numberedCells
+        val numberPositions = mutableMapOf<Pair<Int, Int>, Int>()
+        gridJson.numberedCells?.forEach { cell ->
+            numberPositions[Pair(cell.row, cell.col)] = cell.num
+        }
+
+        // Crea la griglia con i numeri dalle posizioni specificate
+        val cells = mutableListOf<List<Cell>>()
         for (row in 0 until gridJson.size) {
             val rowCells = mutableListOf<Cell>()
             for (col in 0 until gridJson.size) {
                 val cellValue = gridJson.grid.getOrNull(row)?.getOrNull(col) ?: "#"
                 val isBlocked = cellValue == "#" || cellValue == "."
                 val solution = if (isBlocked) null else cellValue.firstOrNull()?.uppercaseChar()
-
-                // Determina se questa cella inizia una parola
-                val needsNumber = !isBlocked && (
-                    // Inizio orizzontale
-                    (col == 0 || gridJson.grid[row][col - 1] == "#") &&
-                    (col < gridJson.size - 1 && gridJson.grid[row].getOrNull(col + 1) != "#") ||
-                    // Inizio verticale
-                    (row == 0 || gridJson.grid[row - 1][col] == "#") &&
-                    (row < gridJson.size - 1 && gridJson.grid.getOrNull(row + 1)?.getOrNull(col) != "#")
-                )
-
-                val number = if (needsNumber) numberCounter++ else null
-
-                rowCells.add(Cell(
-                    row = row,
-                    col = col,
-                    solution = solution,
-                    number = number,
-                    isBlocked = isBlocked
-                ))
+                val number = numberPositions[Pair(row, col)]
+                rowCells.add(Cell(row, col, solution, number, isBlocked))
             }
             cells.add(rowCells)
         }
@@ -124,16 +130,18 @@ class PuzzleRepository(
         return Grid(size = gridJson.size, cells = cells)
     }
 
-    private fun parseClues(json: String, grid: Grid): Pair<List<Clue>, List<Clue>> {
-        val schemaJson = gson.fromJson(json, SchemaJson::class.java)
-
-        val horizontalClues = schemaJson.horizontal.mapNotNull { clueJson ->
-            findCluePosition(grid, clueJson.number, Direction.HORIZONTAL)?.let { (startRow, startCol, length, answer) ->
+    /**
+     * Crea le definizioni con le posizioni corrette dalla griglia
+     */
+    private fun parseCluesWithGrid(schema: SchemaJson, grid: Grid): Pair<List<Clue>, List<Clue>> {
+        val horizontalClues = schema.horizontal.mapNotNull { clueJson ->
+            val answer = clueJson.answer ?: return@mapNotNull null
+            findCluePositionByAnswer(grid, answer, Direction.HORIZONTAL)?.let { (startRow, startCol, length) ->
                 Clue(
                     number = clueJson.number,
                     direction = Direction.HORIZONTAL,
                     text = clueJson.clue,
-                    answer = clueJson.answer ?: answer,
+                    answer = answer,
                     startRow = startRow,
                     startCol = startCol,
                     length = length
@@ -141,13 +149,14 @@ class PuzzleRepository(
             }
         }
 
-        val verticalClues = schemaJson.vertical.mapNotNull { clueJson ->
-            findCluePosition(grid, clueJson.number, Direction.VERTICAL)?.let { (startRow, startCol, length, answer) ->
+        val verticalClues = schema.vertical.mapNotNull { clueJson ->
+            val answer = clueJson.answer ?: return@mapNotNull null
+            findCluePositionByAnswer(grid, answer, Direction.VERTICAL)?.let { (startRow, startCol, length) ->
                 Clue(
                     number = clueJson.number,
                     direction = Direction.VERTICAL,
                     text = clueJson.clue,
-                    answer = clueJson.answer ?: answer,
+                    answer = answer,
                     startRow = startRow,
                     startCol = startCol,
                     length = length
@@ -158,32 +167,53 @@ class PuzzleRepository(
         return Pair(horizontalClues, verticalClues)
     }
 
-    private fun findCluePosition(grid: Grid, number: Int, direction: Direction): CluePosition? {
+    /**
+     * Trova la posizione di una definizione basandosi sulla risposta
+     */
+    private fun findCluePositionByAnswer(
+        grid: Grid,
+        answer: String,
+        direction: Direction
+    ): Triple<Int, Int, Int>? {
         for (row in grid.cells.indices) {
             for (col in grid.cells[row].indices) {
-                val cell = grid.cells[row][col]
-                if (cell.number == number) {
-                    val (length, answer) = calculateWordLength(grid, row, col, direction)
-                    if (length > 0) {
-                        return CluePosition(row, col, length, answer)
-                    }
+                if (matchesAnswerAtGridPosition(grid, row, col, answer, direction)) {
+                    return Triple(row, col, answer.length)
                 }
             }
         }
         return null
     }
 
-    private fun calculateWordLength(grid: Grid, startRow: Int, startCol: Int, direction: Direction): Pair<Int, String> {
-        var length = 0
-        val answer = StringBuilder()
+    /**
+     * Verifica se la risposta corrisponde a una posizione nella griglia
+     */
+    private fun matchesAnswerAtGridPosition(
+        grid: Grid,
+        startRow: Int,
+        startCol: Int,
+        answer: String,
+        direction: Direction
+    ): Boolean {
         var row = startRow
         var col = startCol
 
-        while (row < grid.size && col < grid.size) {
+        // Verifica che sia l'inizio di una parola
+        when (direction) {
+            Direction.HORIZONTAL -> {
+                if (col > 0 && !grid.cells[row][col - 1].isBlocked) return false
+            }
+            Direction.VERTICAL -> {
+                if (row > 0 && !grid.cells[row - 1][col].isBlocked) return false
+            }
+        }
+
+        // Verifica le lettere
+        for (i in answer.indices) {
+            if (row >= grid.size || col >= grid.size) return false
             val cell = grid.cells[row][col]
-            if (cell.isBlocked) break
-            length++
-            cell.solution?.let { answer.append(it) }
+            if (cell.isBlocked) return false
+            if (cell.solution != answer[i].uppercaseChar()) return false
 
             when (direction) {
                 Direction.HORIZONTAL -> col++
@@ -191,7 +221,12 @@ class PuzzleRepository(
             }
         }
 
-        return Pair(length, answer.toString())
+        // Verifica che la parola finisca
+        if (row < grid.size && col < grid.size && !grid.cells[row][col].isBlocked) {
+            return false
+        }
+
+        return true
     }
 
     /**
@@ -215,6 +250,68 @@ class PuzzleRepository(
     suspend fun getTotalPuzzleCount(): Int = puzzleDao.getTotalPuzzleCount()
     suspend fun getCompletedPuzzleCount(): Int = puzzleDao.getCompletedPuzzleCount()
     suspend fun getAverageCompletionTime(): Double? = puzzleDao.getAverageCompletionTime()
+
+    // Scoring
+    suspend fun getTotalScore(): Int = puzzleDao.getTotalScore() ?: 0
+    suspend fun getPerfectPuzzleCount(): Int = puzzleDao.getPerfectPuzzleCount()
+    suspend fun getTotalHintsUsed(): Int = puzzleDao.getTotalHintsUsed() ?: 0
+
+    // Resume and progression
+    suspend fun getLastInProgressPuzzle(): Puzzle? = puzzleDao.getLastInProgressPuzzle()
+    suspend fun getNextSuggestedPuzzle(): Puzzle? = puzzleDao.getNextSuggestedPuzzle()
+    fun getInProgressPuzzles(): Flow<List<Puzzle>> = puzzleDao.getInProgressPuzzles()
+    suspend fun getActiveGamesCount(): Int = puzzleDao.getActiveGamesCount()
+
+    // Streak calculation
+    suspend fun calculateCurrentStreak(): Int {
+        val recentPuzzles = puzzleDao.getRecentCompletedPuzzles()
+        if (recentPuzzles.isEmpty()) return 0
+
+        var streak = 0
+        val today = System.currentTimeMillis()
+        val oneDayMs = 24 * 60 * 60 * 1000L
+
+        // Sort by completion time descending
+        val sortedPuzzles = recentPuzzles.sortedByDescending { it.lastPlayedAt ?: 0 }
+
+        var lastDate = today
+        for (puzzle in sortedPuzzles) {
+            val puzzleDate = puzzle.lastPlayedAt ?: continue
+            val daysDiff = (lastDate - puzzleDate) / oneDayMs
+
+            if (daysDiff <= 1) {
+                streak++
+                lastDate = puzzleDate
+            } else {
+                break
+            }
+        }
+
+        return streak
+    }
+
+    suspend fun getPlayerStats(): PlayerStats {
+        val totalScore = getTotalScore()
+        val totalCompleted = getCompletedPuzzleCount()
+        val totalPuzzles = getTotalPuzzleCount()
+        val perfectPuzzles = getPerfectPuzzleCount()
+        val averageTime = getAverageCompletionTime()?.toLong()
+        val currentStreak = calculateCurrentStreak()
+        val totalHintsUsed = getTotalHintsUsed()
+        val level = PlayerLevel.fromScore(totalScore)
+
+        return PlayerStats(
+            totalScore = totalScore,
+            totalCompleted = totalCompleted,
+            totalPuzzles = totalPuzzles,
+            perfectPuzzles = perfectPuzzles,
+            averageTime = averageTime,
+            currentStreak = currentStreak,
+            bestStreak = currentStreak, // TODO: Store best streak separately
+            totalHintsUsed = totalHintsUsed,
+            level = level
+        )
+    }
 }
 
 private data class CluePosition(

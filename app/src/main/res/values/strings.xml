@@ -7,6 +7,7 @@
     <string name="home">Home</string>
     <string name="settings">Impostazioni</string>
     <string name="back">Indietro</string>
+    <string name="help">Guida</string>
 
     <!-- Home Screen -->
     <string name="select_year">Seleziona Anno</string>
@@ -14,6 +15,78 @@
     <string name="completed">Completato</string>
     <string name="in_progress">In corso</string>
     <string name="not_started">Non iniziato</string>
+    <string name="complete">Completato!</string>
+
+    <!-- Dashboard -->
+    <string name="your_level">Il tuo livello</string>
+    <string name="total_score">Punteggio totale</string>
+    <string name="next_level">Prossimo livello: %s</string>
+    <string name="completed_label">completati</string>
+    <string name="perfect_label">perfetti</string>
+    <string name="streak_label">streak</string>
+    <string name="in_progress_puzzles">In corso</string>
+    <string name="browse_by_year">Sfoglia per anno</string>
+    <string name="resume">Riprendi</string>
+    <string name="suggested">Suggerito</string>
+
+    <!-- Scoring System -->
+    <string name="scoring_system">Sistema Punteggio</string>
+    <string name="score_base">Completamento base</string>
+    <string name="score_time_bonus">Bonus tempo veloce (sotto 10 min)</string>
+    <string name="score_perfect_bonus">Bonus perfetto (no errori/aiuti)</string>
+    <string name="score_streak_bonus">Bonus streak giornaliero</string>
+    <string name="score_hint_penalty">Penalità per suggerimento</string>
+    <string name="score_error_penalty">Penalità per errore</string>
+    <string name="scoring_tip">Completa i cruciverba velocemente e senza aiuti per ottenere il massimo punteggio!</string>
+
+    <!-- Score Breakdown (short versions) -->
+    <string name="score_earned">Punteggio ottenuto</string>
+    <string name="score_base_short">Base</string>
+    <string name="score_time_short">Tempo veloce</string>
+    <string name="score_perfect_short">Perfetto</string>
+    <string name="score_hints_short">Suggerimenti</string>
+    <string name="score_errors_short">Errori</string>
+    <string name="total">Totale</string>
+    <string name="points">punti</string>
+    <string name="time_label">Tempo: %dm %ds</string>
+
+    <!-- Help Screen -->
+    <string name="welcome_title">Benvenuto in Crucibibia!</string>
+    <string name="welcome_description">Esplora la Bibbia attraverso i cruciverba pubblicati nelle riviste Svegliatevi! dal 1994 al 2005. Risolvi gli enigmi, impara nuove cose e divertiti!</string>
+
+    <string name="help_navigation_title">Come navigare</string>
+    <string name="help_home_title">Schermata principale</string>
+    <string name="help_home_desc">Visualizza le tue statistiche, il livello e i progressi. Da qui puoi riprendere i cruciverba in corso o iniziarne uno nuovo.</string>
+    <string name="help_years_title">Sfoglia per anno</string>
+    <string name="help_years_desc">Seleziona un anno per vedere tutti i cruciverba disponibili. Ogni anno contiene circa 6 cruciverba.</string>
+    <string name="help_resume_title">Riprendi</string>
+    <string name="help_resume_desc">Tocca il pulsante Riprendi per continuare l\'ultimo cruciverba che stavi risolvendo.</string>
+    <string name="help_suggested_title">Suggerito</string>
+    <string name="help_suggested_desc">L\'app ti suggerisce il prossimo cruciverba da risolvere in ordine cronologico.</string>
+
+    <string name="help_gameplay_title">Come giocare</string>
+    <string name="help_select_title">Seleziona una cella</string>
+    <string name="help_select_desc">Tocca una cella per selezionarla. Tocca di nuovo per cambiare direzione (orizzontale/verticale).</string>
+    <string name="help_input_title">Inserisci le lettere</string>
+    <string name="help_input_desc">Usa la tastiera in basso per inserire le lettere. Il cursore si sposta automaticamente alla cella successiva.</string>
+    <string name="help_check_title">Verifica</string>
+    <string name="help_check_desc">Tocca Verifica per controllare le tue risposte. Gli errori verranno evidenziati in rosso.</string>
+    <string name="help_hint_title">Suggerimento</string>
+    <string name="help_hint_desc">Se sei bloccato, tocca Suggerimento per rivelare la lettera della cella selezionata. Attenzione: penalizza il punteggio!</string>
+
+    <string name="help_scoring_title">Sistema di punteggio</string>
+    <string name="help_points_title">Come ottenere punti</string>
+    <string name="help_points_desc">Ottieni 100 punti base per ogni cruciverba completato, più bonus per velocità e completamento perfetto.</string>
+    <string name="help_levels_title">Livelli</string>
+    <string name="help_levels_desc">Accumula punti per salire di livello: da Principiante fino a Erudito Biblico. Ogni livello sblocca nuovi traguardi!</string>
+    <string name="help_streak_title">Streak giornaliero</string>
+    <string name="help_streak_desc">Completa almeno un cruciverba al giorno per mantenere la tua streak e guadagnare bonus extra!</string>
+
+    <string name="tips_title">Consigli utili</string>
+    <string name="tip_1">Leggi attentamente le definizioni - spesso contengono riferimenti biblici specifici.</string>
+    <string name="tip_2">Se non conosci una risposta, prova a completare le parole incrociate per ottenere indizi.</string>
+    <string name="tip_3">Usa il pulsante Verifica per controllare i tuoi progressi senza penalità eccessive.</string>
+    <string name="tip_4">Completa i cruciverba senza usare suggerimenti per ottenere il bonus Perfetto!</string>
 
     <!-- Game Screen -->
     <string name="horizontal">Orizzontali</string>

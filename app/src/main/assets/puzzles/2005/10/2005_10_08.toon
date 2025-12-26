@@ -1,0 +1,700 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,1,1,0,0,0,1,1,1,1,1,1
+  - [15]: 1,0,1,1,0,1,1,1,1,1,0,1,1,0,1
+  - [15]: 1,1,1,1,0,1,0,1,0,1,0,1,1,1,1
+  - [15]: 1,1,1,0,1,1,1,1,1,1,1,0,1,1,1
+  - [15]: 1,0,0,1,1,0,1,1,1,0,1,1,0,0,1
+  - [15]: 1,1,0,1,1,1,0,1,0,1,1,1,0,1,1
+  - [15]: 0,1,1,1,1,1,1,0,1,1,1,1,1,1,0
+  - [15]: 0,1,0,1,0,1,0,0,0,1,0,1,0,1,0
+  - [15]: 0,1,1,1,1,1,1,0,1,1,1,1,1,1,0
+  - [15]: 1,1,0,1,1,1,0,1,0,1,1,1,0,1,1
+  - [15]: 1,0,0,1,1,0,1,1,1,0,1,1,0,0,1
+  - [15]: 1,1,1,0,1,1,1,1,1,1,1,0,1,1,1
+  - [15]: 1,1,1,1,0,1,0,1,0,1,0,1,1,1,1
+  - [15]: 1,0,1,1,0,1,1,1,1,1,0,1,1,0,1
+  - [15]: 1,1,1,1,1,1,0,0,0,1,1,1,1,1,1
+numberedCells[48]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,2,2,false,true
+  0,3,3,false,true
+  0,5,4,false,true
+  0,9,5,true,true
+  0,11,6,false,true
+  0,12,7,false,true
+  0,14,8,false,true
+  1,5,9,true,false
+  1,7,10,false,true
+  2,0,11,true,false
+  2,11,12,true,false
+  3,0,13,true,false
+  3,4,14,true,true
+  3,10,15,false,true
+  3,12,16,true,false
+  4,3,17,false,true
+  4,6,18,true,false
+  4,11,19,false,true
+  5,1,20,false,true
+  5,3,21,true,false
+  5,5,22,false,true
+  5,9,23,true,true
+  5,13,24,false,true
+  6,1,25,true,false
+  6,8,26,true,false
+  8,1,27,true,false
+  8,4,28,false,true
+  8,8,29,true,false
+  8,10,30,false,true
+  9,0,31,false,true
+  9,3,32,true,false
+  9,7,33,false,true
+  9,9,34,true,false
+  9,14,35,false,true
+  10,6,36,true,false
+  11,0,37,true,false
+  11,2,38,false,true
+  11,4,39,true,false
+  11,5,40,false,true
+  11,9,41,false,true
+  11,12,42,true,true
+  12,0,43,true,false
+  12,3,44,false,true
+  12,11,45,true,true
+  13,5,46,true,false
+  14,0,47,true,false
+  14,9,48,true,false
+words:
+  orizzontali[26]{num,word,clue}:
+    1,TUNICA,"1. Quella di Gesù era di buona qualità, non avendo cuciture (Giovanni 19:23)"
+    5,ANGELO,"5. Uno solo abbatté 185.000 assiri (Isaia 37:36)"
+    9,GEBUS,"9. Antica città situata dove ora sorge Gerusalemme (Giudici 19:10)"
+    11,DURA,"11. La pianura dove Nabucodonosor eresse l'immagine d'oro (Daniele 3:1)"
+    12,TORI,"12. Venivano offerti in sacrificio dagli israeliti (1 Cronache 29:21)"
+    13,DIO,"13. Ha "costruito tutte le cose" (Ebrei 3:4)"
+    14,ORATORE,"14. Mosè non si sentiva capace in questo ruolo (Esodo 4:10)"
+    16,SEA,"16. Misura di capacità per aridi (2 Re 7:1)"
+    18,SEI,"18. Il numero dei giorni creativi (Esodo 20:11)"
+    21,ORA,"21. Breve periodo di tempo (Rivelazione 17:12)"
+    23,MAI,"23. Il contrario di "sempre" (2 Timoteo 3:7)"
+    25,MEDICO,"25. Lo era Luca (Colossesi 4:14)"
+    26,TEMPIO,"26. Gli apostoli predicavano sia qui che di casa in casa (Atti 5:42)"
+    27,ATALIA,"27. Malvagia regina di Israele (2 Cronache 22:11, 12)"
+    29,SALOME,"29. Una delle discepole che andarono alla tomba di Gesù per spalmare il suo corpo con aromi (Marco 16:1)"
+    32,CUS,"32. Padre di Nimrod (Genesi 10:8)"
+    34,COR,"34. Misura di capacità (Ezechiele 45:14)"
+    36,LEA,"36. Figlia maggiore di Labano (Genesi 29:16)"
+    37,ELI,"37. Fu negligente nel disciplinare i figli (1 Samuele 2:22-24, 29)"
+    39,EUFRATE,"39. Il fiume di Babilonia (Geremia 51:61, 63)"
+    42,MAR,"42. Quello "Grande" segnava il confine occidentale di Israele (Numeri 34:6)"
+    43,BEOR,"43. Il padre di Balaam (Numeri 22:5)"
+    45,DARE,"45. Dà più felicità che il ricevere (Atti 20:35)"
+    46,TEBET,"46. Decimo mese lunare ebraico (Ester 2:16)"
+    47,RASOIO,"47. Non lo usava il nazireo (Numeri 6:5)"
+    48,OTNIEL,"48. Il primo dei giudici di Israele (Giudici 3:9)"
+  verticali[28]{num,word,clue}:
+    1,TADDEO,"1. Uno dei dodici apostoli (Matteo 10:3)"
+    2,NERO,"2. Il colore del terzo dei cavalli menzionati in Rivelazione 6:1-8"
+    3,IRA,"3. La rallenta la perspicacia (Proverbi 19:11)"
+    4,AGAR,"4. La madre di Ismaele (Genesi 16:15)"
+    5,ASER,"5. La tribù della profetessa Anna (Luca 2:36)"
+    6,GAT,"6. La città di Golia (1 Samuele 17:4)"
+    7,ENOS,"7. Il terzo anello del nostro albero genealogico (1 Cronache 1:1)"
+    8,OLIATI,"8. Lo sono i piatti del banchetto descritto in Isaia 25:6"
+    10,BETEL,"10. Città di Israele che sotto Geroboamo divenne un centro della falsa adorazione (1 Re 12:32, 33)"
+    14,OMRI,"14. Il re di Israele che edificò Samaria (1 Re 16:23, 24)"
+    15,ELAM,"15. Antica nazione di cui Geova profetizzò la fine (Geremia 49:34-39)"
+    17,ZODIACO,"17. Le sue costellazioni erano usate nell'astrologia (2 Re 23:5)"
+    19,ZIPPORA,"19. La moglie di Mosè (Esodo 2:21)"
+    20,AMRAM,"20. Il padre di Mosè (Esodo 6:20)"
+    22,ACHIS,"22. Re filisteo presso cui si rifugiò Davide (1 Samuele 21:10)"
+    23,MESAC,"23. Si rifiutò di adorare l'immagine eretta da Nabucodonosor (Daniele 3:12)"
+    24,HOREB,"24. Nome che indicava il monte Sinai e il deserto circostante (1 Re 8:9)"
+    28,LUCE,"28. Il salmista paragonò ad essa la parola di Geova (Salmo 119:105)"
+    30,LODE,"30. Si può rendere a Geova con la musica (1 Cronache 23:5)"
+    31,CHEBAR,"31. Fiume presso cui Ezechiele ebbe la sua prima visione (Ezechiele 1:1)"
+    33,MERAB,"33. La figlia maggiore di Saul, che egli promise a Davide ma poi diede in moglie a un altro (1 Samuele 18:17-19)"
+    35,IZREEL,"35. Il bassopiano in cui Gedeone e i suoi 300 uomini assistettero alla sconfitta di madianiti, amalechiti e orientali (Giudici 6:33; 7:12-22)"
+    38,IOAS,"38. Re di Giuda che ricevette il trono usurpato dalla nonna (2 Re 11:1-3, 12-16)"
+    40,UNTO,"40. Lo era Saul, benché cercasse malvagiamente di uccidere Davide (1 Samuele 24:6)"
+    41,TITO,"41."
+    42,MALI,"42."
+    44,REO,"44."
+    45,DAN,"45."
+placements[54]:
+  - num: 1
+    word: TUNICA
+    clue: "1. Quella di Gesù era di buona qualità, non avendo cuciture (Giovanni 19:23)"
+    type: H
+    start: A1
+    positions[6]{row,col,letter}:
+      0,0,T
+      0,1,U
+      0,2,N
+      0,3,I
+      0,4,C
+      0,5,A
+  - num: 5
+    word: ANGELO
+    clue: "5. Uno solo abbatté 185.000 assiri (Isaia 37:36)"
+    type: H
+    start: J1
+    positions[6]{row,col,letter}:
+      0,9,A
+      0,10,N
+      0,11,G
+      0,12,E
+      0,13,L
+      0,14,O
+  - num: 9
+    word: GEBUS
+    clue: "9. Antica città situata dove ora sorge Gerusalemme (Giudici 19:10)"
+    type: H
+    start: F2
+    positions[5]{row,col,letter}:
+      1,5,G
+      1,6,E
+      1,7,B
+      1,8,U
+      1,9,S
+  - num: 11
+    word: DURA
+    clue: "11. La pianura dove Nabucodonosor eresse l'immagine d'oro (Daniele 3:1)"
+    type: H
+    start: A3
+    positions[4]{row,col,letter}:
+      2,0,D
+      2,1,U
+      2,2,R
+      2,3,A
+  - num: 12
+    word: TORI
+    clue: "12. Venivano offerti in sacrificio dagli israeliti (1 Cronache 29:21)"
+    type: H
+    start: L3
+    positions[4]{row,col,letter}:
+      2,11,T
+      2,12,O
+      2,13,R
+      2,14,I
+  - num: 13
+    word: DIO
+    clue: "13. Ha "costruito tutte le cose" (Ebrei 3:4)"
+    type: H
+    start: A4
+    positions[3]{row,col,letter}:
+      3,0,D
+      3,1,I
+      3,2,O
+  - num: 14
+    word: ORATORE
+    clue: "14. Mosè non si sentiva capace in questo ruolo (Esodo 4:10)"
+    type: H
+    start: E4
+    positions[7]{row,col,letter}:
+      3,4,O
+      3,5,R
+      3,6,A
+      3,7,T
+      3,8,O
+      3,9,R
+      3,10,E
+  - num: 16
+    word: SEA
+    clue: "16. Misura di capacità per aridi (2 Re 7:1)"
+    type: H
+    start: M4
+    positions[3]{row,col,letter}:
+      3,12,S
+      3,13,E
+      3,14,A
+  - num: 18
+    word: SEI
+    clue: "18. Il numero dei giorni creativi (Esodo 20:11)"
+    type: H
+    start: G5
+    positions[3]{row,col,letter}:
+      4,6,S
+      4,7,E
+      4,8,I
+  - num: 21
+    word: ORA
+    clue: "21. Breve periodo di tempo (Rivelazione 17:12)"
+    type: H
+    start: D6
+    positions[3]{row,col,letter}:
+      5,3,O
+      5,4,R
+      5,5,A
+  - num: 23
+    word: MAI
+    clue: "23. Il contrario di "sempre" (2 Timoteo 3:7)"
+    type: H
+    start: J6
+    positions[3]{row,col,letter}:
+      5,9,M
+      5,10,A
+      5,11,I
+  - num: 25
+    word: MEDICO
+    clue: "25. Lo era Luca (Colossesi 4:14)"
+    type: H
+    start: B7
+    positions[6]{row,col,letter}:
+      6,1,M
+      6,2,E
+      6,3,D
+      6,4,I
+      6,5,C
+      6,6,O
+  - num: 26
+    word: TEMPIO
+    clue: "26. Gli apostoli predicavano sia qui che di casa in casa (Atti 5:42)"
+    type: H
+    start: I7
+    positions[6]{row,col,letter}:
+      6,8,T
+      6,9,E
+      6,10,M
+      6,11,P
+      6,12,I
+      6,13,O
+  - num: 27
+    word: ATALIA
+    clue: "27. Malvagia regina di Israele (2 Cronache 22:11, 12)"
+    type: H
+    start: B9
+    positions[6]{row,col,letter}:
+      8,1,A
+      8,2,T
+      8,3,A
+      8,4,L
+      8,5,I
+      8,6,A
+  - num: 29
+    word: SALOME
+    clue: "29. Una delle discepole che andarono alla tomba di Gesù per spalmare il suo corpo con aromi (Marco 16:1)"
+    type: H
+    start: I9
+    positions[6]{row,col,letter}:
+      8,8,S
+      8,9,A
+      8,10,L
+      8,11,O
+      8,12,M
+      8,13,E
+  - num: 32
+    word: CUS
+    clue: "32. Padre di Nimrod (Genesi 10:8)"
+    type: H
+    start: D10
+    positions[3]{row,col,letter}:
+      9,3,C
+      9,4,U
+      9,5,S
+  - num: 34
+    word: COR
+    clue: "34. Misura di capacità (Ezechiele 45:14)"
+    type: H
+    start: J10
+    positions[3]{row,col,letter}:
+      9,9,C
+      9,10,O
+      9,11,R
+  - num: 36
+    word: LEA
+    clue: "36. Figlia maggiore di Labano (Genesi 29:16)"
+    type: H
+    start: G11
+    positions[3]{row,col,letter}:
+      10,6,L
+      10,7,E
+      10,8,A
+  - num: 37
+    word: ELI
+    clue: "37. Fu negligente nel disciplinare i figli (1 Samuele 2:22-24, 29)"
+    type: H
+    start: A12
+    positions[3]{row,col,letter}:
+      11,0,E
+      11,1,L
+      11,2,I
+  - num: 39
+    word: EUFRATE
+    clue: "39. Il fiume di Babilonia (Geremia 51:61, 63)"
+    type: H
+    start: E12
+    positions[7]{row,col,letter}:
+      11,4,E
+      11,5,U
+      11,6,F
+      11,7,R
+      11,8,A
+      11,9,T
+      11,10,E
+  - num: 42
+    word: MAR
+    clue: "42. Quello "Grande" segnava il confine occidentale di Israele (Numeri 34:6)"
+    type: H
+    start: M12
+    positions[3]{row,col,letter}:
+      11,12,M
+      11,13,A
+      11,14,R
+  - num: 43
+    word: BEOR
+    clue: "43. Il padre di Balaam (Numeri 22:5)"
+    type: H
+    start: A13
+    positions[4]{row,col,letter}:
+      12,0,B
+      12,1,E
+      12,2,O
+      12,3,R
+  - num: 45
+    word: DARE
+    clue: "45. Dà più felicità che il ricevere (Atti 20:35)"
+    type: H
+    start: L13
+    positions[4]{row,col,letter}:
+      12,11,D
+      12,12,A
+      12,13,R
+      12,14,E
+  - num: 46
+    word: TEBET
+    clue: "46. Decimo mese lunare ebraico (Ester 2:16)"
+    type: H
+    start: F14
+    positions[5]{row,col,letter}:
+      13,5,T
+      13,6,E
+      13,7,B
+      13,8,E
+      13,9,T
+  - num: 47
+    word: RASOIO
+    clue: "47. Non lo usava il nazireo (Numeri 6:5)"
+    type: H
+    start: A15
+    positions[6]{row,col,letter}:
+      14,0,R
+      14,1,A
+      14,2,S
+      14,3,O
+      14,4,I
+      14,5,O
+  - num: 48
+    word: OTNIEL
+    clue: "48. Il primo dei giudici di Israele (Giudici 3:9)"
+    type: H
+    start: J15
+    positions[6]{row,col,letter}:
+      14,9,O
+      14,10,T
+      14,11,N
+      14,12,I
+      14,13,E
+      14,14,L
+  - num: 1
+    word: TADDEO
+    clue: "1. Uno dei dodici apostoli (Matteo 10:3)"
+    type: V
+    start: A1
+    positions[6]{row,col,letter}:
+      0,0,T
+      1,0,A
+      2,0,D
+      3,0,D
+      4,0,E
+      5,0,O
+  - num: 2
+    word: NERO
+    clue: "2. Il colore del terzo dei cavalli menzionati in Rivelazione 6:1-8"
+    type: V
+    start: C1
+    positions[4]{row,col,letter}:
+      0,2,N
+      1,2,E
+      2,2,R
+      3,2,O
+  - num: 3
+    word: IRA
+    clue: "3. La rallenta la perspicacia (Proverbi 19:11)"
+    type: V
+    start: D1
+    positions[3]{row,col,letter}:
+      0,3,I
+      1,3,R
+      2,3,A
+  - num: 4
+    word: AGAR
+    clue: "4. La madre di Ismaele (Genesi 16:15)"
+    type: V
+    start: F1
+    positions[4]{row,col,letter}:
+      0,5,A
+      1,5,G
+      2,5,A
+      3,5,R
+  - num: 5
+    word: ASER
+    clue: "5. La tribù della profetessa Anna (Luca 2:36)"
+    type: V
+    start: J1
+    positions[4]{row,col,letter}:
+      0,9,A
+      1,9,S
+      2,9,E
+      3,9,R
+  - num: 6
+    word: GAT
+    clue: "6. La città di Golia (1 Samuele 17:4)"
+    type: V
+    start: L1
+    positions[3]{row,col,letter}:
+      0,11,G
+      1,11,A
+      2,11,T
+  - num: 7
+    word: ENOS
+    clue: "7. Il terzo anello del nostro albero genealogico (1 Cronache 1:1)"
+    type: V
+    start: M1
+    positions[4]{row,col,letter}:
+      0,12,E
+      1,12,N
+      2,12,O
+      3,12,S
+  - num: 8
+    word: OLIATI
+    clue: "8. Lo sono i piatti del banchetto descritto in Isaia 25:6"
+    type: V
+    start: O1
+    positions[6]{row,col,letter}:
+      0,14,O
+      1,14,L
+      2,14,I
+      3,14,A
+      4,14,T
+      5,14,I
+  - num: 10
+    word: BETEL
+    clue: "10. Città di Israele che sotto Geroboamo divenne un centro della falsa adorazione (1 Re 12:32, 33)"
+    type: V
+    start: H2
+    positions[5]{row,col,letter}:
+      1,7,B
+      2,7,E
+      3,7,T
+      4,7,E
+      5,7,L
+  - num: 14
+    word: OMRI
+    clue: "14. Il re di Israele che edificò Samaria (1 Re 16:23, 24)"
+    type: V
+    start: E4
+    positions[4]{row,col,letter}:
+      3,4,O
+      4,4,M
+      5,4,R
+      6,4,I
+  - num: 15
+    word: ELAM
+    clue: "15. Antica nazione di cui Geova profetizzò la fine (Geremia 49:34-39)"
+    type: V
+    start: K4
+    positions[4]{row,col,letter}:
+      3,10,E
+      4,10,L
+      5,10,A
+      6,10,M
+  - num: 17
+    word: ZODIACO
+    clue: "17. Le sue costellazioni erano usate nell'astrologia (2 Re 23:5)"
+    type: V
+    start: D5
+    positions[7]{row,col,letter}:
+      4,3,Z
+      5,3,O
+      6,3,D
+      7,3,I
+      8,3,A
+      9,3,C
+      10,3,O
+  - num: 19
+    word: ZIPPORA
+    clue: "19. La moglie di Mosè (Esodo 2:21)"
+    type: V
+    start: L5
+    positions[7]{row,col,letter}:
+      4,11,Z
+      5,11,I
+      6,11,P
+      7,11,P
+      8,11,O
+      9,11,R
+      10,11,A
+  - num: 20
+    word: AMRAM
+    clue: "20. Il padre di Mosè (Esodo 6:20)"
+    type: V
+    start: B6
+    positions[5]{row,col,letter}:
+      5,1,A
+      6,1,M
+      7,1,R
+      8,1,A
+      9,1,M
+  - num: 22
+    word: ACHIS
+    clue: "22. Re filisteo presso cui si rifugiò Davide (1 Samuele 21:10)"
+    type: V
+    start: F6
+    positions[5]{row,col,letter}:
+      5,5,A
+      6,5,C
+      7,5,H
+      8,5,I
+      9,5,S
+  - num: 23
+    word: MESAC
+    clue: "23. Si rifiutò di adorare l'immagine eretta da Nabucodonosor (Daniele 3:12)"
+    type: V
+    start: J6
+    positions[5]{row,col,letter}:
+      5,9,M
+      6,9,E
+      7,9,S
+      8,9,A
+      9,9,C
+  - num: 24
+    word: HOREB
+    clue: "24. Nome che indicava il monte Sinai e il deserto circostante (1 Re 8:9)"
+    type: V
+    start: N6
+    positions[5]{row,col,letter}:
+      5,13,H
+      6,13,O
+      7,13,R
+      8,13,E
+      9,13,B
+  - num: 28
+    word: LUCE
+    clue: "28. Il salmista paragonò ad essa la parola di Geova (Salmo 119:105)"
+    type: V
+    start: E9
+    positions[4]{row,col,letter}:
+      8,4,L
+      9,4,U
+      10,4,C
+      11,4,E
+  - num: 30
+    word: LODE
+    clue: "30. Si può rendere a Geova con la musica (1 Cronache 23:5)"
+    type: V
+    start: K9
+    positions[4]{row,col,letter}:
+      8,10,L
+      9,10,O
+      10,10,D
+      11,10,E
+  - num: 31
+    word: CHEBAR
+    clue: "31. Fiume presso cui Ezechiele ebbe la sua prima visione (Ezechiele 1:1)"
+    type: V
+    start: A10
+    positions[6]{row,col,letter}:
+      9,0,C
+      10,0,H
+      11,0,E
+      12,0,B
+      13,0,A
+      14,0,R
+  - num: 33
+    word: MERAB
+    clue: "33. La figlia maggiore di Saul, che egli promise a Davide ma poi diede in moglie a un altro (1 Samuele 18:17-19)"
+    type: V
+    start: H10
+    positions[5]{row,col,letter}:
+      9,7,M
+      10,7,E
+      11,7,R
+      12,7,A
+      13,7,B
+  - num: 35
+    word: IZREEL
+    clue: "35. Il bassopiano in cui Gedeone e i suoi 300 uomini assistettero alla sconfitta di madianiti, amalechiti e orientali (Giudici 6:33; 7:12-22)"
+    type: V
+    start: O10
+    positions[6]{row,col,letter}:
+      9,14,I
+      10,14,Z
+      11,14,R
+      12,14,E
+      13,14,E
+      14,14,L
+  - num: 38
+    word: IOAS
+    clue: "38. Re di Giuda che ricevette il trono usurpato dalla nonna (2 Re 11:1-3, 12-16)"
+    type: V
+    start: C12
+    positions[4]{row,col,letter}:
+      11,2,I
+      12,2,O
+      13,2,A
+      14,2,S
+  - num: 40
+    word: UNTO
+    clue: "40. Lo era Saul, benché cercasse malvagiamente di uccidere Davide (1 Samuele 24:6)"
+    type: V
+    start: F12
+    positions[4]{row,col,letter}:
+      11,5,U
+      12,5,N
+      13,5,T
+      14,5,O
+  - num: 41
+    word: TITO
+    clue: "41."
+    type: V
+    start: J12
+    positions[4]{row,col,letter}:
+      11,9,T
+      12,9,I
+      13,9,T
+      14,9,O
+  - num: 42
+    word: MALI
+    clue: "42."
+    type: V
+    start: M12
+    positions[4]{row,col,letter}:
+      11,12,M
+      12,12,A
+      13,12,L
+      14,12,I
+  - num: 44
+    word: REO
+    clue: "44."
+    type: V
+    start: D13
+    positions[3]{row,col,letter}:
+      12,3,R
+      13,3,E
+      14,3,O
+  - num: 45
+    word: DAN
+    clue: "45."
+    type: V
+    start: L13
+    positions[3]{row,col,letter}:
+      12,11,D
+      13,11,A
+      14,11,N
+metadata:
+  totalNumbers: 48
+  horizontalStarts: 26
+  verticalStarts: 28
+  totalWords: 54
+  createdAt: "2025-12-26T16:59:34.580Z"

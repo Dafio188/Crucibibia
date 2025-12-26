@@ -30,12 +30,32 @@
     "isCompleted": false
   },
   {
+    "id": "2005_06_08",
+    "year": 2005,
+    "month": 6,
+    "number": 3,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 giugno 2005",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
     "id": "2005_08_08",
     "year": 2005,
     "month": 8,
     "number": 4,
     "title": "Cruciverba Biblico",
     "source": "Svegliatevi! 8 agosto 2005",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
+    "id": "2005_10_08",
+    "year": 2005,
+    "month": 10,
+    "number": 5,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 ottobre 2005",
     "gridSize": 15,
     "isCompleted": false
   },

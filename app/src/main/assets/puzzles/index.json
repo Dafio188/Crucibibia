@@ -1,5 +1,45 @@
 [
   {
+    "id": "2004_02_08",
+    "year": 2004,
+    "month": 2,
+    "number": 1,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 febbraio 2004",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
+    "id": "2004_04_08",
+    "year": 2004,
+    "month": 4,
+    "number": 2,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 aprile 2004",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
+    "id": "2004_08_08",
+    "year": 2004,
+    "month": 8,
+    "number": 4,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 agosto 2004",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
+    "id": "2004_10_08",
+    "year": 2004,
+    "month": 10,
+    "number": 5,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 ottobre 2004",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
     "id": "2004_12_08",
     "year": 2004,
     "month": 12,

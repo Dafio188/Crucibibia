@@ -1,0 +1,796 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,0,1,1,1,1,1,0,1,1,1,1,1,0,1
+  - [15]: 1,1,0,0,1,1,0,1,0,1,1,0,0,1,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 0,1,1,1,1,0,1,1,1,0,1,1,1,1,0
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,1,0,1,1,1,0,1,0,1,1,1,0,1,1
+  - [15]: 1,0,1,1,1,1,1,0,1,1,1,1,1,0,1
+  - [15]: 1,1,0,1,1,1,0,1,0,1,1,1,0,1,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 0,1,1,1,1,0,1,1,1,0,1,1,1,1,0
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,1,0,0,1,1,0,1,0,1,1,0,0,1,1
+  - [15]: 1,0,1,1,1,1,1,0,1,1,1,1,1,0,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+numberedCells[80]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,2,2,false,true
+  0,3,3,false,true
+  0,5,4,true,true
+  0,6,5,false,true
+  0,8,6,false,true
+  0,9,7,false,true
+  0,11,8,true,true
+  0,12,9,false,true
+  0,14,10,false,true
+  1,2,11,true,false
+  1,4,12,false,true
+  1,8,13,true,false
+  1,10,14,false,true
+  2,0,15,true,false
+  2,1,16,false,true
+  2,4,17,true,false
+  2,7,18,false,true
+  2,9,19,true,false
+  2,13,20,true,true
+  3,0,21,true,false
+  3,3,22,true,true
+  3,6,23,false,true
+  3,8,24,false,true
+  3,11,25,false,true
+  3,13,26,true,false
+  4,1,27,true,false
+  4,2,28,false,true
+  4,6,29,true,false
+  4,10,30,true,false
+  4,12,31,false,true
+  5,0,32,true,true
+  5,5,33,true,true
+  5,9,34,false,true
+  5,11,35,true,false
+  5,14,36,false,true
+  6,0,37,true,false
+  6,3,38,true,false
+  6,4,39,false,true
+  6,9,40,true,false
+  6,10,41,false,true
+  6,13,42,true,false
+  7,2,43,true,false
+  7,8,44,true,false
+  8,0,45,true,false
+  8,1,46,false,true
+  8,3,47,true,false
+  8,7,48,false,true
+  8,9,49,true,false
+  8,13,50,true,true
+  9,0,51,true,false
+  9,2,52,false,true
+  9,5,53,true,false
+  9,6,54,false,true
+  9,8,55,false,true
+  9,11,56,true,false
+  9,12,57,false,true
+  10,1,58,true,false
+  10,4,59,false,true
+  10,6,60,true,false
+  10,10,61,true,true
+  11,0,62,true,true
+  11,3,63,true,false
+  11,5,64,false,true
+  11,9,65,false,true
+  11,13,66,true,false
+  11,14,67,false,true
+  12,0,68,true,false
+  12,4,69,true,false
+  12,9,70,true,false
+  12,13,71,true,false
+  13,2,72,true,true
+  13,3,73,false,true
+  13,6,74,false,true
+  13,8,75,true,true
+  13,11,76,false,true
+  13,12,77,false,true
+  14,0,78,true,false
+  14,5,79,true,false
+  14,11,80,true,false
+words:
+  orizzontali[30]{num,word,clue}:
+    1,FEDE,"1. Segue ciò che si ode (Romani 10:17)"
+    2,ESTER,"2."
+    4,LUCA,"4."
+    6,PIEDI,"6."
+    8,GAMBE,"8."
+    13,GAMALIELE,"13."
+    17,OTRI,"17."
+    18,MAR,"18."
+    19,AMEN,"19."
+    20,URIA,"20."
+    21,IOTAM,"21."
+    23,MITE,"23."
+    25,DAN,"25."
+    27,ADA,"27."
+    29,LEGGE,"29."
+    30,CRUNA,"30."
+    32,VOI,"32."
+    34,IEU,"34."
+    36,ELMO,"36."
+    37,UNICA,"37."
+    40,EDEN,"40."
+    41,ORLO,"41."
+    43,ORA,"43."
+    44,OLIO,"44."
+    46,ERBEAMARE,"46."
+    50,MIELE,"50."
+    51,SCOPA,"51."
+    52,ACAN,"52."
+    53,AMPIA,"53."
+    54,BAAL,"54."
+  verticali[30]{num,word,clue}:
+    1,FICO,"1."
+    2,EDOM,"2."
+    3,RANE,"3."
+    5,AGAR,"5."
+    7,EGAI,"7."
+    9,MULA,"9."
+    10,CUORE,"10."
+    11,ALATE,"11."
+    12,BONTA,"12."
+    13,GRADEVOLE,"13."
+    14,AMO,"14."
+    15,IRA,"15."
+    16,EMMANUELE,"16."
+    20,UTILE,"20."
+    21,INGIU,"21."
+    22,MARIA,"22."
+    24,ERMON,"24."
+    26,AGO,"26."
+    28,DUE,"28."
+    31,CLOPA,"31."
+    33,HIRAM,"33."
+    35,GEOVA,"35."
+    38,NOE,"38."
+    39,CAM,"39."
+    42,ORME,"42."
+    44,ORZO,"44."
+    45,CORA,"45."
+    47,BILA,"47."
+    48,ARCA,"48."
+    49,SAUL,"49."
+placements[60]:
+  - num: 1
+    word: FEDE
+    clue: "1. Segue ciò che si ode (Romani 10:17)"
+    type: H
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,F
+      0,1,E
+      0,2,D
+      0,3,E
+  - num: 2
+    word: ESTER
+    clue: "2."
+    type: H
+    start: F1
+    positions[5]{row,col,letter}:
+      0,5,E
+      0,6,S
+      0,7,T
+      0,8,E
+      0,9,R
+  - num: 4
+    word: LUCA
+    clue: "4."
+    type: H
+    start: L1
+    positions[4]{row,col,letter}:
+      0,11,L
+      0,12,U
+      0,13,C
+      0,14,A
+  - num: 6
+    word: PIEDI
+    clue: "6."
+    type: H
+    start: C2
+    positions[5]{row,col,letter}:
+      1,2,P
+      1,3,I
+      1,4,E
+      1,5,D
+      1,6,I
+  - num: 8
+    word: GAMBE
+    clue: "8."
+    type: H
+    start: I2
+    positions[5]{row,col,letter}:
+      1,8,G
+      1,9,A
+      1,10,M
+      1,11,B
+      1,12,E
+  - num: 13
+    word: GAMALIELE
+    clue: "13."
+    type: H
+    start: D4
+    positions[9]{row,col,letter}:
+      3,3,G
+      3,4,A
+      3,5,M
+      3,6,A
+      3,7,L
+      3,8,I
+      3,9,E
+      3,10,L
+      3,11,E
+  - num: 17
+    word: OTRI
+    clue: "17."
+    type: H
+    start: B5
+    positions[4]{row,col,letter}:
+      4,1,O
+      4,2,T
+      4,3,R
+      4,4,I
+  - num: 18
+    word: MAR
+    clue: "18."
+    type: H
+    start: G5
+    positions[3]{row,col,letter}:
+      4,6,M
+      4,7,A
+      4,8,R
+  - num: 19
+    word: AMEN
+    clue: "19."
+    type: H
+    start: K5
+    positions[4]{row,col,letter}:
+      4,10,A
+      4,11,M
+      4,12,E
+      4,13,N
+  - num: 20
+    word: URIA
+    clue: "20."
+    type: H
+    start: A6
+    positions[4]{row,col,letter}:
+      5,0,U
+      5,1,R
+      5,2,I
+      5,3,A
+  - num: 21
+    word: IOTAM
+    clue: "21."
+    type: H
+    start: F6
+    positions[5]{row,col,letter}:
+      5,5,I
+      5,6,O
+      5,7,T
+      5,8,A
+      5,9,M
+  - num: 23
+    word: MITE
+    clue: "23."
+    type: H
+    start: L6
+    positions[4]{row,col,letter}:
+      5,11,M
+      5,12,I
+      5,13,T
+      5,14,E
+  - num: 25
+    word: DAN
+    clue: "25."
+    type: H
+    start: D7
+    positions[3]{row,col,letter}:
+      6,3,D
+      6,4,A
+      6,5,N
+  - num: 27
+    word: ADA
+    clue: "27."
+    type: H
+    start: J7
+    positions[3]{row,col,letter}:
+      6,9,A
+      6,10,D
+      6,11,A
+  - num: 29
+    word: LEGGE
+    clue: "29."
+    type: H
+    start: C8
+    positions[5]{row,col,letter}:
+      7,2,L
+      7,3,E
+      7,4,G
+      7,5,G
+      7,6,E
+  - num: 30
+    word: CRUNA
+    clue: "30."
+    type: H
+    start: I8
+    positions[5]{row,col,letter}:
+      7,8,C
+      7,9,R
+      7,10,U
+      7,11,N
+      7,12,A
+  - num: 32
+    word: VOI
+    clue: "32."
+    type: H
+    start: D9
+    positions[3]{row,col,letter}:
+      8,3,V
+      8,4,O
+      8,5,I
+  - num: 34
+    word: IEU
+    clue: "34."
+    type: H
+    start: J9
+    positions[3]{row,col,letter}:
+      8,9,I
+      8,10,E
+      8,11,U
+  - num: 36
+    word: ELMO
+    clue: "36."
+    type: H
+    start: A10
+    positions[4]{row,col,letter}:
+      9,0,E
+      9,1,L
+      9,2,M
+      9,3,O
+  - num: 37
+    word: UNICA
+    clue: "37."
+    type: H
+    start: F10
+    positions[5]{row,col,letter}:
+      9,5,U
+      9,6,N
+      9,7,I
+      9,8,C
+      9,9,A
+  - num: 40
+    word: EDEN
+    clue: "40."
+    type: H
+    start: L10
+    positions[4]{row,col,letter}:
+      9,11,E
+      9,12,D
+      9,13,E
+      9,14,N
+  - num: 41
+    word: ORLO
+    clue: "41."
+    type: H
+    start: B11
+    positions[4]{row,col,letter}:
+      10,1,O
+      10,2,R
+      10,3,L
+      10,4,O
+  - num: 43
+    word: ORA
+    clue: "43."
+    type: H
+    start: G11
+    positions[3]{row,col,letter}:
+      10,6,O
+      10,7,R
+      10,8,A
+  - num: 44
+    word: OLIO
+    clue: "44."
+    type: H
+    start: K11
+    positions[4]{row,col,letter}:
+      10,10,O
+      10,11,L
+      10,12,I
+      10,13,O
+  - num: 46
+    word: ERBEAMARE
+    clue: "46."
+    type: H
+    start: D12
+    positions[9]{row,col,letter}:
+      11,3,E
+      11,4,R
+      11,5,B
+      11,6,E
+      11,7,A
+      11,8,M
+      11,9,A
+      11,10,R
+      11,11,E
+  - num: 50
+    word: MIELE
+    clue: "50."
+    type: H
+    start: C14
+    positions[5]{row,col,letter}:
+      13,2,M
+      13,3,I
+      13,4,E
+      13,5,L
+      13,6,E
+  - num: 51
+    word: SCOPA
+    clue: "51."
+    type: H
+    start: I14
+    positions[5]{row,col,letter}:
+      13,8,S
+      13,9,C
+      13,10,O
+      13,11,P
+      13,12,A
+  - num: 52
+    word: ACAN
+    clue: "52."
+    type: H
+    start: A15
+    positions[4]{row,col,letter}:
+      14,0,A
+      14,1,C
+      14,2,A
+      14,3,N
+  - num: 53
+    word: AMPIA
+    clue: "53."
+    type: H
+    start: F15
+    positions[5]{row,col,letter}:
+      14,5,A
+      14,6,M
+      14,7,P
+      14,8,I
+      14,9,A
+  - num: 54
+    word: BAAL
+    clue: "54."
+    type: H
+    start: L15
+    positions[4]{row,col,letter}:
+      14,11,B
+      14,12,A
+      14,13,A
+      14,14,L
+  - num: 1
+    word: FICO
+    clue: "1."
+    type: V
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,F
+      1,0,I
+      2,0,C
+      3,0,O
+  - num: 2
+    word: EDOM
+    clue: "2."
+    type: V
+    start: F1
+    positions[4]{row,col,letter}:
+      0,5,E
+      1,5,D
+      2,5,O
+      3,5,M
+  - num: 3
+    word: RANE
+    clue: "3."
+    type: V
+    start: J1
+    positions[4]{row,col,letter}:
+      0,9,R
+      1,9,A
+      2,9,N
+      3,9,E
+  - num: 5
+    word: AGAR
+    clue: "5."
+    type: V
+    start: O1
+    positions[4]{row,col,letter}:
+      0,14,A
+      1,14,G
+      2,14,A
+      3,14,R
+  - num: 7
+    word: EGAI
+    clue: "7."
+    type: V
+    start: E2
+    positions[4]{row,col,letter}:
+      1,4,E
+      2,4,G
+      3,4,A
+      4,4,I
+  - num: 9
+    word: MULA
+    clue: "9."
+    type: V
+    start: K2
+    positions[4]{row,col,letter}:
+      1,10,M
+      2,10,U
+      3,10,L
+      4,10,A
+  - num: 10
+    word: CUORE
+    clue: "10."
+    type: V
+    start: B3
+    positions[5]{row,col,letter}:
+      2,1,C
+      3,1,U
+      4,1,O
+      5,1,R
+      6,1,E
+  - num: 11
+    word: ALATE
+    clue: "11."
+    type: V
+    start: H3
+    positions[5]{row,col,letter}:
+      2,7,A
+      3,7,L
+      4,7,A
+      5,7,T
+      6,7,E
+  - num: 12
+    word: BONTA
+    clue: "12."
+    type: V
+    start: N3
+    positions[5]{row,col,letter}:
+      2,13,B
+      3,13,O
+      4,13,N
+      5,13,T
+      6,13,A
+  - num: 13
+    word: GRADEVOLE
+    clue: "13."
+    type: V
+    start: D4
+    positions[9]{row,col,letter}:
+      3,3,G
+      4,3,R
+      5,3,A
+      6,3,D
+      7,3,E
+      8,3,V
+      9,3,O
+      10,3,L
+      11,3,E
+  - num: 14
+    word: AMO
+    clue: "14."
+    type: V
+    start: G4
+    positions[3]{row,col,letter}:
+      3,6,A
+      4,6,M
+      5,6,O
+  - num: 15
+    word: IRA
+    clue: "15."
+    type: V
+    start: I4
+    positions[3]{row,col,letter}:
+      3,8,I
+      4,8,R
+      5,8,A
+  - num: 16
+    word: EMMANUELE
+    clue: "16."
+    type: V
+    start: L4
+    positions[9]{row,col,letter}:
+      3,11,E
+      4,11,M
+      5,11,M
+      6,11,A
+      7,11,N
+      8,11,U
+      9,11,E
+      10,11,L
+      11,11,E
+  - num: 20
+    word: UTILE
+    clue: "20."
+    type: V
+    start: A6
+    positions[5]{row,col,letter}:
+      5,0,U
+      6,0,T
+      7,0,I
+      8,0,L
+      9,0,E
+  - num: 21
+    word: INGIU
+    clue: "21."
+    type: V
+    start: F6
+    positions[5]{row,col,letter}:
+      5,5,I
+      6,5,N
+      7,5,G
+      8,5,I
+      9,5,U
+  - num: 22
+    word: MARIA
+    clue: "22."
+    type: V
+    start: J6
+    positions[5]{row,col,letter}:
+      5,9,M
+      6,9,A
+      7,9,R
+      8,9,I
+      9,9,A
+  - num: 24
+    word: ERMON
+    clue: "24."
+    type: V
+    start: O6
+    positions[5]{row,col,letter}:
+      5,14,E
+      6,14,R
+      7,14,M
+      8,14,O
+      9,14,N
+  - num: 26
+    word: AGO
+    clue: "26."
+    type: V
+    start: E7
+    positions[3]{row,col,letter}:
+      6,4,A
+      7,4,G
+      8,4,O
+  - num: 28
+    word: DUE
+    clue: "28."
+    type: V
+    start: K7
+    positions[3]{row,col,letter}:
+      6,10,D
+      7,10,U
+      8,10,E
+  - num: 31
+    word: CLOPA
+    clue: "31."
+    type: V
+    start: B9
+    positions[5]{row,col,letter}:
+      8,1,C
+      9,1,L
+      10,1,O
+      11,1,P
+      12,1,A
+  - num: 33
+    word: HIRAM
+    clue: "33."
+    type: V
+    start: H9
+    positions[5]{row,col,letter}:
+      8,7,H
+      9,7,I
+      10,7,R
+      11,7,A
+      12,7,M
+  - num: 35
+    word: GEOVA
+    clue: "35."
+    type: V
+    start: N9
+    positions[5]{row,col,letter}:
+      8,13,G
+      9,13,E
+      10,13,O
+      11,13,V
+      12,13,A
+  - num: 38
+    word: NOE
+    clue: "38."
+    type: V
+    start: G10
+    positions[3]{row,col,letter}:
+      9,6,N
+      10,6,O
+      11,6,E
+  - num: 39
+    word: CAM
+    clue: "39."
+    type: V
+    start: I10
+    positions[3]{row,col,letter}:
+      9,8,C
+      10,8,A
+      11,8,M
+  - num: 42
+    word: ORME
+    clue: "42."
+    type: V
+    start: E11
+    positions[4]{row,col,letter}:
+      10,4,O
+      11,4,R
+      12,4,M
+      13,4,E
+  - num: 44
+    word: ORZO
+    clue: "44."
+    type: V
+    start: K11
+    positions[4]{row,col,letter}:
+      10,10,O
+      11,10,R
+      12,10,Z
+      13,10,O
+  - num: 45
+    word: CORA
+    clue: "45."
+    type: V
+    start: A12
+    positions[4]{row,col,letter}:
+      11,0,C
+      12,0,O
+      13,0,R
+      14,0,A
+  - num: 47
+    word: BILA
+    clue: "47."
+    type: V
+    start: F12
+    positions[4]{row,col,letter}:
+      11,5,B
+      12,5,I
+      13,5,L
+      14,5,A
+  - num: 48
+    word: ARCA
+    clue: "48."
+    type: V
+    start: J12
+    positions[4]{row,col,letter}:
+      11,9,A
+      12,9,R
+      13,9,C
+      14,9,A
+  - num: 49
+    word: SAUL
+    clue: "49."
+    type: V
+    start: O12
+    positions[4]{row,col,letter}:
+      11,14,S
+      12,14,A
+      13,14,U
+      14,14,L
+metadata:
+  totalNumbers: 80
+  horizontalStarts: 46
+  verticalStarts: 46
+  totalWords: 60
+  createdAt: "2025-12-26T18:36:25.908Z"

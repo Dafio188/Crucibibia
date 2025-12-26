@@ -1,0 +1,749 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,0,1,1,0,1,1,0,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+  - [15]: 0,1,1,1,0,1,1,0,1,1,0,1,1,1,0
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,0,1,1,0,1,1,1,1,1,0,1,1,0,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 0,1,1,1,0,1,1,0,1,1,0,1,1,1,0
+  - [15]: 1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,0,1,1,0,1,1,0,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+numberedCells[73]{row,col,num,hasH,hasV}:
+  0,0,1,false,true
+  0,2,2,false,true
+  0,4,3,true,false
+  0,5,4,false,true
+  0,6,5,false,true
+  0,8,6,false,true
+  0,9,7,false,true
+  0,12,8,false,true
+  0,14,9,false,true
+  1,0,10,true,false
+  1,5,11,true,false
+  1,8,12,true,false
+  1,11,13,true,false
+  2,4,14,true,true
+  2,7,15,false,true
+  2,10,16,false,true
+  3,0,17,true,false
+  3,1,18,false,true
+  3,3,19,false,true
+  3,6,20,true,false
+  3,10,21,true,false
+  3,11,22,false,true
+  3,13,23,false,true
+  4,1,24,true,false
+  4,5,25,true,true
+  4,8,26,true,false
+  4,9,27,false,true
+  4,11,28,true,false
+  5,0,29,true,true
+  5,3,30,true,false
+  5,4,31,false,true
+  5,7,32,false,true
+  5,10,33,false,true
+  5,13,34,true,false
+  5,14,35,false,true
+  6,0,36,true,false
+  6,2,37,false,true
+  6,9,38,true,false
+  6,12,39,false,true
+  7,2,40,true,false
+  7,5,41,true,false
+  7,11,42,true,false
+  8,0,43,true,false
+  8,1,44,false,true
+  8,4,45,false,true
+  8,9,46,true,false
+  8,10,47,false,true
+  8,13,48,false,true
+  9,0,49,true,false
+  9,3,50,true,false
+  9,6,51,false,true
+  9,8,52,false,true
+  9,13,53,true,false
+  10,1,54,true,false
+  10,2,55,false,true
+  10,5,56,true,false
+  10,8,57,true,false
+  10,11,58,true,false
+  10,12,59,false,true
+  11,0,60,true,true
+  11,4,61,false,true
+  11,6,62,true,false
+  11,7,63,false,true
+  11,10,64,true,true
+  11,14,65,false,true
+  12,4,66,true,false
+  12,5,67,false,true
+  12,9,68,false,true
+  13,0,69,true,false
+  13,5,70,true,false
+  13,8,71,true,false
+  13,11,72,true,false
+  14,4,73,true,false
+words:
+  orizzontali[25]{num,word,clue}:
+    3,COEREDI,"3. I cristiani unti con lo spirito lo sono di Cristo (Romani 8:17)"
+    10,GARA,"10. Chi la vinceva otteneva una corona (1 Corinti 9:25)"
+    11,CORA,"11. È ricordato per il suo “discorso ribelle” (Giuda 11)"
+    12,GEREMIA,"12. Il profeta a cui Geova aveva rivelato la durata della desolazione di Gerusalemme (Daniele 9:2)"
+    13,RABBI,"13. Titolo che i veri cristiani rifuggono (Matteo 23:8)"
+    16,AIA,"16. Davide costruì un altare in quella che era stata di Arauna (2 Samuele 24:24, 25)"
+    17,RECAB,"17. Padre o antenato di Gionadab (2 Re 10:15)"
+    20,DUE,"20. Il minimo numero di testimoni richiesti dalla Legge mosaica (Ebrei 10:28)"
+    23,SEM,"23. Sopravvisse al Diluvio (Genesi 9:18)"
+    25,ELEMOSINA,"25. La chiede chi è molto povero (Luca 18:35)"
+    28,AMALEC,"28. I suoi discendenti furono nemici giurati di Israele (Esodo 17:14-16)"
+    30,ALMENO,"30. Come minimo (Genesi 24:55)"
+    32,ELIUD,"32. Antenato di Giuseppe, padre adottivo di Gesù (Matteo 1:15, 16)"
+    33,FINEAS,"33. Il minore dei due figli “buoni a nulla” di Eli (1 Samuele 1:3; 2:12)"
+    35,EUNICE,"35. La madre di Timoteo (2 Timoteo 1:5)"
+    37,BESTEMMIA,"37. Quella contro lo spirito non sarà perdonata (Matteo 12:31)"
+    40,REU,"40. Il nonno del nonno di Abraamo (Genesi 11:20-26)"
+    42,REO,"42. Colpevole (Matteo 26:66)"
+    44,NIBBI,"44. Uccelli rapaci (Isaia 34:15)"
+    45,DAN,"45. Città che divenne sinonimo dell’estremo nord d’Israele (1 Re 4:25)"
+    46,BEREA,"46. La città i cui abitanti accolsero la predicazione di Paolo “con la massima premura di mente” (Atti 17:10, 11)"
+    48,LADRONI,"48. Furono messi al palo insieme a Gesù (Matteo 27:38)"
+    51,LANA,"51. Si ricava dalla tosatura (Giobbe 31:20)"
+    52,ADES,"52. Il termine greco che traduce l’ebraico “Sceol” (Salmo 16:10; Atti 2:27)"
+    53,FIOCINE,"53. Arnesi da pesca (Giobbe 41:7)"
+  verticali[29]{num,word,clue}:
+    1,AGAR,"1. La madre di Ismaele (Genesi 16:15)"
+    2,TRIBU,"2. Erano dodici quelle di Israele (Matteo 19:28)"
+    4,ORE,"4. Per gli ebrei quelle di luce, in un giorno, erano dodici (Giovanni 11:9)"
+    5,EFRAIM,"5. La tribù che finì per rappresentare l’intero regno settentrionale di Israele (2 Cronache 25:7)"
+    6,EMMAUS,"6. Villaggio dov’erano diretti Cleopa e un altro discepolo quando il materializzato Gesù Cristo si unì a loro (Luca 24:13-31)"
+    7,DEI,"7. Anche se sono d’argento o d’oro non hanno valore (Isaia 31:7)"
+    8,TORCE,"8. Facevano parte della dotazione dei trecento uomini di Gedeone (Giudici 7:16-21)"
+    9,RAAB,"9. Una delle poche donne menzionate nella genealogia di Gesù (Matteo 1:5)"
+    14,ADAM,"14. Città nei cui pressi le acque del Giordano si fermarono (Giosuè 3:16)"
+    15,BEELZEBUB,"15. Il “governante dei demoni” (Matteo 12:24)"
+    18,ESAMINARE,"18. Analizzare, considerare attentamente (Geremia 6:27)"
+    19,AMAN,"19. Morì appeso a un palo (Ester 7:10)"
+    21,RECESSI,"21. Zone nascoste, solitarie (Abdia 3)"
+    22,DIADEMI,"22. Ne aveva dieci la bestia selvaggia di Rivelazione 13:1"
+    24,BAFFI,"24. Alcuni se li lasciano crescere (2 Samuele 19:24)"
+    26,OVILE,"26. Vi si tengono le pecore (Giovanni 10:16)"
+    27,GOSEN,"27. Regione dell’Egitto in cui si stabilirono gli israeliti (Genesi 47:27)"
+    29,AIN,"29. Città assegnata originariamente alla tribù di Giuda (Giosuè 15:21, 32)"
+    31,ELI,"31. Morì cadendo dal seggio (1 Samuele 4:16-18)"
+    34,IERI,"34. Un giorno fa (Giovanni 4:52)"
+    36,CLOE,"36. Donna per mezzo della cui famiglia Paolo ebbe notizia dei dissensi che c’erano a Corinto (1 Corinti 1:11)"
+    38,TADDEO,"38. Uno dei dodici apostoli (Matteo 10:3)"
+    39,MINORI,"39. Lo sono le sorelle più piccole (Ezechiele 16:61)"
+    41,EBANO,"41. Legno pregiato (Ezechiele 27:15)"
+    43,ERODE,"43. Fece uccidere i fanciulli di Betleem (Matteo 2:16)"
+    44,NILO,"44. Il fiume dei faraoni (Genesi 41:1)"
+    47,ASSO,"47. Città portuale dove Paolo raggiunse Luca e altri (Atti 20:13, 14)"
+    49,ALI,"49. Ogni serafino, nella visione di Isaia, ne aveva sei (Isaia 6:2)"
+    50,NUN,"50. Padre di Giosuè (Esodo 33:11)"
+placements[54]:
+  - num: 3
+    word: COEREDI
+    clue: "3. I cristiani unti con lo spirito lo sono di Cristo (Romani 8:17)"
+    type: H
+    start: E1
+    positions[7]{row,col,letter}:
+      0,4,C
+      0,5,O
+      0,6,E
+      0,7,R
+      0,8,E
+      0,9,D
+      0,10,I
+  - num: 10
+    word: GARA
+    clue: "10. Chi la vinceva otteneva una corona (1 Corinti 9:25)"
+    type: H
+    start: A2
+    positions[4]{row,col,letter}:
+      1,0,G
+      1,1,A
+      1,2,R
+      1,3,A
+  - num: 11
+    word: CORA
+    clue: "11. È ricordato per il suo “discorso ribelle” (Giuda 11)"
+    type: H
+    start: L2
+    positions[4]{row,col,letter}:
+      1,11,C
+      1,12,O
+      1,13,R
+      1,14,A
+  - num: 12
+    word: GEREMIA
+    clue: "12. Il profeta a cui Geova aveva rivelato la durata della desolazione di Gerusalemme (Daniele 9:2)"
+    type: H
+    start: E3
+    positions[7]{row,col,letter}:
+      2,4,G
+      2,5,E
+      2,6,R
+      2,7,E
+      2,8,M
+      2,9,I
+      2,10,A
+  - num: 13
+    word: RABBI
+    clue: "13. Titolo che i veri cristiani rifuggono (Matteo 23:8)"
+    type: H
+    start: A4
+    positions[5]{row,col,letter}:
+      3,0,R
+      3,1,A
+      3,2,B
+      3,3,B
+      3,4,I
+  - num: 16
+    word: AIA
+    clue: "16. Davide costruì un altare in quella che era stata di Arauna (2 Samuele 24:24, 25)"
+    type: H
+    start: G4
+    positions[3]{row,col,letter}:
+      3,6,A
+      3,7,I
+      3,8,A
+  - num: 17
+    word: RECAB
+    clue: "17. Padre o antenato di Gionadab (2 Re 10:15)"
+    type: H
+    start: K4
+    positions[5]{row,col,letter}:
+      3,10,R
+      3,11,E
+      3,12,C
+      3,13,A
+      3,14,B
+  - num: 20
+    word: DUE
+    clue: "20. Il minimo numero di testimoni richiesti dalla Legge mosaica (Ebrei 10:28)"
+    type: H
+    start: B5
+    positions[3]{row,col,letter}:
+      4,1,D
+      4,2,U
+      4,3,E
+  - num: 23
+    word: SEM
+    clue: "23. Sopravvisse al Diluvio (Genesi 9:18)"
+    type: H
+    start: L5
+    positions[3]{row,col,letter}:
+      4,11,S
+      4,12,E
+      4,13,M
+  - num: 25
+    word: ELEMOSINA
+    clue: "25. La chiede chi è molto povero (Luca 18:35)"
+    type: H
+    start: D6
+    positions[9]{row,col,letter}:
+      5,3,E
+      5,4,L
+      5,5,E
+      5,6,M
+      5,7,O
+      5,8,S
+      5,9,I
+      5,10,N
+      5,11,A
+  - num: 28
+    word: AMALEC
+    clue: "28. I suoi discendenti furono nemici giurati di Israele (Esodo 17:14-16)"
+    type: H
+    start: A7
+    positions[6]{row,col,letter}:
+      6,0,A
+      6,1,M
+      6,2,A
+      6,3,L
+      6,4,E
+      6,5,C
+  - num: 30
+    word: ALMENO
+    clue: "30. Come minimo (Genesi 24:55)"
+    type: H
+    start: J7
+    positions[6]{row,col,letter}:
+      6,9,A
+      6,10,L
+      6,11,M
+      6,12,E
+      6,13,N
+      6,14,O
+  - num: 32
+    word: ELIUD
+    clue: "32. Antenato di Giuseppe, padre adottivo di Gesù (Matteo 1:15, 16)"
+    type: H
+    start: F8
+    positions[5]{row,col,letter}:
+      7,5,E
+      7,6,L
+      7,7,I
+      7,8,U
+      7,9,D
+  - num: 33
+    word: FINEAS
+    clue: "33. Il minore dei due figli “buoni a nulla” di Eli (1 Samuele 1:3; 2:12)"
+    type: H
+    start: A9
+    positions[6]{row,col,letter}:
+      8,0,F
+      8,1,I
+      8,2,N
+      8,3,E
+      8,4,A
+      8,5,S
+  - num: 35
+    word: EUNICE
+    clue: "35. La madre di Timoteo (2 Timoteo 1:5)"
+    type: H
+    start: J9
+    positions[6]{row,col,letter}:
+      8,9,E
+      8,10,U
+      8,11,N
+      8,12,I
+      8,13,C
+      8,14,E
+  - num: 37
+    word: BESTEMMIA
+    clue: "37. Quella contro lo spirito non sarà perdonata (Matteo 12:31)"
+    type: H
+    start: D10
+    positions[9]{row,col,letter}:
+      9,3,B
+      9,4,E
+      9,5,S
+      9,6,T
+      9,7,E
+      9,8,M
+      9,9,M
+      9,10,I
+      9,11,A
+  - num: 40
+    word: REU
+    clue: "40. Il nonno del nonno di Abraamo (Genesi 11:20-26)"
+    type: H
+    start: B11
+    positions[3]{row,col,letter}:
+      10,1,R
+      10,2,E
+      10,3,U
+  - num: 42
+    word: REO
+    clue: "42. Colpevole (Matteo 26:66)"
+    type: H
+    start: L11
+    positions[3]{row,col,letter}:
+      10,11,R
+      10,12,E
+      10,13,O
+  - num: 44
+    word: NIBBI
+    clue: "44. Uccelli rapaci (Isaia 34:15)"
+    type: H
+    start: A12
+    positions[5]{row,col,letter}:
+      11,0,N
+      11,1,I
+      11,2,B
+      11,3,B
+      11,4,I
+  - num: 45
+    word: DAN
+    clue: "45. Città che divenne sinonimo dell’estremo nord d’Israele (1 Re 4:25)"
+    type: H
+    start: G12
+    positions[3]{row,col,letter}:
+      11,6,D
+      11,7,A
+      11,8,N
+  - num: 46
+    word: BEREA
+    clue: "46. La città i cui abitanti accolsero la predicazione di Paolo “con la massima premura di mente” (Atti 17:10, 11)"
+    type: H
+    start: K12
+    positions[5]{row,col,letter}:
+      11,10,B
+      11,11,E
+      11,12,R
+      11,13,E
+      11,14,A
+  - num: 48
+    word: LADRONI
+    clue: "48. Furono messi al palo insieme a Gesù (Matteo 27:38)"
+    type: H
+    start: E13
+    positions[7]{row,col,letter}:
+      12,4,L
+      12,5,A
+      12,6,D
+      12,7,R
+      12,8,O
+      12,9,N
+      12,10,I
+  - num: 51
+    word: LANA
+    clue: "51. Si ricava dalla tosatura (Giobbe 31:20)"
+    type: H
+    start: A14
+    positions[4]{row,col,letter}:
+      13,0,L
+      13,1,A
+      13,2,N
+      13,3,A
+  - num: 52
+    word: ADES
+    clue: "52. Il termine greco che traduce l’ebraico “Sceol” (Salmo 16:10; Atti 2:27)"
+    type: H
+    start: L14
+    positions[4]{row,col,letter}:
+      13,11,A
+      13,12,D
+      13,13,E
+      13,14,S
+  - num: 53
+    word: FIOCINE
+    clue: "53. Arnesi da pesca (Giobbe 41:7)"
+    type: H
+    start: E15
+    positions[7]{row,col,letter}:
+      14,4,F
+      14,5,I
+      14,6,O
+      14,7,C
+      14,8,I
+      14,9,N
+      14,10,E
+  - num: 1
+    word: AGAR
+    clue: "1. La madre di Ismaele (Genesi 16:15)"
+    type: V
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,A
+      1,0,G
+      2,0,A
+      3,0,R
+  - num: 2
+    word: TRIBU
+    clue: "2. Erano dodici quelle di Israele (Matteo 19:28)"
+    type: V
+    start: C1
+    positions[5]{row,col,letter}:
+      0,2,T
+      1,2,R
+      2,2,I
+      3,2,B
+      4,2,U
+  - num: 4
+    word: ORE
+    clue: "4. Per gli ebrei quelle di luce, in un giorno, erano dodici (Giovanni 11:9)"
+    type: V
+    start: F1
+    positions[3]{row,col,letter}:
+      0,5,O
+      1,5,R
+      2,5,E
+  - num: 5
+    word: EFRAIM
+    clue: "5. La tribù che finì per rappresentare l’intero regno settentrionale di Israele (2 Cronache 25:7)"
+    type: V
+    start: G1
+    positions[6]{row,col,letter}:
+      0,6,E
+      1,6,F
+      2,6,R
+      3,6,A
+      4,6,I
+      5,6,M
+  - num: 6
+    word: EMMAUS
+    clue: "6. Villaggio dov’erano diretti Cleopa e un altro discepolo quando il materializzato Gesù Cristo si unì a loro (Luca 24:13-31)"
+    type: V
+    start: I1
+    positions[6]{row,col,letter}:
+      0,8,E
+      1,8,M
+      2,8,M
+      3,8,A
+      4,8,U
+      5,8,S
+  - num: 7
+    word: DEI
+    clue: "7. Anche se sono d’argento o d’oro non hanno valore (Isaia 31:7)"
+    type: V
+    start: J1
+    positions[3]{row,col,letter}:
+      0,9,D
+      1,9,E
+      2,9,I
+  - num: 8
+    word: TORCE
+    clue: "8. Facevano parte della dotazione dei trecento uomini di Gedeone (Giudici 7:16-21)"
+    type: V
+    start: M1
+    positions[5]{row,col,letter}:
+      0,12,T
+      1,12,O
+      2,12,R
+      3,12,C
+      4,12,E
+  - num: 9
+    word: RAAB
+    clue: "9. Una delle poche donne menzionate nella genealogia di Gesù (Matteo 1:5)"
+    type: V
+    start: O1
+    positions[4]{row,col,letter}:
+      0,14,R
+      1,14,A
+      2,14,A
+      3,14,B
+  - num: 14
+    word: ADAM
+    clue: "14. Città nei cui pressi le acque del Giordano si fermarono (Giosuè 3:16)"
+    type: V
+    start: B4
+    positions[4]{row,col,letter}:
+      3,1,A
+      4,1,D
+      5,1,A
+      6,1,M
+  - num: 15
+    word: BEELZEBUB
+    clue: "15. Il “governante dei demoni” (Matteo 12:24)"
+    type: V
+    start: D4
+    positions[9]{row,col,letter}:
+      3,3,B
+      4,3,E
+      5,3,E
+      6,3,L
+      7,3,Z
+      8,3,E
+      9,3,B
+      10,3,U
+      11,3,B
+  - num: 18
+    word: ESAMINARE
+    clue: "18. Analizzare, considerare attentamente (Geremia 6:27)"
+    type: V
+    start: L4
+    positions[9]{row,col,letter}:
+      3,11,E
+      4,11,S
+      5,11,A
+      6,11,M
+      7,11,I
+      8,11,N
+      9,11,A
+      10,11,R
+      11,11,E
+  - num: 19
+    word: AMAN
+    clue: "19. Morì appeso a un palo (Ester 7:10)"
+    type: V
+    start: N4
+    positions[4]{row,col,letter}:
+      3,13,A
+      4,13,M
+      5,13,A
+      6,13,N
+  - num: 21
+    word: RECESSI
+    clue: "21. Zone nascoste, solitarie (Abdia 3)"
+    type: V
+    start: F5
+    positions[7]{row,col,letter}:
+      4,5,R
+      5,5,E
+      6,5,C
+      7,5,E
+      8,5,S
+      9,5,S
+      10,5,I
+  - num: 22
+    word: DIADEMI
+    clue: "22. Ne aveva dieci la bestia selvaggia di Rivelazione 13:1"
+    type: V
+    start: J5
+    positions[7]{row,col,letter}:
+      4,9,D
+      5,9,I
+      6,9,A
+      7,9,D
+      8,9,E
+      9,9,M
+      10,9,I
+  - num: 24
+    word: BAFFI
+    clue: "24. Alcuni se li lasciano crescere (2 Samuele 19:24)"
+    type: V
+    start: A6
+    positions[5]{row,col,letter}:
+      5,0,B
+      6,0,A
+      7,0,F
+      8,0,F
+      9,0,I
+  - num: 26
+    word: OVILE
+    clue: "26. Vi si tengono le pecore (Giovanni 10:16)"
+    type: V
+    start: H6
+    positions[5]{row,col,letter}:
+      5,7,O
+      6,7,V
+      7,7,I
+      8,7,L
+      9,7,E
+  - num: 27
+    word: GOSEN
+    clue: "27. Regione dell’Egitto in cui si stabilirono gli israeliti (Genesi 47:27)"
+    type: V
+    start: O6
+    positions[5]{row,col,letter}:
+      5,14,G
+      6,14,O
+      7,14,S
+      8,14,E
+      9,14,N
+  - num: 29
+    word: AIN
+    clue: "29. Città assegnata originariamente alla tribù di Giuda (Giosuè 15:21, 32)"
+    type: V
+    start: C7
+    positions[3]{row,col,letter}:
+      6,2,A
+      7,2,I
+      8,2,N
+  - num: 31
+    word: ELI
+    clue: "31. Morì cadendo dal seggio (1 Samuele 4:16-18)"
+    type: V
+    start: M7
+    positions[3]{row,col,letter}:
+      6,12,E
+      7,12,L
+      8,12,I
+  - num: 34
+    word: IERI
+    clue: "34. Un giorno fa (Giovanni 4:52)"
+    type: V
+    start: B9
+    positions[4]{row,col,letter}:
+      8,1,I
+      9,1,E
+      10,1,R
+      11,1,I
+  - num: 36
+    word: CLOE
+    clue: "36. Donna per mezzo della cui famiglia Paolo ebbe notizia dei dissensi che c’erano a Corinto (1 Corinti 1:11)"
+    type: V
+    start: N9
+    positions[4]{row,col,letter}:
+      8,13,C
+      9,13,L
+      10,13,O
+      11,13,E
+  - num: 38
+    word: TADDEO
+    clue: "38. Uno dei dodici apostoli (Matteo 10:3)"
+    type: V
+    start: G10
+    positions[6]{row,col,letter}:
+      9,6,T
+      10,6,A
+      11,6,D
+      12,6,D
+      13,6,E
+      14,6,O
+  - num: 39
+    word: MINORI
+    clue: "39. Lo sono le sorelle più piccole (Ezechiele 16:61)"
+    type: V
+    start: I10
+    positions[6]{row,col,letter}:
+      9,8,M
+      10,8,I
+      11,8,N
+      12,8,O
+      13,8,R
+      14,8,I
+  - num: 41
+    word: EBANO
+    clue: "41. Legno pregiato (Ezechiele 27:15)"
+    type: V
+    start: C11
+    positions[5]{row,col,letter}:
+      10,2,E
+      11,2,B
+      12,2,A
+      13,2,N
+      14,2,O
+  - num: 43
+    word: ERODE
+    clue: "43. Fece uccidere i fanciulli di Betleem (Matteo 2:16)"
+    type: V
+    start: M11
+    positions[5]{row,col,letter}:
+      10,12,E
+      11,12,R
+      12,12,O
+      13,12,D
+      14,12,E
+  - num: 44
+    word: NILO
+    clue: "44. Il fiume dei faraoni (Genesi 41:1)"
+    type: V
+    start: A12
+    positions[4]{row,col,letter}:
+      11,0,N
+      12,0,I
+      13,0,L
+      14,0,O
+  - num: 47
+    word: ASSO
+    clue: "47. Città portuale dove Paolo raggiunse Luca e altri (Atti 20:13, 14)"
+    type: V
+    start: O12
+    positions[4]{row,col,letter}:
+      11,14,A
+      12,14,S
+      13,14,S
+      14,14,O
+  - num: 49
+    word: ALI
+    clue: "49. Ogni serafino, nella visione di Isaia, ne aveva sei (Isaia 6:2)"
+    type: V
+    start: F13
+    positions[3]{row,col,letter}:
+      12,5,A
+      13,5,L
+      14,5,I
+  - num: 50
+    word: NUN
+    clue: "50. Padre di Giosuè (Esodo 33:11)"
+    type: V
+    start: J13
+    positions[3]{row,col,letter}:
+      12,9,N
+      13,9,U
+      14,9,N
+metadata:
+  totalNumbers: 73
+  horizontalStarts: 39
+  verticalStarts: 39
+  totalWords: 54
+  createdAt: "2025-12-26T18:25:41.220Z"

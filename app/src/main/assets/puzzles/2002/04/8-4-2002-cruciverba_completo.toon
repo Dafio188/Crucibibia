@@ -1,0 +1,623 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,0,1,1,1,1,1,1,1,1,1,1,1,0,1
+  - [15]: 1,1,0,1,1,0,1,1,1,0,1,1,0,1,1
+  - [15]: 1,1,1,0,1,1,0,1,0,1,1,0,1,1,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 0,1,1,0,1,1,0,1,0,1,1,0,1,1,0
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 0,1,1,0,1,1,0,1,0,1,1,0,1,1,0
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,1,1,0,1,1,0,1,0,1,1,0,1,1,1
+  - [15]: 1,1,0,1,1,0,1,1,1,0,1,1,0,1,1
+  - [15]: 1,0,1,1,1,1,1,1,1,1,1,1,1,0,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+numberedCells[43]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,3,2,false,true
+  0,4,3,false,true
+  0,7,4,false,true
+  0,9,5,true,false
+  0,10,6,false,true
+  0,11,7,false,true
+  0,14,8,false,true
+  1,2,9,true,false
+  2,1,10,false,true
+  2,6,11,true,false
+  2,13,12,false,true
+  3,0,13,true,false
+  3,5,14,false,true
+  3,9,15,false,true
+  3,12,16,true,false
+  4,0,17,true,false
+  4,5,18,true,false
+  4,11,19,true,false
+  5,3,20,true,false
+  5,4,21,false,true
+  5,10,22,false,true
+  6,2,23,false,true
+  6,12,24,false,true
+  7,0,25,true,false
+  7,8,26,true,false
+  8,7,27,false,true
+  9,0,28,false,true
+  9,3,29,true,false
+  9,14,30,false,true
+  10,0,31,true,false
+  10,5,32,true,false
+  10,11,33,true,false
+  11,0,34,true,false
+  11,4,35,false,true
+  11,10,36,false,true
+  11,12,37,true,false
+  12,3,38,false,true
+  12,6,39,true,false
+  12,11,40,false,true
+  13,2,41,true,false
+  14,0,42,true,false
+  14,9,43,true,false
+words:
+  orizzontali[22]{num,word,clue}:
+    1,BILDAD,"1. Uno dei falsi confortatori di Giobbe (Giobbe 2:11)"
+    5,GIUDEA,"5. Vi regnava Erode (Luca 1:5)"
+    9,DIMENTESANA,"9. Deve esserlo il sorvegliante cristiano [3 parole] (1 Timoteo 3:2)"
+    11,ZIO,"11. Lo era Abramo per Lot (Genesi 11:27)"
+    13,IEU,"13. Era conosciuto per il modo in cui guidava il carro (2 Re 9:20)"
+    16,LOT,"16. Sua moglie divenne un esempio ammonitore (Luca 17:32)"
+    17,ANNA,"17. La vedova ottantaquattrenne che non si assentava mai dal tempio (Luca 2:36, 37)"
+    18,NAPPE,"18. Dovevano ornare le estremità dell’abito degli israeliti (Deuteronomio 22:12)"
+    19,LUPO,"19. Pascerà insieme con l’agnello (Isaia 65:25)"
+    20,VINCITORI,"20. Sono quelli che prendono il bottino (Genesi 14:11)"
+    25,DAMASCO,"25. Vi era diretto Saulo quando gli apparve Gesù (Atti 9:1-5)"
+    26,ZABULON,"26. Una delle tribù di Israele (Numeri 2:7)"
+    29,BENIAMINO,"29. Figlio di Giacobbe e Rachele (Genesi 35:24)"
+    31,ROVI,"31. Crescono nei terreni incolti (Isaia 5:6)"
+    32,TAMAR,"32. La bella figlia di Davide che fu violentata dal fratellastro (2 Samuele 13:1, 10-14)"
+    33,EDOM,"33. Soprannome di Esaù (Genesi 36:1)"
+    34,UNI,"34. Hanno l’obbligo di amare... gli altri (1 Giovanni 4:11)"
+    37,IRA,"37. Il sorvegliante cristiano non deve esservi incline (Tito 1:7)"
+    39,GAT,"39. La città di Golia (1 Samuele 17:4)"
+    41,DISORDINATI,"41. Paolo incoraggiò ad ammonirli (1 Tessalonicesi 5:14)"
+    42,ICONIO,"42. Fin da giovane, Timoteo vi godeva di una buona reputazione (Atti 16:1, 2)"
+    43,ABACUC,"43."
+  verticali[22]{num,word,clue}:
+    1,BELIAL,"1."
+    2,DIO,"2."
+    3,AMOS,"3."
+    4,ETIOPIA,"4."
+    6,IAEL,"6."
+    7,UNO,"7."
+    8,ANATOT,"8."
+    10,GENERAZIONE,"10."
+    12,DOPPIOONORE,"12."
+    14,INNOCENTE,"14."
+    15,GEOVAGIRE,"15."
+    21,IESSE,"21."
+    22,RUBEN,"22."
+    23,AMI,"23."
+    24,ALI,"24."
+    27,LAMPADA,"27."
+    28,FRUTTI,"28."
+    30,AMALEC,"30."
+    35,MESI,"35."
+    36,RAAB,"36."
+    38,HIN,"38."
+    40,ETA,"40."
+placements[44]:
+  - num: 1
+    word: BILDAD
+    clue: "1. Uno dei falsi confortatori di Giobbe (Giobbe 2:11)"
+    type: H
+    start: A1
+    positions[6]{row,col,letter}:
+      0,0,B
+      0,1,I
+      0,2,L
+      0,3,D
+      0,4,A
+      0,5,D
+  - num: 5
+    word: GIUDEA
+    clue: "5. Vi regnava Erode (Luca 1:5)"
+    type: H
+    start: J1
+    positions[6]{row,col,letter}:
+      0,9,G
+      0,10,I
+      0,11,U
+      0,12,D
+      0,13,E
+      0,14,A
+  - num: 9
+    word: DIMENTESANA
+    clue: "9. Deve esserlo il sorvegliante cristiano [3 parole] (1 Timoteo 3:2)"
+    type: H
+    start: C2
+    positions[11]{row,col,letter}:
+      1,2,D
+      1,3,I
+      1,4,M
+      1,5,E
+      1,6,N
+      1,7,T
+      1,8,E
+      1,9,S
+      1,10,A
+      1,11,N
+      1,12,A
+  - num: 11
+    word: ZIO
+    clue: "11. Lo era Abramo per Lot (Genesi 11:27)"
+    type: H
+    start: G3
+    positions[3]{row,col,letter}:
+      2,6,Z
+      2,7,I
+      2,8,O
+  - num: 13
+    word: IEU
+    clue: "13. Era conosciuto per il modo in cui guidava il carro (2 Re 9:20)"
+    type: H
+    start: A4
+    positions[3]{row,col,letter}:
+      3,0,I
+      3,1,E
+      3,2,U
+  - num: 16
+    word: LOT
+    clue: "16. Sua moglie divenne un esempio ammonitore (Luca 17:32)"
+    type: H
+    start: M4
+    positions[3]{row,col,letter}:
+      3,12,L
+      3,13,O
+      3,14,T
+  - num: 17
+    word: ANNA
+    clue: "17. La vedova ottantaquattrenne che non si assentava mai dal tempio (Luca 2:36, 37)"
+    type: H
+    start: A5
+    positions[4]{row,col,letter}:
+      4,0,A
+      4,1,N
+      4,2,N
+      4,3,A
+  - num: 18
+    word: NAPPE
+    clue: "18. Dovevano ornare le estremità dell’abito degli israeliti (Deuteronomio 22:12)"
+    type: H
+    start: F5
+    positions[5]{row,col,letter}:
+      4,5,N
+      4,6,A
+      4,7,P
+      4,8,P
+      4,9,E
+  - num: 19
+    word: LUPO
+    clue: "19. Pascerà insieme con l’agnello (Isaia 65:25)"
+    type: H
+    start: L5
+    positions[4]{row,col,letter}:
+      4,11,L
+      4,12,U
+      4,13,P
+      4,14,O
+  - num: 20
+    word: VINCITORI
+    clue: "20. Sono quelli che prendono il bottino (Genesi 14:11)"
+    type: H
+    start: D6
+    positions[9]{row,col,letter}:
+      5,3,V
+      5,4,I
+      5,5,N
+      5,6,C
+      5,7,I
+      5,8,T
+      5,9,O
+      5,10,R
+      5,11,I
+  - num: 25
+    word: DAMASCO
+    clue: "25. Vi era diretto Saulo quando gli apparve Gesù (Atti 9:1-5)"
+    type: H
+    start: A8
+    positions[7]{row,col,letter}:
+      7,0,D
+      7,1,A
+      7,2,M
+      7,3,A
+      7,4,S
+      7,5,C
+      7,6,O
+  - num: 26
+    word: ZABULON
+    clue: "26. Una delle tribù di Israele (Numeri 2:7)"
+    type: H
+    start: I8
+    positions[7]{row,col,letter}:
+      7,8,Z
+      7,9,A
+      7,10,B
+      7,11,U
+      7,12,L
+      7,13,O
+      7,14,N
+  - num: 29
+    word: BENIAMINO
+    clue: "29. Figlio di Giacobbe e Rachele (Genesi 35:24)"
+    type: H
+    start: D10
+    positions[9]{row,col,letter}:
+      9,3,B
+      9,4,E
+      9,5,N
+      9,6,I
+      9,7,A
+      9,8,M
+      9,9,I
+      9,10,N
+      9,11,O
+  - num: 31
+    word: ROVI
+    clue: "31. Crescono nei terreni incolti (Isaia 5:6)"
+    type: H
+    start: A11
+    positions[4]{row,col,letter}:
+      10,0,R
+      10,1,O
+      10,2,V
+      10,3,I
+  - num: 32
+    word: TAMAR
+    clue: "32. La bella figlia di Davide che fu violentata dal fratellastro (2 Samuele 13:1, 10-14)"
+    type: H
+    start: F11
+    positions[5]{row,col,letter}:
+      10,5,T
+      10,6,A
+      10,7,M
+      10,8,A
+      10,9,R
+  - num: 33
+    word: EDOM
+    clue: "33. Soprannome di Esaù (Genesi 36:1)"
+    type: H
+    start: L11
+    positions[4]{row,col,letter}:
+      10,11,E
+      10,12,D
+      10,13,O
+      10,14,M
+  - num: 34
+    word: UNI
+    clue: "34. Hanno l’obbligo di amare... gli altri (1 Giovanni 4:11)"
+    type: H
+    start: A12
+    positions[3]{row,col,letter}:
+      11,0,U
+      11,1,N
+      11,2,I
+  - num: 37
+    word: IRA
+    clue: "37. Il sorvegliante cristiano non deve esservi incline (Tito 1:7)"
+    type: H
+    start: M12
+    positions[3]{row,col,letter}:
+      11,12,I
+      11,13,R
+      11,14,A
+  - num: 39
+    word: GAT
+    clue: "39. La città di Golia (1 Samuele 17:4)"
+    type: H
+    start: G13
+    positions[3]{row,col,letter}:
+      12,6,G
+      12,7,A
+      12,8,T
+  - num: 41
+    word: DISORDINATI
+    clue: "41. Paolo incoraggiò ad ammonirli (1 Tessalonicesi 5:14)"
+    type: H
+    start: C14
+    positions[11]{row,col,letter}:
+      13,2,D
+      13,3,I
+      13,4,S
+      13,5,O
+      13,6,R
+      13,7,D
+      13,8,I
+      13,9,N
+      13,10,A
+      13,11,T
+      13,12,I
+  - num: 42
+    word: ICONIO
+    clue: "42. Fin da giovane, Timoteo vi godeva di una buona reputazione (Atti 16:1, 2)"
+    type: H
+    start: A15
+    positions[6]{row,col,letter}:
+      14,0,I
+      14,1,C
+      14,2,O
+      14,3,N
+      14,4,I
+      14,5,O
+  - num: 43
+    word: ABACUC
+    clue: "43."
+    type: H
+    start: J15
+    positions[6]{row,col,letter}:
+      14,9,A
+      14,10,B
+      14,11,A
+      14,12,C
+      14,13,U
+      14,14,C
+  - num: 1
+    word: BELIAL
+    clue: "1."
+    type: V
+    start: A1
+    positions[6]{row,col,letter}:
+      0,0,B
+      1,0,E
+      2,0,L
+      3,0,I
+      4,0,A
+      5,0,L
+  - num: 2
+    word: DIO
+    clue: "2."
+    type: V
+    start: D1
+    positions[3]{row,col,letter}:
+      0,3,D
+      1,3,I
+      2,3,O
+  - num: 3
+    word: AMOS
+    clue: "3."
+    type: V
+    start: E1
+    positions[4]{row,col,letter}:
+      0,4,A
+      1,4,M
+      2,4,O
+      3,4,S
+  - num: 4
+    word: ETIOPIA
+    clue: "4."
+    type: V
+    start: H1
+    positions[7]{row,col,letter}:
+      0,7,E
+      1,7,T
+      2,7,I
+      3,7,O
+      4,7,P
+      5,7,I
+      6,7,A
+  - num: 6
+    word: IAEL
+    clue: "6."
+    type: V
+    start: K1
+    positions[4]{row,col,letter}:
+      0,10,I
+      1,10,A
+      2,10,E
+      3,10,L
+  - num: 7
+    word: UNO
+    clue: "7."
+    type: V
+    start: L1
+    positions[3]{row,col,letter}:
+      0,11,U
+      1,11,N
+      2,11,O
+  - num: 8
+    word: ANATOT
+    clue: "8."
+    type: V
+    start: O1
+    positions[6]{row,col,letter}:
+      0,14,A
+      1,14,N
+      2,14,A
+      3,14,T
+      4,14,O
+      5,14,T
+  - num: 10
+    word: GENERAZIONE
+    clue: "10."
+    type: V
+    start: B3
+    positions[11]{row,col,letter}:
+      2,1,G
+      3,1,E
+      4,1,N
+      5,1,E
+      6,1,R
+      7,1,A
+      8,1,Z
+      9,1,I
+      10,1,O
+      11,1,N
+      12,1,E
+  - num: 12
+    word: DOPPIOONORE
+    clue: "12."
+    type: V
+    start: N3
+    positions[11]{row,col,letter}:
+      2,13,D
+      3,13,O
+      4,13,P
+      5,13,P
+      6,13,I
+      7,13,O
+      8,13,O
+      9,13,N
+      10,13,O
+      11,13,R
+      12,13,E
+  - num: 14
+    word: INNOCENTE
+    clue: "14."
+    type: V
+    start: F4
+    positions[9]{row,col,letter}:
+      3,5,I
+      4,5,N
+      5,5,N
+      6,5,O
+      7,5,C
+      8,5,E
+      9,5,N
+      10,5,T
+      11,5,E
+  - num: 15
+    word: GEOVAGIRE
+    clue: "15."
+    type: V
+    start: J4
+    positions[9]{row,col,letter}:
+      3,9,G
+      4,9,E
+      5,9,O
+      6,9,V
+      7,9,A
+      8,9,G
+      9,9,I
+      10,9,R
+      11,9,E
+  - num: 21
+    word: IESSE
+    clue: "21."
+    type: V
+    start: E6
+    positions[5]{row,col,letter}:
+      5,4,I
+      6,4,E
+      7,4,S
+      8,4,S
+      9,4,E
+  - num: 22
+    word: RUBEN
+    clue: "22."
+    type: V
+    start: K6
+    positions[5]{row,col,letter}:
+      5,10,R
+      6,10,U
+      7,10,B
+      8,10,E
+      9,10,N
+  - num: 23
+    word: AMI
+    clue: "23."
+    type: V
+    start: C7
+    positions[3]{row,col,letter}:
+      6,2,A
+      7,2,M
+      8,2,I
+  - num: 24
+    word: ALI
+    clue: "24."
+    type: V
+    start: M7
+    positions[3]{row,col,letter}:
+      6,12,A
+      7,12,L
+      8,12,I
+  - num: 27
+    word: LAMPADA
+    clue: "27."
+    type: V
+    start: H9
+    positions[7]{row,col,letter}:
+      8,7,L
+      9,7,A
+      10,7,M
+      11,7,P
+      12,7,A
+      13,7,D
+      14,7,A
+  - num: 28
+    word: FRUTTI
+    clue: "28."
+    type: V
+    start: A10
+    positions[6]{row,col,letter}:
+      9,0,F
+      10,0,R
+      11,0,U
+      12,0,T
+      13,0,T
+      14,0,I
+  - num: 30
+    word: AMALEC
+    clue: "30."
+    type: V
+    start: O10
+    positions[6]{row,col,letter}:
+      9,14,A
+      10,14,M
+      11,14,A
+      12,14,L
+      13,14,E
+      14,14,C
+  - num: 35
+    word: MESI
+    clue: "35."
+    type: V
+    start: E12
+    positions[4]{row,col,letter}:
+      11,4,M
+      12,4,E
+      13,4,S
+      14,4,I
+  - num: 36
+    word: RAAB
+    clue: "36."
+    type: V
+    start: K12
+    positions[4]{row,col,letter}:
+      11,10,R
+      12,10,A
+      13,10,A
+      14,10,B
+  - num: 38
+    word: HIN
+    clue: "38."
+    type: V
+    start: D13
+    positions[3]{row,col,letter}:
+      12,3,H
+      13,3,I
+      14,3,N
+  - num: 40
+    word: ETA
+    clue: "40."
+    type: V
+    start: L13
+    positions[3]{row,col,letter}:
+      12,11,E
+      13,11,T
+      14,11,A
+metadata:
+  totalNumbers: 43
+  horizontalStarts: 22
+  verticalStarts: 22
+  totalWords: 44
+  createdAt: "2025-12-26T18:29:59.782Z"

@@ -1,0 +1,792 @@
+gridSize: 15
+structure[15]:
+  - [15]: 0,1,1,1,1,1,0,1,0,1,1,1,1,1,0
+  - [15]: 1,1,1,0,1,0,1,1,1,0,1,0,1,1,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,0,1,1,1,1,1,0,1,1,1,1,1,0,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 0,1,1,1,1,1,0,1,0,1,1,1,1,1,0
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,0,1,1,1,1,1,0,1,1,1,1,1,0,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,1,1,0,1,0,1,1,1,0,1,0,1,1,1
+  - [15]: 0,1,1,1,1,1,0,1,0,1,1,1,1,1,0
+numberedCells[54]{row,col,num,hasH,hasV}:
+  0,1,1,true,true
+  0,4,2,false,true
+  0,7,3,false,true
+  0,9,4,true,false
+  0,10,5,false,true
+  0,13,6,false,true
+  1,0,7,true,true
+  1,6,8,true,true
+  1,8,9,false,true
+  1,12,10,true,false
+  1,14,11,false,true
+  2,3,12,true,true
+  2,5,13,false,true
+  2,9,14,false,true
+  2,11,15,false,true
+  3,2,16,true,true
+  3,8,17,true,false
+  3,12,18,false,true
+  4,0,19,true,false
+  4,5,20,true,false
+  4,7,21,false,true
+  4,11,22,true,false
+  5,0,23,true,false
+  5,4,24,false,true
+  5,9,25,true,false
+  5,10,26,false,true
+  6,4,27,true,false
+  7,1,28,true,false
+  7,9,29,true,false
+  8,0,30,false,true
+  8,4,31,true,false
+  8,14,32,false,true
+  9,0,33,true,false
+  9,3,34,false,true
+  9,9,35,true,false
+  9,11,36,false,true
+  10,0,37,true,false
+  10,5,38,true,false
+  10,6,39,false,true
+  10,8,40,false,true
+  10,11,41,true,false
+  11,2,42,true,false
+  11,4,43,false,true
+  11,8,44,true,false
+  11,10,45,false,true
+  12,1,46,false,true
+  12,3,47,true,false
+  12,7,48,false,true
+  12,13,49,false,true
+  13,0,50,true,false
+  13,6,51,true,false
+  13,12,52,true,false
+  14,1,53,true,false
+  14,9,54,true,false
+words:
+  orizzontali[30]{num,word,clue}:
+    1,CIECO,"1. Non può guidare un suo simile (Matteo 15:14)"
+    4,AMORE,"4. Non viene mai meno (1 Corinti 13:8)"
+    7,CAM,"7. Sopravvisse al Diluvio (Genesi 9:18)"
+    8,PUR,"8. Termine non ebraico che significa “sorte” (Ester 3:7)"
+    10,DUE,"10. Il numero di monetine con cui si potevano comprare cinque passeri (Luca 12:6)"
+    12,ARTASERSE,"12. Il re che concesse a Neemia di andare a Gerusalemme (Neemia 2:1-6)"
+    16,SPARI,"16. Quando Gesù toccò un lebbroso “immediatamente la lebbra ----- da lui” (Luca 5:13)"
+    17,MIELE,"17. È notoriamente dolce (Giudici 14:18)"
+    19,ASER,"19. Tribù di Israele (Rivelazione 7:5-8)"
+    20,IABIN,"20. Il re cananeo il cui esercito fu sconfitto da Barac (Giudici 4:2-16)"
+    22,IRAD,"22. Nipote di Caino e bisnonno di Lamec (Genesi 4:17, 18)"
+    23,ALTERA,"23. Non deve essere così la mente di chi è ricco (1 Timoteo 6:17)"
+    25,GIURAI,"25. Geova definì Canaan il “paese circa il quale ------ ad Abraamo, Isacco e Giacobbe” (Esodo 33:1)"
+    27,ANELARE,"27. Bramare, desiderare ardentemente (Gioele 1:20)"
+    28,SERUG,"28. Bisnonno di Abraamo (Genesi 11:22-26)"
+    29,ATENE,"29. Città in cui Paolo predicò a dei filosofi (Atti 17:16-18)"
+    31,CORAZZE,"31. Quelle degli “eserciti di cavalleria” di Rivelazione 9:16, 17 erano rosse, blu e gialle"
+    33,ABITAL,"33. Una delle mogli di Davide (2 Samuele 3:2-4)"
+    35,IRRITA,"35. “L’amore . . . non si ------” (1 Corinti 13:4, 5)"
+    37,MALE,"37. Si deve vincere col bene (Romani 12:21)"
+    38,AMONA,"38. Città simbolica che commemora la vittoria di Geova su Gog (Ezechiele 39:11, 16)"
+    41,ATTI,"41."
+    42,AMORI,"42."
+    44,AROMA,"44."
+    47,EZECHIELE,"47."
+    50,EVA,"50."
+    51,AIN,"51."
+    52,ZIA,"52."
+    53,ANIMA,"53."
+    54,COLLO,"54."
+  verticali[29]{num,word,clue}:
+    1,CAB,"1."
+    2,CORA,"2."
+    3,CUS,"3."
+    5,MOSE,"5."
+    6,EUD,"6."
+    7,CANAAN,"7."
+    8,PAIA,"8."
+    9,REMI,"9."
+    11,EVODIA,"11."
+    12,APRE,"12."
+    13,TRIANGOLARE,"13."
+    14,RINGRAZIARE,"14."
+    15,ELIU,"15."
+    16,SETTEMILA,"16."
+    18,ERRONEITA,"18."
+    21,BALSAMO,"21."
+    24,RAUCA,"24."
+    26,IETER,"26."
+    30,IAMBRE,"30."
+    32,CAIAFA,"32."
+    34,TEME,"34."
+    36,RAME,"36."
+    39,MICA,"39."
+    40,NAIN,"40."
+    43,OZEM,"43."
+    45,OLIO,"45."
+    46,UVA,"46."
+    48,HIN,"48."
+    49,DIO,"49."
+placements[59]:
+  - num: 1
+    word: CIECO
+    clue: "1. Non può guidare un suo simile (Matteo 15:14)"
+    type: H
+    start: B1
+    positions[5]{row,col,letter}:
+      0,1,C
+      0,2,I
+      0,3,E
+      0,4,C
+      0,5,O
+  - num: 4
+    word: AMORE
+    clue: "4. Non viene mai meno (1 Corinti 13:8)"
+    type: H
+    start: J1
+    positions[5]{row,col,letter}:
+      0,9,A
+      0,10,M
+      0,11,O
+      0,12,R
+      0,13,E
+  - num: 7
+    word: CAM
+    clue: "7. Sopravvisse al Diluvio (Genesi 9:18)"
+    type: H
+    start: A2
+    positions[3]{row,col,letter}:
+      1,0,C
+      1,1,A
+      1,2,M
+  - num: 8
+    word: PUR
+    clue: "8. Termine non ebraico che significa “sorte” (Ester 3:7)"
+    type: H
+    start: G2
+    positions[3]{row,col,letter}:
+      1,6,P
+      1,7,U
+      1,8,R
+  - num: 10
+    word: DUE
+    clue: "10. Il numero di monetine con cui si potevano comprare cinque passeri (Luca 12:6)"
+    type: H
+    start: M2
+    positions[3]{row,col,letter}:
+      1,12,D
+      1,13,U
+      1,14,E
+  - num: 12
+    word: ARTASERSE
+    clue: "12. Il re che concesse a Neemia di andare a Gerusalemme (Neemia 2:1-6)"
+    type: H
+    start: D3
+    positions[9]{row,col,letter}:
+      2,3,A
+      2,4,R
+      2,5,T
+      2,6,A
+      2,7,S
+      2,8,E
+      2,9,R
+      2,10,S
+      2,11,E
+  - num: 16
+    word: SPARI
+    clue: "16. Quando Gesù toccò un lebbroso “immediatamente la lebbra ----- da lui” (Luca 5:13)"
+    type: H
+    start: C4
+    positions[5]{row,col,letter}:
+      3,2,S
+      3,3,P
+      3,4,A
+      3,5,R
+      3,6,I
+  - num: 17
+    word: MIELE
+    clue: "17. È notoriamente dolce (Giudici 14:18)"
+    type: H
+    start: I4
+    positions[5]{row,col,letter}:
+      3,8,M
+      3,9,I
+      3,10,E
+      3,11,L
+      3,12,E
+  - num: 19
+    word: ASER
+    clue: "19. Tribù di Israele (Rivelazione 7:5-8)"
+    type: H
+    start: A5
+    positions[4]{row,col,letter}:
+      4,0,A
+      4,1,S
+      4,2,E
+      4,3,R
+  - num: 20
+    word: IABIN
+    clue: "20. Il re cananeo il cui esercito fu sconfitto da Barac (Giudici 4:2-16)"
+    type: H
+    start: F5
+    positions[5]{row,col,letter}:
+      4,5,I
+      4,6,A
+      4,7,B
+      4,8,I
+      4,9,N
+  - num: 22
+    word: IRAD
+    clue: "22. Nipote di Caino e bisnonno di Lamec (Genesi 4:17, 18)"
+    type: H
+    start: L5
+    positions[4]{row,col,letter}:
+      4,11,I
+      4,12,R
+      4,13,A
+      4,14,D
+  - num: 23
+    word: ALTERA
+    clue: "23. Non deve essere così la mente di chi è ricco (1 Timoteo 6:17)"
+    type: H
+    start: A6
+    positions[6]{row,col,letter}:
+      5,0,A
+      5,1,L
+      5,2,T
+      5,3,E
+      5,4,R
+      5,5,A
+  - num: 25
+    word: GIURAI
+    clue: "25. Geova definì Canaan il “paese circa il quale ------ ad Abraamo, Isacco e Giacobbe” (Esodo 33:1)"
+    type: H
+    start: J6
+    positions[6]{row,col,letter}:
+      5,9,G
+      5,10,I
+      5,11,U
+      5,12,R
+      5,13,A
+      5,14,I
+  - num: 27
+    word: ANELARE
+    clue: "27. Bramare, desiderare ardentemente (Gioele 1:20)"
+    type: H
+    start: E7
+    positions[7]{row,col,letter}:
+      6,4,A
+      6,5,N
+      6,6,E
+      6,7,L
+      6,8,A
+      6,9,R
+      6,10,E
+  - num: 28
+    word: SERUG
+    clue: "28. Bisnonno di Abraamo (Genesi 11:22-26)"
+    type: H
+    start: B8
+    positions[5]{row,col,letter}:
+      7,1,S
+      7,2,E
+      7,3,R
+      7,4,U
+      7,5,G
+  - num: 29
+    word: ATENE
+    clue: "29. Città in cui Paolo predicò a dei filosofi (Atti 17:16-18)"
+    type: H
+    start: J8
+    positions[5]{row,col,letter}:
+      7,9,A
+      7,10,T
+      7,11,E
+      7,12,N
+      7,13,E
+  - num: 31
+    word: CORAZZE
+    clue: "31. Quelle degli “eserciti di cavalleria” di Rivelazione 9:16, 17 erano rosse, blu e gialle"
+    type: H
+    start: E9
+    positions[7]{row,col,letter}:
+      8,4,C
+      8,5,O
+      8,6,R
+      8,7,A
+      8,8,Z
+      8,9,Z
+      8,10,E
+  - num: 33
+    word: ABITAL
+    clue: "33. Una delle mogli di Davide (2 Samuele 3:2-4)"
+    type: H
+    start: A10
+    positions[6]{row,col,letter}:
+      9,0,A
+      9,1,B
+      9,2,I
+      9,3,T
+      9,4,A
+      9,5,L
+  - num: 35
+    word: IRRITA
+    clue: "35. “L’amore . . . non si ------” (1 Corinti 13:4, 5)"
+    type: H
+    start: J10
+    positions[6]{row,col,letter}:
+      9,9,I
+      9,10,R
+      9,11,R
+      9,12,I
+      9,13,T
+      9,14,A
+  - num: 37
+    word: MALE
+    clue: "37. Si deve vincere col bene (Romani 12:21)"
+    type: H
+    start: A11
+    positions[4]{row,col,letter}:
+      10,0,M
+      10,1,A
+      10,2,L
+      10,3,E
+  - num: 38
+    word: AMONA
+    clue: "38. Città simbolica che commemora la vittoria di Geova su Gog (Ezechiele 39:11, 16)"
+    type: H
+    start: F11
+    positions[5]{row,col,letter}:
+      10,5,A
+      10,6,M
+      10,7,O
+      10,8,N
+      10,9,A
+  - num: 41
+    word: ATTI
+    clue: "41."
+    type: H
+    start: L11
+    positions[4]{row,col,letter}:
+      10,11,A
+      10,12,T
+      10,13,T
+      10,14,I
+  - num: 42
+    word: AMORI
+    clue: "42."
+    type: H
+    start: C12
+    positions[5]{row,col,letter}:
+      11,2,A
+      11,3,M
+      11,4,O
+      11,5,R
+      11,6,I
+  - num: 44
+    word: AROMA
+    clue: "44."
+    type: H
+    start: I12
+    positions[5]{row,col,letter}:
+      11,8,A
+      11,9,R
+      11,10,O
+      11,11,M
+      11,12,A
+  - num: 47
+    word: EZECHIELE
+    clue: "47."
+    type: H
+    start: D13
+    positions[9]{row,col,letter}:
+      12,3,E
+      12,4,Z
+      12,5,E
+      12,6,C
+      12,7,H
+      12,8,I
+      12,9,E
+      12,10,L
+      12,11,E
+  - num: 50
+    word: EVA
+    clue: "50."
+    type: H
+    start: A14
+    positions[3]{row,col,letter}:
+      13,0,E
+      13,1,V
+      13,2,A
+  - num: 51
+    word: AIN
+    clue: "51."
+    type: H
+    start: G14
+    positions[3]{row,col,letter}:
+      13,6,A
+      13,7,I
+      13,8,N
+  - num: 52
+    word: ZIA
+    clue: "52."
+    type: H
+    start: M14
+    positions[3]{row,col,letter}:
+      13,12,Z
+      13,13,I
+      13,14,A
+  - num: 53
+    word: ANIMA
+    clue: "53."
+    type: H
+    start: B15
+    positions[5]{row,col,letter}:
+      14,1,A
+      14,2,N
+      14,3,I
+      14,4,M
+      14,5,A
+  - num: 54
+    word: COLLO
+    clue: "54."
+    type: H
+    start: J15
+    positions[5]{row,col,letter}:
+      14,9,C
+      14,10,O
+      14,11,L
+      14,12,L
+      14,13,O
+  - num: 1
+    word: CAB
+    clue: "1."
+    type: V
+    start: B1
+    positions[3]{row,col,letter}:
+      0,1,C
+      1,1,A
+      2,1,B
+  - num: 2
+    word: CORA
+    clue: "2."
+    type: V
+    start: E1
+    positions[4]{row,col,letter}:
+      0,4,C
+      1,4,O
+      2,4,R
+      3,4,A
+  - num: 3
+    word: CUS
+    clue: "3."
+    type: V
+    start: H1
+    positions[3]{row,col,letter}:
+      0,7,C
+      1,7,U
+      2,7,S
+  - num: 5
+    word: MOSE
+    clue: "5."
+    type: V
+    start: K1
+    positions[4]{row,col,letter}:
+      0,10,M
+      1,10,O
+      2,10,S
+      3,10,E
+  - num: 6
+    word: EUD
+    clue: "6."
+    type: V
+    start: N1
+    positions[3]{row,col,letter}:
+      0,13,E
+      1,13,U
+      2,13,D
+  - num: 7
+    word: CANAAN
+    clue: "7."
+    type: V
+    start: A2
+    positions[6]{row,col,letter}:
+      1,0,C
+      2,0,A
+      3,0,N
+      4,0,A
+      5,0,A
+      6,0,N
+  - num: 8
+    word: PAIA
+    clue: "8."
+    type: V
+    start: G2
+    positions[4]{row,col,letter}:
+      1,6,P
+      2,6,A
+      3,6,I
+      4,6,A
+  - num: 9
+    word: REMI
+    clue: "9."
+    type: V
+    start: I2
+    positions[4]{row,col,letter}:
+      1,8,R
+      2,8,E
+      3,8,M
+      4,8,I
+  - num: 11
+    word: EVODIA
+    clue: "11."
+    type: V
+    start: O2
+    positions[6]{row,col,letter}:
+      1,14,E
+      2,14,V
+      3,14,O
+      4,14,D
+      5,14,I
+      6,14,A
+  - num: 12
+    word: APRE
+    clue: "12."
+    type: V
+    start: D3
+    positions[4]{row,col,letter}:
+      2,3,A
+      3,3,P
+      4,3,R
+      5,3,E
+  - num: 13
+    word: TRIANGOLARE
+    clue: "13."
+    type: V
+    start: F3
+    positions[11]{row,col,letter}:
+      2,5,T
+      3,5,R
+      4,5,I
+      5,5,A
+      6,5,N
+      7,5,G
+      8,5,O
+      9,5,L
+      10,5,A
+      11,5,R
+      12,5,E
+  - num: 14
+    word: RINGRAZIARE
+    clue: "14."
+    type: V
+    start: J3
+    positions[11]{row,col,letter}:
+      2,9,R
+      3,9,I
+      4,9,N
+      5,9,G
+      6,9,R
+      7,9,A
+      8,9,Z
+      9,9,I
+      10,9,A
+      11,9,R
+      12,9,E
+  - num: 15
+    word: ELIU
+    clue: "15."
+    type: V
+    start: L3
+    positions[4]{row,col,letter}:
+      2,11,E
+      3,11,L
+      4,11,I
+      5,11,U
+  - num: 16
+    word: SETTEMILA
+    clue: "16."
+    type: V
+    start: C4
+    positions[9]{row,col,letter}:
+      3,2,S
+      4,2,E
+      5,2,T
+      6,2,T
+      7,2,E
+      8,2,M
+      9,2,I
+      10,2,L
+      11,2,A
+  - num: 18
+    word: ERRONEITA
+    clue: "18."
+    type: V
+    start: M4
+    positions[9]{row,col,letter}:
+      3,12,E
+      4,12,R
+      5,12,R
+      6,12,O
+      7,12,N
+      8,12,E
+      9,12,I
+      10,12,T
+      11,12,A
+  - num: 21
+    word: BALSAMO
+    clue: "21."
+    type: V
+    start: H5
+    positions[7]{row,col,letter}:
+      4,7,B
+      5,7,A
+      6,7,L
+      7,7,S
+      8,7,A
+      9,7,M
+      10,7,O
+  - num: 24
+    word: RAUCA
+    clue: "24."
+    type: V
+    start: E6
+    positions[5]{row,col,letter}:
+      5,4,R
+      6,4,A
+      7,4,U
+      8,4,C
+      9,4,A
+  - num: 26
+    word: IETER
+    clue: "26."
+    type: V
+    start: K6
+    positions[5]{row,col,letter}:
+      5,10,I
+      6,10,E
+      7,10,T
+      8,10,E
+      9,10,R
+  - num: 30
+    word: IAMBRE
+    clue: "30."
+    type: V
+    start: A9
+    positions[6]{row,col,letter}:
+      8,0,I
+      9,0,A
+      10,0,M
+      11,0,B
+      12,0,R
+      13,0,E
+  - num: 32
+    word: CAIAFA
+    clue: "32."
+    type: V
+    start: O9
+    positions[6]{row,col,letter}:
+      8,14,C
+      9,14,A
+      10,14,I
+      11,14,A
+      12,14,F
+      13,14,A
+  - num: 34
+    word: TEME
+    clue: "34."
+    type: V
+    start: D10
+    positions[4]{row,col,letter}:
+      9,3,T
+      10,3,E
+      11,3,M
+      12,3,E
+  - num: 36
+    word: RAME
+    clue: "36."
+    type: V
+    start: L10
+    positions[4]{row,col,letter}:
+      9,11,R
+      10,11,A
+      11,11,M
+      12,11,E
+  - num: 39
+    word: MICA
+    clue: "39."
+    type: V
+    start: G11
+    positions[4]{row,col,letter}:
+      10,6,M
+      11,6,I
+      12,6,C
+      13,6,A
+  - num: 40
+    word: NAIN
+    clue: "40."
+    type: V
+    start: I11
+    positions[4]{row,col,letter}:
+      10,8,N
+      11,8,A
+      12,8,I
+      13,8,N
+  - num: 43
+    word: OZEM
+    clue: "43."
+    type: V
+    start: E12
+    positions[4]{row,col,letter}:
+      11,4,O
+      12,4,Z
+      13,4,E
+      14,4,M
+  - num: 45
+    word: OLIO
+    clue: "45."
+    type: V
+    start: K12
+    positions[4]{row,col,letter}:
+      11,10,O
+      12,10,L
+      13,10,I
+      14,10,O
+  - num: 46
+    word: UVA
+    clue: "46."
+    type: V
+    start: B13
+    positions[3]{row,col,letter}:
+      12,1,U
+      13,1,V
+      14,1,A
+  - num: 48
+    word: HIN
+    clue: "48."
+    type: V
+    start: H13
+    positions[3]{row,col,letter}:
+      12,7,H
+      13,7,I
+      14,7,N
+  - num: 49
+    word: DIO
+    clue: "49."
+    type: V
+    start: N13
+    positions[3]{row,col,letter}:
+      12,13,D
+      13,13,I
+      14,13,O
+metadata:
+  totalNumbers: 54
+  horizontalStarts: 30
+  verticalStarts: 29
+  totalWords: 59
+  createdAt: "2025-12-26T17:02:05.344Z"

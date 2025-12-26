@@ -38,5 +38,15 @@
     "source": "Svegliatevi! 8 agosto 2005",
     "gridSize": 15,
     "isCompleted": false
+  },
+  {
+    "id": "2005_12_08",
+    "year": 2005,
+    "month": 12,
+    "number": 6,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 dicembre 2005",
+    "gridSize": 15,
+    "isCompleted": false
   }
 ]

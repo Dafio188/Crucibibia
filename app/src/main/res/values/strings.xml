@@ -118,6 +118,13 @@
     <string name="about">Informazioni</string>
     <string name="version">Versione %s</string>
 
+    <!-- Backup -->
+    <string name="backup_title">Backup e Dati</string>
+    <string name="backup_google_title">Backup automatico Google</string>
+    <string name="backup_google_description">I tuoi progressi vengono salvati automaticamente su Google Drive. Quando reinstalli l\'app sullo stesso account Google, i dati vengono ripristinati.</string>
+    <string name="backup_how_title">Come funziona</string>
+    <string name="backup_how_description">• Il backup avviene automaticamente (di solito di notte)\n• Richiede backup Google attivo: Impostazioni → Sistema → Backup\n• I dati si ripristinano reinstallando l\'app con lo stesso account Google\n• Include: cruciverba completati, punteggi, partite in corso</string>
+
     <!-- About -->
     <string name="about_description">Crucibibia è una raccolta di cruciverba tratti dalla Bibbia, originariamente pubblicati nelle riviste Svegliatevi! dal 1994 al 2005.</string>
     <string name="source_attribution">Fonte: jw.org</string>

@@ -1,0 +1,2601 @@
+{
+  "gridSize": 15,
+  "structure": [
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "numberedCells": [
+    {
+      "row": 0,
+      "col": 0,
+      "num": 1,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "num": 2,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "num": 3,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "num": 4,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 9,
+      "num": 5,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 11,
+      "num": 6,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 13,
+      "num": 7,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 0,
+      "col": 14,
+      "num": 8,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "num": 9,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 1,
+      "col": 8,
+      "num": 10,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "num": 11,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 2,
+      "col": 11,
+      "num": 12,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "num": 13,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "num": 14,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "num": 15,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 3,
+      "col": 8,
+      "num": 16,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 3,
+      "col": 10,
+      "num": 17,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 5,
+      "col": 0,
+      "num": 18,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "num": 19,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 5,
+      "col": 8,
+      "num": 20,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 5,
+      "col": 14,
+      "num": 21,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 6,
+      "col": 0,
+      "num": 22,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "num": 23,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "num": 24,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 6,
+      "col": 10,
+      "num": 25,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 6,
+      "col": 12,
+      "num": 26,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "num": 27,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 7,
+      "col": 8,
+      "num": 28,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 8,
+      "col": 0,
+      "num": 29,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "num": 30,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "num": 31,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 8,
+      "col": 10,
+      "num": 32,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 8,
+      "col": 13,
+      "num": 33,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "num": 34,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 9,
+      "col": 8,
+      "num": 35,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 11,
+      "col": 0,
+      "num": 36,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "num": 37,
+      "hasH": true,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 5,
+      "num": 38,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 9,
+      "num": 39,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 11,
+      "num": 40,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 11,
+      "col": 14,
+      "num": 41,
+      "hasH": false,
+      "hasV": true
+    },
+    {
+      "row": 12,
+      "col": 0,
+      "num": 42,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 12,
+      "col": 11,
+      "num": 43,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "num": 44,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 13,
+      "col": 8,
+      "num": 45,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 14,
+      "col": 0,
+      "num": 46,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 14,
+      "col": 5,
+      "num": 47,
+      "hasH": true,
+      "hasV": false
+    },
+    {
+      "row": 14,
+      "col": 11,
+      "num": 48,
+      "hasH": true,
+      "hasV": false
+    }
+  ],
+  "words": {
+    "orizzontali": [
+      {
+        "num": 1,
+        "word": "ZIBA",
+        "clue": "1. Lo sleale servitore di Mefiboset (2 Samuele 16:1-4; 19:24-30)"
+      },
+      {
+        "num": 4,
+        "word": "ENDOR",
+        "clue": "4. La città della medium consultata da Saul (1 Samuele 28:7)"
+      },
+      {
+        "num": 6,
+        "word": "FEBE",
+        "clue": "6. Fedele cristiana di Cencrea (Romani 16:1, 2)"
+      },
+      {
+        "num": 9,
+        "word": "SARA",
+        "clue": "9. Ebbe un figlio nella vecchiaia (Genesi 24:36)"
+      },
+      {
+        "num": 10,
+        "word": "SILA",
+        "clue": "10. Viaggiò con Barnaba, Paolo e Timoteo (Atti 15:22; 18:5)"
+      },
+      {
+        "num": 11,
+        "word": "ASSI",
+        "clue": "11. Tavole di legno (1 Re 6:9)"
+      },
+      {
+        "num": 12,
+        "word": "VINO",
+        "clue": "12. Paolo lo raccomandò a Timoteo per i suoi problemi di stomaco (1 Timoteo 5:23)"
+      },
+      {
+        "num": 13,
+        "word": "ASTROLOGI",
+        "clue": "13. Vennero da lontano per rendere omaggio a Gesù (Matteo 2:1, 2)"
+      },
+      {
+        "num": 19,
+        "word": "SION",
+        "clue": "19. Il “monte santo” su cui Geova ha insediato il suo unto (Salmo 2:6)"
+      },
+      {
+        "num": 20,
+        "word": "VOTI",
+        "clue": "20. Chi li fa deve poi pagarli (Salmo 50:14)"
+      },
+      {
+        "num": 22,
+        "word": "ERMON",
+        "clue": "22. Il monte della Palestina famoso per la sua rugiada (Salmo 133:3)"
+      },
+      {
+        "num": 24,
+        "word": "NOA",
+        "clue": "24. Una delle figlie di Zelofead che contribuirono a stabilire un precedente legale in materia di eredità (Numeri 27:1-11)"
+      },
+      {
+        "num": 25,
+        "word": "SARDI",
+        "clue": "25. Congregazione che doveva ‘svegliarsi’ spiritualmente (Rivelazione 3:1-3)"
+      },
+      {
+        "num": 27,
+        "word": "TRE",
+        "clue": "27. Il numero dei figli di Noè (Genesi 6:10)"
+      },
+      {
+        "num": 28,
+        "word": "NOE",
+        "clue": "28. Figlio di Lamec e padre di Sem (Luca 3:36)"
+      },
+      {
+        "num": 29,
+        "word": "UNITI",
+        "clue": "29. I cristiani devono esserlo “nella stessa mente e nello stesso pensiero” (1 Corinti 1:10)"
+      },
+      {
+        "num": 31,
+        "word": "GAD",
+        "clue": "31. Una delle tribù di Israele che si stanziarono a est del Giordano (Numeri 32:1-5, 16-24)"
+      },
+      {
+        "num": 32,
+        "word": "MUTUO",
+        "clue": "32. Reciproco (1 Corinti 7:5)"
+      },
+      {
+        "num": 34,
+        "word": "ALBA",
+        "clue": "34. La prima luce del mattino (Daniele 6:19)"
+      },
+      {
+        "num": 35,
+        "word": "AMAN",
+        "clue": "35. Fu appeso al palo che aveva preparato per Mardocheo (Ester 7:10)"
+      },
+      {
+        "num": 37,
+        "word": "BABILONIA",
+        "clue": "37. Vi fu portato in esilio il popolo di Giuda (2 Cronache 36:20)"
+      },
+      {
+        "num": 42,
+        "word": "ELMO",
+        "clue": "42. Paolo esorta a indossare quello della salvezza (Efesini 6:17)"
+      },
+      {
+        "num": 43,
+        "word": "BILA",
+        "clue": "43. Serva di Rachele e madre di Dan e Neftali (Genesi 30:5-8)"
+      },
+      {
+        "num": 44,
+        "word": "AGAR",
+        "clue": "44. La serva egiziana di Sara (Genesi 25:12)"
+      },
+      {
+        "num": 45,
+        "word": "EMPI",
+        "clue": "45. Furono distrutti al Diluvio (2 Pietro 2:5)"
+      },
+      {
+        "num": 46,
+        "word": "AMOZ",
+        "clue": "46. Il padre di Isaia (Isaia 1:1)"
+      },
+      {
+        "num": 47,
+        "word": "LOIDE",
+        "clue": "47. La nonna di Timoteo (2 Timoteo 1:5)"
+      },
+      {
+        "num": 48,
+        "word": "URIA",
+        "clue": "48. Il primo marito di Betsabea (2 Samuele 11:3)"
+      }
+    ],
+    "verticali": [
+      {
+        "num": 1,
+        "word": "ZOAR",
+        "clue": "1. La città in cui si rifugiò Lot fuggendo da Sodoma (Genesi 19:22-24)"
+      },
+      {
+        "num": 2,
+        "word": "ISSACAR",
+        "clue": "2. Uno dei dodici figli di Giacobbe (Genesi 35:22, 23)"
+      },
+      {
+        "num": 3,
+        "word": "ASIA",
+        "clue": "3. Vi si trovavano le sette congregazioni a cui scrisse Giovanni (Rivelazione 1:4)"
+      },
+      {
+        "num": 4,
+        "word": "ERET",
+        "clue": "4. La foresta in cui si nascose Davide quando era inseguito da Saul (1 Samuele 22:5)"
+      },
+      {
+        "num": 5,
+        "word": "RISO",
+        "clue": "5. Non è necessariamente un segno di felicità (Proverbi 14:13)"
+      },
+      {
+        "num": 6,
+        "word": "FAVI",
+        "clue": "6. Potevano essere colmi di miele (Salmo 19:10)"
+      },
+      {
+        "num": 7,
+        "word": "BENADAD",
+        "clue": "7. Il re di Siria la cui morte fu profetizzata da Eliseo (2 Re 8:7-15)"
+      },
+      {
+        "num": 8,
+        "word": "EFOD",
+        "clue": "8. Gedeone ne fece uno che divenne oggetto di adorazione idolatrica (Giudici 8:26, 27)"
+      },
+      {
+        "num": 14,
+        "word": "SCINTILLA",
+        "clue": "14. Può far scoppiare un incendio (Isaia 1:31)"
+      },
+      {
+        "num": 15,
+        "word": "RINNEGATI",
+        "clue": "15. Geova definì così i suoi “figli” israeliti divenuti infedeli (Geremia 3:22)"
+      },
+      {
+        "num": 16,
+        "word": "LAVANDAIO",
+        "clue": "16. Dava nome a un campo e a una strada menzionati nell’episodio di Rabsache (Isaia 36:1, 2)"
+      },
+      {
+        "num": 17,
+        "word": "GETSEMANI",
+        "clue": "17. L’orto in cui Gesù si ritirò a pregare la notte in cui fu tradito (Matteo 26:36)"
+      },
+      {
+        "num": 18,
+        "word": "GEBUS",
+        "clue": "18. Nome dato a Gerusalemme prima che Davide la conquistasse (1 Cronache 11:4, 5)"
+      },
+      {
+        "num": 21,
+        "word": "SILOE",
+        "clue": "21. Conduttura o canale di Gerusalemme in cui l’acqua scorreva lenta (Isaia 8:6)"
+      },
+      {
+        "num": 23,
+        "word": "MAI",
+        "clue": "23. In nessun tempo (Giovanni 1:18)"
+      },
+      {
+        "num": 26,
+        "word": "RUT",
+        "clue": "26. Bisnonna del re Davide (Matteo 1:5, 6)"
+      },
+      {
+        "num": 30,
+        "word": "NEFILIM",
+        "clue": "30. La progenie ibrida degli angeli disubbidienti (Genesi 6:4)"
+      },
+      {
+        "num": 33,
+        "word": "UCCELLI",
+        "clue": "33. Non hanno bisogno di seminare o mietere (Matteo 6:26)"
+      },
+      {
+        "num": 36,
+        "word": "TERA",
+        "clue": "36. Padre di Abraamo (Genesi 11:26)"
+      },
+      {
+        "num": 37,
+        "word": "BOAZ",
+        "clue": "37. Seppe di poter sposare la donna che desiderava quando ebbe in mano un sandalo (Rut 4:7-11)"
+      },
+      {
+        "num": 38,
+        "word": "BAAL",
+        "clue": "38. Il re Acab gli eresse un altare a Samaria (1 Re 16:30-32)"
+      },
+      {
+        "num": 39,
+        "word": "NOME",
+        "clue": "39. Quello di Dio va santificato (Matteo 6:9)"
+      },
+      {
+        "num": 40,
+        "word": "ABIU",
+        "clue": "40. Figlio di Aaronne che morì per aver offerto fuoco illegittimo (Levitico 10:1, 2)"
+      },
+      {
+        "num": 41,
+        "word": "LANA",
+        "clue": "41. Fibra tessile di origine animale (Deuteronomio 22:11)"
+      }
+    ]
+  },
+  "placements": [
+    {
+      "num": 1,
+      "word": "ZIBA",
+      "clue": "1. Lo sleale servitore di Mefiboset (2 Samuele 16:1-4; 19:24-30)",
+      "type": "H",
+      "start": "A1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 0,
+          "letter": "Z"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "letter": "I"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "letter": "B"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "word": "ENDOR",
+      "clue": "4. La città della medium consultata da Saul (1 Samuele 28:7)",
+      "type": "H",
+      "start": "F1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 5,
+          "letter": "E"
+        },
+        {
+          "row": 0,
+          "col": 6,
+          "letter": "N"
+        },
+        {
+          "row": 0,
+          "col": 7,
+          "letter": "D"
+        },
+        {
+          "row": 0,
+          "col": 8,
+          "letter": "O"
+        },
+        {
+          "row": 0,
+          "col": 9,
+          "letter": "R"
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "word": "FEBE",
+      "clue": "6. Fedele cristiana di Cencrea (Romani 16:1, 2)",
+      "type": "H",
+      "start": "L1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 11,
+          "letter": "F"
+        },
+        {
+          "row": 0,
+          "col": 12,
+          "letter": "E"
+        },
+        {
+          "row": 0,
+          "col": 13,
+          "letter": "B"
+        },
+        {
+          "row": 0,
+          "col": 14,
+          "letter": "E"
+        }
+      ]
+    },
+    {
+      "num": 9,
+      "word": "SARA",
+      "clue": "9. Ebbe un figlio nella vecchiaia (Genesi 24:36)",
+      "type": "H",
+      "start": "D2",
+      "positions": [
+        {
+          "row": 1,
+          "col": 3,
+          "letter": "S"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "letter": "A"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "letter": "R"
+        },
+        {
+          "row": 1,
+          "col": 6,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 10,
+      "word": "SILA",
+      "clue": "10. Viaggiò con Barnaba, Paolo e Timoteo (Atti 15:22; 18:5)",
+      "type": "H",
+      "start": "I2",
+      "positions": [
+        {
+          "row": 1,
+          "col": 8,
+          "letter": "S"
+        },
+        {
+          "row": 1,
+          "col": 9,
+          "letter": "I"
+        },
+        {
+          "row": 1,
+          "col": 10,
+          "letter": "L"
+        },
+        {
+          "row": 1,
+          "col": 11,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 11,
+      "word": "ASSI",
+      "clue": "11. Tavole di legno (1 Re 6:9)",
+      "type": "H",
+      "start": "A3",
+      "positions": [
+        {
+          "row": 2,
+          "col": 0,
+          "letter": "A"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "letter": "S"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "letter": "S"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 12,
+      "word": "VINO",
+      "clue": "12. Paolo lo raccomandò a Timoteo per i suoi problemi di stomaco (1 Timoteo 5:23)",
+      "type": "H",
+      "start": "L3",
+      "positions": [
+        {
+          "row": 2,
+          "col": 11,
+          "letter": "V"
+        },
+        {
+          "row": 2,
+          "col": 12,
+          "letter": "I"
+        },
+        {
+          "row": 2,
+          "col": 13,
+          "letter": "N"
+        },
+        {
+          "row": 2,
+          "col": 14,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 13,
+      "word": "ASTROLOGI",
+      "clue": "13. Vennero da lontano per rendere omaggio a Gesù (Matteo 2:1, 2)",
+      "type": "H",
+      "start": "D4",
+      "positions": [
+        {
+          "row": 3,
+          "col": 3,
+          "letter": "A"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "letter": "S"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "letter": "T"
+        },
+        {
+          "row": 3,
+          "col": 6,
+          "letter": "R"
+        },
+        {
+          "row": 3,
+          "col": 7,
+          "letter": "O"
+        },
+        {
+          "row": 3,
+          "col": 8,
+          "letter": "L"
+        },
+        {
+          "row": 3,
+          "col": 9,
+          "letter": "O"
+        },
+        {
+          "row": 3,
+          "col": 10,
+          "letter": "G"
+        },
+        {
+          "row": 3,
+          "col": 11,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 19,
+      "word": "SION",
+      "clue": "19. Il “monte santo” su cui Geova ha insediato il suo unto (Salmo 2:6)",
+      "type": "H",
+      "start": "D6",
+      "positions": [
+        {
+          "row": 5,
+          "col": 3,
+          "letter": "S"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "letter": "I"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "letter": "O"
+        },
+        {
+          "row": 5,
+          "col": 6,
+          "letter": "N"
+        }
+      ]
+    },
+    {
+      "num": 20,
+      "word": "VOTI",
+      "clue": "20. Chi li fa deve poi pagarli (Salmo 50:14)",
+      "type": "H",
+      "start": "I6",
+      "positions": [
+        {
+          "row": 5,
+          "col": 8,
+          "letter": "V"
+        },
+        {
+          "row": 5,
+          "col": 9,
+          "letter": "O"
+        },
+        {
+          "row": 5,
+          "col": 10,
+          "letter": "T"
+        },
+        {
+          "row": 5,
+          "col": 11,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 22,
+      "word": "ERMON",
+      "clue": "22. Il monte della Palestina famoso per la sua rugiada (Salmo 133:3)",
+      "type": "H",
+      "start": "A7",
+      "positions": [
+        {
+          "row": 6,
+          "col": 0,
+          "letter": "E"
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "letter": "R"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "letter": "M"
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "letter": "O"
+        },
+        {
+          "row": 6,
+          "col": 4,
+          "letter": "N"
+        }
+      ]
+    },
+    {
+      "num": 24,
+      "word": "NOA",
+      "clue": "24. Una delle figlie di Zelofead che contribuirono a stabilire un precedente legale in materia di eredità (Numeri 27:1-11)",
+      "type": "H",
+      "start": "G7",
+      "positions": [
+        {
+          "row": 6,
+          "col": 6,
+          "letter": "N"
+        },
+        {
+          "row": 6,
+          "col": 7,
+          "letter": "O"
+        },
+        {
+          "row": 6,
+          "col": 8,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 25,
+      "word": "SARDI",
+      "clue": "25. Congregazione che doveva ‘svegliarsi’ spiritualmente (Rivelazione 3:1-3)",
+      "type": "H",
+      "start": "K7",
+      "positions": [
+        {
+          "row": 6,
+          "col": 10,
+          "letter": "S"
+        },
+        {
+          "row": 6,
+          "col": 11,
+          "letter": "A"
+        },
+        {
+          "row": 6,
+          "col": 12,
+          "letter": "R"
+        },
+        {
+          "row": 6,
+          "col": 13,
+          "letter": "D"
+        },
+        {
+          "row": 6,
+          "col": 14,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 27,
+      "word": "TRE",
+      "clue": "27. Il numero dei figli di Noè (Genesi 6:10)",
+      "type": "H",
+      "start": "E8",
+      "positions": [
+        {
+          "row": 7,
+          "col": 4,
+          "letter": "T"
+        },
+        {
+          "row": 7,
+          "col": 5,
+          "letter": "R"
+        },
+        {
+          "row": 7,
+          "col": 6,
+          "letter": "E"
+        }
+      ]
+    },
+    {
+      "num": 28,
+      "word": "NOE",
+      "clue": "28. Figlio di Lamec e padre di Sem (Luca 3:36)",
+      "type": "H",
+      "start": "I8",
+      "positions": [
+        {
+          "row": 7,
+          "col": 8,
+          "letter": "N"
+        },
+        {
+          "row": 7,
+          "col": 9,
+          "letter": "O"
+        },
+        {
+          "row": 7,
+          "col": 10,
+          "letter": "E"
+        }
+      ]
+    },
+    {
+      "num": 29,
+      "word": "UNITI",
+      "clue": "29. I cristiani devono esserlo “nella stessa mente e nello stesso pensiero” (1 Corinti 1:10)",
+      "type": "H",
+      "start": "A9",
+      "positions": [
+        {
+          "row": 8,
+          "col": 0,
+          "letter": "U"
+        },
+        {
+          "row": 8,
+          "col": 1,
+          "letter": "N"
+        },
+        {
+          "row": 8,
+          "col": 2,
+          "letter": "I"
+        },
+        {
+          "row": 8,
+          "col": 3,
+          "letter": "T"
+        },
+        {
+          "row": 8,
+          "col": 4,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 31,
+      "word": "GAD",
+      "clue": "31. Una delle tribù di Israele che si stanziarono a est del Giordano (Numeri 32:1-5, 16-24)",
+      "type": "H",
+      "start": "G9",
+      "positions": [
+        {
+          "row": 8,
+          "col": 6,
+          "letter": "G"
+        },
+        {
+          "row": 8,
+          "col": 7,
+          "letter": "A"
+        },
+        {
+          "row": 8,
+          "col": 8,
+          "letter": "D"
+        }
+      ]
+    },
+    {
+      "num": 32,
+      "word": "MUTUO",
+      "clue": "32. Reciproco (1 Corinti 7:5)",
+      "type": "H",
+      "start": "K9",
+      "positions": [
+        {
+          "row": 8,
+          "col": 10,
+          "letter": "M"
+        },
+        {
+          "row": 8,
+          "col": 11,
+          "letter": "U"
+        },
+        {
+          "row": 8,
+          "col": 12,
+          "letter": "T"
+        },
+        {
+          "row": 8,
+          "col": 13,
+          "letter": "U"
+        },
+        {
+          "row": 8,
+          "col": 14,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 34,
+      "word": "ALBA",
+      "clue": "34. La prima luce del mattino (Daniele 6:19)",
+      "type": "H",
+      "start": "D10",
+      "positions": [
+        {
+          "row": 9,
+          "col": 3,
+          "letter": "A"
+        },
+        {
+          "row": 9,
+          "col": 4,
+          "letter": "L"
+        },
+        {
+          "row": 9,
+          "col": 5,
+          "letter": "B"
+        },
+        {
+          "row": 9,
+          "col": 6,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 35,
+      "word": "AMAN",
+      "clue": "35. Fu appeso al palo che aveva preparato per Mardocheo (Ester 7:10)",
+      "type": "H",
+      "start": "I10",
+      "positions": [
+        {
+          "row": 9,
+          "col": 8,
+          "letter": "A"
+        },
+        {
+          "row": 9,
+          "col": 9,
+          "letter": "M"
+        },
+        {
+          "row": 9,
+          "col": 10,
+          "letter": "A"
+        },
+        {
+          "row": 9,
+          "col": 11,
+          "letter": "N"
+        }
+      ]
+    },
+    {
+      "num": 37,
+      "word": "BABILONIA",
+      "clue": "37. Vi fu portato in esilio il popolo di Giuda (2 Cronache 36:20)",
+      "type": "H",
+      "start": "D12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 3,
+          "letter": "B"
+        },
+        {
+          "row": 11,
+          "col": 4,
+          "letter": "A"
+        },
+        {
+          "row": 11,
+          "col": 5,
+          "letter": "B"
+        },
+        {
+          "row": 11,
+          "col": 6,
+          "letter": "I"
+        },
+        {
+          "row": 11,
+          "col": 7,
+          "letter": "L"
+        },
+        {
+          "row": 11,
+          "col": 8,
+          "letter": "O"
+        },
+        {
+          "row": 11,
+          "col": 9,
+          "letter": "N"
+        },
+        {
+          "row": 11,
+          "col": 10,
+          "letter": "I"
+        },
+        {
+          "row": 11,
+          "col": 11,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 42,
+      "word": "ELMO",
+      "clue": "42. Paolo esorta a indossare quello della salvezza (Efesini 6:17)",
+      "type": "H",
+      "start": "A13",
+      "positions": [
+        {
+          "row": 12,
+          "col": 0,
+          "letter": "E"
+        },
+        {
+          "row": 12,
+          "col": 1,
+          "letter": "L"
+        },
+        {
+          "row": 12,
+          "col": 2,
+          "letter": "M"
+        },
+        {
+          "row": 12,
+          "col": 3,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 43,
+      "word": "BILA",
+      "clue": "43. Serva di Rachele e madre di Dan e Neftali (Genesi 30:5-8)",
+      "type": "H",
+      "start": "L13",
+      "positions": [
+        {
+          "row": 12,
+          "col": 11,
+          "letter": "B"
+        },
+        {
+          "row": 12,
+          "col": 12,
+          "letter": "I"
+        },
+        {
+          "row": 12,
+          "col": 13,
+          "letter": "L"
+        },
+        {
+          "row": 12,
+          "col": 14,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 44,
+      "word": "AGAR",
+      "clue": "44. La serva egiziana di Sara (Genesi 25:12)",
+      "type": "H",
+      "start": "D14",
+      "positions": [
+        {
+          "row": 13,
+          "col": 3,
+          "letter": "A"
+        },
+        {
+          "row": 13,
+          "col": 4,
+          "letter": "G"
+        },
+        {
+          "row": 13,
+          "col": 5,
+          "letter": "A"
+        },
+        {
+          "row": 13,
+          "col": 6,
+          "letter": "R"
+        }
+      ]
+    },
+    {
+      "num": 45,
+      "word": "EMPI",
+      "clue": "45. Furono distrutti al Diluvio (2 Pietro 2:5)",
+      "type": "H",
+      "start": "I14",
+      "positions": [
+        {
+          "row": 13,
+          "col": 8,
+          "letter": "E"
+        },
+        {
+          "row": 13,
+          "col": 9,
+          "letter": "M"
+        },
+        {
+          "row": 13,
+          "col": 10,
+          "letter": "P"
+        },
+        {
+          "row": 13,
+          "col": 11,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 46,
+      "word": "AMOZ",
+      "clue": "46. Il padre di Isaia (Isaia 1:1)",
+      "type": "H",
+      "start": "A15",
+      "positions": [
+        {
+          "row": 14,
+          "col": 0,
+          "letter": "A"
+        },
+        {
+          "row": 14,
+          "col": 1,
+          "letter": "M"
+        },
+        {
+          "row": 14,
+          "col": 2,
+          "letter": "O"
+        },
+        {
+          "row": 14,
+          "col": 3,
+          "letter": "Z"
+        }
+      ]
+    },
+    {
+      "num": 47,
+      "word": "LOIDE",
+      "clue": "47. La nonna di Timoteo (2 Timoteo 1:5)",
+      "type": "H",
+      "start": "F15",
+      "positions": [
+        {
+          "row": 14,
+          "col": 5,
+          "letter": "L"
+        },
+        {
+          "row": 14,
+          "col": 6,
+          "letter": "O"
+        },
+        {
+          "row": 14,
+          "col": 7,
+          "letter": "I"
+        },
+        {
+          "row": 14,
+          "col": 8,
+          "letter": "D"
+        },
+        {
+          "row": 14,
+          "col": 9,
+          "letter": "E"
+        }
+      ]
+    },
+    {
+      "num": 48,
+      "word": "URIA",
+      "clue": "48. Il primo marito di Betsabea (2 Samuele 11:3)",
+      "type": "H",
+      "start": "L15",
+      "positions": [
+        {
+          "row": 14,
+          "col": 11,
+          "letter": "U"
+        },
+        {
+          "row": 14,
+          "col": 12,
+          "letter": "R"
+        },
+        {
+          "row": 14,
+          "col": 13,
+          "letter": "I"
+        },
+        {
+          "row": 14,
+          "col": 14,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 1,
+      "word": "ZOAR",
+      "clue": "1. La città in cui si rifugiò Lot fuggendo da Sodoma (Genesi 19:22-24)",
+      "type": "V",
+      "start": "A1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 0,
+          "letter": "Z"
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "letter": "O"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "letter": "A"
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "letter": "R"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "word": "ISSACAR",
+      "clue": "2. Uno dei dodici figli di Giacobbe (Genesi 35:22, 23)",
+      "type": "V",
+      "start": "B1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 1,
+          "letter": "I"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "letter": "S"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "letter": "S"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "letter": "A"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "letter": "C"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "letter": "A"
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "letter": "R"
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "word": "ASIA",
+      "clue": "3. Vi si trovavano le sette congregazioni a cui scrisse Giovanni (Rivelazione 1:4)",
+      "type": "V",
+      "start": "D1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 3,
+          "letter": "A"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "letter": "S"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "letter": "I"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "word": "ERET",
+      "clue": "4. La foresta in cui si nascose Davide quando era inseguito da Saul (1 Samuele 22:5)",
+      "type": "V",
+      "start": "F1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 5,
+          "letter": "E"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "letter": "R"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "letter": "E"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "letter": "T"
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "word": "RISO",
+      "clue": "5. Non è necessariamente un segno di felicità (Proverbi 14:13)",
+      "type": "V",
+      "start": "J1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 9,
+          "letter": "R"
+        },
+        {
+          "row": 1,
+          "col": 9,
+          "letter": "I"
+        },
+        {
+          "row": 2,
+          "col": 9,
+          "letter": "S"
+        },
+        {
+          "row": 3,
+          "col": 9,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "word": "FAVI",
+      "clue": "6. Potevano essere colmi di miele (Salmo 19:10)",
+      "type": "V",
+      "start": "L1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 11,
+          "letter": "F"
+        },
+        {
+          "row": 1,
+          "col": 11,
+          "letter": "A"
+        },
+        {
+          "row": 2,
+          "col": 11,
+          "letter": "V"
+        },
+        {
+          "row": 3,
+          "col": 11,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "word": "BENADAD",
+      "clue": "7. Il re di Siria la cui morte fu profetizzata da Eliseo (2 Re 8:7-15)",
+      "type": "V",
+      "start": "N1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 13,
+          "letter": "B"
+        },
+        {
+          "row": 1,
+          "col": 13,
+          "letter": "E"
+        },
+        {
+          "row": 2,
+          "col": 13,
+          "letter": "N"
+        },
+        {
+          "row": 3,
+          "col": 13,
+          "letter": "A"
+        },
+        {
+          "row": 4,
+          "col": 13,
+          "letter": "D"
+        },
+        {
+          "row": 5,
+          "col": 13,
+          "letter": "A"
+        },
+        {
+          "row": 6,
+          "col": 13,
+          "letter": "D"
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "word": "EFOD",
+      "clue": "8. Gedeone ne fece uno che divenne oggetto di adorazione idolatrica (Giudici 8:26, 27)",
+      "type": "V",
+      "start": "O1",
+      "positions": [
+        {
+          "row": 0,
+          "col": 14,
+          "letter": "E"
+        },
+        {
+          "row": 1,
+          "col": 14,
+          "letter": "F"
+        },
+        {
+          "row": 2,
+          "col": 14,
+          "letter": "O"
+        },
+        {
+          "row": 3,
+          "col": 14,
+          "letter": "D"
+        }
+      ]
+    },
+    {
+      "num": 14,
+      "word": "SCINTILLA",
+      "clue": "14. Può far scoppiare un incendio (Isaia 1:31)",
+      "type": "V",
+      "start": "E4",
+      "positions": [
+        {
+          "row": 3,
+          "col": 4,
+          "letter": "S"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "letter": "C"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "letter": "I"
+        },
+        {
+          "row": 6,
+          "col": 4,
+          "letter": "N"
+        },
+        {
+          "row": 7,
+          "col": 4,
+          "letter": "T"
+        },
+        {
+          "row": 8,
+          "col": 4,
+          "letter": "I"
+        },
+        {
+          "row": 9,
+          "col": 4,
+          "letter": "L"
+        },
+        {
+          "row": 10,
+          "col": 4,
+          "letter": "L"
+        },
+        {
+          "row": 11,
+          "col": 4,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 15,
+      "word": "RINNEGATI",
+      "clue": "15. Geova definì così i suoi “figli” israeliti divenuti infedeli (Geremia 3:22)",
+      "type": "V",
+      "start": "G4",
+      "positions": [
+        {
+          "row": 3,
+          "col": 6,
+          "letter": "R"
+        },
+        {
+          "row": 4,
+          "col": 6,
+          "letter": "I"
+        },
+        {
+          "row": 5,
+          "col": 6,
+          "letter": "N"
+        },
+        {
+          "row": 6,
+          "col": 6,
+          "letter": "N"
+        },
+        {
+          "row": 7,
+          "col": 6,
+          "letter": "E"
+        },
+        {
+          "row": 8,
+          "col": 6,
+          "letter": "G"
+        },
+        {
+          "row": 9,
+          "col": 6,
+          "letter": "A"
+        },
+        {
+          "row": 10,
+          "col": 6,
+          "letter": "T"
+        },
+        {
+          "row": 11,
+          "col": 6,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 16,
+      "word": "LAVANDAIO",
+      "clue": "16. Dava nome a un campo e a una strada menzionati nell’episodio di Rabsache (Isaia 36:1, 2)",
+      "type": "V",
+      "start": "I4",
+      "positions": [
+        {
+          "row": 3,
+          "col": 8,
+          "letter": "L"
+        },
+        {
+          "row": 4,
+          "col": 8,
+          "letter": "A"
+        },
+        {
+          "row": 5,
+          "col": 8,
+          "letter": "V"
+        },
+        {
+          "row": 6,
+          "col": 8,
+          "letter": "A"
+        },
+        {
+          "row": 7,
+          "col": 8,
+          "letter": "N"
+        },
+        {
+          "row": 8,
+          "col": 8,
+          "letter": "D"
+        },
+        {
+          "row": 9,
+          "col": 8,
+          "letter": "A"
+        },
+        {
+          "row": 10,
+          "col": 8,
+          "letter": "I"
+        },
+        {
+          "row": 11,
+          "col": 8,
+          "letter": "O"
+        }
+      ]
+    },
+    {
+      "num": 17,
+      "word": "GETSEMANI",
+      "clue": "17. L’orto in cui Gesù si ritirò a pregare la notte in cui fu tradito (Matteo 26:36)",
+      "type": "V",
+      "start": "K4",
+      "positions": [
+        {
+          "row": 3,
+          "col": 10,
+          "letter": "G"
+        },
+        {
+          "row": 4,
+          "col": 10,
+          "letter": "E"
+        },
+        {
+          "row": 5,
+          "col": 10,
+          "letter": "T"
+        },
+        {
+          "row": 6,
+          "col": 10,
+          "letter": "S"
+        },
+        {
+          "row": 7,
+          "col": 10,
+          "letter": "E"
+        },
+        {
+          "row": 8,
+          "col": 10,
+          "letter": "M"
+        },
+        {
+          "row": 9,
+          "col": 10,
+          "letter": "A"
+        },
+        {
+          "row": 10,
+          "col": 10,
+          "letter": "N"
+        },
+        {
+          "row": 11,
+          "col": 10,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 18,
+      "word": "GEBUS",
+      "clue": "18. Nome dato a Gerusalemme prima che Davide la conquistasse (1 Cronache 11:4, 5)",
+      "type": "V",
+      "start": "A6",
+      "positions": [
+        {
+          "row": 5,
+          "col": 0,
+          "letter": "G"
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "letter": "E"
+        },
+        {
+          "row": 7,
+          "col": 0,
+          "letter": "B"
+        },
+        {
+          "row": 8,
+          "col": 0,
+          "letter": "U"
+        },
+        {
+          "row": 9,
+          "col": 0,
+          "letter": "S"
+        }
+      ]
+    },
+    {
+      "num": 21,
+      "word": "SILOE",
+      "clue": "21. Conduttura o canale di Gerusalemme in cui l’acqua scorreva lenta (Isaia 8:6)",
+      "type": "V",
+      "start": "O6",
+      "positions": [
+        {
+          "row": 5,
+          "col": 14,
+          "letter": "S"
+        },
+        {
+          "row": 6,
+          "col": 14,
+          "letter": "I"
+        },
+        {
+          "row": 7,
+          "col": 14,
+          "letter": "L"
+        },
+        {
+          "row": 8,
+          "col": 14,
+          "letter": "O"
+        },
+        {
+          "row": 9,
+          "col": 14,
+          "letter": "E"
+        }
+      ]
+    },
+    {
+      "num": 23,
+      "word": "MAI",
+      "clue": "23. In nessun tempo (Giovanni 1:18)",
+      "type": "V",
+      "start": "C7",
+      "positions": [
+        {
+          "row": 6,
+          "col": 2,
+          "letter": "M"
+        },
+        {
+          "row": 7,
+          "col": 2,
+          "letter": "A"
+        },
+        {
+          "row": 8,
+          "col": 2,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 26,
+      "word": "RUT",
+      "clue": "26. Bisnonna del re Davide (Matteo 1:5, 6)",
+      "type": "V",
+      "start": "M7",
+      "positions": [
+        {
+          "row": 6,
+          "col": 12,
+          "letter": "R"
+        },
+        {
+          "row": 7,
+          "col": 12,
+          "letter": "U"
+        },
+        {
+          "row": 8,
+          "col": 12,
+          "letter": "T"
+        }
+      ]
+    },
+    {
+      "num": 30,
+      "word": "NEFILIM",
+      "clue": "30. La progenie ibrida degli angeli disubbidienti (Genesi 6:4)",
+      "type": "V",
+      "start": "B9",
+      "positions": [
+        {
+          "row": 8,
+          "col": 1,
+          "letter": "N"
+        },
+        {
+          "row": 9,
+          "col": 1,
+          "letter": "E"
+        },
+        {
+          "row": 10,
+          "col": 1,
+          "letter": "F"
+        },
+        {
+          "row": 11,
+          "col": 1,
+          "letter": "I"
+        },
+        {
+          "row": 12,
+          "col": 1,
+          "letter": "L"
+        },
+        {
+          "row": 13,
+          "col": 1,
+          "letter": "I"
+        },
+        {
+          "row": 14,
+          "col": 1,
+          "letter": "M"
+        }
+      ]
+    },
+    {
+      "num": 33,
+      "word": "UCCELLI",
+      "clue": "33. Non hanno bisogno di seminare o mietere (Matteo 6:26)",
+      "type": "V",
+      "start": "N9",
+      "positions": [
+        {
+          "row": 8,
+          "col": 13,
+          "letter": "U"
+        },
+        {
+          "row": 9,
+          "col": 13,
+          "letter": "C"
+        },
+        {
+          "row": 10,
+          "col": 13,
+          "letter": "C"
+        },
+        {
+          "row": 11,
+          "col": 13,
+          "letter": "E"
+        },
+        {
+          "row": 12,
+          "col": 13,
+          "letter": "L"
+        },
+        {
+          "row": 13,
+          "col": 13,
+          "letter": "L"
+        },
+        {
+          "row": 14,
+          "col": 13,
+          "letter": "I"
+        }
+      ]
+    },
+    {
+      "num": 36,
+      "word": "TERA",
+      "clue": "36. Padre di Abraamo (Genesi 11:26)",
+      "type": "V",
+      "start": "A12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 0,
+          "letter": "T"
+        },
+        {
+          "row": 12,
+          "col": 0,
+          "letter": "E"
+        },
+        {
+          "row": 13,
+          "col": 0,
+          "letter": "R"
+        },
+        {
+          "row": 14,
+          "col": 0,
+          "letter": "A"
+        }
+      ]
+    },
+    {
+      "num": 37,
+      "word": "BOAZ",
+      "clue": "37. Seppe di poter sposare la donna che desiderava quando ebbe in mano un sandalo (Rut 4:7-11)",
+      "type": "V",
+      "start": "D12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 3,
+          "letter": "B"
+        },
+        {
+          "row": 12,
+          "col": 3,
+          "letter": "O"
+        },
+        {
+          "row": 13,
+          "col": 3,
+          "letter": "A"
+        },
+        {
+          "row": 14,
+          "col": 3,
+          "letter": "Z"
+        }
+      ]
+    },
+    {
+      "num": 38,
+      "word": "BAAL",
+      "clue": "38. Il re Acab gli eresse un altare a Samaria (1 Re 16:30-32)",
+      "type": "V",
+      "start": "F12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 5,
+          "letter": "B"
+        },
+        {
+          "row": 12,
+          "col": 5,
+          "letter": "A"
+        },
+        {
+          "row": 13,
+          "col": 5,
+          "letter": "A"
+        },
+        {
+          "row": 14,
+          "col": 5,
+          "letter": "L"
+        }
+      ]
+    },
+    {
+      "num": 39,
+      "word": "NOME",
+      "clue": "39. Quello di Dio va santificato (Matteo 6:9)",
+      "type": "V",
+      "start": "J12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 9,
+          "letter": "N"
+        },
+        {
+          "row": 12,
+          "col": 9,
+          "letter": "O"
+        },
+        {
+          "row": 13,
+          "col": 9,
+          "letter": "M"
+        },
+        {
+          "row": 14,
+          "col": 9,
+          "letter": "E"
+        }
+      ]
+    },
+    {
+      "num": 40,
+      "word": "ABIU",
+      "clue": "40. Figlio di Aaronne che morì per aver offerto fuoco illegittimo (Levitico 10:1, 2)",
+      "type": "V",
+      "start": "L12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 11,
+          "letter": "A"
+        },
+        {
+          "row": 12,
+          "col": 11,
+          "letter": "B"
+        },
+        {
+          "row": 13,
+          "col": 11,
+          "letter": "I"
+        },
+        {
+          "row": 14,
+          "col": 11,
+          "letter": "U"
+        }
+      ]
+    },
+    {
+      "num": 41,
+      "word": "LANA",
+      "clue": "41. Fibra tessile di origine animale (Deuteronomio 22:11)",
+      "type": "V",
+      "start": "O12",
+      "positions": [
+        {
+          "row": 11,
+          "col": 14,
+          "letter": "L"
+        },
+        {
+          "row": 12,
+          "col": 14,
+          "letter": "A"
+        },
+        {
+          "row": 13,
+          "col": 14,
+          "letter": "N"
+        },
+        {
+          "row": 14,
+          "col": 14,
+          "letter": "A"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "totalNumbers": 48,
+    "horizontalStarts": 28,
+    "verticalStarts": 24,
+    "totalWords": 52,
+    "createdAt": "2025-12-26T01:03:41.050Z"
+  }
+}

@@ -1,5 +1,65 @@
 [
   {
+    "id": "2002_02_08",
+    "year": 2002,
+    "month": 2,
+    "number": 1,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 febbraio 2002",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
+    "id": "2002_04_08",
+    "year": 2002,
+    "month": 4,
+    "number": 2,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 aprile 2002",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
+    "id": "2002_06_08",
+    "year": 2002,
+    "month": 6,
+    "number": 3,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 giugno 2002",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
+    "id": "2002_08_08",
+    "year": 2002,
+    "month": 8,
+    "number": 4,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 agosto 2002",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
+    "id": "2002_10_08",
+    "year": 2002,
+    "month": 10,
+    "number": 5,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 ottobre 2002",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
+    "id": "2002_12_08",
+    "year": 2002,
+    "month": 12,
+    "number": 6,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 dicembre 2002",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
     "id": "2003_02_08",
     "year": 2003,
     "month": 2,

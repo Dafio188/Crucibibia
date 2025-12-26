@@ -1,0 +1,838 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,0,1,1,1,1,0,1,0,1,1,1,1,0,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,0,1,1,0,1,1,0,1,1,1,1
+  - [15]: 0,1,1,0,1,0,1,1,1,0,1,0,1,1,0
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 1,0,1,1,1,1,0,1,0,1,1,1,1,0,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,0,1,1,1,1,0,1,0,1,1,1,1,0,1
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 0,1,1,0,1,0,1,1,1,0,1,0,1,1,0
+  - [15]: 1,1,1,1,0,1,1,0,1,1,0,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,0,1,1,1,1,0,1,0,1,1,1,1,0,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+numberedCells[74]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,2,2,false,true
+  0,3,3,false,true
+  0,5,4,true,true
+  0,7,5,false,true
+  0,9,6,false,true
+  0,11,7,true,true
+  0,12,8,false,true
+  0,14,9,false,true
+  1,2,10,true,false
+  1,4,11,false,true
+  1,9,12,true,false
+  1,10,13,false,true
+  2,0,14,true,false
+  2,1,15,false,true
+  2,3,16,true,false
+  2,6,17,false,true
+  2,8,18,false,true
+  2,13,19,true,true
+  3,0,20,true,false
+  3,2,21,false,true
+  3,5,22,true,false
+  3,8,23,true,false
+  3,11,24,true,false
+  3,12,25,false,true
+  4,1,26,true,false
+  4,4,27,false,true
+  4,6,28,true,false
+  4,10,29,false,true
+  4,12,30,true,false
+  5,0,31,true,true
+  5,3,32,false,true
+  5,5,33,false,true
+  5,8,34,true,false
+  5,9,35,false,true
+  5,11,36,false,true
+  5,14,37,false,true
+  6,2,38,true,false
+  6,7,39,false,true
+  6,9,40,true,false
+  7,0,41,true,false
+  7,5,42,true,false
+  7,11,43,true,false
+  8,2,44,true,false
+  8,4,45,false,true
+  8,9,46,true,false
+  8,10,47,false,true
+  9,0,48,true,false
+  9,1,49,false,true
+  9,6,50,false,true
+  9,8,51,true,true
+  9,13,52,false,true
+  10,1,53,true,false
+  10,6,54,true,false
+  10,12,55,true,false
+  11,0,56,true,true
+  11,3,57,false,true
+  11,5,58,true,true
+  11,8,59,true,false
+  11,9,60,false,true
+  11,11,61,true,true
+  11,14,62,false,true
+  12,0,63,true,false
+  12,3,64,true,false
+  12,4,65,false,true
+  12,7,66,false,true
+  12,10,67,false,true
+  12,13,68,true,false
+  13,2,69,true,true
+  13,9,70,true,false
+  13,12,71,false,true
+  14,0,72,true,false
+  14,5,73,true,false
+  14,11,74,true,false
+words:
+  orizzontali[29]{num,word,clue}:
+    1,SEME,"1. Mediante quello di Abraamo si sarebbero benedette tutte le nazioni (Genesi 22:18)"
+    3,TRIBU,"3. Erano dodici quelle di Israele (Matteo 19:28)"
+    6,AMAN,"6. Morì appeso a un palo (Ester 7:10)"
+    8,ARMI,"8. Quelle dei cristiani non sono carnali (2 Corinti 10:4)"
+    9,NOME,"9. Quello di Dio non va usato in modo indegno (Esodo 20:7)"
+    11,BANCHETTO,"11. Pasto ricco e abbondante (Luca 14:13)"
+    15,LUCE,"15. Fu fatta nel primo giorno creativo (Genesi 1:3-5)"
+    17,SIRI,"17. Geova interruppe miracolosamente il loro assedio di Samaria (2 Re 7:6, 7)"
+    20,REO,"20. Colpevole (Marco 14:64)"
+    22,SOMMITA,"22. La parte più alta (2 Samuele 14:25)"
+    25,COPISTA,"25. Lo era Esdra (Esdra 7:6)"
+    29,PENA,"29. Dolore, sofferenza (Romani 9:2)"
+    31,VISO,"31. Quello di Lazzaro era stato avvolto in un panno (Giovanni 11:44)"
+    32,NAAS,"32. Re ammonita che voleva cavare un occhio a tutti gli abitanti di Iabes di Galaad (1 Samuele 11:1, 2)"
+    33,BREVE,"33. Lo è il periodo di tempo che ha a disposizione Satana (Rivelazione 12:12)"
+    34,OLIO,"34. Si usava per lenire le ferite (Luca 10:34)"
+    35,GAIO,"35. Il destinatario della terza lettera di Giovanni (3 Giovanni 1)"
+    37,SOLE,"37. Giosuè pregò perché si fermasse (Giosuè 10:12)"
+    39,RANCORE,"39. Non bisogna nutrirlo (Levitico 19:18)"
+    42,STRENUE,"42. Estenuanti, spossanti (Genesi 30:8)"
+    44,DEI,"44. Gli abitanti di Listra pensavano che Paolo e Barnaba lo fossero (Atti 14:11)"
+    45,OSEA,"45. Profeta che Paolo cita per dimostrare che anche i gentili dovevano far parte dell’Israele spirituale (Romani 9:25)"
+    49,LEVI,"49. L’apostolo più noto come Matteo (Marco 2:14)"
+    51,DALMANUTA,"51. Zona presso il Mar di Galilea in cui Gesù si appartò con i discepoli (Marco 8:10)"
+    53,FEDE,"53. Fa parte del frutto dello spirito (Galati 5:22, 23)"
+    54,FUGA,"54. Il paese in cui si rifugiò Caino (Genesi 4:16)"
+    55,IOAS,"55. Re di Giuda che ricevette il trono usurpato da sua nonna (2 Re 11:1-3, 12)"
+    56,FUOCO,"56. Sadrac, Mesac e Abednego ne uscirono indenni (Daniele 3:26, 27)"
+    57,ORME,"57. Quelle di Cristo vanno seguite attentamente (1 Pietro 2:21)"
+  verticali[35]{num,word,clue}:
+    1,SAUL,"1. Il primo re di Israele (Atti 13:21)"
+    2,ERBE,"2. Quelle amare si mangiavano durante la Pasqua (Numeri 9:11)"
+    3,TINI,"3. Quando traboccano, c’è abbondanza (Proverbi 3:10)"
+    4,IAH,"4. Forma poetica del nome “Geova” (Esodo 15:1, 2)"
+    5,UNTO,"5. Termine che indica chi ha ricevuto un incarico ufficiale (Isaia 45:1)"
+    6,AMOS,"6."
+    7,NUDI,"7."
+    10,FUMO,"10."
+    12,CERA,"12."
+    13,ENOC,"13."
+    14,ERET,"14."
+    16,COMPAGNIE,"16."
+    18,INSOLENTE,"18."
+    19,HIN,"19."
+    21,API,"21."
+    22,SINAR,"22."
+    23,MESAC,"23."
+    24,TABOR,"24."
+    26,OVEST,"26."
+    27,ISOLE,"27."
+    28,AMORE,"28."
+    30,SET,"30."
+    36,IOA,"36."
+    38,ORO,"38."
+    40,ACSA,"40."
+    41,EDOM,"41."
+    42,SION,"42."
+    43,UOVA,"43."
+    45,OFNI,"45."
+    46,ADES,"46."
+    47,ALEF,"47."
+    48,RUFO,"48."
+    49,LAGO,"49."
+    50,IDEE,"50."
+    52,AGO,"52."
+placements[64]:
+  - num: 1
+    word: SEME
+    clue: "1. Mediante quello di Abraamo si sarebbero benedette tutte le nazioni (Genesi 22:18)"
+    type: H
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,S
+      0,1,E
+      0,2,M
+      0,3,E
+  - num: 3
+    word: TRIBU
+    clue: "3. Erano dodici quelle di Israele (Matteo 19:28)"
+    type: H
+    start: F1
+    positions[5]{row,col,letter}:
+      0,5,T
+      0,6,R
+      0,7,I
+      0,8,B
+      0,9,U
+  - num: 6
+    word: AMAN
+    clue: "6. Morì appeso a un palo (Ester 7:10)"
+    type: H
+    start: L1
+    positions[4]{row,col,letter}:
+      0,11,A
+      0,12,M
+      0,13,A
+      0,14,N
+  - num: 8
+    word: ARMI
+    clue: "8. Quelle dei cristiani non sono carnali (2 Corinti 10:4)"
+    type: H
+    start: C2
+    positions[4]{row,col,letter}:
+      1,2,A
+      1,3,R
+      1,4,M
+      1,5,I
+  - num: 9
+    word: NOME
+    clue: "9. Quello di Dio non va usato in modo indegno (Esodo 20:7)"
+    type: H
+    start: J2
+    positions[4]{row,col,letter}:
+      1,9,N
+      1,10,O
+      1,11,M
+      1,12,E
+  - num: 11
+    word: BANCHETTO
+    clue: "11. Pasto ricco e abbondante (Luca 14:13)"
+    type: H
+    start: D3
+    positions[9]{row,col,letter}:
+      2,3,B
+      2,4,A
+      2,5,N
+      2,6,C
+      2,7,H
+      2,8,E
+      2,9,T
+      2,10,T
+      2,11,O
+  - num: 15
+    word: LUCE
+    clue: "15. Fu fatta nel primo giorno creativo (Genesi 1:3-5)"
+    type: H
+    start: A4
+    positions[4]{row,col,letter}:
+      3,0,L
+      3,1,U
+      3,2,C
+      3,3,E
+  - num: 17
+    word: SIRI
+    clue: "17. Geova interruppe miracolosamente il loro assedio di Samaria (2 Re 7:6, 7)"
+    type: H
+    start: L4
+    positions[4]{row,col,letter}:
+      3,11,S
+      3,12,I
+      3,13,R
+      3,14,I
+  - num: 20
+    word: REO
+    clue: "20. Colpevole (Marco 14:64)"
+    type: H
+    start: G5
+    positions[3]{row,col,letter}:
+      4,6,R
+      4,7,E
+      4,8,O
+  - num: 22
+    word: SOMMITA
+    clue: "22. La parte più alta (2 Samuele 14:25)"
+    type: H
+    start: A6
+    positions[7]{row,col,letter}:
+      5,0,S
+      5,1,O
+      5,2,M
+      5,3,M
+      5,4,I
+      5,5,T
+      5,6,A
+  - num: 25
+    word: COPISTA
+    clue: "25. Lo era Esdra (Esdra 7:6)"
+    type: H
+    start: I6
+    positions[7]{row,col,letter}:
+      5,8,C
+      5,9,O
+      5,10,P
+      5,11,I
+      5,12,S
+      5,13,T
+      5,14,A
+  - num: 29
+    word: PENA
+    clue: "29. Dolore, sofferenza (Romani 9:2)"
+    type: H
+    start: C7
+    positions[4]{row,col,letter}:
+      6,2,P
+      6,3,E
+      6,4,N
+      6,5,A
+  - num: 31
+    word: VISO
+    clue: "31. Quello di Lazzaro era stato avvolto in un panno (Giovanni 11:44)"
+    type: H
+    start: J7
+    positions[4]{row,col,letter}:
+      6,9,V
+      6,10,I
+      6,11,S
+      6,12,O
+  - num: 32
+    word: NAAS
+    clue: "32. Re ammonita che voleva cavare un occhio a tutti gli abitanti di Iabes di Galaad (1 Samuele 11:1, 2)"
+    type: H
+    start: A8
+    positions[4]{row,col,letter}:
+      7,0,N
+      7,1,A
+      7,2,A
+      7,3,S
+  - num: 33
+    word: BREVE
+    clue: "33. Lo è il periodo di tempo che ha a disposizione Satana (Rivelazione 12:12)"
+    type: H
+    start: F8
+    positions[5]{row,col,letter}:
+      7,5,B
+      7,6,R
+      7,7,E
+      7,8,V
+      7,9,E
+  - num: 34
+    word: OLIO
+    clue: "34. Si usava per lenire le ferite (Luca 10:34)"
+    type: H
+    start: L8
+    positions[4]{row,col,letter}:
+      7,11,O
+      7,12,L
+      7,13,I
+      7,14,O
+  - num: 35
+    word: GAIO
+    clue: "35. Il destinatario della terza lettera di Giovanni (3 Giovanni 1)"
+    type: H
+    start: C9
+    positions[4]{row,col,letter}:
+      8,2,G
+      8,3,A
+      8,4,I
+      8,5,O
+  - num: 37
+    word: SOLE
+    clue: "37. Giosuè pregò perché si fermasse (Giosuè 10:12)"
+    type: H
+    start: J9
+    positions[4]{row,col,letter}:
+      8,9,S
+      8,10,O
+      8,11,L
+      8,12,E
+  - num: 39
+    word: RANCORE
+    clue: "39. Non bisogna nutrirlo (Levitico 19:18)"
+    type: H
+    start: A10
+    positions[7]{row,col,letter}:
+      9,0,R
+      9,1,A
+      9,2,N
+      9,3,C
+      9,4,O
+      9,5,R
+      9,6,E
+  - num: 42
+    word: STRENUE
+    clue: "42. Estenuanti, spossanti (Genesi 30:8)"
+    type: H
+    start: I10
+    positions[7]{row,col,letter}:
+      9,8,S
+      9,9,T
+      9,10,R
+      9,11,E
+      9,12,N
+      9,13,U
+      9,14,E
+  - num: 44
+    word: DEI
+    clue: "44. Gli abitanti di Listra pensavano che Paolo e Barnaba lo fossero (Atti 14:11)"
+    type: H
+    start: G11
+    positions[3]{row,col,letter}:
+      10,6,D
+      10,7,E
+      10,8,I
+  - num: 45
+    word: OSEA
+    clue: "45. Profeta che Paolo cita per dimostrare che anche i gentili dovevano far parte dell’Israele spirituale (Romani 9:25)"
+    type: H
+    start: A12
+    positions[4]{row,col,letter}:
+      11,0,O
+      11,1,S
+      11,2,E
+      11,3,A
+  - num: 49
+    word: LEVI
+    clue: "49. L’apostolo più noto come Matteo (Marco 2:14)"
+    type: H
+    start: L12
+    positions[4]{row,col,letter}:
+      11,11,L
+      11,12,E
+      11,13,V
+      11,14,I
+  - num: 51
+    word: DALMANUTA
+    clue: "51. Zona presso il Mar di Galilea in cui Gesù si appartò con i discepoli (Marco 8:10)"
+    type: H
+    start: D13
+    positions[9]{row,col,letter}:
+      12,3,D
+      12,4,A
+      12,5,L
+      12,6,M
+      12,7,A
+      12,8,N
+      12,9,U
+      12,10,T
+      12,11,A
+  - num: 53
+    word: FEDE
+    clue: "53. Fa parte del frutto dello spirito (Galati 5:22, 23)"
+    type: H
+    start: C14
+    positions[4]{row,col,letter}:
+      13,2,F
+      13,3,E
+      13,4,D
+      13,5,E
+  - num: 54
+    word: FUGA
+    clue: "54. Il paese in cui si rifugiò Caino (Genesi 4:16)"
+    type: H
+    start: J14
+    positions[4]{row,col,letter}:
+      13,9,F
+      13,10,U
+      13,11,G
+      13,12,A
+  - num: 55
+    word: IOAS
+    clue: "55. Re di Giuda che ricevette il trono usurpato da sua nonna (2 Re 11:1-3, 12)"
+    type: H
+    start: A15
+    positions[4]{row,col,letter}:
+      14,0,I
+      14,1,O
+      14,2,A
+      14,3,S
+  - num: 56
+    word: FUOCO
+    clue: "56. Sadrac, Mesac e Abednego ne uscirono indenni (Daniele 3:26, 27)"
+    type: H
+    start: F15
+    positions[5]{row,col,letter}:
+      14,5,F
+      14,6,U
+      14,7,O
+      14,8,C
+      14,9,O
+  - num: 57
+    word: ORME
+    clue: "57. Quelle di Cristo vanno seguite attentamente (1 Pietro 2:21)"
+    type: H
+    start: L15
+    positions[4]{row,col,letter}:
+      14,11,O
+      14,12,R
+      14,13,M
+      14,14,E
+  - num: 1
+    word: SAUL
+    clue: "1. Il primo re di Israele (Atti 13:21)"
+    type: V
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,S
+      1,0,A
+      2,0,U
+      3,0,L
+  - num: 2
+    word: ERBE
+    clue: "2. Quelle amare si mangiavano durante la Pasqua (Numeri 9:11)"
+    type: V
+    start: D1
+    positions[4]{row,col,letter}:
+      0,3,E
+      1,3,R
+      2,3,B
+      3,3,E
+  - num: 3
+    word: TINI
+    clue: "3. Quando traboccano, c’è abbondanza (Proverbi 3:10)"
+    type: V
+    start: F1
+    positions[4]{row,col,letter}:
+      0,5,T
+      1,5,I
+      2,5,N
+      3,5,I
+  - num: 4
+    word: IAH
+    clue: "4. Forma poetica del nome “Geova” (Esodo 15:1, 2)"
+    type: V
+    start: H1
+    positions[3]{row,col,letter}:
+      0,7,I
+      1,7,A
+      2,7,H
+  - num: 5
+    word: UNTO
+    clue: "5. Termine che indica chi ha ricevuto un incarico ufficiale (Isaia 45:1)"
+    type: V
+    start: J1
+    positions[4]{row,col,letter}:
+      0,9,U
+      1,9,N
+      2,9,T
+      3,9,O
+  - num: 6
+    word: AMOS
+    clue: "6."
+    type: V
+    start: L1
+    positions[4]{row,col,letter}:
+      0,11,A
+      1,11,M
+      2,11,O
+      3,11,S
+  - num: 7
+    word: NUDI
+    clue: "7."
+    type: V
+    start: O1
+    positions[4]{row,col,letter}:
+      0,14,N
+      1,14,U
+      2,14,D
+      3,14,I
+  - num: 10
+    word: FUMO
+    clue: "10."
+    type: V
+    start: B3
+    positions[4]{row,col,letter}:
+      2,1,F
+      3,1,U
+      4,1,M
+      5,1,O
+  - num: 12
+    word: CERA
+    clue: "12."
+    type: V
+    start: G3
+    positions[4]{row,col,letter}:
+      2,6,C
+      3,6,E
+      4,6,R
+      5,6,A
+  - num: 13
+    word: ENOC
+    clue: "13."
+    type: V
+    start: I3
+    positions[4]{row,col,letter}:
+      2,8,E
+      3,8,N
+      4,8,O
+      5,8,C
+  - num: 14
+    word: ERET
+    clue: "14."
+    type: V
+    start: N3
+    positions[4]{row,col,letter}:
+      2,13,E
+      3,13,R
+      4,13,E
+      5,13,T
+  - num: 16
+    word: COMPAGNIE
+    clue: "16."
+    type: V
+    start: C4
+    positions[9]{row,col,letter}:
+      3,2,C
+      4,2,O
+      5,2,M
+      6,2,P
+      7,2,A
+      8,2,G
+      9,2,N
+      10,2,I
+      11,2,E
+  - num: 18
+    word: INSOLENTE
+    clue: "18."
+    type: V
+    start: M4
+    positions[9]{row,col,letter}:
+      3,12,I
+      4,12,N
+      5,12,S
+      6,12,O
+      7,12,L
+      8,12,E
+      9,12,N
+      10,12,T
+      11,12,E
+  - num: 19
+    word: HIN
+    clue: "19."
+    type: V
+    start: E5
+    positions[3]{row,col,letter}:
+      4,4,H
+      5,4,I
+      6,4,N
+  - num: 21
+    word: API
+    clue: "21."
+    type: V
+    start: K5
+    positions[3]{row,col,letter}:
+      4,10,A
+      5,10,P
+      6,10,I
+  - num: 22
+    word: SINAR
+    clue: "22."
+    type: V
+    start: A6
+    positions[5]{row,col,letter}:
+      5,0,S
+      6,0,I
+      7,0,N
+      8,0,A
+      9,0,R
+  - num: 23
+    word: MESAC
+    clue: "23."
+    type: V
+    start: D6
+    positions[5]{row,col,letter}:
+      5,3,M
+      6,3,E
+      7,3,S
+      8,3,A
+      9,3,C
+  - num: 24
+    word: TABOR
+    clue: "24."
+    type: V
+    start: F6
+    positions[5]{row,col,letter}:
+      5,5,T
+      6,5,A
+      7,5,B
+      8,5,O
+      9,5,R
+  - num: 26
+    word: OVEST
+    clue: "26."
+    type: V
+    start: J6
+    positions[5]{row,col,letter}:
+      5,9,O
+      6,9,V
+      7,9,E
+      8,9,S
+      9,9,T
+  - num: 27
+    word: ISOLE
+    clue: "27."
+    type: V
+    start: L6
+    positions[5]{row,col,letter}:
+      5,11,I
+      6,11,S
+      7,11,O
+      8,11,L
+      9,11,E
+  - num: 28
+    word: AMORE
+    clue: "28."
+    type: V
+    start: O6
+    positions[5]{row,col,letter}:
+      5,14,A
+      6,14,M
+      7,14,O
+      8,14,R
+      9,14,E
+  - num: 30
+    word: SET
+    clue: "30."
+    type: V
+    start: H7
+    positions[3]{row,col,letter}:
+      6,7,S
+      7,7,E
+      8,7,T
+  - num: 36
+    word: IOA
+    clue: "36."
+    type: V
+    start: E9
+    positions[3]{row,col,letter}:
+      8,4,I
+      9,4,O
+      10,4,A
+  - num: 38
+    word: ORO
+    clue: "38."
+    type: V
+    start: K9
+    positions[3]{row,col,letter}:
+      8,10,O
+      9,10,R
+      10,10,O
+  - num: 40
+    word: ACSA
+    clue: "40."
+    type: V
+    start: B10
+    positions[4]{row,col,letter}:
+      9,1,A
+      10,1,C
+      11,1,S
+      12,1,A
+  - num: 41
+    word: EDOM
+    clue: "41."
+    type: V
+    start: G10
+    positions[4]{row,col,letter}:
+      9,6,E
+      10,6,D
+      11,6,O
+      12,6,M
+  - num: 42
+    word: SION
+    clue: "42."
+    type: V
+    start: I10
+    positions[4]{row,col,letter}:
+      9,8,S
+      10,8,I
+      11,8,O
+      12,8,N
+  - num: 43
+    word: UOVA
+    clue: "43."
+    type: V
+    start: N10
+    positions[4]{row,col,letter}:
+      9,13,U
+      10,13,O
+      11,13,V
+      12,13,A
+  - num: 45
+    word: OFNI
+    clue: "45."
+    type: V
+    start: A12
+    positions[4]{row,col,letter}:
+      11,0,O
+      12,0,F
+      13,0,N
+      14,0,I
+  - num: 46
+    word: ADES
+    clue: "46."
+    type: V
+    start: D12
+    positions[4]{row,col,letter}:
+      11,3,A
+      12,3,D
+      13,3,E
+      14,3,S
+  - num: 47
+    word: ALEF
+    clue: "47."
+    type: V
+    start: F12
+    positions[4]{row,col,letter}:
+      11,5,A
+      12,5,L
+      13,5,E
+      14,5,F
+  - num: 48
+    word: RUFO
+    clue: "48."
+    type: V
+    start: J12
+    positions[4]{row,col,letter}:
+      11,9,R
+      12,9,U
+      13,9,F
+      14,9,O
+  - num: 49
+    word: LAGO
+    clue: "49."
+    type: V
+    start: L12
+    positions[4]{row,col,letter}:
+      11,11,L
+      12,11,A
+      13,11,G
+      14,11,O
+  - num: 50
+    word: IDEE
+    clue: "50."
+    type: V
+    start: O12
+    positions[4]{row,col,letter}:
+      11,14,I
+      12,14,D
+      13,14,E
+      14,14,E
+  - num: 52
+    word: AGO
+    clue: "52."
+    type: V
+    start: H13
+    positions[3]{row,col,letter}:
+      12,7,A
+      13,7,G
+      14,7,O
+metadata:
+  totalNumbers: 74
+  horizontalStarts: 41
+  verticalStarts: 43
+  totalWords: 64
+  createdAt: "2025-12-26T16:55:55.086Z"

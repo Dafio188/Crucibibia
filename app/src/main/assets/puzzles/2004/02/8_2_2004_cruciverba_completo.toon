@@ -1,0 +1,745 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+  - [15]: 1,0,1,1,0,1,1,0,1,1,0,1,1,0,1
+  - [15]: 1,1,1,1,1,1,0,0,0,1,1,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,0,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 0,1,1,0,0,0,1,0,1,0,0,0,1,1,0
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,0,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,1,1,0,0,0,1,1,1,1,1,1
+  - [15]: 1,0,1,1,0,1,1,0,1,1,0,1,1,0,1
+  - [15]: 1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+numberedCells[49]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,2,2,false,true
+  0,4,3,false,true
+  0,6,4,false,true
+  0,8,5,true,true
+  0,10,6,false,true
+  0,12,7,false,true
+  0,14,8,false,true
+  1,4,9,true,false
+  2,0,10,true,false
+  2,3,11,false,true
+  2,6,12,true,false
+  2,10,13,true,false
+  2,11,14,false,true
+  3,5,15,false,true
+  3,9,16,false,true
+  4,0,17,true,false
+  4,1,18,false,true
+  4,9,19,true,false
+  4,13,20,false,true
+  5,3,21,true,false
+  5,6,22,false,true
+  5,8,23,true,true
+  6,0,24,true,false
+  6,2,25,false,true
+  6,5,26,true,false
+  6,11,27,true,false
+  6,12,28,false,true
+  8,0,29,true,true
+  8,3,30,false,true
+  8,5,31,true,true
+  8,9,32,false,true
+  8,11,33,true,true
+  8,14,34,false,true
+  9,3,35,true,false
+  9,8,36,true,false
+  10,0,37,true,false
+  10,2,38,false,true
+  10,9,39,true,false
+  10,12,40,false,true
+  11,6,41,false,true
+  11,8,42,false,true
+  12,0,43,true,false
+  12,4,44,false,true
+  12,6,45,true,false
+  12,10,46,true,true
+  13,4,47,true,false
+  14,0,48,true,false
+  14,8,49,true,false
+words:
+  orizzontali[26]{num,word,clue}:
+    1,NOTIZIE,"1. Quelle provenienti “dal levante e dal nord” turberanno il re del nord (Daniele 11:44)"
+    5,ZAREFAT,"5. Vi abitava la vedova che sfamò Elia (1 Re 17:9)"
+    9,ISRAELE,"9. Altro nome di Giacobbe (Genesi 32:28)"
+    10,ZOLFO,"10. Piovve su Sodoma e Gomorra (Genesi 19:24)"
+    12,BUL,"12. Ottavo mese lunare del calendario sacro degli israeliti (1 Re 6:38)"
+    13,INNOM,"13. “Geenna” è la forma greca del nome di questa valle"
+    17,REALTA,"17. La fede riguarda quelle non vedute (Ebrei 11:1)"
+    19,SATANA,"19. L’originale serpente (Rivelazione 12:9)"
+    21,SEIR,"21. Regione montuosa dove dimoravano i discendenti di Esaù (Genesi 36:8)"
+    23,DEMA,"23. Abbandonò Paolo (2 Timoteo 4:10)"
+    24,OTTO,"24. Il numero dei superstiti del Diluvio (1 Pietro 3:20)"
+    26,NAHOR,"26. Nonno di Abraamo (Luca 3:34)"
+    27,NOTO,"27. Conosciuto, familiare (Giovanni 18:15)"
+    29,EREC,"29. Una delle quattro città che furono ‘il principio del regno di Nimrod’ (Genesi 10:10)"
+    31,EBANO,"31. Legno pregiato (Ezechiele 27:15)"
+    33,DONI,"33. Cristo li diede “negli uomini” (Efesini 4:8)"
+    35,IERI,"35. Un giorno fa (Salmo 90:4)"
+    36,ARCA,"36. Noè la costruì per fede (Ebrei 11:7)"
+    37,FODERO,"37. Vi si ripone la spada (Giovanni 18:11)"
+    39,SERGIO,"39. Il Paolo proconsole di Cipro (Atti 13:7)"
+    43,AMNON,"43. Violentò la sorellastra Tamar (2 Samuele 13:6-14)"
+    45,LOG,"45. La più piccola misura di capacità per liquidi menzionata nella Bibbia (Levitico 14:21)"
+    46,GIOIA,"46. Fa parte del frutto dello spirito (Galati 5:22, 23)"
+    47,OLIBANO,"47. Uno degli ingredienti dell’incenso sacro (Esodo 30:34, 35)"
+    48,EREDITA,"48. Quella degli unti è incorruttibile e sta nei cieli (1 Pietro 1:4)"
+    49,RUGIADA,"49. Bagnò miracolosamente il vello di lana di Gedeone (Giudici 6:36-38)"
+  verticali[30]{num,word,clue}:
+    1,NAZIREO,"1. Lo era Sansone (Giudici 16:17)"
+    2,TALPA,"2. Animale impuro secondo la Legge (Levitico 11:29)"
+    3,ZIO,"3. Lo era Abramo per Lot (Genesi 11:27)"
+    4,ERBA,"4. Si secca facilmente (Salmo 37:2)"
+    5,ZELO,"5. È lodevole ma può essere maldiretto (Romani 10:2)"
+    6,REI,"6. Non si lasciò coinvolgere nella ribellione di Adonia (1 Re 1:8)"
+    7,FINTA,"7. Lo era l’umiltà di alcuni falsi insegnanti a Colosse (Colossesi 2:23)"
+    8,TOMMASO,"8. Non credette subito alla risurrezione di Gesù (Giovanni 20:24, 25)"
+    11,FALSO,"11. Lo era il profeta che fu scagliato nel “lago di fuoco” (Rivelazione 19:20)"
+    14,NATAN,"14. Riprese Davide per il peccato con Betsabea (2 Samuele 12:1-14)"
+    15,NAIN,"15. Città della vedova a cui Gesù risuscitò il figlio (Luca 7:11-15)"
+    16,ASER,"16. Una delle dodici tribù d’Israele (Luca 2:36)"
+    18,ESTERNO,"18. I farisei pulivano quello del calice e del piatto (Matteo 23:25)"
+    20,NETINEI,"20. Non israeliti che fungevano da schiavi o ministri nel tempio (Esdra 8:20)"
+    22,RABBI,"22. Titolo che piaceva ai farisei (Matteo 23:6, 7)"
+    23,DONNA,"23. Il primo nome che Adamo diede a sua moglie (Genesi 2:23)"
+    25,TRE,"25. Il numero delle volte che Pietro avrebbe rinnegato Gesù prima del canto del gallo (Luca 22:61)"
+    28,ORO,"28. Era famoso quello di Ofir (1 Re 9:28)"
+    29,EUFRATE,"29. Era chiamato anche il “gran fiume” (Genesi 15:18)"
+    30,CIECO,"30. Lo era Bartimeo (Marco 10:46)"
+    31,EROI,"31. Uomini famosi per il loro valore (Isaia 33:7)"
+    32,ORSO,"32. Pascerà con la vacca (Isaia 11:7)"
+    33,DARDI,"33. Lo scudo della fede protegge da quelli infuocati del malvagio (Efesini 6:16)"
+    34,IEOIADA,"34. Il sommo sacerdote che fece da padre e consigliere a Ioas (2 Re 12:2)"
+    38,DANZE,"38. A volte si facevano per celebrare le vittorie (Esodo 15:20; 1 Samuele 18:6)"
+    40,GIONA,"40. Fu inghiottito da un pesce (Matteo 12:40)"
+    41,ELIA,"41. Sfidò i profeti di Baal presso il monte Carmelo (1 Re 18:20-24)"
+    42,AGAR,"42. La serva egiziana di Sara (Genesi 25:12)"
+    44,NOI,"44. Io e te (Genesi 13:8)"
+    46,GOG,"46. Il suo attacco contro il popolo di Dio è profetizzato nei capitoli 38 e 39 di Ezechiele"
+placements[56]:
+  - num: 1
+    word: NOTIZIE
+    clue: "1. Quelle provenienti “dal levante e dal nord” turberanno il re del nord (Daniele 11:44)"
+    type: H
+    start: A1
+    positions[7]{row,col,letter}:
+      0,0,N
+      0,1,O
+      0,2,T
+      0,3,I
+      0,4,Z
+      0,5,I
+      0,6,E
+  - num: 5
+    word: ZAREFAT
+    clue: "5. Vi abitava la vedova che sfamò Elia (1 Re 17:9)"
+    type: H
+    start: I1
+    positions[7]{row,col,letter}:
+      0,8,Z
+      0,9,A
+      0,10,R
+      0,11,E
+      0,12,F
+      0,13,A
+      0,14,T
+  - num: 9
+    word: ISRAELE
+    clue: "9. Altro nome di Giacobbe (Genesi 32:28)"
+    type: H
+    start: E2
+    positions[7]{row,col,letter}:
+      1,4,I
+      1,5,S
+      1,6,R
+      1,7,A
+      1,8,E
+      1,9,L
+      1,10,E
+  - num: 10
+    word: ZOLFO
+    clue: "10. Piovve su Sodoma e Gomorra (Genesi 19:24)"
+    type: H
+    start: A3
+    positions[5]{row,col,letter}:
+      2,0,Z
+      2,1,O
+      2,2,L
+      2,3,F
+      2,4,O
+  - num: 12
+    word: BUL
+    clue: "12. Ottavo mese lunare del calendario sacro degli israeliti (1 Re 6:38)"
+    type: H
+    start: G3
+    positions[3]{row,col,letter}:
+      2,6,B
+      2,7,U
+      2,8,L
+  - num: 13
+    word: INNOM
+    clue: "13. “Geenna” è la forma greca del nome di questa valle"
+    type: H
+    start: K3
+    positions[5]{row,col,letter}:
+      2,10,I
+      2,11,N
+      2,12,N
+      2,13,O
+      2,14,M
+  - num: 17
+    word: REALTA
+    clue: "17. La fede riguarda quelle non vedute (Ebrei 11:1)"
+    type: H
+    start: A5
+    positions[6]{row,col,letter}:
+      4,0,R
+      4,1,E
+      4,2,A
+      4,3,L
+      4,4,T
+      4,5,A
+  - num: 19
+    word: SATANA
+    clue: "19. L’originale serpente (Rivelazione 12:9)"
+    type: H
+    start: J5
+    positions[6]{row,col,letter}:
+      4,9,S
+      4,10,A
+      4,11,T
+      4,12,A
+      4,13,N
+      4,14,A
+  - num: 21
+    word: SEIR
+    clue: "21. Regione montuosa dove dimoravano i discendenti di Esaù (Genesi 36:8)"
+    type: H
+    start: D6
+    positions[4]{row,col,letter}:
+      5,3,S
+      5,4,E
+      5,5,I
+      5,6,R
+  - num: 23
+    word: DEMA
+    clue: "23. Abbandonò Paolo (2 Timoteo 4:10)"
+    type: H
+    start: I6
+    positions[4]{row,col,letter}:
+      5,8,D
+      5,9,E
+      5,10,M
+      5,11,A
+  - num: 24
+    word: OTTO
+    clue: "24. Il numero dei superstiti del Diluvio (1 Pietro 3:20)"
+    type: H
+    start: A7
+    positions[4]{row,col,letter}:
+      6,0,O
+      6,1,T
+      6,2,T
+      6,3,O
+  - num: 26
+    word: NAHOR
+    clue: "26. Nonno di Abraamo (Luca 3:34)"
+    type: H
+    start: F7
+    positions[5]{row,col,letter}:
+      6,5,N
+      6,6,A
+      6,7,H
+      6,8,O
+      6,9,R
+  - num: 27
+    word: NOTO
+    clue: "27. Conosciuto, familiare (Giovanni 18:15)"
+    type: H
+    start: L7
+    positions[4]{row,col,letter}:
+      6,11,N
+      6,12,O
+      6,13,T
+      6,14,O
+  - num: 29
+    word: EREC
+    clue: "29. Una delle quattro città che furono ‘il principio del regno di Nimrod’ (Genesi 10:10)"
+    type: H
+    start: A9
+    positions[4]{row,col,letter}:
+      8,0,E
+      8,1,R
+      8,2,E
+      8,3,C
+  - num: 31
+    word: EBANO
+    clue: "31. Legno pregiato (Ezechiele 27:15)"
+    type: H
+    start: F9
+    positions[5]{row,col,letter}:
+      8,5,E
+      8,6,B
+      8,7,A
+      8,8,N
+      8,9,O
+  - num: 33
+    word: DONI
+    clue: "33. Cristo li diede “negli uomini” (Efesini 4:8)"
+    type: H
+    start: L9
+    positions[4]{row,col,letter}:
+      8,11,D
+      8,12,O
+      8,13,N
+      8,14,I
+  - num: 35
+    word: IERI
+    clue: "35. Un giorno fa (Salmo 90:4)"
+    type: H
+    start: D10
+    positions[4]{row,col,letter}:
+      9,3,I
+      9,4,E
+      9,5,R
+      9,6,I
+  - num: 36
+    word: ARCA
+    clue: "36. Noè la costruì per fede (Ebrei 11:7)"
+    type: H
+    start: I10
+    positions[4]{row,col,letter}:
+      9,8,A
+      9,9,R
+      9,10,C
+      9,11,A
+  - num: 37
+    word: FODERO
+    clue: "37. Vi si ripone la spada (Giovanni 18:11)"
+    type: H
+    start: A11
+    positions[6]{row,col,letter}:
+      10,0,F
+      10,1,O
+      10,2,D
+      10,3,E
+      10,4,R
+      10,5,O
+  - num: 39
+    word: SERGIO
+    clue: "39. Il Paolo proconsole di Cipro (Atti 13:7)"
+    type: H
+    start: J11
+    positions[6]{row,col,letter}:
+      10,9,S
+      10,10,E
+      10,11,R
+      10,12,G
+      10,13,I
+      10,14,O
+  - num: 43
+    word: AMNON
+    clue: "43. Violentò la sorellastra Tamar (2 Samuele 13:6-14)"
+    type: H
+    start: A13
+    positions[5]{row,col,letter}:
+      12,0,A
+      12,1,M
+      12,2,N
+      12,3,O
+      12,4,N
+  - num: 45
+    word: LOG
+    clue: "45. La più piccola misura di capacità per liquidi menzionata nella Bibbia (Levitico 14:21)"
+    type: H
+    start: G13
+    positions[3]{row,col,letter}:
+      12,6,L
+      12,7,O
+      12,8,G
+  - num: 46
+    word: GIOIA
+    clue: "46. Fa parte del frutto dello spirito (Galati 5:22, 23)"
+    type: H
+    start: K13
+    positions[5]{row,col,letter}:
+      12,10,G
+      12,11,I
+      12,12,O
+      12,13,I
+      12,14,A
+  - num: 47
+    word: OLIBANO
+    clue: "47. Uno degli ingredienti dell’incenso sacro (Esodo 30:34, 35)"
+    type: H
+    start: E14
+    positions[7]{row,col,letter}:
+      13,4,O
+      13,5,L
+      13,6,I
+      13,7,B
+      13,8,A
+      13,9,N
+      13,10,O
+  - num: 48
+    word: EREDITA
+    clue: "48. Quella degli unti è incorruttibile e sta nei cieli (1 Pietro 1:4)"
+    type: H
+    start: A15
+    positions[7]{row,col,letter}:
+      14,0,E
+      14,1,R
+      14,2,E
+      14,3,D
+      14,4,I
+      14,5,T
+      14,6,A
+  - num: 49
+    word: RUGIADA
+    clue: "49. Bagnò miracolosamente il vello di lana di Gedeone (Giudici 6:36-38)"
+    type: H
+    start: I15
+    positions[7]{row,col,letter}:
+      14,8,R
+      14,9,U
+      14,10,G
+      14,11,I
+      14,12,A
+      14,13,D
+      14,14,A
+  - num: 1
+    word: NAZIREO
+    clue: "1. Lo era Sansone (Giudici 16:17)"
+    type: V
+    start: A1
+    positions[7]{row,col,letter}:
+      0,0,N
+      1,0,A
+      2,0,Z
+      3,0,I
+      4,0,R
+      5,0,E
+      6,0,O
+  - num: 2
+    word: TALPA
+    clue: "2. Animale impuro secondo la Legge (Levitico 11:29)"
+    type: V
+    start: C1
+    positions[5]{row,col,letter}:
+      0,2,T
+      1,2,A
+      2,2,L
+      3,2,P
+      4,2,A
+  - num: 3
+    word: ZIO
+    clue: "3. Lo era Abramo per Lot (Genesi 11:27)"
+    type: V
+    start: E1
+    positions[3]{row,col,letter}:
+      0,4,Z
+      1,4,I
+      2,4,O
+  - num: 4
+    word: ERBA
+    clue: "4. Si secca facilmente (Salmo 37:2)"
+    type: V
+    start: G1
+    positions[4]{row,col,letter}:
+      0,6,E
+      1,6,R
+      2,6,B
+      3,6,A
+  - num: 5
+    word: ZELO
+    clue: "5. È lodevole ma può essere maldiretto (Romani 10:2)"
+    type: V
+    start: I1
+    positions[4]{row,col,letter}:
+      0,8,Z
+      1,8,E
+      2,8,L
+      3,8,O
+  - num: 6
+    word: REI
+    clue: "6. Non si lasciò coinvolgere nella ribellione di Adonia (1 Re 1:8)"
+    type: V
+    start: K1
+    positions[3]{row,col,letter}:
+      0,10,R
+      1,10,E
+      2,10,I
+  - num: 7
+    word: FINTA
+    clue: "7. Lo era l’umiltà di alcuni falsi insegnanti a Colosse (Colossesi 2:23)"
+    type: V
+    start: M1
+    positions[5]{row,col,letter}:
+      0,12,F
+      1,12,I
+      2,12,N
+      3,12,T
+      4,12,A
+  - num: 8
+    word: TOMMASO
+    clue: "8. Non credette subito alla risurrezione di Gesù (Giovanni 20:24, 25)"
+    type: V
+    start: O1
+    positions[7]{row,col,letter}:
+      0,14,T
+      1,14,O
+      2,14,M
+      3,14,M
+      4,14,A
+      5,14,S
+      6,14,O
+  - num: 11
+    word: FALSO
+    clue: "11. Lo era il profeta che fu scagliato nel “lago di fuoco” (Rivelazione 19:20)"
+    type: V
+    start: D3
+    positions[5]{row,col,letter}:
+      2,3,F
+      3,3,A
+      4,3,L
+      5,3,S
+      6,3,O
+  - num: 14
+    word: NATAN
+    clue: "14. Riprese Davide per il peccato con Betsabea (2 Samuele 12:1-14)"
+    type: V
+    start: L3
+    positions[5]{row,col,letter}:
+      2,11,N
+      3,11,A
+      4,11,T
+      5,11,A
+      6,11,N
+  - num: 15
+    word: NAIN
+    clue: "15. Città della vedova a cui Gesù risuscitò il figlio (Luca 7:11-15)"
+    type: V
+    start: F4
+    positions[4]{row,col,letter}:
+      3,5,N
+      4,5,A
+      5,5,I
+      6,5,N
+  - num: 16
+    word: ASER
+    clue: "16. Una delle dodici tribù d’Israele (Luca 2:36)"
+    type: V
+    start: J4
+    positions[4]{row,col,letter}:
+      3,9,A
+      4,9,S
+      5,9,E
+      6,9,R
+  - num: 18
+    word: ESTERNO
+    clue: "18. I farisei pulivano quello del calice e del piatto (Matteo 23:25)"
+    type: V
+    start: B5
+    positions[7]{row,col,letter}:
+      4,1,E
+      5,1,S
+      6,1,T
+      7,1,E
+      8,1,R
+      9,1,N
+      10,1,O
+  - num: 20
+    word: NETINEI
+    clue: "20. Non israeliti che fungevano da schiavi o ministri nel tempio (Esdra 8:20)"
+    type: V
+    start: N5
+    positions[7]{row,col,letter}:
+      4,13,N
+      5,13,E
+      6,13,T
+      7,13,I
+      8,13,N
+      9,13,E
+      10,13,I
+  - num: 22
+    word: RABBI
+    clue: "22. Titolo che piaceva ai farisei (Matteo 23:6, 7)"
+    type: V
+    start: G6
+    positions[5]{row,col,letter}:
+      5,6,R
+      6,6,A
+      7,6,B
+      8,6,B
+      9,6,I
+  - num: 23
+    word: DONNA
+    clue: "23. Il primo nome che Adamo diede a sua moglie (Genesi 2:23)"
+    type: V
+    start: I6
+    positions[5]{row,col,letter}:
+      5,8,D
+      6,8,O
+      7,8,N
+      8,8,N
+      9,8,A
+  - num: 25
+    word: TRE
+    clue: "25. Il numero delle volte che Pietro avrebbe rinnegato Gesù prima del canto del gallo (Luca 22:61)"
+    type: V
+    start: C7
+    positions[3]{row,col,letter}:
+      6,2,T
+      7,2,R
+      8,2,E
+  - num: 28
+    word: ORO
+    clue: "28. Era famoso quello di Ofir (1 Re 9:28)"
+    type: V
+    start: M7
+    positions[3]{row,col,letter}:
+      6,12,O
+      7,12,R
+      8,12,O
+  - num: 29
+    word: EUFRATE
+    clue: "29. Era chiamato anche il “gran fiume” (Genesi 15:18)"
+    type: V
+    start: A9
+    positions[7]{row,col,letter}:
+      8,0,E
+      9,0,U
+      10,0,F
+      11,0,R
+      12,0,A
+      13,0,T
+      14,0,E
+  - num: 30
+    word: CIECO
+    clue: "30. Lo era Bartimeo (Marco 10:46)"
+    type: V
+    start: D9
+    positions[5]{row,col,letter}:
+      8,3,C
+      9,3,I
+      10,3,E
+      11,3,C
+      12,3,O
+  - num: 31
+    word: EROI
+    clue: "31. Uomini famosi per il loro valore (Isaia 33:7)"
+    type: V
+    start: F9
+    positions[4]{row,col,letter}:
+      8,5,E
+      9,5,R
+      10,5,O
+      11,5,I
+  - num: 32
+    word: ORSO
+    clue: "32. Pascerà con la vacca (Isaia 11:7)"
+    type: V
+    start: J9
+    positions[4]{row,col,letter}:
+      8,9,O
+      9,9,R
+      10,9,S
+      11,9,O
+  - num: 33
+    word: DARDI
+    clue: "33. Lo scudo della fede protegge da quelli infuocati del malvagio (Efesini 6:16)"
+    type: V
+    start: L9
+    positions[5]{row,col,letter}:
+      8,11,D
+      9,11,A
+      10,11,R
+      11,11,D
+      12,11,I
+  - num: 34
+    word: IEOIADA
+    clue: "34. Il sommo sacerdote che fece da padre e consigliere a Ioas (2 Re 12:2)"
+    type: V
+    start: O9
+    positions[7]{row,col,letter}:
+      8,14,I
+      9,14,E
+      10,14,O
+      11,14,I
+      12,14,A
+      13,14,D
+      14,14,A
+  - num: 38
+    word: DANZE
+    clue: "38. A volte si facevano per celebrare le vittorie (Esodo 15:20; 1 Samuele 18:6)"
+    type: V
+    start: C11
+    positions[5]{row,col,letter}:
+      10,2,D
+      11,2,A
+      12,2,N
+      13,2,Z
+      14,2,E
+  - num: 40
+    word: GIONA
+    clue: "40. Fu inghiottito da un pesce (Matteo 12:40)"
+    type: V
+    start: M11
+    positions[5]{row,col,letter}:
+      10,12,G
+      11,12,I
+      12,12,O
+      13,12,N
+      14,12,A
+  - num: 41
+    word: ELIA
+    clue: "41. Sfidò i profeti di Baal presso il monte Carmelo (1 Re 18:20-24)"
+    type: V
+    start: G12
+    positions[4]{row,col,letter}:
+      11,6,E
+      12,6,L
+      13,6,I
+      14,6,A
+  - num: 42
+    word: AGAR
+    clue: "42. La serva egiziana di Sara (Genesi 25:12)"
+    type: V
+    start: I12
+    positions[4]{row,col,letter}:
+      11,8,A
+      12,8,G
+      13,8,A
+      14,8,R
+  - num: 44
+    word: NOI
+    clue: "44. Io e te (Genesi 13:8)"
+    type: V
+    start: E13
+    positions[3]{row,col,letter}:
+      12,4,N
+      13,4,O
+      14,4,I
+  - num: 46
+    word: GOG
+    clue: "46. Il suo attacco contro il popolo di Dio è profetizzato nei capitoli 38 e 39 di Ezechiele"
+    type: V
+    start: K13
+    positions[3]{row,col,letter}:
+      12,10,G
+      13,10,O
+      14,10,G
+metadata:
+  totalNumbers: 49
+  horizontalStarts: 26
+  verticalStarts: 30
+  totalWords: 56
+  createdAt: "2025-12-26T17:19:44.164Z"

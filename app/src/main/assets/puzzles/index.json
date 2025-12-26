@@ -10,6 +10,16 @@
     "isCompleted": false
   },
   {
+    "id": "2005_02_08",
+    "year": 2005,
+    "month": 2,
+    "number": 1,
+    "title": "Cruciverba Biblico",
+    "source": "Svegliatevi! 8 febbraio 2005",
+    "gridSize": 15,
+    "isCompleted": false
+  },
+  {
     "id": "2005_08_08",
     "year": 2005,
     "month": 8,

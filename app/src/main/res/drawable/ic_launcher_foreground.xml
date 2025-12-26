@@ -5,35 +5,87 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- Background grid pattern -->
     <group
-        android:translateX="27"
-        android:translateY="27">
+        android:translateX="20"
+        android:translateY="20">
 
-        <!-- Cross shape representing crossword -->
+        <!-- Crossword Grid Background -->
         <path
             android:fillColor="#FFFFFF"
-            android:pathData="M22,10 L32,10 L32,22 L44,22 L44,32 L32,32 L32,44 L22,44 L22,32 L10,32 L10,22 L22,22 Z"/>
+            android:pathData="M4,4 L50,4 L50,50 L4,50 Z"/>
 
-        <!-- Bible book shape -->
-        <path
-            android:fillColor="#FFD54F"
-            android:pathData="M18,38 L36,38 L36,50 L18,50 Z"/>
-
-        <!-- Book spine -->
-        <path
-            android:fillColor="#FF8F00"
-            android:pathData="M18,38 L20,38 L20,50 L18,50 Z"/>
-
-        <!-- Cross on book -->
-        <path
-            android:fillColor="#FFFFFF"
-            android:pathData="M26,40 L28,40 L28,43 L31,43 L31,45 L28,45 L28,48 L26,48 L26,45 L23,45 L23,43 L26,43 Z"/>
-
-        <!-- Grid lines -->
+        <!-- Grid lines - horizontal -->
         <path
             android:strokeColor="#1565C0"
-            android:strokeWidth="1"
-            android:pathData="M10,16 L44,16 M10,22 L44,22 M10,28 L44,28 M16,10 L16,34 M22,10 L22,34 M28,10 L28,34 M34,10 L34,34"/>
+            android:strokeWidth="1.5"
+            android:pathData="M4,4 L50,4 M4,15.5 L50,15.5 M4,27 L50,27 M4,38.5 L50,38.5 M4,50 L50,50"/>
+
+        <!-- Grid lines - vertical -->
+        <path
+            android:strokeColor="#1565C0"
+            android:strokeWidth="1.5"
+            android:pathData="M4,4 L4,50 M15.5,4 L15.5,50 M27,4 L27,50 M38.5,4 L38.5,50 M50,4 L50,50"/>
+
+        <!-- Black blocks (typical crossword pattern) -->
+        <path
+            android:fillColor="#1A237E"
+            android:pathData="M4,4 L15.5,4 L15.5,15.5 L4,15.5 Z"/>
+        <path
+            android:fillColor="#1A237E"
+            android:pathData="M38.5,4 L50,4 L50,15.5 L38.5,15.5 Z"/>
+        <path
+            android:fillColor="#1A237E"
+            android:pathData="M27,27 L38.5,27 L38.5,38.5 L27,38.5 Z"/>
+        <path
+            android:fillColor="#1A237E"
+            android:pathData="M4,38.5 L15.5,38.5 L15.5,50 L4,50 Z"/>
+        <path
+            android:fillColor="#1A237E"
+            android:pathData="M38.5,38.5 L50,38.5 L50,50 L38.5,50 Z"/>
+
+        <!-- Letters in cells -->
+        <!-- Letter D -->
+        <path
+            android:fillColor="#1565C0"
+            android:pathData="M19,8 L19,13 L21,13 Q23,13 23,10.5 Q23,8 21,8 Z M20,9 L21,9 Q22,9 22,10.5 Q22,12 21,12 L20,12 Z"/>
+
+        <!-- Letter I -->
+        <path
+            android:fillColor="#1565C0"
+            android:pathData="M31,8 L33,8 L33,13 L31,13 Z"/>
+
+        <!-- Letter O -->
+        <path
+            android:fillColor="#1565C0"
+            android:pathData="M20,20 Q17,20 17,22.5 Q17,25 20,25 Q23,25 23,22.5 Q23,20 20,20 Z M20,21 Q22,21 22,22.5 Q22,24 20,24 Q18,24 18,22.5 Q18,21 20,21 Z"/>
+
+        <!-- Bible book on the right -->
+        <path
+            android:fillColor="#8D6E63"
+            android:pathData="M54,12 L68,12 L68,56 L54,56 Z"/>
+
+        <!-- Bible cover detail -->
+        <path
+            android:fillColor="#5D4037"
+            android:pathData="M54,12 L57,12 L57,56 L54,56 Z"/>
+
+        <!-- Bible pages -->
+        <path
+            android:fillColor="#FFF8E1"
+            android:pathData="M57,14 L66,14 L66,54 L57,54 Z"/>
+
+        <!-- Cross on Bible -->
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M60,20 L63,20 L63,28 L60,28 Z"/>
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M58,23 L65,23 L65,26 L58,26 Z"/>
+
+        <!-- Bible ribbon bookmark -->
+        <path
+            android:fillColor="#C62828"
+            android:pathData="M59,54 L60,54 L61,62 L60,60 L59,62 Z"/>
+
     </group>
 </vector>

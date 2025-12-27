@@ -1,0 +1,725 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 1,0,1,0,1,0,1,1,1,0,1,0,1,0,1
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,0,1,0,1,0,1,0,1,1,1,1
+  - [15]: 1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+  - [15]: 1,1,1,1,0,1,0,1,0,1,0,1,1,1,1
+  - [15]: 0,1,0,1,1,1,1,1,1,1,1,1,0,1,0
+  - [15]: 1,1,1,1,0,1,0,1,0,1,0,1,1,1,1
+  - [15]: 1,0,1,1,1,0,1,1,1,0,1,1,1,0,1
+  - [15]: 1,1,1,1,0,1,0,1,0,1,0,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 1,0,1,0,1,0,1,1,1,0,1,0,1,0,1
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+numberedCells[49]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,2,2,false,true
+  0,4,3,false,true
+  0,6,4,false,true
+  0,8,5,true,true
+  0,10,6,false,true
+  0,12,7,false,true
+  0,14,8,false,true
+  1,6,9,true,false
+  2,0,10,true,false
+  2,5,11,false,true
+  2,8,12,true,false
+  2,9,13,false,true
+  3,4,14,true,false
+  3,7,15,false,true
+  4,0,16,true,false
+  4,3,17,false,true
+  4,11,18,true,true
+  5,2,19,true,false
+  5,6,20,true,false
+  5,10,21,true,false
+  6,0,22,true,false
+  6,1,23,false,true
+  6,5,24,false,true
+  6,9,25,false,true
+  6,11,26,true,false
+  6,13,27,false,true
+  7,3,28,true,false
+  8,0,29,true,true
+  8,2,30,false,true
+  8,11,31,true,false
+  8,12,32,false,true
+  8,14,33,false,true
+  9,2,34,true,false
+  9,6,35,true,false
+  9,10,36,true,false
+  10,0,37,true,false
+  10,5,38,false,true
+  10,9,39,false,true
+  10,11,40,true,false
+  11,4,41,true,true
+  11,6,42,false,true
+  11,8,43,false,true
+  11,10,44,false,true
+  12,0,45,true,false
+  12,8,46,true,false
+  13,6,47,true,false
+  14,0,48,true,false
+  14,8,49,true,false
+words:
+  orizzontali[27]{num,word,clue}:
+    1,BUSSARE,"1. Gesù incoraggiò a continuare a farlo (Luca 11:9)"
+    5,PADELLE,"5. Si usavano per cuocere (1 Cronache 9:31)"
+    9,LEA,"9. La prima moglie di Giacobbe (Genesi 29:21-25)"
+    10,AHINOAM,"10. Partorì a Davide il suo primogenito Amnon (2 Samuele 3:2)"
+    12,LETTERE,"12. Quelle di Paolo circolavano tra i primi cristiani (2 Pietro 3:16)"
+    14,SMODATI,"14. Esagerati, eccessivi, sfrenati (Proverbi 23:20)"
+    16,IJON,"16. Uno dei luoghi conquistati da Ben-Adad I re di Siria durante il regno di Baasa (1 Re 15:20, 21)"
+    18,GIRI,"18. Quelli del vento non cessano mai (Ecclesiaste 1:6)"
+    19,SAF,"19. Uno dei quattro giganteschi refaim uccisi dagli uomini potenti di Davide (2 Samuele 21:18, 22)"
+    20,EST,"20. Punto cardinale (Genesi 13:14)"
+    21,HET,"21. Da un suo discendente Abraamo comprò la caverna di Macpela (Genesi 23:10-18)"
+    22,IAIR,"22. Settimo giudice di Israele (Giudici 10:3-5)"
+    26,DONI,"26. Cristo li diede “negli uomini” (Efesini 4:8)"
+    28,RIPUDIARE,"28. Respingere, aborrire, rinnegare (Tito 2:12)"
+    29,PENA,"29. Quella del cuore causa uno spirito abbattuto (Proverbi 15:13)"
+    31,OTRI,"31. Servivano a contenere il vino (Marco 2:22)"
+    34,URI,"34. Il padre di Bezalel, l’artigiano che lavorò alla realizzazione del tabernacolo (2 Cronache 1:5)"
+    35,ORO,"35. Si raffina con il fuoco (Rivelazione 3:18)"
+    36,ANA,"36. Padre di Oolibama moglie di Esaù (Genesi 36:2)"
+    37,RETE,"37. Serve per pescare (Ecclesiaste 9:12)"
+    40,ELAM,"40. Il regno di Chedorlaomer (Genesi 14:1)"
+    41,RIMORSO,"41. Quando si prova è troppo tardi (Matteo 27:3)"
+    45,ORIGINE,"45. “Chiunque non pratica la giustizia non ha ------- da Dio” (1 Giovanni 3:10)"
+    46,AARONNE,"46. Il primo sommo sacerdote di Israele (Esodo 28:1-3)"
+    47,SUD,"47. Il meridione (Ezechiele 20:46)"
+    48,ORATORE,"48. Mosè non si sentiva capace in questo ruolo (Esodo 4:10)"
+    49,ODOROSE,"49. Profumate, aromatiche (Il Cantico dei Cantici 5:13)"
+  verticali[27]{num,word,clue}:
+    1,BIASIMI,"1. Devono sopportarli i cristiani (Ebrei 10:33)"
+    2,SPINOSI,"2. Lo sono molti cespugli selvatici (Osea 9:6)"
+    3,AMOS,"3."
+    4,ELMO,"4."
+    5,PALA,"5."
+    6,DATI,"6."
+    7,LIEVITO,"7."
+    8,EFESINI,"8."
+    11,AMO,"11."
+    13,ETA,"13."
+    15,DESIDERIO,"15."
+    17,NARRARE,"17."
+    18,GEDEONE,"18."
+    23,AIE,"23."
+    24,API,"24."
+    25,CAM,"25."
+    27,NER,"27."
+    29,PERDONO,"29."
+    30,NUTRITA,"30."
+    32,TALENTO,"32."
+    33,ISMAELE,"33."
+    38,HIN,"38."
+    39,ASA,"39."
+    41,RISO,"41."
+    42,MESE,"42."
+    43,RADO,"43."
+    44,ORTO,"44."
+placements[54]:
+  - num: 1
+    word: BUSSARE
+    clue: "1. Gesù incoraggiò a continuare a farlo (Luca 11:9)"
+    type: H
+    start: A1
+    positions[7]{row,col,letter}:
+      0,0,B
+      0,1,U
+      0,2,S
+      0,3,S
+      0,4,A
+      0,5,R
+      0,6,E
+  - num: 5
+    word: PADELLE
+    clue: "5. Si usavano per cuocere (1 Cronache 9:31)"
+    type: H
+    start: I1
+    positions[7]{row,col,letter}:
+      0,8,P
+      0,9,A
+      0,10,D
+      0,11,E
+      0,12,L
+      0,13,L
+      0,14,E
+  - num: 9
+    word: LEA
+    clue: "9. La prima moglie di Giacobbe (Genesi 29:21-25)"
+    type: H
+    start: G2
+    positions[3]{row,col,letter}:
+      1,6,L
+      1,7,E
+      1,8,A
+  - num: 10
+    word: AHINOAM
+    clue: "10. Partorì a Davide il suo primogenito Amnon (2 Samuele 3:2)"
+    type: H
+    start: A3
+    positions[7]{row,col,letter}:
+      2,0,A
+      2,1,H
+      2,2,I
+      2,3,N
+      2,4,O
+      2,5,A
+      2,6,M
+  - num: 12
+    word: LETTERE
+    clue: "12. Quelle di Paolo circolavano tra i primi cristiani (2 Pietro 3:16)"
+    type: H
+    start: I3
+    positions[7]{row,col,letter}:
+      2,8,L
+      2,9,E
+      2,10,T
+      2,11,T
+      2,12,E
+      2,13,R
+      2,14,E
+  - num: 14
+    word: SMODATI
+    clue: "14. Esagerati, eccessivi, sfrenati (Proverbi 23:20)"
+    type: H
+    start: E4
+    positions[7]{row,col,letter}:
+      3,4,S
+      3,5,M
+      3,6,O
+      3,7,D
+      3,8,A
+      3,9,T
+      3,10,I
+  - num: 16
+    word: IJON
+    clue: "16. Uno dei luoghi conquistati da Ben-Adad I re di Siria durante il regno di Baasa (1 Re 15:20, 21)"
+    type: H
+    start: A5
+    positions[4]{row,col,letter}:
+      4,0,I
+      4,1,J
+      4,2,O
+      4,3,N
+  - num: 18
+    word: GIRI
+    clue: "18. Quelli del vento non cessano mai (Ecclesiaste 1:6)"
+    type: H
+    start: L5
+    positions[4]{row,col,letter}:
+      4,11,G
+      4,12,I
+      4,13,R
+      4,14,I
+  - num: 19
+    word: SAF
+    clue: "19. Uno dei quattro giganteschi refaim uccisi dagli uomini potenti di Davide (2 Samuele 21:18, 22)"
+    type: H
+    start: C6
+    positions[3]{row,col,letter}:
+      5,2,S
+      5,3,A
+      5,4,F
+  - num: 20
+    word: EST
+    clue: "20. Punto cardinale (Genesi 13:14)"
+    type: H
+    start: G6
+    positions[3]{row,col,letter}:
+      5,6,E
+      5,7,S
+      5,8,T
+  - num: 21
+    word: HET
+    clue: "21. Da un suo discendente Abraamo comprò la caverna di Macpela (Genesi 23:10-18)"
+    type: H
+    start: K6
+    positions[3]{row,col,letter}:
+      5,10,H
+      5,11,E
+      5,12,T
+  - num: 22
+    word: IAIR
+    clue: "22. Settimo giudice di Israele (Giudici 10:3-5)"
+    type: H
+    start: A7
+    positions[4]{row,col,letter}:
+      6,0,I
+      6,1,A
+      6,2,I
+      6,3,R
+  - num: 26
+    word: DONI
+    clue: "26. Cristo li diede “negli uomini” (Efesini 4:8)"
+    type: H
+    start: L7
+    positions[4]{row,col,letter}:
+      6,11,D
+      6,12,O
+      6,13,N
+      6,14,I
+  - num: 28
+    word: RIPUDIARE
+    clue: "28. Respingere, aborrire, rinnegare (Tito 2:12)"
+    type: H
+    start: D8
+    positions[9]{row,col,letter}:
+      7,3,R
+      7,4,I
+      7,5,P
+      7,6,U
+      7,7,D
+      7,8,I
+      7,9,A
+      7,10,R
+      7,11,E
+  - num: 29
+    word: PENA
+    clue: "29. Quella del cuore causa uno spirito abbattuto (Proverbi 15:13)"
+    type: H
+    start: A9
+    positions[4]{row,col,letter}:
+      8,0,P
+      8,1,E
+      8,2,N
+      8,3,A
+  - num: 31
+    word: OTRI
+    clue: "31. Servivano a contenere il vino (Marco 2:22)"
+    type: H
+    start: L9
+    positions[4]{row,col,letter}:
+      8,11,O
+      8,12,T
+      8,13,R
+      8,14,I
+  - num: 34
+    word: URI
+    clue: "34. Il padre di Bezalel, l’artigiano che lavorò alla realizzazione del tabernacolo (2 Cronache 1:5)"
+    type: H
+    start: C10
+    positions[3]{row,col,letter}:
+      9,2,U
+      9,3,R
+      9,4,I
+  - num: 35
+    word: ORO
+    clue: "35. Si raffina con il fuoco (Rivelazione 3:18)"
+    type: H
+    start: G10
+    positions[3]{row,col,letter}:
+      9,6,O
+      9,7,R
+      9,8,O
+  - num: 36
+    word: ANA
+    clue: "36. Padre di Oolibama moglie di Esaù (Genesi 36:2)"
+    type: H
+    start: K10
+    positions[3]{row,col,letter}:
+      9,10,A
+      9,11,N
+      9,12,A
+  - num: 37
+    word: RETE
+    clue: "37. Serve per pescare (Ecclesiaste 9:12)"
+    type: H
+    start: A11
+    positions[4]{row,col,letter}:
+      10,0,R
+      10,1,E
+      10,2,T
+      10,3,E
+  - num: 40
+    word: ELAM
+    clue: "40. Il regno di Chedorlaomer (Genesi 14:1)"
+    type: H
+    start: L11
+    positions[4]{row,col,letter}:
+      10,11,E
+      10,12,L
+      10,13,A
+      10,14,M
+  - num: 41
+    word: RIMORSO
+    clue: "41. Quando si prova è troppo tardi (Matteo 27:3)"
+    type: H
+    start: E12
+    positions[7]{row,col,letter}:
+      11,4,R
+      11,5,I
+      11,6,M
+      11,7,O
+      11,8,R
+      11,9,S
+      11,10,O
+  - num: 45
+    word: ORIGINE
+    clue: "45. “Chiunque non pratica la giustizia non ha ------- da Dio” (1 Giovanni 3:10)"
+    type: H
+    start: A13
+    positions[7]{row,col,letter}:
+      12,0,O
+      12,1,R
+      12,2,I
+      12,3,G
+      12,4,I
+      12,5,N
+      12,6,E
+  - num: 46
+    word: AARONNE
+    clue: "46. Il primo sommo sacerdote di Israele (Esodo 28:1-3)"
+    type: H
+    start: I13
+    positions[7]{row,col,letter}:
+      12,8,A
+      12,9,A
+      12,10,R
+      12,11,O
+      12,12,N
+      12,13,N
+      12,14,E
+  - num: 47
+    word: SUD
+    clue: "47. Il meridione (Ezechiele 20:46)"
+    type: H
+    start: G14
+    positions[3]{row,col,letter}:
+      13,6,S
+      13,7,U
+      13,8,D
+  - num: 48
+    word: ORATORE
+    clue: "48. Mosè non si sentiva capace in questo ruolo (Esodo 4:10)"
+    type: H
+    start: A15
+    positions[7]{row,col,letter}:
+      14,0,O
+      14,1,R
+      14,2,A
+      14,3,T
+      14,4,O
+      14,5,R
+      14,6,E
+  - num: 49
+    word: ODOROSE
+    clue: "49. Profumate, aromatiche (Il Cantico dei Cantici 5:13)"
+    type: H
+    start: I15
+    positions[7]{row,col,letter}:
+      14,8,O
+      14,9,D
+      14,10,O
+      14,11,R
+      14,12,O
+      14,13,S
+      14,14,E
+  - num: 1
+    word: BIASIMI
+    clue: "1. Devono sopportarli i cristiani (Ebrei 10:33)"
+    type: V
+    start: A1
+    positions[7]{row,col,letter}:
+      0,0,B
+      1,0,I
+      2,0,A
+      3,0,S
+      4,0,I
+      5,0,M
+      6,0,I
+  - num: 2
+    word: SPINOSI
+    clue: "2. Lo sono molti cespugli selvatici (Osea 9:6)"
+    type: V
+    start: C1
+    positions[7]{row,col,letter}:
+      0,2,S
+      1,2,P
+      2,2,I
+      3,2,N
+      4,2,O
+      5,2,S
+      6,2,I
+  - num: 3
+    word: AMOS
+    clue: "3."
+    type: V
+    start: E1
+    positions[4]{row,col,letter}:
+      0,4,A
+      1,4,M
+      2,4,O
+      3,4,S
+  - num: 4
+    word: ELMO
+    clue: "4."
+    type: V
+    start: G1
+    positions[4]{row,col,letter}:
+      0,6,E
+      1,6,L
+      2,6,M
+      3,6,O
+  - num: 5
+    word: PALA
+    clue: "5."
+    type: V
+    start: I1
+    positions[4]{row,col,letter}:
+      0,8,P
+      1,8,A
+      2,8,L
+      3,8,A
+  - num: 6
+    word: DATI
+    clue: "6."
+    type: V
+    start: K1
+    positions[4]{row,col,letter}:
+      0,10,D
+      1,10,A
+      2,10,T
+      3,10,I
+  - num: 7
+    word: LIEVITO
+    clue: "7."
+    type: V
+    start: M1
+    positions[7]{row,col,letter}:
+      0,12,L
+      1,12,I
+      2,12,E
+      3,12,V
+      4,12,I
+      5,12,T
+      6,12,O
+  - num: 8
+    word: EFESINI
+    clue: "8."
+    type: V
+    start: O1
+    positions[7]{row,col,letter}:
+      0,14,E
+      1,14,F
+      2,14,E
+      3,14,S
+      4,14,I
+      5,14,N
+      6,14,I
+  - num: 11
+    word: AMO
+    clue: "11."
+    type: V
+    start: F3
+    positions[3]{row,col,letter}:
+      2,5,A
+      3,5,M
+      4,5,O
+  - num: 13
+    word: ETA
+    clue: "13."
+    type: V
+    start: J3
+    positions[3]{row,col,letter}:
+      2,9,E
+      3,9,T
+      4,9,A
+  - num: 15
+    word: DESIDERIO
+    clue: "15."
+    type: V
+    start: H4
+    positions[9]{row,col,letter}:
+      3,7,D
+      4,7,E
+      5,7,S
+      6,7,I
+      7,7,D
+      8,7,E
+      9,7,R
+      10,7,I
+      11,7,O
+  - num: 17
+    word: NARRARE
+    clue: "17."
+    type: V
+    start: D5
+    positions[7]{row,col,letter}:
+      4,3,N
+      5,3,A
+      6,3,R
+      7,3,R
+      8,3,A
+      9,3,R
+      10,3,E
+  - num: 18
+    word: GEDEONE
+    clue: "18."
+    type: V
+    start: L5
+    positions[7]{row,col,letter}:
+      4,11,G
+      5,11,E
+      6,11,D
+      7,11,E
+      8,11,O
+      9,11,N
+      10,11,E
+  - num: 23
+    word: AIE
+    clue: "23."
+    type: V
+    start: B7
+    positions[3]{row,col,letter}:
+      6,1,A
+      7,1,I
+      8,1,E
+  - num: 24
+    word: API
+    clue: "24."
+    type: V
+    start: F7
+    positions[3]{row,col,letter}:
+      6,5,A
+      7,5,P
+      8,5,I
+  - num: 25
+    word: CAM
+    clue: "25."
+    type: V
+    start: J7
+    positions[3]{row,col,letter}:
+      6,9,C
+      7,9,A
+      8,9,M
+  - num: 27
+    word: NER
+    clue: "27."
+    type: V
+    start: N7
+    positions[3]{row,col,letter}:
+      6,13,N
+      7,13,E
+      8,13,R
+  - num: 29
+    word: PERDONO
+    clue: "29."
+    type: V
+    start: A9
+    positions[7]{row,col,letter}:
+      8,0,P
+      9,0,E
+      10,0,R
+      11,0,D
+      12,0,O
+      13,0,N
+      14,0,O
+  - num: 30
+    word: NUTRITA
+    clue: "30."
+    type: V
+    start: C9
+    positions[7]{row,col,letter}:
+      8,2,N
+      9,2,U
+      10,2,T
+      11,2,R
+      12,2,I
+      13,2,T
+      14,2,A
+  - num: 32
+    word: TALENTO
+    clue: "32."
+    type: V
+    start: M9
+    positions[7]{row,col,letter}:
+      8,12,T
+      9,12,A
+      10,12,L
+      11,12,E
+      12,12,N
+      13,12,T
+      14,12,O
+  - num: 33
+    word: ISMAELE
+    clue: "33."
+    type: V
+    start: O9
+    positions[7]{row,col,letter}:
+      8,14,I
+      9,14,S
+      10,14,M
+      11,14,A
+      12,14,E
+      13,14,L
+      14,14,E
+  - num: 38
+    word: HIN
+    clue: "38."
+    type: V
+    start: F11
+    positions[3]{row,col,letter}:
+      10,5,H
+      11,5,I
+      12,5,N
+  - num: 39
+    word: ASA
+    clue: "39."
+    type: V
+    start: J11
+    positions[3]{row,col,letter}:
+      10,9,A
+      11,9,S
+      12,9,A
+  - num: 41
+    word: RISO
+    clue: "41."
+    type: V
+    start: E12
+    positions[4]{row,col,letter}:
+      11,4,R
+      12,4,I
+      13,4,S
+      14,4,O
+  - num: 42
+    word: MESE
+    clue: "42."
+    type: V
+    start: G12
+    positions[4]{row,col,letter}:
+      11,6,M
+      12,6,E
+      13,6,S
+      14,6,E
+  - num: 43
+    word: RADO
+    clue: "43."
+    type: V
+    start: I12
+    positions[4]{row,col,letter}:
+      11,8,R
+      12,8,A
+      13,8,D
+      14,8,O
+  - num: 44
+    word: ORTO
+    clue: "44."
+    type: V
+    start: K12
+    positions[4]{row,col,letter}:
+      11,10,O
+      12,10,R
+      13,10,T
+      14,10,O
+metadata:
+  totalNumbers: 49
+  horizontalStarts: 27
+  verticalStarts: 27
+  totalWords: 54
+  createdAt: "2025-12-27T11:32:09.164Z"

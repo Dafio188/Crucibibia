@@ -422,25 +422,75 @@ fun ActionButtons(
     modifier: Modifier = Modifier
 ) {
     Row(
-        modifier = modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.SpaceEvenly
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(vertical = 8.dp),
+        horizontalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        FilledTonalButton(onClick = onCheck) {
-            Icon(Icons.Default.CheckCircle, contentDescription = null, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(4.dp))
-            Text(stringResource(R.string.check), fontSize = 12.sp)
+        // Verifica button
+        Button(
+            onClick = onCheck,
+            modifier = Modifier.weight(1f),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = MaterialTheme.colorScheme.primary
+            ),
+            contentPadding = PaddingValues(vertical = 12.dp)
+        ) {
+            Icon(
+                Icons.Default.CheckCircle,
+                contentDescription = null,
+                modifier = Modifier.size(20.dp)
+            )
+            Spacer(Modifier.width(6.dp))
+            Text(
+                text = stringResource(R.string.check),
+                fontSize = 13.sp,
+                maxLines = 1
+            )
         }
 
-        FilledTonalButton(onClick = onHint) {
-            Icon(Icons.Default.Lightbulb, contentDescription = null, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(4.dp))
-            Text(stringResource(R.string.hint), fontSize = 12.sp)
+        // Suggerimento button
+        Button(
+            onClick = onHint,
+            modifier = Modifier.weight(1f),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = MaterialTheme.colorScheme.secondary
+            ),
+            contentPadding = PaddingValues(vertical = 12.dp)
+        ) {
+            Icon(
+                Icons.Default.Lightbulb,
+                contentDescription = null,
+                modifier = Modifier.size(20.dp)
+            )
+            Spacer(Modifier.width(6.dp))
+            Text(
+                text = stringResource(R.string.hint),
+                fontSize = 13.sp,
+                maxLines = 1
+            )
         }
 
-        FilledTonalButton(onClick = onSolution) {
-            Icon(Icons.Default.Visibility, contentDescription = null, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(4.dp))
-            Text(stringResource(R.string.solution), fontSize = 12.sp)
+        // Soluzione button
+        Button(
+            onClick = onSolution,
+            modifier = Modifier.weight(1f),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = MaterialTheme.colorScheme.tertiary
+            ),
+            contentPadding = PaddingValues(vertical = 12.dp)
+        ) {
+            Icon(
+                Icons.Default.Visibility,
+                contentDescription = null,
+                modifier = Modifier.size(20.dp)
+            )
+            Spacer(Modifier.width(6.dp))
+            Text(
+                text = stringResource(R.string.solution),
+                fontSize = 13.sp,
+                maxLines = 1
+            )
         }
     }
 }

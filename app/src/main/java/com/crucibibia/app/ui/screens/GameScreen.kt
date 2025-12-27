@@ -1,5 +1,7 @@
 package com.crucibibia.app.ui.screens
 
+import android.content.Intent
+import android.net.Uri
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -15,6 +17,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -27,6 +30,7 @@ import com.crucibibia.app.data.model.Direction
 import com.crucibibia.app.data.repository.PuzzleRepository
 import com.crucibibia.app.ui.theme.GridColors
 import com.crucibibia.app.ui.viewmodel.GameViewModel
+import com.crucibibia.app.util.BibleHelper
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -109,7 +113,10 @@ fun GameScreen(
                     .padding(paddingValues)
             ) {
                 // Current clue display
+                val context = LocalContext.current
                 uiState.currentClue?.let { clue ->
+                    val scriptureUrl = BibleHelper.getWolUrl(clue.text)
+
                     Card(
                         modifier = Modifier
                             .fillMaxWidth()
@@ -129,7 +136,7 @@ fun GameScreen(
                                 color = MaterialTheme.colorScheme.primary,
                                 modifier = Modifier.padding(end = 8.dp)
                             )
-                            Column {
+                            Column(modifier = Modifier.weight(1f)) {
                                 Text(
                                     text = if (clue.direction == Direction.HORIZONTAL) "Orizzontale" else "Verticale",
                                     style = MaterialTheme.typography.labelSmall,
@@ -140,6 +147,24 @@ fun GameScreen(
                                     style = MaterialTheme.typography.bodyMedium,
                                     color = MaterialTheme.colorScheme.onPrimaryContainer
                                 )
+                            }
+
+                            // Bible icon - opens scripture in browser
+                            if (scriptureUrl != null) {
+                                IconButton(
+                                    onClick = {
+                                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(scriptureUrl))
+                                        context.startActivity(intent)
+                                    },
+                                    modifier = Modifier.size(40.dp)
+                                ) {
+                                    Icon(
+                                        imageVector = Icons.Default.MenuBook,
+                                        contentDescription = "Apri scrittura",
+                                        tint = MaterialTheme.colorScheme.primary,
+                                        modifier = Modifier.size(28.dp)
+                                    )
+                                }
                             }
                         }
                     }

@@ -112,97 +112,100 @@ fun GameScreen(
                     .fillMaxSize()
                     .padding(paddingValues)
             ) {
-                // Current clue display
-                val context = LocalContext.current
-                uiState.currentClue?.let { clue ->
-                    val scriptureUrl = BibleHelper.getWolUrl(clue.text)
+                // Top content (scrollable if needed)
+                Column(
+                    modifier = Modifier
+                        .weight(1f)
+                        .fillMaxWidth()
+                ) {
+                    // Current clue display
+                    val context = LocalContext.current
+                    uiState.currentClue?.let { clue ->
+                        val scriptureUrl = BibleHelper.getWolUrl(clue.text)
 
-                    Card(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = 8.dp, vertical = 4.dp),
-                        colors = CardDefaults.cardColors(
-                            containerColor = MaterialTheme.colorScheme.primaryContainer
-                        )
-                    ) {
-                        Row(
-                            modifier = Modifier.padding(12.dp),
-                            verticalAlignment = Alignment.Top
-                        ) {
-                            Text(
-                                text = "${clue.number}.",
-                                style = MaterialTheme.typography.titleMedium,
-                                fontWeight = FontWeight.Bold,
-                                color = MaterialTheme.colorScheme.primary,
-                                modifier = Modifier.padding(end = 8.dp)
+                        Card(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(horizontal = 8.dp, vertical = 4.dp),
+                            colors = CardDefaults.cardColors(
+                                containerColor = MaterialTheme.colorScheme.primaryContainer
                             )
-                            Column(modifier = Modifier.weight(1f)) {
+                        ) {
+                            Row(
+                                modifier = Modifier.padding(12.dp),
+                                verticalAlignment = Alignment.Top
+                            ) {
                                 Text(
-                                    text = if (clue.direction == Direction.HORIZONTAL) "Orizzontale" else "Verticale",
-                                    style = MaterialTheme.typography.labelSmall,
-                                    color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.7f)
+                                    text = "${clue.number}.",
+                                    style = MaterialTheme.typography.titleMedium,
+                                    fontWeight = FontWeight.Bold,
+                                    color = MaterialTheme.colorScheme.primary,
+                                    modifier = Modifier.padding(end = 8.dp)
                                 )
-                                Text(
-                                    text = clue.text,
-                                    style = MaterialTheme.typography.bodyMedium,
-                                    color = MaterialTheme.colorScheme.onPrimaryContainer
-                                )
-                            }
-
-                            // Bible icon - opens scripture in browser
-                            if (scriptureUrl != null) {
-                                IconButton(
-                                    onClick = {
-                                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(scriptureUrl))
-                                        context.startActivity(intent)
-                                    },
-                                    modifier = Modifier.size(40.dp)
-                                ) {
-                                    Icon(
-                                        imageVector = Icons.Default.MenuBook,
-                                        contentDescription = "Apri scrittura",
-                                        tint = MaterialTheme.colorScheme.primary,
-                                        modifier = Modifier.size(28.dp)
+                                Column(modifier = Modifier.weight(1f)) {
+                                    Text(
+                                        text = if (clue.direction == Direction.HORIZONTAL) "Orizzontale" else "Verticale",
+                                        style = MaterialTheme.typography.labelSmall,
+                                        color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.7f)
                                     )
+                                    Text(
+                                        text = clue.text,
+                                        style = MaterialTheme.typography.bodyMedium,
+                                        color = MaterialTheme.colorScheme.onPrimaryContainer
+                                    )
+                                }
+
+                                // Bible icon - opens scripture in browser
+                                if (scriptureUrl != null) {
+                                    IconButton(
+                                        onClick = {
+                                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(scriptureUrl))
+                                            context.startActivity(intent)
+                                        },
+                                        modifier = Modifier.size(40.dp)
+                                    ) {
+                                        Icon(
+                                            imageVector = Icons.Default.MenuBook,
+                                            contentDescription = "Apri scrittura",
+                                            tint = MaterialTheme.colorScheme.primary,
+                                            modifier = Modifier.size(28.dp)
+                                        )
+                                    }
                                 }
                             }
                         }
                     }
+
+                    // Grid
+                    CrosswordGrid(
+                        puzzleData = uiState.puzzleData!!,
+                        userGrid = uiState.userGrid,
+                        selectedCell = uiState.selectedCell,
+                        highlightedCells = uiState.highlightedCells,
+                        errorCells = uiState.errorCells,
+                        correctCells = uiState.correctCells,
+                        revealedCells = uiState.revealedCells,
+                        onCellClick = { row, col -> viewModel.selectCell(row, col) },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(8.dp)
+                    )
+
+                    // Action buttons
+                    ActionButtons(
+                        onCheck = { viewModel.checkAnswers() },
+                        onHint = { viewModel.revealCurrentCell() },
+                        onSolution = { showSolutionDialog = true },
+                        modifier = Modifier.padding(horizontal = 8.dp)
+                    )
                 }
 
-                // Grid
-                CrosswordGrid(
-                    puzzleData = uiState.puzzleData!!,
-                    userGrid = uiState.userGrid,
-                    selectedCell = uiState.selectedCell,
-                    highlightedCells = uiState.highlightedCells,
-                    errorCells = uiState.errorCells,
-                    correctCells = uiState.correctCells,
-                    revealedCells = uiState.revealedCells,
-                    onCellClick = { row, col -> viewModel.selectCell(row, col) },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(8.dp)
-                )
-
-                // Action buttons
-                ActionButtons(
-                    onCheck = { viewModel.checkAnswers() },
-                    onHint = { viewModel.revealCurrentCell() },
-                    onSolution = { showSolutionDialog = true },
-                    modifier = Modifier.padding(horizontal = 8.dp)
-                )
-
-                // Spacer to push keyboard to bottom
-                Spacer(modifier = Modifier.weight(1f))
-
-                // Keyboard - always visible at bottom
+                // Keyboard - ALWAYS at bottom with fixed height
                 CustomKeyboard(
                     onKeyPress = { letter -> viewModel.inputLetter(letter) },
                     onDelete = { viewModel.deleteLetter() },
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(4.dp)
                 )
             }
         }

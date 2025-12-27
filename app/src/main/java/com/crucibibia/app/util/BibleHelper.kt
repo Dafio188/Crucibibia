@@ -228,7 +228,17 @@ object BibleHelper {
         val verses: String? = null
     ) {
         fun toWolUrl(): String {
-            return "https://wol.jw.org/it/wol/b/r6/lp-i/nwtsty/$bookNumber/$chapter#study=discover"
+            // Extract first verse number if available
+            val firstVerse = verses?.let {
+                // Get first number from verses string (e.g., "9, 10" -> 9, "15-17" -> 15)
+                Regex("""(\d+)""").find(it)?.groupValues?.get(1)
+            }
+
+            return if (firstVerse != null) {
+                "https://wol.jw.org/it/wol/b/r6/lp-i/nwtsty/$bookNumber/$chapter#s=$firstVerse&study=discover"
+            } else {
+                "https://wol.jw.org/it/wol/b/r6/lp-i/nwtsty/$bookNumber/$chapter#study=discover"
+            }
         }
     }
 

@@ -4,7 +4,7 @@ import com.crucibibia.app.data.model.*
 
 /**
  * Parser per il formato TOON (Token-Oriented Object Notation)
- * Specifico per i file puzzle di Crucibibia
+ * Specifico per i file puzzle di CruciBibbia
  */
 class ToonParser {
 

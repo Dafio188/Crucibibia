@@ -193,18 +193,10 @@ fun GameScreen(
                     modifier = Modifier.padding(horizontal = 8.dp)
                 )
 
-                // Clues list
-                CluesList(
-                    horizontalClues = uiState.puzzleData!!.horizontalClues,
-                    verticalClues = uiState.puzzleData!!.verticalClues,
-                    selectedDirection = uiState.selectedDirection,
-                    onClueClick = { clue -> viewModel.selectClue(clue) },
-                    modifier = Modifier
-                        .weight(1f)
-                        .padding(8.dp)
-                )
+                // Spacer to push keyboard to bottom
+                Spacer(modifier = Modifier.weight(1f))
 
-                // Keyboard
+                // Keyboard - always visible at bottom
                 CustomKeyboard(
                     onKeyPress = { letter -> viewModel.inputLetter(letter) },
                     onDelete = { viewModel.deleteLetter() },

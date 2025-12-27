@@ -15,150 +15,124 @@ structure[15]:
   - [15]: 1,1,0,0,1,1,0,1,0,1,1,0,0,1,1
   - [15]: 1,0,1,1,1,1,1,0,1,1,1,1,1,0,1
   - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
-numberedCells[80]{row,col,num,hasH,hasV}:
+numberedCells[54]{row,col,num,hasH,hasV}:
   0,0,1,true,true
-  0,2,2,false,true
-  0,3,3,false,true
-  0,5,4,true,true
-  0,6,5,false,true
-  0,8,6,false,true
-  0,9,7,false,true
-  0,11,8,true,true
-  0,12,9,false,true
-  0,14,10,false,true
-  1,2,11,true,false
-  1,4,12,false,true
-  1,8,13,true,false
-  1,10,14,false,true
-  2,0,15,true,false
-  2,1,16,false,true
-  2,4,17,true,false
-  2,7,18,false,true
-  2,9,19,true,false
-  2,13,20,true,true
-  3,0,21,true,false
-  3,3,22,true,true
-  3,6,23,false,true
-  3,8,24,false,true
-  3,11,25,false,true
-  3,13,26,true,false
-  4,1,27,true,false
-  4,2,28,false,true
-  4,6,29,true,false
-  4,10,30,true,false
-  4,12,31,false,true
-  5,0,32,true,true
-  5,5,33,true,true
-  5,9,34,false,true
-  5,11,35,true,false
-  5,14,36,false,true
-  6,0,37,true,false
-  6,3,38,true,false
-  6,4,39,false,true
-  6,9,40,true,false
-  6,10,41,false,true
-  6,13,42,true,false
-  7,2,43,true,false
-  7,8,44,true,false
-  8,0,45,true,false
-  8,1,46,false,true
-  8,3,47,true,false
-  8,7,48,false,true
-  8,9,49,true,false
-  8,13,50,true,true
-  9,0,51,true,false
-  9,2,52,false,true
-  9,5,53,true,false
-  9,6,54,false,true
-  9,8,55,false,true
-  9,11,56,true,false
-  9,12,57,false,true
-  10,1,58,true,false
-  10,4,59,false,true
-  10,6,60,true,false
-  10,10,61,true,true
-  11,0,62,true,true
-  11,3,63,true,false
-  11,5,64,false,true
-  11,9,65,false,true
-  11,13,66,true,false
-  11,14,67,false,true
-  12,0,68,true,false
-  12,4,69,true,false
-  12,9,70,true,false
-  12,13,71,true,false
-  13,2,72,true,true
-  13,3,73,false,true
-  13,6,74,false,true
-  13,8,75,true,true
-  13,11,76,false,true
-  13,12,77,false,true
-  14,0,78,true,false
-  14,5,79,true,false
-  14,11,80,true,false
+  0,5,2,true,true
+  0,9,3,false,true
+  0,11,4,true,false
+  0,14,5,false,true
+  1,2,6,true,false
+  1,4,7,false,true
+  1,8,8,true,false
+  1,10,9,false,true
+  2,1,10,false,true
+  2,7,11,false,true
+  2,13,12,false,true
+  3,3,13,true,true
+  3,6,14,false,true
+  3,8,15,false,true
+  3,11,16,false,true
+  4,1,17,true,false
+  4,6,18,true,false
+  4,10,19,true,false
+  5,0,20,true,true
+  5,5,21,true,true
+  5,9,22,false,true
+  5,11,23,true,false
+  5,14,24,false,true
+  6,3,25,true,false
+  6,4,26,false,true
+  6,9,27,true,false
+  6,10,28,false,true
+  7,2,29,true,false
+  7,8,30,true,false
+  8,1,31,false,true
+  8,3,32,true,false
+  8,7,33,false,true
+  8,9,34,true,false
+  8,13,35,false,true
+  9,0,36,true,false
+  9,5,37,true,false
+  9,6,38,false,true
+  9,8,39,false,true
+  9,11,40,true,false
+  10,1,41,true,false
+  10,4,42,false,true
+  10,6,43,true,false
+  10,10,44,true,true
+  11,0,45,false,true
+  11,3,46,true,false
+  11,5,47,false,true
+  11,9,48,false,true
+  11,14,49,false,true
+  13,2,50,true,false
+  13,8,51,true,false
+  14,0,52,true,false
+  14,5,53,true,false
+  14,11,54,true,false
 words:
   orizzontali[30]{num,word,clue}:
     1,FEDE,"1. Segue ciò che si ode (Romani 10:17)"
-    2,ESTER,"2."
-    4,LUCA,"4."
-    6,PIEDI,"6."
-    8,GAMBE,"8."
-    13,GAMALIELE,"13."
-    17,OTRI,"17."
-    18,MAR,"18."
-    19,AMEN,"19."
-    20,URIA,"20."
-    21,IOTAM,"21."
-    23,MITE,"23."
-    25,DAN,"25."
-    27,ADA,"27."
-    29,LEGGE,"29."
-    30,CRUNA,"30."
-    32,VOI,"32."
-    34,IEU,"34."
-    36,ELMO,"36."
-    37,UNICA,"37."
-    40,EDEN,"40."
-    41,ORLO,"41."
-    43,ORA,"43."
-    44,OLIO,"44."
-    46,ERBEAMARE,"46."
-    50,MIELE,"50."
-    51,SCOPA,"51."
-    52,ACAN,"52."
-    53,AMPIA,"53."
-    54,BAAL,"54."
+    2,ESTER,"2. Divenne regina e diede il nome a un libro della Bibbia (a)"
+    4,LUCA,"4. Scrisse uno dei Vangeli (a)"
+    6,PIEDI,"6. Gesù li lavò ai discepoli (Giovanni 13:5)"
+    8,GAMBE,"8. Quelle dell'immagine del sogno di Nabucodonosor erano di ferro (Daniele 2:33)"
+    13,GAMALIELE,"13. Istruì Paolo nella Legge mosaica (Atti 22:3)"
+    17,OTRI,"17. Vi si conservava il vino (Matteo 9:17)"
+    18,MAR,"18. La Bibbia ne menziona uno rosso, uno grande e uno salato (Numeri 33:11; 34:7, 12)"
+    19,AMEN,"19. Lo si dice al termine della preghiera (1 Corinti 14:16)"
+    20,URIA,"20. Aveva sposato Betsabea (2 Samuele 11:3)"
+    21,IOTAM,"21. Re di Giuda figlio di Uzzia e padre di Acaz (Matteo 1:9)"
+    23,MITE,"23. L'indole di coloro che erediteranno la terra (Matteo 5:5)"
+    25,DAN,"25. Il figlio di Giacobbe il cui nome significa "giudice" (Genesi 30:6)"
+    27,ADA,"27. La prima moglie di Lamec (Genesi 4:19)"
+    29,LEGGE,"29. Quella mosaica aveva "un'ombra delle buone cose avvenire" (Ebrei 10:1)"
+    30,CRUNA,"30. È decisamente troppo piccola per farci passare un cammello (Luca 18:25)"
+    32,VOI,"32. Pronome che indica le persone a cui ci si rivolge (Atti 20:18)"
+    34,IEU,"34. Fece uccidere Izebel (2 Re 9:30-33)"
+    36,ELMO,"36. Proteggeva la testa dei soldati (1 Samuele 17:5)"
+    37,UNICA,"37. Lo era la figlia di Iefte (Giudici 11:34)"
+    40,EDEN,"40. Adamo doveva coltivarlo (Genesi 2:15)"
+    41,ORLO,"41. Quello del campo non si doveva mietere (Levitico 19:9)"
+    43,ORA,"43. Il fatto di non conoscerla ci deve rendere vigilanti (Matteo 25:13)"
+    44,OLIO,"44. Combustibile usato comunemente nei tempi biblici per l'illuminazione (Matteo 25:1-9)"
+    46,ERBEAMARE,"46. Si mangiavano durante la pasqua (2 parole) (Numeri 9:11)"
+    50,MIELE,"50. Giovanni il Battezzatore mangiava quello selvatico (Marco 1:6)"
+    51,SCOPA,"51. Si usa per spazzare (Isaia 14:23)"
+    52,ACAN,"52. Disubbidì a Geova al tempo della conquista di Gerico rubando e nascondendo alcune spoglie (Giosuè 7:20, 21)"
+    53,AMPIA,"53. Lo è la strada che conduce alla distruzione (Matteo 7:13)"
+    54,BAAL,"54. Fu svergognato al monte Carmelo (1 Re 18:20-40)"
   verticali[30]{num,word,clue}:
-    1,FICO,"1."
-    2,EDOM,"2."
-    3,RANE,"3."
-    5,AGAR,"5."
-    7,EGAI,"7."
-    9,MULA,"9."
-    10,CUORE,"10."
-    11,ALATE,"11."
-    12,BONTA,"12."
-    13,GRADEVOLE,"13."
-    14,AMO,"14."
-    15,IRA,"15."
-    16,EMMANUELE,"16."
-    20,UTILE,"20."
-    21,INGIU,"21."
-    22,MARIA,"22."
-    24,ERMON,"24."
-    26,AGO,"26."
-    28,DUE,"28."
-    31,CLOPA,"31."
-    33,HIRAM,"33."
-    35,GEOVA,"35."
-    38,NOE,"38."
-    39,CAM,"39."
-    42,ORME,"42."
-    44,ORZO,"44."
-    45,CORA,"45."
-    47,BILA,"47."
-    48,ARCA,"48."
-    49,SAUL,"49."
+    1,FICO,"1. Gesù ne fece seccare uno che non aveva frutti (Matteo 21:19)"
+    2,EDOM,"2. Soprannome dato a Esaù (Genesi 25:30)"
+    3,RANE,"3. La seconda delle dieci piaghe (Esodo 8:6)"
+    5,AGAR,"5. La madre di Ismaele (Genesi 16:15)"
+    7,EGAI,"7. L'eunuco che preparò Ester con speciali trattamenti di bellezza prima che venisse presentata ad Assuero (Ester 2:3, 8, 9)"
+    9,MULA,"9. Salomone cavalcò quella di Davide quando fu unto a Ghihon (1 Re 1:38)"
+    10,CUORE,"10. "È più ingannevole di qualunque altra cosa" (Geremia 17:9)"
+    11,ALATE,"11. Lo sono le creature volatili (Salmo 78:27)"
+    12,BONTA,"12. Fa parte del frutto dello spirito (Galati 5:22)"
+    13,GRADEVOLE,"13. Piacevole, amabile (Il Cantico dei Cantici 4:3)"
+    14,AMO,"14. Si getta in mare per un buon motivo (Matteo 17:27)"
+    15,IRA,"15. I suoi accessi sono una delle opere della carne (Galati 5:19, 20)"
+    16,EMMANUELE,"16. Nome profetico del Messia (Matteo 1:22, 23)"
+    20,UTILE,"20. La santa devozione lo è più dell'addestramento corporale (1 Timoteo 4:8)"
+    21,INGIU,"21. La direzione in cui normalmente crescono le radici (2 Re 19:30)"
+    22,MARIA,"22. La madre di Gesù (Atti 1:14)"
+    24,ERMON,"24. Il monte della Palestina famoso per la sua rugiada (Salmo 133:3)"
+    26,AGO,"26. Si usa per cucire (Luca 18:25)"
+    28,DUE,"28. Tanti erano i pesci che furono moltiplicati miracolosamente (Matteo 14:19)"
+    31,CLOPA,"31. Marito di una delle Marie che stavano vicino a Gesù quand'era sul palo di tortura (Giovanni 19:25)"
+    33,HIRAM,"33. Re di Tiro contemporaneo e amico di Davide e Salomone (1 Re 5:1)"
+    35,GEOVA,"35. Il nome dell'Altissimo (Salmo 83:18)"
+    38,NOE,"38. Per mezzo della sua fede condannò il mondo (Ebrei 11:7)"
+    39,CAM,"39. Entrò nell'arca (Genesi 7:13)"
+    42,ORME,"42. Quelle di Cristo vanno seguite attentamente (1 Pietro 2:21)"
+    44,ORZO,"44. Cereale che era più comune e a buon mercato del grano (Rivelazione 6:6)"
+    45,CORA,"45. Ebbe l'appoggio di Datan e Abiram nel ribellarsi a Mosè (Numeri 26:9)"
+    47,BILA,"47. La madre di Dan e Neftali (Genesi 35:25)"
+    48,ARCA,"48. Permise di sopravvivere al tempo del Diluvio (Genesi 7:23)"
+    49,SAUL,"49. Il primo re di Israele (Atti 13:21)"
 placements[60]:
   - num: 1
     word: FEDE
@@ -172,7 +146,7 @@ placements[60]:
       0,3,E
   - num: 2
     word: ESTER
-    clue: "2."
+    clue: "2. Divenne regina e diede il nome a un libro della Bibbia (a)"
     type: H
     start: F1
     positions[5]{row,col,letter}:
@@ -183,7 +157,7 @@ placements[60]:
       0,9,R
   - num: 4
     word: LUCA
-    clue: "4."
+    clue: "4. Scrisse uno dei Vangeli (a)"
     type: H
     start: L1
     positions[4]{row,col,letter}:
@@ -193,7 +167,7 @@ placements[60]:
       0,14,A
   - num: 6
     word: PIEDI
-    clue: "6."
+    clue: "6. Gesù li lavò ai discepoli (Giovanni 13:5)"
     type: H
     start: C2
     positions[5]{row,col,letter}:
@@ -204,7 +178,7 @@ placements[60]:
       1,6,I
   - num: 8
     word: GAMBE
-    clue: "8."
+    clue: "8. Quelle dell'immagine del sogno di Nabucodonosor erano di ferro (Daniele 2:33)"
     type: H
     start: I2
     positions[5]{row,col,letter}:
@@ -215,7 +189,7 @@ placements[60]:
       1,12,E
   - num: 13
     word: GAMALIELE
-    clue: "13."
+    clue: "13. Istruì Paolo nella Legge mosaica (Atti 22:3)"
     type: H
     start: D4
     positions[9]{row,col,letter}:
@@ -230,7 +204,7 @@ placements[60]:
       3,11,E
   - num: 17
     word: OTRI
-    clue: "17."
+    clue: "17. Vi si conservava il vino (Matteo 9:17)"
     type: H
     start: B5
     positions[4]{row,col,letter}:
@@ -240,7 +214,7 @@ placements[60]:
       4,4,I
   - num: 18
     word: MAR
-    clue: "18."
+    clue: "18. La Bibbia ne menziona uno rosso, uno grande e uno salato (Numeri 33:11; 34:7, 12)"
     type: H
     start: G5
     positions[3]{row,col,letter}:
@@ -249,7 +223,7 @@ placements[60]:
       4,8,R
   - num: 19
     word: AMEN
-    clue: "19."
+    clue: "19. Lo si dice al termine della preghiera (1 Corinti 14:16)"
     type: H
     start: K5
     positions[4]{row,col,letter}:
@@ -259,7 +233,7 @@ placements[60]:
       4,13,N
   - num: 20
     word: URIA
-    clue: "20."
+    clue: "20. Aveva sposato Betsabea (2 Samuele 11:3)"
     type: H
     start: A6
     positions[4]{row,col,letter}:
@@ -269,7 +243,7 @@ placements[60]:
       5,3,A
   - num: 21
     word: IOTAM
-    clue: "21."
+    clue: "21. Re di Giuda figlio di Uzzia e padre di Acaz (Matteo 1:9)"
     type: H
     start: F6
     positions[5]{row,col,letter}:
@@ -280,7 +254,7 @@ placements[60]:
       5,9,M
   - num: 23
     word: MITE
-    clue: "23."
+    clue: "23. L'indole di coloro che erediteranno la terra (Matteo 5:5)"
     type: H
     start: L6
     positions[4]{row,col,letter}:
@@ -290,7 +264,7 @@ placements[60]:
       5,14,E
   - num: 25
     word: DAN
-    clue: "25."
+    clue: "25. Il figlio di Giacobbe il cui nome significa "giudice" (Genesi 30:6)"
     type: H
     start: D7
     positions[3]{row,col,letter}:
@@ -299,7 +273,7 @@ placements[60]:
       6,5,N
   - num: 27
     word: ADA
-    clue: "27."
+    clue: "27. La prima moglie di Lamec (Genesi 4:19)"
     type: H
     start: J7
     positions[3]{row,col,letter}:
@@ -308,7 +282,7 @@ placements[60]:
       6,11,A
   - num: 29
     word: LEGGE
-    clue: "29."
+    clue: "29. Quella mosaica aveva "un'ombra delle buone cose avvenire" (Ebrei 10:1)"
     type: H
     start: C8
     positions[5]{row,col,letter}:
@@ -319,7 +293,7 @@ placements[60]:
       7,6,E
   - num: 30
     word: CRUNA
-    clue: "30."
+    clue: "30. È decisamente troppo piccola per farci passare un cammello (Luca 18:25)"
     type: H
     start: I8
     positions[5]{row,col,letter}:
@@ -330,7 +304,7 @@ placements[60]:
       7,12,A
   - num: 32
     word: VOI
-    clue: "32."
+    clue: "32. Pronome che indica le persone a cui ci si rivolge (Atti 20:18)"
     type: H
     start: D9
     positions[3]{row,col,letter}:
@@ -339,7 +313,7 @@ placements[60]:
       8,5,I
   - num: 34
     word: IEU
-    clue: "34."
+    clue: "34. Fece uccidere Izebel (2 Re 9:30-33)"
     type: H
     start: J9
     positions[3]{row,col,letter}:
@@ -348,7 +322,7 @@ placements[60]:
       8,11,U
   - num: 36
     word: ELMO
-    clue: "36."
+    clue: "36. Proteggeva la testa dei soldati (1 Samuele 17:5)"
     type: H
     start: A10
     positions[4]{row,col,letter}:
@@ -358,7 +332,7 @@ placements[60]:
       9,3,O
   - num: 37
     word: UNICA
-    clue: "37."
+    clue: "37. Lo era la figlia di Iefte (Giudici 11:34)"
     type: H
     start: F10
     positions[5]{row,col,letter}:
@@ -369,7 +343,7 @@ placements[60]:
       9,9,A
   - num: 40
     word: EDEN
-    clue: "40."
+    clue: "40. Adamo doveva coltivarlo (Genesi 2:15)"
     type: H
     start: L10
     positions[4]{row,col,letter}:
@@ -379,7 +353,7 @@ placements[60]:
       9,14,N
   - num: 41
     word: ORLO
-    clue: "41."
+    clue: "41. Quello del campo non si doveva mietere (Levitico 19:9)"
     type: H
     start: B11
     positions[4]{row,col,letter}:
@@ -389,7 +363,7 @@ placements[60]:
       10,4,O
   - num: 43
     word: ORA
-    clue: "43."
+    clue: "43. Il fatto di non conoscerla ci deve rendere vigilanti (Matteo 25:13)"
     type: H
     start: G11
     positions[3]{row,col,letter}:
@@ -398,7 +372,7 @@ placements[60]:
       10,8,A
   - num: 44
     word: OLIO
-    clue: "44."
+    clue: "44. Combustibile usato comunemente nei tempi biblici per l'illuminazione (Matteo 25:1-9)"
     type: H
     start: K11
     positions[4]{row,col,letter}:
@@ -408,7 +382,7 @@ placements[60]:
       10,13,O
   - num: 46
     word: ERBEAMARE
-    clue: "46."
+    clue: "46. Si mangiavano durante la pasqua (2 parole) (Numeri 9:11)"
     type: H
     start: D12
     positions[9]{row,col,letter}:
@@ -423,7 +397,7 @@ placements[60]:
       11,11,E
   - num: 50
     word: MIELE
-    clue: "50."
+    clue: "50. Giovanni il Battezzatore mangiava quello selvatico (Marco 1:6)"
     type: H
     start: C14
     positions[5]{row,col,letter}:
@@ -434,7 +408,7 @@ placements[60]:
       13,6,E
   - num: 51
     word: SCOPA
-    clue: "51."
+    clue: "51. Si usa per spazzare (Isaia 14:23)"
     type: H
     start: I14
     positions[5]{row,col,letter}:
@@ -445,7 +419,7 @@ placements[60]:
       13,12,A
   - num: 52
     word: ACAN
-    clue: "52."
+    clue: "52. Disubbidì a Geova al tempo della conquista di Gerico rubando e nascondendo alcune spoglie (Giosuè 7:20, 21)"
     type: H
     start: A15
     positions[4]{row,col,letter}:
@@ -455,7 +429,7 @@ placements[60]:
       14,3,N
   - num: 53
     word: AMPIA
-    clue: "53."
+    clue: "53. Lo è la strada che conduce alla distruzione (Matteo 7:13)"
     type: H
     start: F15
     positions[5]{row,col,letter}:
@@ -466,7 +440,7 @@ placements[60]:
       14,9,A
   - num: 54
     word: BAAL
-    clue: "54."
+    clue: "54. Fu svergognato al monte Carmelo (1 Re 18:20-40)"
     type: H
     start: L15
     positions[4]{row,col,letter}:
@@ -476,7 +450,7 @@ placements[60]:
       14,14,L
   - num: 1
     word: FICO
-    clue: "1."
+    clue: "1. Gesù ne fece seccare uno che non aveva frutti (Matteo 21:19)"
     type: V
     start: A1
     positions[4]{row,col,letter}:
@@ -486,7 +460,7 @@ placements[60]:
       3,0,O
   - num: 2
     word: EDOM
-    clue: "2."
+    clue: "2. Soprannome dato a Esaù (Genesi 25:30)"
     type: V
     start: F1
     positions[4]{row,col,letter}:
@@ -496,7 +470,7 @@ placements[60]:
       3,5,M
   - num: 3
     word: RANE
-    clue: "3."
+    clue: "3. La seconda delle dieci piaghe (Esodo 8:6)"
     type: V
     start: J1
     positions[4]{row,col,letter}:
@@ -506,7 +480,7 @@ placements[60]:
       3,9,E
   - num: 5
     word: AGAR
-    clue: "5."
+    clue: "5. La madre di Ismaele (Genesi 16:15)"
     type: V
     start: O1
     positions[4]{row,col,letter}:
@@ -516,7 +490,7 @@ placements[60]:
       3,14,R
   - num: 7
     word: EGAI
-    clue: "7."
+    clue: "7. L'eunuco che preparò Ester con speciali trattamenti di bellezza prima che venisse presentata ad Assuero (Ester 2:3, 8, 9)"
     type: V
     start: E2
     positions[4]{row,col,letter}:
@@ -526,7 +500,7 @@ placements[60]:
       4,4,I
   - num: 9
     word: MULA
-    clue: "9."
+    clue: "9. Salomone cavalcò quella di Davide quando fu unto a Ghihon (1 Re 1:38)"
     type: V
     start: K2
     positions[4]{row,col,letter}:
@@ -536,7 +510,7 @@ placements[60]:
       4,10,A
   - num: 10
     word: CUORE
-    clue: "10."
+    clue: "10. "È più ingannevole di qualunque altra cosa" (Geremia 17:9)"
     type: V
     start: B3
     positions[5]{row,col,letter}:
@@ -547,7 +521,7 @@ placements[60]:
       6,1,E
   - num: 11
     word: ALATE
-    clue: "11."
+    clue: "11. Lo sono le creature volatili (Salmo 78:27)"
     type: V
     start: H3
     positions[5]{row,col,letter}:
@@ -558,7 +532,7 @@ placements[60]:
       6,7,E
   - num: 12
     word: BONTA
-    clue: "12."
+    clue: "12. Fa parte del frutto dello spirito (Galati 5:22)"
     type: V
     start: N3
     positions[5]{row,col,letter}:
@@ -569,7 +543,7 @@ placements[60]:
       6,13,A
   - num: 13
     word: GRADEVOLE
-    clue: "13."
+    clue: "13. Piacevole, amabile (Il Cantico dei Cantici 4:3)"
     type: V
     start: D4
     positions[9]{row,col,letter}:
@@ -584,7 +558,7 @@ placements[60]:
       11,3,E
   - num: 14
     word: AMO
-    clue: "14."
+    clue: "14. Si getta in mare per un buon motivo (Matteo 17:27)"
     type: V
     start: G4
     positions[3]{row,col,letter}:
@@ -593,7 +567,7 @@ placements[60]:
       5,6,O
   - num: 15
     word: IRA
-    clue: "15."
+    clue: "15. I suoi accessi sono una delle opere della carne (Galati 5:19, 20)"
     type: V
     start: I4
     positions[3]{row,col,letter}:
@@ -602,7 +576,7 @@ placements[60]:
       5,8,A
   - num: 16
     word: EMMANUELE
-    clue: "16."
+    clue: "16. Nome profetico del Messia (Matteo 1:22, 23)"
     type: V
     start: L4
     positions[9]{row,col,letter}:
@@ -617,7 +591,7 @@ placements[60]:
       11,11,E
   - num: 20
     word: UTILE
-    clue: "20."
+    clue: "20. La santa devozione lo è più dell'addestramento corporale (1 Timoteo 4:8)"
     type: V
     start: A6
     positions[5]{row,col,letter}:
@@ -628,7 +602,7 @@ placements[60]:
       9,0,E
   - num: 21
     word: INGIU
-    clue: "21."
+    clue: "21. La direzione in cui normalmente crescono le radici (2 Re 19:30)"
     type: V
     start: F6
     positions[5]{row,col,letter}:
@@ -639,7 +613,7 @@ placements[60]:
       9,5,U
   - num: 22
     word: MARIA
-    clue: "22."
+    clue: "22. La madre di Gesù (Atti 1:14)"
     type: V
     start: J6
     positions[5]{row,col,letter}:
@@ -650,7 +624,7 @@ placements[60]:
       9,9,A
   - num: 24
     word: ERMON
-    clue: "24."
+    clue: "24. Il monte della Palestina famoso per la sua rugiada (Salmo 133:3)"
     type: V
     start: O6
     positions[5]{row,col,letter}:
@@ -661,7 +635,7 @@ placements[60]:
       9,14,N
   - num: 26
     word: AGO
-    clue: "26."
+    clue: "26. Si usa per cucire (Luca 18:25)"
     type: V
     start: E7
     positions[3]{row,col,letter}:
@@ -670,7 +644,7 @@ placements[60]:
       8,4,O
   - num: 28
     word: DUE
-    clue: "28."
+    clue: "28. Tanti erano i pesci che furono moltiplicati miracolosamente (Matteo 14:19)"
     type: V
     start: K7
     positions[3]{row,col,letter}:
@@ -679,7 +653,7 @@ placements[60]:
       8,10,E
   - num: 31
     word: CLOPA
-    clue: "31."
+    clue: "31. Marito di una delle Marie che stavano vicino a Gesù quand'era sul palo di tortura (Giovanni 19:25)"
     type: V
     start: B9
     positions[5]{row,col,letter}:
@@ -690,7 +664,7 @@ placements[60]:
       12,1,A
   - num: 33
     word: HIRAM
-    clue: "33."
+    clue: "33. Re di Tiro contemporaneo e amico di Davide e Salomone (1 Re 5:1)"
     type: V
     start: H9
     positions[5]{row,col,letter}:
@@ -701,7 +675,7 @@ placements[60]:
       12,7,M
   - num: 35
     word: GEOVA
-    clue: "35."
+    clue: "35. Il nome dell'Altissimo (Salmo 83:18)"
     type: V
     start: N9
     positions[5]{row,col,letter}:
@@ -712,7 +686,7 @@ placements[60]:
       12,13,A
   - num: 38
     word: NOE
-    clue: "38."
+    clue: "38. Per mezzo della sua fede condannò il mondo (Ebrei 11:7)"
     type: V
     start: G10
     positions[3]{row,col,letter}:
@@ -721,7 +695,7 @@ placements[60]:
       11,6,E
   - num: 39
     word: CAM
-    clue: "39."
+    clue: "39. Entrò nell'arca (Genesi 7:13)"
     type: V
     start: I10
     positions[3]{row,col,letter}:
@@ -730,7 +704,7 @@ placements[60]:
       11,8,M
   - num: 42
     word: ORME
-    clue: "42."
+    clue: "42. Quelle di Cristo vanno seguite attentamente (1 Pietro 2:21)"
     type: V
     start: E11
     positions[4]{row,col,letter}:
@@ -740,7 +714,7 @@ placements[60]:
       13,4,E
   - num: 44
     word: ORZO
-    clue: "44."
+    clue: "44. Cereale che era più comune e a buon mercato del grano (Rivelazione 6:6)"
     type: V
     start: K11
     positions[4]{row,col,letter}:
@@ -750,7 +724,7 @@ placements[60]:
       13,10,O
   - num: 45
     word: CORA
-    clue: "45."
+    clue: "45. Ebbe l'appoggio di Datan e Abiram nel ribellarsi a Mosè (Numeri 26:9)"
     type: V
     start: A12
     positions[4]{row,col,letter}:
@@ -760,7 +734,7 @@ placements[60]:
       14,0,A
   - num: 47
     word: BILA
-    clue: "47."
+    clue: "47. La madre di Dan e Neftali (Genesi 35:25)"
     type: V
     start: F12
     positions[4]{row,col,letter}:
@@ -770,7 +744,7 @@ placements[60]:
       14,5,A
   - num: 48
     word: ARCA
-    clue: "48."
+    clue: "48. Permise di sopravvivere al tempo del Diluvio (Genesi 7:23)"
     type: V
     start: J12
     positions[4]{row,col,letter}:
@@ -780,7 +754,7 @@ placements[60]:
       14,9,A
   - num: 49
     word: SAUL
-    clue: "49."
+    clue: "49. Il primo re di Israele (Atti 13:21)"
     type: V
     start: O12
     positions[4]{row,col,letter}:
@@ -789,8 +763,8 @@ placements[60]:
       13,14,U
       14,14,L
 metadata:
-  totalNumbers: 80
-  horizontalStarts: 46
-  verticalStarts: 46
+  totalNumbers: 54
+  horizontalStarts: 30
+  verticalStarts: 30
   totalWords: 60
-  createdAt: "2025-12-26T18:36:25.908Z"
+  createdAt: "2025-12-27T17:29:05.647Z"

@@ -204,6 +204,11 @@ class ToonParser {
             val currentLine = lines[index].trim()
 
             when {
+                // If we encounter "- num:" after having parsed positions, it's the next placement
+                currentLine.startsWith("- num:") && positions.isNotEmpty() -> {
+                    // Don't increment index so next call to parsePlacement starts here
+                    break
+                }
                 currentLine.startsWith("- num:") -> {
                     num = currentLine.substringAfter(":").trim().toIntOrNull() ?: 0
                     index++
@@ -244,10 +249,6 @@ class ToonParser {
                             break
                         }
                     }
-                }
-                currentLine.startsWith("- num:") && num != 0 -> {
-                    // Next placement, don't increment index
-                    break
                 }
                 currentLine.startsWith("metadata:") -> {
                     // End of placements

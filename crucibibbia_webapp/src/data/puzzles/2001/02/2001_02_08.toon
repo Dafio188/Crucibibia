@@ -1,0 +1,464 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+  - [15]: 1,0,0,1,0,1,0,0,0,1,0,0,1,0,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,0,1,0,0,1,0,1,0,1,0,0,1,0,1
+  - [15]: 1,0,1,0,0,1,1,1,1,1,0,0,1,0,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,0,0,1,0,0,0,1,0,0,0,1,0,0,1
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 1,0,0,1,0,0,0,1,0,0,0,1,0,0,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,0,1,0,0,1,1,1,1,1,0,0,1,0,1
+  - [15]: 1,0,1,0,0,1,0,1,0,1,0,0,1,0,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,0,1,0,0,1,0,0,0,1,0,1,0,0,1
+  - [15]: 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+numberedCells[28]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,3,2,false,true
+  0,5,3,false,true
+  0,9,4,false,true
+  0,12,5,false,true
+  1,14,6,false,true
+  2,0,7,true,false
+  2,2,8,false,true
+  2,7,9,false,true
+  2,9,10,true,false
+  4,5,11,true,false
+  5,0,12,true,false
+  5,3,13,false,true
+  5,9,14,true,false
+  5,11,15,false,true
+  7,0,16,true,false
+  7,8,17,true,false
+  8,7,18,false,true
+  9,0,19,true,false
+  9,2,20,false,true
+  9,5,21,false,true
+  9,9,22,true,true
+  9,12,23,false,true
+  10,5,24,true,false
+  12,0,25,true,false
+  12,9,26,true,false
+  12,11,27,false,true
+  14,1,28,true,false
+words:
+  orizzontali[14]{num,word,clue}:
+    1,GIARDINODIEDEN,"1. Geova Dio vi pose l’uomo (Genesi 2:15)"
+    7,UNCINO,"7. Sarebbe stato messo al naso di Sennacherib (Isaia 37:21, 22, 29)"
+    10,ETERNA,"10. Lo è la buona notizia dichiarata dall’angelo (Rivelazione 14:6)"
+    11,ISOLE,"11. Sono invitate a cantare un nuovo canto a Geova (Isaia 42:10)"
+    12,IDONEO,"12. L’altare di Tofet non lo fu più dopo che Giosia vi fece bruciare sopra ossa umane (2 Re 23:16)"
+    14,OLIMPA,"14. Cristiano di Roma al quale Paolo mandò i suoi saluti (Romani 16:15)"
+    16,CANTICO,"16. I 144.000 ne cantano uno nuovo (Rivelazione 14:3)"
+    17,SOSPIRI,"17. Giacomo esortò a non emetterne gli uni contro gli altri (Giacomo 5:9)"
+    19,ROVETO,"19. Mosè ne vide uno che ardeva eppure non si consumava (Esodo 3:2)"
+    22,CHEBAR,"22. Ezechiele si trovava presso questo fiume quando ebbe la prima delle visioni che mise per iscritto (Ezechiele 1:1)"
+    24,TALPA,"24. Animale impuro (Levitico 11:29)"
+    25,TRISTI,"25. Esserlo “secondo Dio” è segno di vero pentimento (2 Corinti 7:11)"
+    26,TITOLO,"26. Pilato lo fece scrivere e mettere sul palo di Gesù (Giovanni 19:19)"
+    28,CARBONIARDENTI,"28. Siamo esortati ad accumularli sulla testa dei nemici (Romani 12:20)"
+  verticali[16]{num,word,clue}:
+    1,GIUDAISCARIOTA,"1. L’apostolo che tradì Gesù (Matteo 10:4)"
+    2,REI,"2. Uno di coloro che non furono coinvolti nella ribellione di Adonia (1 Re 1:8)"
+    3,ICONIO,"3. Città dell’Asia Minore in cui l’apostolo Paolo fece molti discepoli nonostante una forte opposizione (Atti 14:1-7)"
+    4,IMENEO,"4. Fece naufragio riguardo alla fede (1 Timoteo 1:19-20)"
+    5,EFRAIM,"5. Secondo figlio di Giuseppe (Genesi 41:52)"
+    6,BANDADIPREDONI,"6. Rezon ne divenne capo e la usò per creare problemi a Israele (1 Re 11:23-25)"
+    8,CAPO,"8. Cristo lo è di ogni uomo (1 Corinti 11:3)"
+    9,AMORE,"9. Il primo frutto dello spirito (Galati 5:22)"
+    13,NOTTE,"13. Così Dio chiamò le tenebre (Genesi 1:5)"
+    15,IOPPE,"15. Città dove viveva Tabita (Atti 9:36)"
+    18,CALEB,"18. Dei dodici esploratori, solo lui e Giosuè entrarono nella Terra Promessa (Numeri 14:30)"
+    20,VANITA,"20. Lo sono gli idoli (Geremia 10:14, 15)"
+    21,OTTIMO,"21. Molto buono, eccellente (2 Samuele 11:2, 3)"
+    22,CAFTOR,"22. Isola, forse identificabile con Creta, da cui i filistei migrarono verso Canaan (Geremia 47:4)"
+    23,BUIO,"23. C’è ancora quando ci si alza la mattina di buon’ora (Marco 1:35)"
+    27,TRE,"27. Tanti furono i mesi in cui Mosè fu tenuto nascosto dai suoi genitori (Ebrei 11:23)"
+placements[30]:
+  - num: 1
+    word: GIARDINODIEDEN
+    clue: "1. Geova Dio vi pose l’uomo (Genesi 2:15)"
+    type: H
+    start: A1
+    positions[14]{row,col,letter}:
+      0,0,G
+      0,1,I
+      0,2,A
+      0,3,R
+      0,4,D
+      0,5,I
+      0,6,N
+      0,7,O
+      0,8,D
+      0,9,I
+      0,10,E
+      0,11,D
+      0,12,E
+      0,13,N
+  - num: 7
+    word: UNCINO
+    clue: "7. Sarebbe stato messo al naso di Sennacherib (Isaia 37:21, 22, 29)"
+    type: H
+    start: A3
+    positions[6]{row,col,letter}:
+      2,0,U
+      2,1,N
+      2,2,C
+      2,3,I
+      2,4,N
+      2,5,O
+  - num: 10
+    word: ETERNA
+    clue: "10. Lo è la buona notizia dichiarata dall’angelo (Rivelazione 14:6)"
+    type: H
+    start: J3
+    positions[6]{row,col,letter}:
+      2,9,E
+      2,10,T
+      2,11,E
+      2,12,R
+      2,13,N
+      2,14,A
+  - num: 11
+    word: ISOLE
+    clue: "11. Sono invitate a cantare un nuovo canto a Geova (Isaia 42:10)"
+    type: H
+    start: F5
+    positions[5]{row,col,letter}:
+      4,5,I
+      4,6,S
+      4,7,O
+      4,8,L
+      4,9,E
+  - num: 12
+    word: IDONEO
+    clue: "12. L’altare di Tofet non lo fu più dopo che Giosia vi fece bruciare sopra ossa umane (2 Re 23:16)"
+    type: H
+    start: A6
+    positions[6]{row,col,letter}:
+      5,0,I
+      5,1,D
+      5,2,O
+      5,3,N
+      5,4,E
+      5,5,O
+  - num: 14
+    word: OLIMPA
+    clue: "14. Cristiano di Roma al quale Paolo mandò i suoi saluti (Romani 16:15)"
+    type: H
+    start: J6
+    positions[6]{row,col,letter}:
+      5,9,O
+      5,10,L
+      5,11,I
+      5,12,M
+      5,13,P
+      5,14,A
+  - num: 16
+    word: CANTICO
+    clue: "16. I 144.000 ne cantano uno nuovo (Rivelazione 14:3)"
+    type: H
+    start: A8
+    positions[7]{row,col,letter}:
+      7,0,C
+      7,1,A
+      7,2,N
+      7,3,T
+      7,4,I
+      7,5,C
+      7,6,O
+  - num: 17
+    word: SOSPIRI
+    clue: "17. Giacomo esortò a non emetterne gli uni contro gli altri (Giacomo 5:9)"
+    type: H
+    start: I8
+    positions[7]{row,col,letter}:
+      7,8,S
+      7,9,O
+      7,10,S
+      7,11,P
+      7,12,I
+      7,13,R
+      7,14,I
+  - num: 19
+    word: ROVETO
+    clue: "19. Mosè ne vide uno che ardeva eppure non si consumava (Esodo 3:2)"
+    type: H
+    start: A10
+    positions[6]{row,col,letter}:
+      9,0,R
+      9,1,O
+      9,2,V
+      9,3,E
+      9,4,T
+      9,5,O
+  - num: 22
+    word: CHEBAR
+    clue: "22. Ezechiele si trovava presso questo fiume quando ebbe la prima delle visioni che mise per iscritto (Ezechiele 1:1)"
+    type: H
+    start: J10
+    positions[6]{row,col,letter}:
+      9,9,C
+      9,10,H
+      9,11,E
+      9,12,B
+      9,13,A
+      9,14,R
+  - num: 24
+    word: TALPA
+    clue: "24. Animale impuro (Levitico 11:29)"
+    type: H
+    start: F11
+    positions[5]{row,col,letter}:
+      10,5,T
+      10,6,A
+      10,7,L
+      10,8,P
+      10,9,A
+  - num: 25
+    word: TRISTI
+    clue: "25. Esserlo “secondo Dio” è segno di vero pentimento (2 Corinti 7:11)"
+    type: H
+    start: A13
+    positions[6]{row,col,letter}:
+      12,0,T
+      12,1,R
+      12,2,I
+      12,3,S
+      12,4,T
+      12,5,I
+  - num: 26
+    word: TITOLO
+    clue: "26. Pilato lo fece scrivere e mettere sul palo di Gesù (Giovanni 19:19)"
+    type: H
+    start: J13
+    positions[6]{row,col,letter}:
+      12,9,T
+      12,10,I
+      12,11,T
+      12,12,O
+      12,13,L
+      12,14,O
+  - num: 28
+    word: CARBONIARDENTI
+    clue: "28. Siamo esortati ad accumularli sulla testa dei nemici (Romani 12:20)"
+    type: H
+    start: B15
+    positions[14]{row,col,letter}:
+      14,1,C
+      14,2,A
+      14,3,R
+      14,4,B
+      14,5,O
+      14,6,N
+      14,7,I
+      14,8,A
+      14,9,R
+      14,10,D
+      14,11,E
+      14,12,N
+      14,13,T
+      14,14,I
+  - num: 1
+    word: GIUDAISCARIOTA
+    clue: "1. L’apostolo che tradì Gesù (Matteo 10:4)"
+    type: V
+    start: A1
+    positions[14]{row,col,letter}:
+      0,0,G
+      1,0,I
+      2,0,U
+      3,0,D
+      4,0,A
+      5,0,I
+      6,0,S
+      7,0,C
+      8,0,A
+      9,0,R
+      10,0,I
+      11,0,O
+      12,0,T
+      13,0,A
+  - num: 2
+    word: REI
+    clue: "2. Uno di coloro che non furono coinvolti nella ribellione di Adonia (1 Re 1:8)"
+    type: V
+    start: D1
+    positions[3]{row,col,letter}:
+      0,3,R
+      1,3,E
+      2,3,I
+  - num: 3
+    word: ICONIO
+    clue: "3. Città dell’Asia Minore in cui l’apostolo Paolo fece molti discepoli nonostante una forte opposizione (Atti 14:1-7)"
+    type: V
+    start: F1
+    positions[6]{row,col,letter}:
+      0,5,I
+      1,5,C
+      2,5,O
+      3,5,N
+      4,5,I
+      5,5,O
+  - num: 4
+    word: IMENEO
+    clue: "4. Fece naufragio riguardo alla fede (1 Timoteo 1:19-20)"
+    type: V
+    start: J1
+    positions[6]{row,col,letter}:
+      0,9,I
+      1,9,M
+      2,9,E
+      3,9,N
+      4,9,E
+      5,9,O
+  - num: 5
+    word: EFRAIM
+    clue: "5. Secondo figlio di Giuseppe (Genesi 41:52)"
+    type: V
+    start: M1
+    positions[6]{row,col,letter}:
+      0,12,E
+      1,12,F
+      2,12,R
+      3,12,A
+      4,12,I
+      5,12,M
+  - num: 6
+    word: BANDADIPREDONI
+    clue: "6. Rezon ne divenne capo e la usò per creare problemi a Israele (1 Re 11:23-25)"
+    type: V
+    start: O2
+    positions[14]{row,col,letter}:
+      1,14,B
+      2,14,A
+      3,14,N
+      4,14,D
+      5,14,A
+      6,14,D
+      7,14,I
+      8,14,P
+      9,14,R
+      10,14,E
+      11,14,D
+      12,14,O
+      13,14,N
+      14,14,I
+  - num: 8
+    word: CAPO
+    clue: "8. Cristo lo è di ogni uomo (1 Corinti 11:3)"
+    type: V
+    start: C3
+    positions[4]{row,col,letter}:
+      2,2,C
+      3,2,A
+      4,2,P
+      5,2,O
+  - num: 9
+    word: AMORE
+    clue: "9. Il primo frutto dello spirito (Galati 5:22)"
+    type: V
+    start: H3
+    positions[5]{row,col,letter}:
+      2,7,A
+      3,7,M
+      4,7,O
+      5,7,R
+      6,7,E
+  - num: 13
+    word: NOTTE
+    clue: "13. Così Dio chiamò le tenebre (Genesi 1:5)"
+    type: V
+    start: D6
+    positions[5]{row,col,letter}:
+      5,3,N
+      6,3,O
+      7,3,T
+      8,3,T
+      9,3,E
+  - num: 15
+    word: IOPPE
+    clue: "15. Città dove viveva Tabita (Atti 9:36)"
+    type: V
+    start: L6
+    positions[5]{row,col,letter}:
+      5,11,I
+      6,11,O
+      7,11,P
+      8,11,P
+      9,11,E
+  - num: 18
+    word: CALEB
+    clue: "18. Dei dodici esploratori, solo lui e Giosuè entrarono nella Terra Promessa (Numeri 14:30)"
+    type: V
+    start: H9
+    positions[5]{row,col,letter}:
+      8,7,C
+      9,7,A
+      10,7,L
+      11,7,E
+      12,7,B
+  - num: 20
+    word: VANITA
+    clue: "20. Lo sono gli idoli (Geremia 10:14, 15)"
+    type: V
+    start: C10
+    positions[6]{row,col,letter}:
+      9,2,V
+      10,2,A
+      11,2,N
+      12,2,I
+      13,2,T
+      14,2,A
+  - num: 21
+    word: OTTIMO
+    clue: "21. Molto buono, eccellente (2 Samuele 11:2, 3)"
+    type: V
+    start: F10
+    positions[6]{row,col,letter}:
+      9,5,O
+      10,5,T
+      11,5,T
+      12,5,I
+      13,5,M
+      14,5,O
+  - num: 22
+    word: CAFTOR
+    clue: "22. Isola, forse identificabile con Creta, da cui i filistei migrarono verso Canaan (Geremia 47:4)"
+    type: V
+    start: J10
+    positions[6]{row,col,letter}:
+      9,9,C
+      10,9,A
+      11,9,F
+      12,9,T
+      13,9,O
+      14,9,R
+  - num: 23
+    word: BUIO
+    clue: "23. C’è ancora quando ci si alza la mattina di buon’ora (Marco 1:35)"
+    type: V
+    start: M10
+    positions[4]{row,col,letter}:
+      9,12,B
+      10,12,U
+      11,12,I
+      12,12,O
+  - num: 27
+    word: TRE
+    clue: "27. Tanti furono i mesi in cui Mosè fu tenuto nascosto dai suoi genitori (Ebrei 11:23)"
+    type: V
+    start: L13
+    positions[3]{row,col,letter}:
+      12,11,T
+      13,11,R
+      14,11,E
+metadata:
+  totalNumbers: 28
+  horizontalStarts: 14
+  verticalStarts: 16
+  totalWords: 30
+  createdAt: "2025-12-27T11:08:31.688Z"

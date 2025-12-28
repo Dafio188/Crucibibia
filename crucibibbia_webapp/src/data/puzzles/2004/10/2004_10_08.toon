@@ -1,0 +1,705 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,0,1,0,1,0,1,1,1,1,1
+  - [15]: 1,1,1,0,1,1,1,1,1,1,1,0,1,1,1
+  - [15]: 0,1,0,1,1,0,1,0,1,0,1,1,0,1,0
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,1,0,1,0,1,1,1,1,1,0,1,0,1,1
+  - [15]: 1,0,1,1,1,1,0,1,0,1,1,1,1,0,1
+  - [15]: 1,1,0,1,0,1,1,1,1,1,0,1,0,1,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 0,1,0,1,1,0,1,0,1,0,1,1,0,1,0
+  - [15]: 1,1,1,0,1,1,1,1,1,1,1,0,1,1,1
+  - [15]: 1,1,1,1,1,0,1,0,1,0,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+numberedCells[47]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,2,2,false,true
+  0,5,3,true,false
+  0,6,4,false,true
+  0,8,5,false,true
+  0,11,6,true,false
+  0,12,7,false,true
+  0,14,8,false,true
+  1,4,9,true,true
+  1,10,10,false,true
+  2,0,11,true,false
+  2,1,12,false,true
+  2,10,13,true,false
+  2,13,14,false,true
+  3,0,15,true,false
+  3,4,16,true,false
+  3,12,17,true,false
+  4,3,18,false,true
+  4,11,19,false,true
+  5,0,20,true,true
+  5,5,21,false,true
+  5,7,22,false,true
+  5,9,23,true,true
+  5,14,24,false,true
+  6,5,25,true,false
+  7,2,26,true,false
+  7,9,27,true,false
+  8,1,28,false,true
+  8,5,29,true,false
+  8,13,30,false,true
+  9,0,31,true,false
+  9,4,32,false,true
+  9,9,33,true,false
+  9,10,34,false,true
+  10,6,35,false,true
+  10,8,36,false,true
+  11,0,37,true,true
+  11,2,38,false,true
+  11,4,39,true,false
+  11,12,40,true,true
+  11,14,41,false,true
+  12,0,42,true,false
+  12,10,43,true,false
+  13,4,44,true,false
+  14,0,45,true,false
+  14,5,46,true,false
+  14,11,47,true,false
+words:
+  orizzontali[26]{num,word,clue}:
+    1,ELIU,"1. Corresse Giobbe e i suoi confortatori (Giobbe 32:2, 3)"
+    3,APPIO,"3. Mercato non lontano dalle Tre Taverne (Atti 28:15)"
+    6,ACCO,"6. Città portuale chiamata in seguito Tolemaide (Giudici 1:31, nt.)"
+    9,CARMELO,"9. Il monte su cui avvenne la sfida fra Baal e Geova al tempo di Elia (1 Re 18:19-21)"
+    11,OPERE,"11. Senza di esse la fede è morta (Giacomo 2:26)"
+    13,NISAN,"13. Il mese della Pasqua ebraica (Esodo 13:4, nt.)"
+    15,DEA,"15. Lo era Astoret (1 Re 11:33)"
+    16,DAMASCO,"16. Vi era diretto Saulo quando gli apparve Gesù (Atti 9:1-5)"
+    17,AMI,"17. Si usano per pescare (Isaia 19:8)"
+    20,ICONIO,"20. Città dell’Asia Minore in cui Paolo rischiò di essere lapidato (Atti 14:1-7)"
+    23,NEMICI,"23. Gesù comandò di amarli (Matteo 5:44)"
+    25,LEALE,"25. Con chi lo è, Geova agisce con lealtà (Salmo 18:25)"
+    26,NUBI,"26. Chi è operoso non sta a guardarle (Ecclesiaste 11:4)"
+    27,NUCA,"27. La parte posteriore del collo (Giosuè 10:24)"
+    29,VASTI,"29. Perse la posizione di regina per aver mancato di rispetto al marito (Ester 1:10-22)"
+    31,EGITTO,"31. Vi fu portato Giuseppe (Genesi 39:1)"
+    33,ANDREA,"33. L’apostolo fratello di Pietro (Matteo 10:2)"
+    37,IEU,"37. Fu unto re di Israele con l’incarico di abbattere la casa di Acab (2 Re 9:1-10)"
+    39,ONESIMO,"39. Lo schiavo fuggitivo che Paolo aiutò a diventare cristiano (Filemone 10, 11)"
+    40,CAM,"40. Sopravvisse al Diluvio (Genesi 9:18)"
+    42,DONNA,"42. Il suo “seme” avrebbe schiacciato la testa del serpente (Genesi 3:15)"
+    43,MALCO,"43. Pietro gli staccò un orecchio (Giovanni 18:10)"
+    44,SUPERBI,"44. Lo sarebbero stati gli uomini negli “ultimi giorni” (2 Timoteo 3:1, 2)"
+    45,OLIO,"45. Era usato per curare ferite e contusioni (Luca 10:33, 34)"
+    46,SIHON,"46. Il re amorreo che non permise a Israele di attraversare pacificamente il suo regno (Numeri 21:21-24)"
+    47,ONDE,"47. Le provoca il vento (Salmo 107:25)"
+  verticali[27]{num,word,clue}:
+    1,EFOD,"1. Veste sacerdotale (Esodo 28:4-8)"
+    2,IDEA,"2. Per Geova nessuna è irrealizzabile (Giobbe 42:2)"
+    4,PRIMO,"4. Chi vuole esserlo deve essere schiavo di tutti (Marco 10:44)"
+    5,IESSE,"5. Il padre di Davide (Matteo 1:6)"
+    7,CASA,"7. Chi la lascia per amore del regno di Dio otterrà “molte volte tanto” (Luca 18:29, 30)"
+    8,OFNI,"8. Infedele figlio del sommo sacerdote Eli (1 Samuele 1:3; 2:12)"
+    9,CEDRI,"9. Il loro legno era molto apprezzato nell’edilizia (1 Cronache 17:1)"
+    10,ONORE,"10. Va reso a chi lo chiede (Romani 13:7)"
+    12,PESCI,"12. Li moltiplicò miracolosamente Gesù (Matteo 15:35-37)"
+    14,AMICI,"14. È bene farseli con le “ricchezze ingiuste” (Luca 16:9)"
+    18,ANGUSTA,"18. Lo è la strada che conduce alla vita (Matteo 7:14)"
+    19,OMICIDA,"19. Doveva fuggire in una città di rifugio (Numeri 35:11)"
+    20,IEFTE,"20. È un ottimo esempio perché mantenne la parola data (Giudici 11:30-35)"
+    21,OLIVO,"21. Da una sua foglia Noè capì che le acque del Diluvio erano calate (Genesi 8:11)"
+    22,TARSO,"22. La città di Saulo (Atti 9:11)"
+    23,NENIA,"23. Canto funebre mesto e monotono (Amos 8:10)"
+    24,ISAIA,"24. Noto profeta figlio di Amoz (2 Cronache 32:20)"
+    28,AGGEO,"28. Profeta contemporaneo del governatore Zorobabele (Esdra 5:1, 2)"
+    30,MESAC,"30. Nabucodonosor lo fece gettare nella fornace ardente (Daniele 3:19, 20)"
+    32,TROAS,"32. La città in cui Paolo risuscitò Eutico (Atti 20:6-12)"
+    34,NAOMI,"34. La suocera di Rut (Rut 3:1)"
+    35,CEPPI,"35. Bloccavano i piedi dei prigionieri (Atti 16:24)"
+    36,CIPRO,"36. La patria di Barnaba (Atti 4:36)"
+    37,IDDO,"37. Visionario i cui scritti furono consultati dal compilatore delle Cronache (2 Cronache 9:29; 12:15; 13:22)"
+    38,UNTI,"38. Lo sono coloro che hanno ricevuto il suggello dello spirito (2 Corinti 1:21, 22)"
+    40,CLAN,"40. Gruppo di famiglie discendenti da un ceppo comune (Genesi 25:16)"
+    41,MOSE,"41. Fu definito “il più mansueto di tutti gli uomini” (Numeri 12:3)"
+placements[53]:
+  - num: 1
+    word: ELIU
+    clue: "1. Corresse Giobbe e i suoi confortatori (Giobbe 32:2, 3)"
+    type: H
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,E
+      0,1,L
+      0,2,I
+      0,3,U
+  - num: 3
+    word: APPIO
+    clue: "3. Mercato non lontano dalle Tre Taverne (Atti 28:15)"
+    type: H
+    start: F1
+    positions[5]{row,col,letter}:
+      0,5,A
+      0,6,P
+      0,7,P
+      0,8,I
+      0,9,O
+  - num: 6
+    word: ACCO
+    clue: "6. Città portuale chiamata in seguito Tolemaide (Giudici 1:31, nt.)"
+    type: H
+    start: L1
+    positions[4]{row,col,letter}:
+      0,11,A
+      0,12,C
+      0,13,C
+      0,14,O
+  - num: 9
+    word: CARMELO
+    clue: "9. Il monte su cui avvenne la sfida fra Baal e Geova al tempo di Elia (1 Re 18:19-21)"
+    type: H
+    start: E2
+    positions[7]{row,col,letter}:
+      1,4,C
+      1,5,A
+      1,6,R
+      1,7,M
+      1,8,E
+      1,9,L
+      1,10,O
+  - num: 11
+    word: OPERE
+    clue: "11. Senza di esse la fede è morta (Giacomo 2:26)"
+    type: H
+    start: A3
+    positions[5]{row,col,letter}:
+      2,0,O
+      2,1,P
+      2,2,E
+      2,3,R
+      2,4,E
+  - num: 13
+    word: NISAN
+    clue: "13. Il mese della Pasqua ebraica (Esodo 13:4, nt.)"
+    type: H
+    start: K3
+    positions[5]{row,col,letter}:
+      2,10,N
+      2,11,I
+      2,12,S
+      2,13,A
+      2,14,N
+  - num: 15
+    word: DEA
+    clue: "15. Lo era Astoret (1 Re 11:33)"
+    type: H
+    start: A4
+    positions[3]{row,col,letter}:
+      3,0,D
+      3,1,E
+      3,2,A
+  - num: 16
+    word: DAMASCO
+    clue: "16. Vi era diretto Saulo quando gli apparve Gesù (Atti 9:1-5)"
+    type: H
+    start: E4
+    positions[7]{row,col,letter}:
+      3,4,D
+      3,5,A
+      3,6,M
+      3,7,A
+      3,8,S
+      3,9,C
+      3,10,O
+  - num: 17
+    word: AMI
+    clue: "17. Si usano per pescare (Isaia 19:8)"
+    type: H
+    start: M4
+    positions[3]{row,col,letter}:
+      3,12,A
+      3,13,M
+      3,14,I
+  - num: 20
+    word: ICONIO
+    clue: "20. Città dell’Asia Minore in cui Paolo rischiò di essere lapidato (Atti 14:1-7)"
+    type: H
+    start: A6
+    positions[6]{row,col,letter}:
+      5,0,I
+      5,1,C
+      5,2,O
+      5,3,N
+      5,4,I
+      5,5,O
+  - num: 23
+    word: NEMICI
+    clue: "23. Gesù comandò di amarli (Matteo 5:44)"
+    type: H
+    start: J6
+    positions[6]{row,col,letter}:
+      5,9,N
+      5,10,E
+      5,11,M
+      5,12,I
+      5,13,C
+      5,14,I
+  - num: 25
+    word: LEALE
+    clue: "25. Con chi lo è, Geova agisce con lealtà (Salmo 18:25)"
+    type: H
+    start: F7
+    positions[5]{row,col,letter}:
+      6,5,L
+      6,6,E
+      6,7,A
+      6,8,L
+      6,9,E
+  - num: 26
+    word: NUBI
+    clue: "26. Chi è operoso non sta a guardarle (Ecclesiaste 11:4)"
+    type: H
+    start: C8
+    positions[4]{row,col,letter}:
+      7,2,N
+      7,3,U
+      7,4,B
+      7,5,I
+  - num: 27
+    word: NUCA
+    clue: "27. La parte posteriore del collo (Giosuè 10:24)"
+    type: H
+    start: J8
+    positions[4]{row,col,letter}:
+      7,9,N
+      7,10,U
+      7,11,C
+      7,12,A
+  - num: 29
+    word: VASTI
+    clue: "29. Perse la posizione di regina per aver mancato di rispetto al marito (Ester 1:10-22)"
+    type: H
+    start: F9
+    positions[5]{row,col,letter}:
+      8,5,V
+      8,6,A
+      8,7,S
+      8,8,T
+      8,9,I
+  - num: 31
+    word: EGITTO
+    clue: "31. Vi fu portato Giuseppe (Genesi 39:1)"
+    type: H
+    start: A10
+    positions[6]{row,col,letter}:
+      9,0,E
+      9,1,G
+      9,2,I
+      9,3,T
+      9,4,T
+      9,5,O
+  - num: 33
+    word: ANDREA
+    clue: "33. L’apostolo fratello di Pietro (Matteo 10:2)"
+    type: H
+    start: J10
+    positions[6]{row,col,letter}:
+      9,9,A
+      9,10,N
+      9,11,D
+      9,12,R
+      9,13,E
+      9,14,A
+  - num: 37
+    word: IEU
+    clue: "37. Fu unto re di Israele con l’incarico di abbattere la casa di Acab (2 Re 9:1-10)"
+    type: H
+    start: A12
+    positions[3]{row,col,letter}:
+      11,0,I
+      11,1,E
+      11,2,U
+  - num: 39
+    word: ONESIMO
+    clue: "39. Lo schiavo fuggitivo che Paolo aiutò a diventare cristiano (Filemone 10, 11)"
+    type: H
+    start: E12
+    positions[7]{row,col,letter}:
+      11,4,O
+      11,5,N
+      11,6,E
+      11,7,S
+      11,8,I
+      11,9,M
+      11,10,O
+  - num: 40
+    word: CAM
+    clue: "40. Sopravvisse al Diluvio (Genesi 9:18)"
+    type: H
+    start: M12
+    positions[3]{row,col,letter}:
+      11,12,C
+      11,13,A
+      11,14,M
+  - num: 42
+    word: DONNA
+    clue: "42. Il suo “seme” avrebbe schiacciato la testa del serpente (Genesi 3:15)"
+    type: H
+    start: A13
+    positions[5]{row,col,letter}:
+      12,0,D
+      12,1,O
+      12,2,N
+      12,3,N
+      12,4,A
+  - num: 43
+    word: MALCO
+    clue: "43. Pietro gli staccò un orecchio (Giovanni 18:10)"
+    type: H
+    start: K13
+    positions[5]{row,col,letter}:
+      12,10,M
+      12,11,A
+      12,12,L
+      12,13,C
+      12,14,O
+  - num: 44
+    word: SUPERBI
+    clue: "44. Lo sarebbero stati gli uomini negli “ultimi giorni” (2 Timoteo 3:1, 2)"
+    type: H
+    start: E14
+    positions[7]{row,col,letter}:
+      13,4,S
+      13,5,U
+      13,6,P
+      13,7,E
+      13,8,R
+      13,9,B
+      13,10,I
+  - num: 45
+    word: OLIO
+    clue: "45. Era usato per curare ferite e contusioni (Luca 10:33, 34)"
+    type: H
+    start: A15
+    positions[4]{row,col,letter}:
+      14,0,O
+      14,1,L
+      14,2,I
+      14,3,O
+  - num: 46
+    word: SIHON
+    clue: "46. Il re amorreo che non permise a Israele di attraversare pacificamente il suo regno (Numeri 21:21-24)"
+    type: H
+    start: F15
+    positions[5]{row,col,letter}:
+      14,5,S
+      14,6,I
+      14,7,H
+      14,8,O
+      14,9,N
+  - num: 47
+    word: ONDE
+    clue: "47. Le provoca il vento (Salmo 107:25)"
+    type: H
+    start: L15
+    positions[4]{row,col,letter}:
+      14,11,O
+      14,12,N
+      14,13,D
+      14,14,E
+  - num: 1
+    word: EFOD
+    clue: "1. Veste sacerdotale (Esodo 28:4-8)"
+    type: V
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,E
+      1,0,F
+      2,0,O
+      3,0,D
+  - num: 2
+    word: IDEA
+    clue: "2. Per Geova nessuna è irrealizzabile (Giobbe 42:2)"
+    type: V
+    start: C1
+    positions[4]{row,col,letter}:
+      0,2,I
+      1,2,D
+      2,2,E
+      3,2,A
+  - num: 4
+    word: PRIMO
+    clue: "4. Chi vuole esserlo deve essere schiavo di tutti (Marco 10:44)"
+    type: V
+    start: G1
+    positions[5]{row,col,letter}:
+      0,6,P
+      1,6,R
+      2,6,I
+      3,6,M
+      4,6,O
+  - num: 5
+    word: IESSE
+    clue: "5. Il padre di Davide (Matteo 1:6)"
+    type: V
+    start: I1
+    positions[5]{row,col,letter}:
+      0,8,I
+      1,8,E
+      2,8,S
+      3,8,S
+      4,8,E
+  - num: 7
+    word: CASA
+    clue: "7. Chi la lascia per amore del regno di Dio otterrà “molte volte tanto” (Luca 18:29, 30)"
+    type: V
+    start: M1
+    positions[4]{row,col,letter}:
+      0,12,C
+      1,12,A
+      2,12,S
+      3,12,A
+  - num: 8
+    word: OFNI
+    clue: "8. Infedele figlio del sommo sacerdote Eli (1 Samuele 1:3; 2:12)"
+    type: V
+    start: O1
+    positions[4]{row,col,letter}:
+      0,14,O
+      1,14,F
+      2,14,N
+      3,14,I
+  - num: 9
+    word: CEDRI
+    clue: "9. Il loro legno era molto apprezzato nell’edilizia (1 Cronache 17:1)"
+    type: V
+    start: E2
+    positions[5]{row,col,letter}:
+      1,4,C
+      2,4,E
+      3,4,D
+      4,4,R
+      5,4,I
+  - num: 10
+    word: ONORE
+    clue: "10. Va reso a chi lo chiede (Romani 13:7)"
+    type: V
+    start: K2
+    positions[5]{row,col,letter}:
+      1,10,O
+      2,10,N
+      3,10,O
+      4,10,R
+      5,10,E
+  - num: 12
+    word: PESCI
+    clue: "12. Li moltiplicò miracolosamente Gesù (Matteo 15:35-37)"
+    type: V
+    start: B3
+    positions[5]{row,col,letter}:
+      2,1,P
+      3,1,E
+      4,1,S
+      5,1,C
+      6,1,I
+  - num: 14
+    word: AMICI
+    clue: "14. È bene farseli con le “ricchezze ingiuste” (Luca 16:9)"
+    type: V
+    start: N3
+    positions[5]{row,col,letter}:
+      2,13,A
+      3,13,M
+      4,13,I
+      5,13,C
+      6,13,I
+  - num: 18
+    word: ANGUSTA
+    clue: "18. Lo è la strada che conduce alla vita (Matteo 7:14)"
+    type: V
+    start: D5
+    positions[7]{row,col,letter}:
+      4,3,A
+      5,3,N
+      6,3,G
+      7,3,U
+      8,3,S
+      9,3,T
+      10,3,A
+  - num: 19
+    word: OMICIDA
+    clue: "19. Doveva fuggire in una città di rifugio (Numeri 35:11)"
+    type: V
+    start: L5
+    positions[7]{row,col,letter}:
+      4,11,O
+      5,11,M
+      6,11,I
+      7,11,C
+      8,11,I
+      9,11,D
+      10,11,A
+  - num: 20
+    word: IEFTE
+    clue: "20. È un ottimo esempio perché mantenne la parola data (Giudici 11:30-35)"
+    type: V
+    start: A6
+    positions[5]{row,col,letter}:
+      5,0,I
+      6,0,E
+      7,0,F
+      8,0,T
+      9,0,E
+  - num: 21
+    word: OLIVO
+    clue: "21. Da una sua foglia Noè capì che le acque del Diluvio erano calate (Genesi 8:11)"
+    type: V
+    start: F6
+    positions[5]{row,col,letter}:
+      5,5,O
+      6,5,L
+      7,5,I
+      8,5,V
+      9,5,O
+  - num: 22
+    word: TARSO
+    clue: "22. La città di Saulo (Atti 9:11)"
+    type: V
+    start: H6
+    positions[5]{row,col,letter}:
+      5,7,T
+      6,7,A
+      7,7,R
+      8,7,S
+      9,7,O
+  - num: 23
+    word: NENIA
+    clue: "23. Canto funebre mesto e monotono (Amos 8:10)"
+    type: V
+    start: J6
+    positions[5]{row,col,letter}:
+      5,9,N
+      6,9,E
+      7,9,N
+      8,9,I
+      9,9,A
+  - num: 24
+    word: ISAIA
+    clue: "24. Noto profeta figlio di Amoz (2 Cronache 32:20)"
+    type: V
+    start: O6
+    positions[5]{row,col,letter}:
+      5,14,I
+      6,14,S
+      7,14,A
+      8,14,I
+      9,14,A
+  - num: 28
+    word: AGGEO
+    clue: "28. Profeta contemporaneo del governatore Zorobabele (Esdra 5:1, 2)"
+    type: V
+    start: B9
+    positions[5]{row,col,letter}:
+      8,1,A
+      9,1,G
+      10,1,G
+      11,1,E
+      12,1,O
+  - num: 30
+    word: MESAC
+    clue: "30. Nabucodonosor lo fece gettare nella fornace ardente (Daniele 3:19, 20)"
+    type: V
+    start: N9
+    positions[5]{row,col,letter}:
+      8,13,M
+      9,13,E
+      10,13,S
+      11,13,A
+      12,13,C
+  - num: 32
+    word: TROAS
+    clue: "32. La città in cui Paolo risuscitò Eutico (Atti 20:6-12)"
+    type: V
+    start: E10
+    positions[5]{row,col,letter}:
+      9,4,T
+      10,4,R
+      11,4,O
+      12,4,A
+      13,4,S
+  - num: 34
+    word: NAOMI
+    clue: "34. La suocera di Rut (Rut 3:1)"
+    type: V
+    start: K10
+    positions[5]{row,col,letter}:
+      9,10,N
+      10,10,A
+      11,10,O
+      12,10,M
+      13,10,I
+  - num: 35
+    word: CEPPI
+    clue: "35. Bloccavano i piedi dei prigionieri (Atti 16:24)"
+    type: V
+    start: G11
+    positions[5]{row,col,letter}:
+      10,6,C
+      11,6,E
+      12,6,P
+      13,6,P
+      14,6,I
+  - num: 36
+    word: CIPRO
+    clue: "36. La patria di Barnaba (Atti 4:36)"
+    type: V
+    start: I11
+    positions[5]{row,col,letter}:
+      10,8,C
+      11,8,I
+      12,8,P
+      13,8,R
+      14,8,O
+  - num: 37
+    word: IDDO
+    clue: "37. Visionario i cui scritti furono consultati dal compilatore delle Cronache (2 Cronache 9:29; 12:15; 13:22)"
+    type: V
+    start: A12
+    positions[4]{row,col,letter}:
+      11,0,I
+      12,0,D
+      13,0,D
+      14,0,O
+  - num: 38
+    word: UNTI
+    clue: "38. Lo sono coloro che hanno ricevuto il suggello dello spirito (2 Corinti 1:21, 22)"
+    type: V
+    start: C12
+    positions[4]{row,col,letter}:
+      11,2,U
+      12,2,N
+      13,2,T
+      14,2,I
+  - num: 40
+    word: CLAN
+    clue: "40. Gruppo di famiglie discendenti da un ceppo comune (Genesi 25:16)"
+    type: V
+    start: M12
+    positions[4]{row,col,letter}:
+      11,12,C
+      12,12,L
+      13,12,A
+      14,12,N
+  - num: 41
+    word: MOSE
+    clue: "41. Fu definito “il più mansueto di tutti gli uomini” (Numeri 12:3)"
+    type: V
+    start: O12
+    positions[4]{row,col,letter}:
+      11,14,M
+      12,14,O
+      13,14,S
+      14,14,E
+metadata:
+  totalNumbers: 47
+  horizontalStarts: 26
+  verticalStarts: 27
+  totalWords: 53
+  createdAt: "2025-12-26T17:29:57.482Z"

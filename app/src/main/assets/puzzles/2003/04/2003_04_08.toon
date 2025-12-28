@@ -1,0 +1,645 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+  - [15]: 1,0,1,1,1,1,0,1,0,1,1,1,1,0,1
+  - [15]: 1,1,0,1,0,1,1,1,1,1,0,1,0,1,1
+  - [15]: 1,1,1,1,1,0,0,1,0,0,1,1,1,1,1
+  - [15]: 1,1,0,1,0,1,1,0,1,1,0,1,0,1,1
+  - [15]: 0,1,1,1,1,1,1,0,1,1,1,1,1,1,0
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,0,1,1,0,1,1,0,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 0,1,1,1,1,1,1,0,1,1,1,1,1,1,0
+  - [15]: 1,1,0,1,0,1,1,0,1,1,0,1,0,1,1
+  - [15]: 1,1,1,1,1,0,0,1,0,0,1,1,1,1,1
+  - [15]: 1,1,0,1,0,1,1,1,1,1,0,1,0,1,1
+  - [15]: 1,0,1,1,1,1,0,1,0,1,1,1,1,0,1
+  - [15]: 1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+numberedCells[65]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,2,2,false,true
+  0,3,3,false,true
+  0,4,4,false,true
+  0,6,5,true,false
+  0,7,6,false,true
+  0,10,7,true,true
+  0,11,8,false,true
+  0,12,9,false,true
+  0,14,10,false,true
+  1,2,11,true,false
+  1,5,12,false,true
+  1,9,13,true,true
+  2,0,14,true,false
+  2,1,15,false,true
+  2,5,16,true,false
+  2,13,17,true,true
+  3,0,18,true,false
+  3,10,19,true,false
+  4,0,20,true,false
+  4,5,21,true,true
+  4,6,22,false,true
+  4,8,23,true,true
+  4,9,24,false,true
+  4,13,25,true,false
+  5,1,26,true,false
+  5,2,27,false,true
+  5,4,28,false,true
+  5,8,29,true,false
+  5,10,30,false,true
+  5,12,31,false,true
+  6,0,32,false,true
+  6,4,33,true,false
+  6,14,34,false,true
+  7,0,35,true,false
+  7,5,36,true,false
+  7,8,37,true,false
+  7,11,38,true,false
+  8,4,39,true,true
+  8,10,40,false,true
+  9,1,41,true,true
+  9,3,42,false,true
+  9,8,43,true,false
+  9,11,44,false,true
+  9,13,45,false,true
+  10,0,46,true,true
+  10,5,47,true,false
+  10,8,48,true,false
+  10,13,49,true,false
+  10,14,50,false,true
+  11,0,51,true,false
+  11,7,52,false,true
+  11,10,53,true,false
+  12,0,54,true,false
+  12,5,55,true,true
+  12,9,56,false,true
+  12,13,57,true,false
+  13,2,58,true,true
+  13,4,59,false,true
+  13,9,60,true,false
+  13,10,61,false,true
+  13,12,62,false,true
+  14,0,63,true,false
+  14,6,64,true,false
+  14,10,65,true,false
+words:
+  orizzontali[24]{num,word,clue}:
+    1,TOFET,"1. Luogo fuori delle mura di Gerusalemme in cui gli israeliti apostati praticarono il sacrificio dei bambini (Geremia 7:31)"
+    3,LEA,"3. La sorella maggiore di Rachele (Genesi 29:16)"
+    5,ACETO,"5. Era proibito ai nazirei (Numeri 6:2, 3)"
+    8,OSEA,"8. Profeta che diede il nome a un libro biblico (Romani 9:25)"
+    9,NAUM,"9. Scrisse la “dichiarazione solenne contro Ninive”"
+    11,SCALA,"11. Giacobbe, in sogno, ne vide una che arrivava fino in cielo (Genesi 28:12)"
+    13,ANIMA,"13. Adamo lo divenne quando gli fu soffiato nelle narici l’alito della vita (Genesi 2:7)"
+    14,ZIMRI,"14. Fu ucciso da Fineas per aver commesso fornicazione con la madianita Cozbi (Numeri 25:6-8, 14, 15)"
+    19,CRISTI,"19. Gesù predisse che ne sarebbero sorti dei falsi (Matteo 24:24)"
+    21,BACINI,"21. Nel tempio di Salomone erano dieci quelli usati per lavare le cose che avevano a che fare con l’olocausto (2 Cronache 4:6)"
+    24,TICHICO,"24. Diletto fratello a cui Paolo, prigioniero a Roma, affidò l’incarico di consegnare la lettera ai Colossesi (Colossesi 4:7-9)"
+    26,ARCA,"26. Quella del patto stava nel Santissimo (Ebrei 9:3, 4)"
+    27,AHIA,"27. Il profeta che predisse a Geroboamo la divisione del regno di Salomone (1 Re 11:29-32)"
+    28,OPERAIO,"28. È degno del suo salario (Luca 10:7)"
+    29,ABIAIL,"29. Padre della regina Ester e zio di Mardocheo (Ester 2:15)"
+    31,IMPURO,"31. Non sarebbe passato per la “Via della Santità” (Isaia 35:8)"
+    36,IOTAM,"36. Il re figlio di Uzzia e padre di Acaz (2 Re 15:32, 38)"
+    38,GIOIA,"38. Fa parte del “frutto dello spirito” (Galati 5:22)"
+    39,ZOLFO,"39. Piovve su Sodoma e Gomorra (Genesi 19:24)"
+    40,ACAN,"40. La sua infedeltà costò cara a tutto Israele (Giosuè 22:20)"
+    41,OTTO,"41. Il numero dei superstiti del Diluvio (1 Pietro 3:20)"
+    42,MANOA,"42. Devoto padre del giudice Sansone (Giudici 13:2-24)"
+    43,DUE,"43. Sono meglio di uno (Ecclesiaste 4:9)"
+    44,DATAN,"44. Morì per aver appoggiato Cora nella ribellione contro Mosè e Aaronne (Numeri 26:7-11)"
+  verticali[22]{num,word,clue}:
+    1,TAMAR,"1. Bella figlia di Davide che fu violentata dal fratellastro Amnon (2 Samuele 13:1-14)"
+    2,ESEMPI,"2. Gli anziani devono esserlo per il gregge (1 Pietro 5:3)"
+    4,ESAU,"4. Non apprezzò le cose sacre (Ebrei 12:16)"
+    6,CULICI,"6. Una delle dieci piaghe che colpirono l’Egitto (Esodo 8:17)"
+    7,OBLIO,"7. Abbandono, dimenticanza (Salmo 88:12)"
+    10,ENOC,"10. Fedele servitore di Geova che fu “trasferito in modo da non vedere la morte” (Ebrei 11:5)"
+    12,ARMI,"12. Quelle dei cristiani sono potenti pur non essendo carnali (2 Corinti 10:4)"
+    15,ETIOPIA,"15. La patria del re Tiraca (2 Re 19:9)"
+    16,MICHELE,"16. Il nome dell’arcangelo (Giuda 9)"
+    17,ABIGAIL,"17. La bella e saggia moglie di Nabal (1 Samuele 25:3)"
+    18,LACRIME,"18. Geova le asciugherà da ogni faccia (Isaia 25:8)"
+    20,RECAB,"20. I suoi discendenti continuavano a osservare il divieto di bere vino (Geremia 35:8)"
+    22,NAHOR,"22. Nonno di Abraamo (Luca 3:34)"
+    23,GAT,"23. La città di Golia (1 Samuele 17:4)"
+    25,CAM,"25. Fratello di Iafet (Genesi 6:10)"
+    29,ALOE,"29. Pianta da cui si estrae una sostanza usata come profumo in epoca biblica (Proverbi 7:17)"
+    30,ISACCO,"30. Mancò poco che venisse ucciso da suo padre (Genesi 22:9, 10)"
+    32,UMILTA,"32. La qualità che precede la gloria (Proverbi 18:12)"
+    33,OFIR,"33. Regione rinomata per il suo oro (1 Re 9:28)"
+    34,HIRAM,"34. Esperto artigiano che fece molti degli arredi del tempio di Salomone (1 Re 7:13, 14)"
+    35,DAGON,"35. Divinità filistea il cui idolo cadde davanti all’arca del patto (1 Samuele 5:2-5)"
+    37,ELIU,"37. Pur essendo più giovane di loro, corresse Giobbe e i suoi tre compagni (Giobbe 32:2-6)"
+placements[46]:
+  - num: 1
+    word: TOFET
+    clue: "1. Luogo fuori delle mura di Gerusalemme in cui gli israeliti apostati praticarono il sacrificio dei bambini (Geremia 7:31)"
+    type: H
+    start: A1
+    positions[5]{row,col,letter}:
+      0,0,T
+      0,1,O
+      0,2,F
+      0,3,E
+      0,4,T
+  - num: 3
+    word: LEA
+    clue: "3. La sorella maggiore di Rachele (Genesi 29:16)"
+    type: H
+    start: G1
+    positions[3]{row,col,letter}:
+      0,6,L
+      0,7,E
+      0,8,A
+  - num: 5
+    word: ACETO
+    clue: "5. Era proibito ai nazirei (Numeri 6:2, 3)"
+    type: H
+    start: K1
+    positions[5]{row,col,letter}:
+      0,10,A
+      0,11,C
+      0,12,E
+      0,13,T
+      0,14,O
+  - num: 8
+    word: OSEA
+    clue: "8. Profeta che diede il nome a un libro biblico (Romani 9:25)"
+    type: H
+    start: C2
+    positions[4]{row,col,letter}:
+      1,2,O
+      1,3,S
+      1,4,E
+      1,5,A
+  - num: 9
+    word: NAUM
+    clue: "9. Scrisse la “dichiarazione solenne contro Ninive”"
+    type: H
+    start: J2
+    positions[4]{row,col,letter}:
+      1,9,N
+      1,10,A
+      1,11,U
+      1,12,M
+  - num: 11
+    word: SCALA
+    clue: "11. Giacobbe, in sogno, ne vide una che arrivava fino in cielo (Genesi 28:12)"
+    type: H
+    start: F3
+    positions[5]{row,col,letter}:
+      2,5,S
+      2,6,C
+      2,7,A
+      2,8,L
+      2,9,A
+  - num: 13
+    word: ANIMA
+    clue: "13. Adamo lo divenne quando gli fu soffiato nelle narici l’alito della vita (Genesi 2:7)"
+    type: H
+    start: A4
+    positions[5]{row,col,letter}:
+      3,0,A
+      3,1,N
+      3,2,I
+      3,3,M
+      3,4,A
+  - num: 14
+    word: ZIMRI
+    clue: "14. Fu ucciso da Fineas per aver commesso fornicazione con la madianita Cozbi (Numeri 25:6-8, 14, 15)"
+    type: H
+    start: K4
+    positions[5]{row,col,letter}:
+      3,10,Z
+      3,11,I
+      3,12,M
+      3,13,R
+      3,14,I
+  - num: 19
+    word: CRISTI
+    clue: "19. Gesù predisse che ne sarebbero sorti dei falsi (Matteo 24:24)"
+    type: H
+    start: B6
+    positions[6]{row,col,letter}:
+      5,1,C
+      5,2,R
+      5,3,I
+      5,4,S
+      5,5,T
+      5,6,I
+  - num: 21
+    word: BACINI
+    clue: "21. Nel tempio di Salomone erano dieci quelli usati per lavare le cose che avevano a che fare con l’olocausto (2 Cronache 4:6)"
+    type: H
+    start: I6
+    positions[6]{row,col,letter}:
+      5,8,B
+      5,9,A
+      5,10,C
+      5,11,I
+      5,12,N
+      5,13,I
+  - num: 24
+    word: TICHICO
+    clue: "24. Diletto fratello a cui Paolo, prigioniero a Roma, affidò l’incarico di consegnare la lettera ai Colossesi (Colossesi 4:7-9)"
+    type: H
+    start: E7
+    positions[7]{row,col,letter}:
+      6,4,T
+      6,5,I
+      6,6,C
+      6,7,H
+      6,8,I
+      6,9,C
+      6,10,O
+  - num: 26
+    word: ARCA
+    clue: "26. Quella del patto stava nel Santissimo (Ebrei 9:3, 4)"
+    type: H
+    start: A8
+    positions[4]{row,col,letter}:
+      7,0,A
+      7,1,R
+      7,2,C
+      7,3,A
+  - num: 27
+    word: AHIA
+    clue: "27. Il profeta che predisse a Geroboamo la divisione del regno di Salomone (1 Re 11:29-32)"
+    type: H
+    start: L8
+    positions[4]{row,col,letter}:
+      7,11,A
+      7,12,H
+      7,13,I
+      7,14,A
+  - num: 28
+    word: OPERAIO
+    clue: "28. È degno del suo salario (Luca 10:7)"
+    type: H
+    start: E9
+    positions[7]{row,col,letter}:
+      8,4,O
+      8,5,P
+      8,6,E
+      8,7,R
+      8,8,A
+      8,9,I
+      8,10,O
+  - num: 29
+    word: ABIAIL
+    clue: "29. Padre della regina Ester e zio di Mardocheo (Ester 2:15)"
+    type: H
+    start: B10
+    positions[6]{row,col,letter}:
+      9,1,A
+      9,2,B
+      9,3,I
+      9,4,A
+      9,5,I
+      9,6,L
+  - num: 31
+    word: IMPURO
+    clue: "31. Non sarebbe passato per la “Via della Santità” (Isaia 35:8)"
+    type: H
+    start: I10
+    positions[6]{row,col,letter}:
+      9,8,I
+      9,9,M
+      9,10,P
+      9,11,U
+      9,12,R
+      9,13,O
+  - num: 36
+    word: IOTAM
+    clue: "36. Il re figlio di Uzzia e padre di Acaz (2 Re 15:32, 38)"
+    type: H
+    start: A12
+    positions[5]{row,col,letter}:
+      11,0,I
+      11,1,O
+      11,2,T
+      11,3,A
+      11,4,M
+  - num: 38
+    word: GIOIA
+    clue: "38. Fa parte del “frutto dello spirito” (Galati 5:22)"
+    type: H
+    start: K12
+    positions[5]{row,col,letter}:
+      11,10,G
+      11,11,I
+      11,12,O
+      11,13,I
+      11,14,A
+  - num: 39
+    word: ZOLFO
+    clue: "39. Piovve su Sodoma e Gomorra (Genesi 19:24)"
+    type: H
+    start: F13
+    positions[5]{row,col,letter}:
+      12,5,Z
+      12,6,O
+      12,7,L
+      12,8,F
+      12,9,O
+  - num: 40
+    word: ACAN
+    clue: "40. La sua infedeltà costò cara a tutto Israele (Giosuè 22:20)"
+    type: H
+    start: C14
+    positions[4]{row,col,letter}:
+      13,2,A
+      13,3,C
+      13,4,A
+      13,5,N
+  - num: 41
+    word: OTTO
+    clue: "41. Il numero dei superstiti del Diluvio (1 Pietro 3:20)"
+    type: H
+    start: J14
+    positions[4]{row,col,letter}:
+      13,9,O
+      13,10,T
+      13,11,T
+      13,12,O
+  - num: 42
+    word: MANOA
+    clue: "42. Devoto padre del giudice Sansone (Giudici 13:2-24)"
+    type: H
+    start: A15
+    positions[5]{row,col,letter}:
+      14,0,M
+      14,1,A
+      14,2,N
+      14,3,O
+      14,4,A
+  - num: 43
+    word: DUE
+    clue: "43. Sono meglio di uno (Ecclesiaste 4:9)"
+    type: H
+    start: G15
+    positions[3]{row,col,letter}:
+      14,6,D
+      14,7,U
+      14,8,E
+  - num: 44
+    word: DATAN
+    clue: "44. Morì per aver appoggiato Cora nella ribellione contro Mosè e Aaronne (Numeri 26:7-11)"
+    type: H
+    start: K15
+    positions[5]{row,col,letter}:
+      14,10,D
+      14,11,A
+      14,12,T
+      14,13,A
+      14,14,N
+  - num: 1
+    word: TAMAR
+    clue: "1. Bella figlia di Davide che fu violentata dal fratellastro Amnon (2 Samuele 13:1-14)"
+    type: V
+    start: A1
+    positions[5]{row,col,letter}:
+      0,0,T
+      1,0,A
+      2,0,M
+      3,0,A
+      4,0,R
+  - num: 2
+    word: ESEMPI
+    clue: "2. Gli anziani devono esserlo per il gregge (1 Pietro 5:3)"
+    type: V
+    start: D1
+    positions[6]{row,col,letter}:
+      0,3,E
+      1,3,S
+      2,3,E
+      3,3,M
+      4,3,P
+      5,3,I
+  - num: 4
+    word: ESAU
+    clue: "4. Non apprezzò le cose sacre (Ebrei 12:16)"
+    type: V
+    start: H1
+    positions[4]{row,col,letter}:
+      0,7,E
+      1,7,S
+      2,7,A
+      3,7,U
+  - num: 6
+    word: CULICI
+    clue: "6. Una delle dieci piaghe che colpirono l’Egitto (Esodo 8:17)"
+    type: V
+    start: L1
+    positions[6]{row,col,letter}:
+      0,11,C
+      1,11,U
+      2,11,L
+      3,11,I
+      4,11,C
+      5,11,I
+  - num: 7
+    word: OBLIO
+    clue: "7. Abbandono, dimenticanza (Salmo 88:12)"
+    type: V
+    start: O1
+    positions[5]{row,col,letter}:
+      0,14,O
+      1,14,B
+      2,14,L
+      3,14,I
+      4,14,O
+  - num: 10
+    word: ENOC
+    clue: "10. Fedele servitore di Geova che fu “trasferito in modo da non vedere la morte” (Ebrei 11:5)"
+    type: V
+    start: B3
+    positions[4]{row,col,letter}:
+      2,1,E
+      3,1,N
+      4,1,O
+      5,1,C
+  - num: 12
+    word: ARMI
+    clue: "12. Quelle dei cristiani sono potenti pur non essendo carnali (2 Corinti 10:4)"
+    type: V
+    start: N3
+    positions[4]{row,col,letter}:
+      2,13,A
+      3,13,R
+      4,13,M
+      5,13,I
+  - num: 15
+    word: ETIOPIA
+    clue: "15. La patria del re Tiraca (2 Re 19:9)"
+    type: V
+    start: F5
+    positions[7]{row,col,letter}:
+      4,5,E
+      5,5,T
+      6,5,I
+      7,5,O
+      8,5,P
+      9,5,I
+      10,5,A
+  - num: 16
+    word: MICHELE
+    clue: "16. Il nome dell’arcangelo (Giuda 9)"
+    type: V
+    start: G5
+    positions[7]{row,col,letter}:
+      4,6,M
+      5,6,I
+      6,6,C
+      7,6,H
+      8,6,E
+      9,6,L
+      10,6,E
+  - num: 17
+    word: ABIGAIL
+    clue: "17. La bella e saggia moglie di Nabal (1 Samuele 25:3)"
+    type: V
+    start: I5
+    positions[7]{row,col,letter}:
+      4,8,A
+      5,8,B
+      6,8,I
+      7,8,G
+      8,8,A
+      9,8,I
+      10,8,L
+  - num: 18
+    word: LACRIME
+    clue: "18. Geova le asciugherà da ogni faccia (Isaia 25:8)"
+    type: V
+    start: J5
+    positions[7]{row,col,letter}:
+      4,9,L
+      5,9,A
+      6,9,C
+      7,9,R
+      8,9,I
+      9,9,M
+      10,9,E
+  - num: 20
+    word: RECAB
+    clue: "20. I suoi discendenti continuavano a osservare il divieto di bere vino (Geremia 35:8)"
+    type: V
+    start: C6
+    positions[5]{row,col,letter}:
+      5,2,R
+      6,2,E
+      7,2,C
+      8,2,A
+      9,2,B
+  - num: 22
+    word: NAHOR
+    clue: "22. Nonno di Abraamo (Luca 3:34)"
+    type: V
+    start: M6
+    positions[5]{row,col,letter}:
+      5,12,N
+      6,12,A
+      7,12,H
+      8,12,O
+      9,12,R
+  - num: 23
+    word: GAT
+    clue: "23. La città di Golia (1 Samuele 17:4)"
+    type: V
+    start: A7
+    positions[3]{row,col,letter}:
+      6,0,G
+      7,0,A
+      8,0,T
+  - num: 25
+    word: CAM
+    clue: "25. Fratello di Iafet (Genesi 6:10)"
+    type: V
+    start: O7
+    positions[3]{row,col,letter}:
+      6,14,C
+      7,14,A
+      8,14,M
+  - num: 29
+    word: ALOE
+    clue: "29. Pianta da cui si estrae una sostanza usata come profumo in epoca biblica (Proverbi 7:17)"
+    type: V
+    start: B10
+    positions[4]{row,col,letter}:
+      9,1,A
+      10,1,L
+      11,1,O
+      12,1,E
+  - num: 30
+    word: ISACCO
+    clue: "30. Mancò poco che venisse ucciso da suo padre (Genesi 22:9, 10)"
+    type: V
+    start: D10
+    positions[6]{row,col,letter}:
+      9,3,I
+      10,3,S
+      11,3,A
+      12,3,C
+      13,3,C
+      14,3,O
+  - num: 32
+    word: UMILTA
+    clue: "32. La qualità che precede la gloria (Proverbi 18:12)"
+    type: V
+    start: L10
+    positions[6]{row,col,letter}:
+      9,11,U
+      10,11,M
+      11,11,I
+      12,11,L
+      13,11,T
+      14,11,A
+  - num: 33
+    word: OFIR
+    clue: "33. Regione rinomata per il suo oro (1 Re 9:28)"
+    type: V
+    start: N10
+    positions[4]{row,col,letter}:
+      9,13,O
+      10,13,F
+      11,13,I
+      12,13,R
+  - num: 34
+    word: HIRAM
+    clue: "34. Esperto artigiano che fece molti degli arredi del tempio di Salomone (1 Re 7:13, 14)"
+    type: V
+    start: A11
+    positions[5]{row,col,letter}:
+      10,0,H
+      11,0,I
+      12,0,R
+      13,0,A
+      14,0,M
+  - num: 35
+    word: DAGON
+    clue: "35. Divinità filistea il cui idolo cadde davanti all’arca del patto (1 Samuele 5:2-5)"
+    type: V
+    start: O11
+    positions[5]{row,col,letter}:
+      10,14,D
+      11,14,A
+      12,14,G
+      13,14,O
+      14,14,N
+  - num: 37
+    word: ELIU
+    clue: "37. Pur essendo più giovane di loro, corresse Giobbe e i suoi tre compagni (Giobbe 32:2-6)"
+    type: V
+    start: H12
+    positions[4]{row,col,letter}:
+      11,7,E
+      12,7,L
+      13,7,I
+      14,7,U
+metadata:
+  totalNumbers: 65
+  horizontalStarts: 38
+  verticalStarts: 38
+  totalWords: 46
+  createdAt: "2025-12-26T17:56:42.100Z"

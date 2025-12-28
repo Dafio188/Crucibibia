@@ -24,6 +24,7 @@ data class GameUiState(
     val errorCells: Set<Pair<Int, Int>> = emptySet(),
     val correctCells: Set<Pair<Int, Int>> = emptySet(),
     val revealedCells: Set<Pair<Int, Int>> = emptySet(),
+    val currentClue: Clue? = null,
     val elapsedSeconds: Long = 0,
     val isCompleted: Boolean = false,
     val showCompletionDialog: Boolean = false,
@@ -123,13 +124,46 @@ class GameViewModel(
         }
 
         val highlightedCells = calculateHighlightedCells(row, col, newDirection, puzzleData)
+        val currentClue = findClueForCell(row, col, newDirection, puzzleData)
 
         _uiState.value = state.copy(
             selectedCell = Pair(row, col),
             selectedDirection = newDirection,
             highlightedCells = highlightedCells,
+            currentClue = currentClue,
             errorCells = emptySet() // Clear errors on new selection
         )
+    }
+
+    private fun findClueForCell(row: Int, col: Int, direction: Direction, puzzleData: PuzzleData): Clue? {
+        val grid = puzzleData.grid
+
+        // Find the start of the word
+        val (startRow, startCol) = when (direction) {
+            Direction.HORIZONTAL -> {
+                var c = col
+                while (c > 0 && !grid.cells[row][c - 1].isBlocked) {
+                    c--
+                }
+                Pair(row, c)
+            }
+            Direction.VERTICAL -> {
+                var r = row
+                while (r > 0 && !grid.cells[r - 1][col].isBlocked) {
+                    r--
+                }
+                Pair(r, col)
+            }
+        }
+
+        // Find the clue that starts at this position
+        val clues = if (direction == Direction.HORIZONTAL) {
+            puzzleData.horizontalClues
+        } else {
+            puzzleData.verticalClues
+        }
+
+        return clues.find { it.startRow == startRow && it.startCol == startCol }
     }
 
     private fun calculateHighlightedCells(
@@ -506,7 +540,8 @@ class GameViewModel(
         _uiState.value = state.copy(
             selectedCell = Pair(clue.startRow, clue.startCol),
             selectedDirection = clue.direction,
-            highlightedCells = highlightedCells
+            highlightedCells = highlightedCells,
+            currentClue = clue
         )
     }
 

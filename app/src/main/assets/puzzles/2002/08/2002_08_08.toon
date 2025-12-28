@@ -1,0 +1,677 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,0,1,1,1,1,0,1,0,1,1,1,1,0,1
+  - [15]: 1,1,0,1,1,0,1,1,1,0,1,1,0,1,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 0,1,1,1,1,1,1,0,1,1,1,1,1,1,0
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,0,1,0,1,1,0,1,0,1,1,0,1,0,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,0,1,0,1,1,0,1,0,1,1,0,1,0,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 0,1,1,1,1,1,1,0,1,1,1,1,1,1,0
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,1,0,1,1,0,1,1,1,0,1,1,0,1,1
+  - [15]: 1,0,1,1,1,1,0,1,0,1,1,1,1,0,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+numberedCells[45]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,3,2,false,true
+  0,5,3,true,false
+  0,7,4,false,true
+  0,11,5,true,true
+  0,14,6,false,true
+  1,2,7,true,false
+  1,4,8,false,true
+  1,9,9,true,false
+  1,10,10,false,true
+  2,1,11,false,true
+  2,6,12,true,false
+  2,13,13,false,true
+  3,0,14,true,false
+  3,5,15,false,true
+  3,9,16,true,true
+  4,1,17,true,false
+  4,8,18,true,false
+  5,0,19,false,true
+  5,3,20,true,false
+  5,7,21,false,true
+  5,14,22,false,true
+  6,2,23,false,true
+  6,12,24,false,true
+  7,0,25,true,false
+  7,5,26,true,false
+  7,11,27,true,false
+  8,4,28,false,true
+  8,10,29,false,true
+  9,1,30,false,true
+  9,3,31,true,true
+  9,11,32,false,true
+  9,13,33,false,true
+  10,1,34,true,false
+  10,8,35,true,false
+  11,0,36,true,true
+  11,7,37,false,true
+  11,9,38,true,false
+  11,14,39,false,true
+  12,6,40,true,false
+  13,2,41,true,false
+  13,9,42,true,false
+  14,0,43,true,false
+  14,5,44,true,false
+  14,11,45,true,false
+words:
+  orizzontali[25]{num,word,clue}:
+    1,ASAF,"1. Il musicista levita a cui è attribuito il Salmo 73 (Salmo 73, soprascritta)"
+    3,GIONA,"3. Indusse i niniviti a pentirsi (Matteo 12:41)"
+    5,VASO,"5. Paolo paragona ad esso il nostro corpo, dicendo che dobbiamo possederlo “in santificazione e onore” (1 Tessalonicesi 4:4)"
+    7,HIEL,"7. Betelita che perse due figli per avere riedificato Gerico (1 Re 16:34)"
+    9,MOAB,"9. Figlio e nipote di Lot (Genesi 19:36, 37)"
+    12,IEU,"12. Ordinò di uccidere Izebel (2 Re 9:30-33)"
+    14,ALMENO,"14. Come minimo, se non altro (Genesi 24:55)"
+    16,ICONIO,"16. Il giovane Timoteo vi godeva di un’ottima reputazione (Atti 16:2)"
+    17,ARAUNA,"17. Davide acquistò la sua aia per edificarvi un altare a Geova (2 Samuele 24:21-24)"
+    18,APERTO,"18. “Continuate a bussare, e vi sarà ------” (Matteo 7:7)"
+    20,SCORPIONE,"20. La sua puntura è dolorosa (Rivelazione 9:5)"
+    25,ENOC,"25. Uomo di fede che “fu trasferito in modo da non vedere la morte” (Ebrei 11:5)"
+    26,ESTER,"26. Il suo nome ebraico, Adassa, significa “mirto” (Ester 2:7)"
+    27,FEBE,"27. Cristiana della congregazione di Cencrea che aiutò l’apostolo Paolo (Romani 16:1, 2)"
+    31,PROGRESSO,"31. È bene che sia manifesto a tutti (1 Timoteo 4:15)"
+    34,PAROLA,"34. Uno dei titoli del Gesù preumano (Giovanni 1:1)"
+    35,CIECHI,"35. Gesù li guariva (Luca 7:21)"
+    36,VIRILE,"36. Mascolino (Esodo 15:3)"
+    38,ANCORA,"38. La levano i marinai (Atti 27:13)"
+    40,LEA,"40. La prima moglie di Giacobbe (Genesi 29:21-25)"
+    41,ACOR,"41. Il bassopiano in cui fu lapidato Acan (Giosuè 7:24-26)"
+    42,SEIR,"42. Regione montagnosa in cui si stabilì Esaù e che poi divenne sinonimo di Edom (Genesi 36:8; Numeri 24:18)"
+    43,OSSA,"43. Quelle di Giuseppe furono portate fuori dall’Egitto (Esodo 13:19)"
+    44,CIELO,"44. È la “banca” più sicura (Matteo 6:20)"
+    45,ORPA,"45. Nuora di Naomi (Rut 1:3, 4)"
+  verticali[25]{num,word,clue}:
+    1,ANNA,"1. La madre di Samuele (1 Samuele 1:20)"
+    2,FINEAS,"2. Il figlio di Eleazaro la cui rapida azione pose fine alla piaga mandata da Geova nella pianura di Moab (Numeri 25:6-11)"
+    4,OSEA,"4. Profeta che dà il nome a un libro delle Scritture Ebraiche (Romani 9:25)"
+    5,VAPORE,"5. Non ha consistenza né stabilità (Giacomo 4:14)"
+    6,ORZO,"6. Uno dei prodotti della Terra Promessa (Deuteronomio 8:8)"
+    8,EUNUCO,"8. Lo era Egai, il “guardiano delle donne” che preparò Ester con speciali trattamenti di bellezza prima che venisse presentata al re (Ester 2:15)"
+    10,OSCENI,"10. Gli scherzi di questo genere non si addicono ai cristiani (Efesini 5:4)"
+    11,ELAM,"11. Ne era re Chedorlaomer (Genesi 14:1)"
+    13,SION,"13. Il monte che divenne sinonimo di Gerusalemme (Isaia 52:1)"
+    15,ONOREVOLE,"15. Deve esserlo il matrimonio fra i cristiani (Ebrei 13:4)"
+    16,IPOCRISIA,"16. Ne erano pieni i farisei (Matteo 23:28)"
+    19,DIECI,"19. Il numero delle corna della bestia selvaggia di Rivelazione 13:1"
+    21,PETOR,"21. Luogo di provenienza di Balaam (Deuteronomio 23:4)"
+    22,ABELE,"22. Fu ucciso dal fratello (Genesi 4:8)"
+    23,LOT,"23. Si tormentava vedendo la dissolutezza dei suoi concittadini (2 Pietro 2:7, 8)"
+    24,SEM,"24. Entrò nell’arca (Genesi 7:13)"
+    28,CROLLO,"28. Lo precede l’orgoglio (Proverbi 16:18)"
+    29,ESENTE,"29. Dispensato, immune (Proverbi 19:5)"
+    30,SPIE,"30. Alloggiarono da Raab (Giosuè 2:1)"
+    31,PRISCA,"31. La moglie di Aquila (Romani 16:3)"
+    32,OCCHIO,"32. È bene mantenerlo semplice (Matteo 6:22)"
+    33,CIRO,"33. Fu chiamato l’“unto” di Geova pur non essendone un adoratore (Isaia 45:1)"
+    36,VINO,"36. Era proibito ai nazirei (Numeri 6:2, 3)"
+    37,FEDE,"37. Non è posseduta da tutti (2 Tessalonicesi 3:2)"
+    39,ARCA,"39. Permise di sopravvivere al Diluvio (Genesi 7:23)"
+placements[50]:
+  - num: 1
+    word: ASAF
+    clue: "1. Il musicista levita a cui è attribuito il Salmo 73 (Salmo 73, soprascritta)"
+    type: H
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,A
+      0,1,S
+      0,2,A
+      0,3,F
+  - num: 3
+    word: GIONA
+    clue: "3. Indusse i niniviti a pentirsi (Matteo 12:41)"
+    type: H
+    start: F1
+    positions[5]{row,col,letter}:
+      0,5,G
+      0,6,I
+      0,7,O
+      0,8,N
+      0,9,A
+  - num: 5
+    word: VASO
+    clue: "5. Paolo paragona ad esso il nostro corpo, dicendo che dobbiamo possederlo “in santificazione e onore” (1 Tessalonicesi 4:4)"
+    type: H
+    start: L1
+    positions[4]{row,col,letter}:
+      0,11,V
+      0,12,A
+      0,13,S
+      0,14,O
+  - num: 7
+    word: HIEL
+    clue: "7. Betelita che perse due figli per avere riedificato Gerico (1 Re 16:34)"
+    type: H
+    start: C2
+    positions[4]{row,col,letter}:
+      1,2,H
+      1,3,I
+      1,4,E
+      1,5,L
+  - num: 9
+    word: MOAB
+    clue: "9. Figlio e nipote di Lot (Genesi 19:36, 37)"
+    type: H
+    start: J2
+    positions[4]{row,col,letter}:
+      1,9,M
+      1,10,O
+      1,11,A
+      1,12,B
+  - num: 12
+    word: IEU
+    clue: "12. Ordinò di uccidere Izebel (2 Re 9:30-33)"
+    type: H
+    start: G3
+    positions[3]{row,col,letter}:
+      2,6,I
+      2,7,E
+      2,8,U
+  - num: 14
+    word: ALMENO
+    clue: "14. Come minimo, se non altro (Genesi 24:55)"
+    type: H
+    start: A4
+    positions[6]{row,col,letter}:
+      3,0,A
+      3,1,L
+      3,2,M
+      3,3,E
+      3,4,N
+      3,5,O
+  - num: 16
+    word: ICONIO
+    clue: "16. Il giovane Timoteo vi godeva di un’ottima reputazione (Atti 16:2)"
+    type: H
+    start: J4
+    positions[6]{row,col,letter}:
+      3,9,I
+      3,10,C
+      3,11,O
+      3,12,N
+      3,13,I
+      3,14,O
+  - num: 17
+    word: ARAUNA
+    clue: "17. Davide acquistò la sua aia per edificarvi un altare a Geova (2 Samuele 24:21-24)"
+    type: H
+    start: B5
+    positions[6]{row,col,letter}:
+      4,1,A
+      4,2,R
+      4,3,A
+      4,4,U
+      4,5,N
+      4,6,A
+  - num: 18
+    word: APERTO
+    clue: "18. “Continuate a bussare, e vi sarà ------” (Matteo 7:7)"
+    type: H
+    start: I5
+    positions[6]{row,col,letter}:
+      4,8,A
+      4,9,P
+      4,10,E
+      4,11,R
+      4,12,T
+      4,13,O
+  - num: 20
+    word: SCORPIONE
+    clue: "20. La sua puntura è dolorosa (Rivelazione 9:5)"
+    type: H
+    start: D6
+    positions[9]{row,col,letter}:
+      5,3,S
+      5,4,C
+      5,5,O
+      5,6,R
+      5,7,P
+      5,8,I
+      5,9,O
+      5,10,N
+      5,11,E
+  - num: 25
+    word: ENOC
+    clue: "25. Uomo di fede che “fu trasferito in modo da non vedere la morte” (Ebrei 11:5)"
+    type: H
+    start: A8
+    positions[4]{row,col,letter}:
+      7,0,E
+      7,1,N
+      7,2,O
+      7,3,C
+  - num: 26
+    word: ESTER
+    clue: "26. Il suo nome ebraico, Adassa, significa “mirto” (Ester 2:7)"
+    type: H
+    start: F8
+    positions[5]{row,col,letter}:
+      7,5,E
+      7,6,S
+      7,7,T
+      7,8,E
+      7,9,R
+  - num: 27
+    word: FEBE
+    clue: "27. Cristiana della congregazione di Cencrea che aiutò l’apostolo Paolo (Romani 16:1, 2)"
+    type: H
+    start: L8
+    positions[4]{row,col,letter}:
+      7,11,F
+      7,12,E
+      7,13,B
+      7,14,E
+  - num: 31
+    word: PROGRESSO
+    clue: "31. È bene che sia manifesto a tutti (1 Timoteo 4:15)"
+    type: H
+    start: D10
+    positions[9]{row,col,letter}:
+      9,3,P
+      9,4,R
+      9,5,O
+      9,6,G
+      9,7,R
+      9,8,E
+      9,9,S
+      9,10,S
+      9,11,O
+  - num: 34
+    word: PAROLA
+    clue: "34. Uno dei titoli del Gesù preumano (Giovanni 1:1)"
+    type: H
+    start: B11
+    positions[6]{row,col,letter}:
+      10,1,P
+      10,2,A
+      10,3,R
+      10,4,O
+      10,5,L
+      10,6,A
+  - num: 35
+    word: CIECHI
+    clue: "35. Gesù li guariva (Luca 7:21)"
+    type: H
+    start: I11
+    positions[6]{row,col,letter}:
+      10,8,C
+      10,9,I
+      10,10,E
+      10,11,C
+      10,12,H
+      10,13,I
+  - num: 36
+    word: VIRILE
+    clue: "36. Mascolino (Esodo 15:3)"
+    type: H
+    start: A12
+    positions[6]{row,col,letter}:
+      11,0,V
+      11,1,I
+      11,2,R
+      11,3,I
+      11,4,L
+      11,5,E
+  - num: 38
+    word: ANCORA
+    clue: "38. La levano i marinai (Atti 27:13)"
+    type: H
+    start: J12
+    positions[6]{row,col,letter}:
+      11,9,A
+      11,10,N
+      11,11,C
+      11,12,O
+      11,13,R
+      11,14,A
+  - num: 40
+    word: LEA
+    clue: "40. La prima moglie di Giacobbe (Genesi 29:21-25)"
+    type: H
+    start: G13
+    positions[3]{row,col,letter}:
+      12,6,L
+      12,7,E
+      12,8,A
+  - num: 41
+    word: ACOR
+    clue: "41. Il bassopiano in cui fu lapidato Acan (Giosuè 7:24-26)"
+    type: H
+    start: C14
+    positions[4]{row,col,letter}:
+      13,2,A
+      13,3,C
+      13,4,O
+      13,5,R
+  - num: 42
+    word: SEIR
+    clue: "42. Regione montagnosa in cui si stabilì Esaù e che poi divenne sinonimo di Edom (Genesi 36:8; Numeri 24:18)"
+    type: H
+    start: J14
+    positions[4]{row,col,letter}:
+      13,9,S
+      13,10,E
+      13,11,I
+      13,12,R
+  - num: 43
+    word: OSSA
+    clue: "43. Quelle di Giuseppe furono portate fuori dall’Egitto (Esodo 13:19)"
+    type: H
+    start: A15
+    positions[4]{row,col,letter}:
+      14,0,O
+      14,1,S
+      14,2,S
+      14,3,A
+  - num: 44
+    word: CIELO
+    clue: "44. È la “banca” più sicura (Matteo 6:20)"
+    type: H
+    start: F15
+    positions[5]{row,col,letter}:
+      14,5,C
+      14,6,I
+      14,7,E
+      14,8,L
+      14,9,O
+  - num: 45
+    word: ORPA
+    clue: "45. Nuora di Naomi (Rut 1:3, 4)"
+    type: H
+    start: L15
+    positions[4]{row,col,letter}:
+      14,11,O
+      14,12,R
+      14,13,P
+      14,14,A
+  - num: 1
+    word: ANNA
+    clue: "1. La madre di Samuele (1 Samuele 1:20)"
+    type: V
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,A
+      1,0,N
+      2,0,N
+      3,0,A
+  - num: 2
+    word: FINEAS
+    clue: "2. Il figlio di Eleazaro la cui rapida azione pose fine alla piaga mandata da Geova nella pianura di Moab (Numeri 25:6-11)"
+    type: V
+    start: D1
+    positions[6]{row,col,letter}:
+      0,3,F
+      1,3,I
+      2,3,N
+      3,3,E
+      4,3,A
+      5,3,S
+  - num: 4
+    word: OSEA
+    clue: "4. Profeta che dà il nome a un libro delle Scritture Ebraiche (Romani 9:25)"
+    type: V
+    start: H1
+    positions[4]{row,col,letter}:
+      0,7,O
+      1,7,S
+      2,7,E
+      3,7,A
+  - num: 5
+    word: VAPORE
+    clue: "5. Non ha consistenza né stabilità (Giacomo 4:14)"
+    type: V
+    start: L1
+    positions[6]{row,col,letter}:
+      0,11,V
+      1,11,A
+      2,11,P
+      3,11,O
+      4,11,R
+      5,11,E
+  - num: 6
+    word: ORZO
+    clue: "6. Uno dei prodotti della Terra Promessa (Deuteronomio 8:8)"
+    type: V
+    start: O1
+    positions[4]{row,col,letter}:
+      0,14,O
+      1,14,R
+      2,14,Z
+      3,14,O
+  - num: 8
+    word: EUNUCO
+    clue: "8. Lo era Egai, il “guardiano delle donne” che preparò Ester con speciali trattamenti di bellezza prima che venisse presentata al re (Ester 2:15)"
+    type: V
+    start: E2
+    positions[6]{row,col,letter}:
+      1,4,E
+      2,4,U
+      3,4,N
+      4,4,U
+      5,4,C
+      6,4,O
+  - num: 10
+    word: OSCENI
+    clue: "10. Gli scherzi di questo genere non si addicono ai cristiani (Efesini 5:4)"
+    type: V
+    start: K2
+    positions[6]{row,col,letter}:
+      1,10,O
+      2,10,S
+      3,10,C
+      4,10,E
+      5,10,N
+      6,10,I
+  - num: 11
+    word: ELAM
+    clue: "11. Ne era re Chedorlaomer (Genesi 14:1)"
+    type: V
+    start: B3
+    positions[4]{row,col,letter}:
+      2,1,E
+      3,1,L
+      4,1,A
+      5,1,M
+  - num: 13
+    word: SION
+    clue: "13. Il monte che divenne sinonimo di Gerusalemme (Isaia 52:1)"
+    type: V
+    start: N3
+    positions[4]{row,col,letter}:
+      2,13,S
+      3,13,I
+      4,13,O
+      5,13,N
+  - num: 15
+    word: ONOREVOLE
+    clue: "15. Deve esserlo il matrimonio fra i cristiani (Ebrei 13:4)"
+    type: V
+    start: F4
+    positions[9]{row,col,letter}:
+      3,5,O
+      4,5,N
+      5,5,O
+      6,5,R
+      7,5,E
+      8,5,V
+      9,5,O
+      10,5,L
+      11,5,E
+  - num: 16
+    word: IPOCRISIA
+    clue: "16. Ne erano pieni i farisei (Matteo 23:28)"
+    type: V
+    start: J4
+    positions[9]{row,col,letter}:
+      3,9,I
+      4,9,P
+      5,9,O
+      6,9,C
+      7,9,R
+      8,9,I
+      9,9,S
+      10,9,I
+      11,9,A
+  - num: 19
+    word: DIECI
+    clue: "19. Il numero delle corna della bestia selvaggia di Rivelazione 13:1"
+    type: V
+    start: A6
+    positions[5]{row,col,letter}:
+      5,0,D
+      6,0,I
+      7,0,E
+      8,0,C
+      9,0,I
+  - num: 21
+    word: PETOR
+    clue: "21. Luogo di provenienza di Balaam (Deuteronomio 23:4)"
+    type: V
+    start: H6
+    positions[5]{row,col,letter}:
+      5,7,P
+      6,7,E
+      7,7,T
+      8,7,O
+      9,7,R
+  - num: 22
+    word: ABELE
+    clue: "22. Fu ucciso dal fratello (Genesi 4:8)"
+    type: V
+    start: O6
+    positions[5]{row,col,letter}:
+      5,14,A
+      6,14,B
+      7,14,E
+      8,14,L
+      9,14,E
+  - num: 23
+    word: LOT
+    clue: "23. Si tormentava vedendo la dissolutezza dei suoi concittadini (2 Pietro 2:7, 8)"
+    type: V
+    start: C7
+    positions[3]{row,col,letter}:
+      6,2,L
+      7,2,O
+      8,2,T
+  - num: 24
+    word: SEM
+    clue: "24. Entrò nell’arca (Genesi 7:13)"
+    type: V
+    start: M7
+    positions[3]{row,col,letter}:
+      6,12,S
+      7,12,E
+      8,12,M
+  - num: 28
+    word: CROLLO
+    clue: "28. Lo precede l’orgoglio (Proverbi 16:18)"
+    type: V
+    start: E9
+    positions[6]{row,col,letter}:
+      8,4,C
+      9,4,R
+      10,4,O
+      11,4,L
+      12,4,L
+      13,4,O
+  - num: 29
+    word: ESENTE
+    clue: "29. Dispensato, immune (Proverbi 19:5)"
+    type: V
+    start: K9
+    positions[6]{row,col,letter}:
+      8,10,E
+      9,10,S
+      10,10,E
+      11,10,N
+      12,10,T
+      13,10,E
+  - num: 30
+    word: SPIE
+    clue: "30. Alloggiarono da Raab (Giosuè 2:1)"
+    type: V
+    start: B10
+    positions[4]{row,col,letter}:
+      9,1,S
+      10,1,P
+      11,1,I
+      12,1,E
+  - num: 31
+    word: PRISCA
+    clue: "31. La moglie di Aquila (Romani 16:3)"
+    type: V
+    start: D10
+    positions[6]{row,col,letter}:
+      9,3,P
+      10,3,R
+      11,3,I
+      12,3,S
+      13,3,C
+      14,3,A
+  - num: 32
+    word: OCCHIO
+    clue: "32. È bene mantenerlo semplice (Matteo 6:22)"
+    type: V
+    start: L10
+    positions[6]{row,col,letter}:
+      9,11,O
+      10,11,C
+      11,11,C
+      12,11,H
+      13,11,I
+      14,11,O
+  - num: 33
+    word: CIRO
+    clue: "33. Fu chiamato l’“unto” di Geova pur non essendone un adoratore (Isaia 45:1)"
+    type: V
+    start: N10
+    positions[4]{row,col,letter}:
+      9,13,C
+      10,13,I
+      11,13,R
+      12,13,O
+  - num: 36
+    word: VINO
+    clue: "36. Era proibito ai nazirei (Numeri 6:2, 3)"
+    type: V
+    start: A12
+    positions[4]{row,col,letter}:
+      11,0,V
+      12,0,I
+      13,0,N
+      14,0,O
+  - num: 37
+    word: FEDE
+    clue: "37. Non è posseduta da tutti (2 Tessalonicesi 3:2)"
+    type: V
+    start: H12
+    positions[4]{row,col,letter}:
+      11,7,F
+      12,7,E
+      13,7,D
+      14,7,E
+  - num: 39
+    word: ARCA
+    clue: "39. Permise di sopravvivere al Diluvio (Genesi 7:23)"
+    type: V
+    start: O12
+    positions[4]{row,col,letter}:
+      11,14,A
+      12,14,R
+      13,14,C
+      14,14,A
+metadata:
+  totalNumbers: 45
+  horizontalStarts: 25
+  verticalStarts: 25
+  totalWords: 50
+  createdAt: "2025-12-26T18:33:54.770Z"

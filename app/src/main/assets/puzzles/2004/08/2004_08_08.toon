@@ -1,0 +1,672 @@
+gridSize: 15
+structure[15]:
+  - [15]: 0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+  - [15]: 1,1,1,1,1,0,1,0,1,0,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,0,1,1,0,1,1,0,1,1,1,1
+  - [15]: 1,1,0,1,0,1,0,0,0,1,0,1,0,1,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 0,1,0,0,1,0,1,0,1,0,1,0,0,1,0
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,1,0,1,0,1,0,0,0,1,0,1,0,1,1
+  - [15]: 1,1,1,1,0,1,1,0,1,1,0,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,0,1,0,1,0,1,1,1,1,1
+  - [15]: 0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+numberedCells[44]{row,col,num,hasH,hasV}:
+  0,1,1,true,false
+  0,2,2,false,true
+  0,4,3,false,true
+  0,6,4,false,true
+  0,8,5,false,true
+  0,10,6,false,true
+  0,12,7,false,true
+  1,0,8,true,true
+  1,10,9,true,false
+  1,14,10,false,true
+  2,4,11,true,false
+  2,5,12,false,true
+  2,9,13,false,true
+  3,0,14,true,false
+  3,1,15,false,true
+  3,3,16,false,true
+  3,11,17,true,true
+  3,13,18,false,true
+  5,3,19,true,false
+  5,4,20,false,true
+  5,6,21,false,true
+  5,8,22,false,true
+  5,10,23,false,true
+  6,0,24,true,false
+  6,8,25,true,false
+  8,0,26,true,true
+  8,3,27,false,true
+  8,5,28,false,true
+  8,8,29,true,false
+  8,9,30,false,true
+  8,11,31,false,true
+  8,14,32,false,true
+  9,3,33,true,false
+  11,0,34,true,false
+  11,2,35,false,true
+  11,6,36,false,true
+  11,8,37,false,true
+  11,11,38,true,false
+  11,12,39,false,true
+  12,4,40,true,true
+  12,10,41,false,true
+  13,0,42,true,false
+  13,10,43,true,false
+  14,1,44,true,false
+words:
+  orizzontali[18]{num,word,clue}:
+    1,PAESEDICANAAN,"1. Costituiva la Terra Promessa [3 parole] (Genesi 17:8)"
+    8,EBREE,"8. Donne israelite (Esodo 1:19)"
+    9,OSHEA,"9. Ultimo re del regno settentrionale di Israele (2 Re 17:1, 2)"
+    11,MANASSE,"11. Re di Giuda che si macchiò di peccati orribili ma fu perdonato (2 Cronache 33:1-13)"
+    14,AMOS,"14. Uno dei profeti cosiddetti “minori”"
+    17,NOMI,"17. Adamo li diede a tutti gli animali (Genesi 2:20)"
+    19,INCALZATI,"19. “Siamo --------- in ogni modo, ma non alle strette da non muoverci” (2 Corinti 4:8)"
+    24,MIZRAIM,"24. Figlio di Cam il cui nome diventò sinonimo di Egitto (Genesi 10:6; 50:11)"
+    25,ORONAIM,"25. Località di Moab inclusa fra quelle contro cui era diretto il giudizio di Geova (Isaia 15:1, 5)"
+    26,EBRAICO,"26. Una delle lingue in cui fu scritto il titolo sul palo di Gesù (Giovanni 19:20)"
+    29,AARONNE,"29. Il primo sommo sacerdote di Israele (Esodo 28:1-3)"
+    33,BOANERGES,"33. Il soprannome degli apostoli Giacomo e Giovanni (Marco 3:17)"
+    34,ALFA,"34. Prima lettera dell’alfabeto greco (Rivelazione 1:8)"
+    38,IAIR,"38. Settimo giudice d’Israele (Giudici 10:3)"
+    40,ABIGAIL,"40. Si dimostrò molto più saggia del marito (1 Samuele 25)"
+    42,MAGOG,"42. Il paese di Gog (Ezechiele 38:2)"
+    43,OMEGA,"43. Ultima lettera dell’alfabeto greco (Rivelazione 21:6)"
+    44,PALODITORTURA,"44. Per essere discepoli di Gesù bisogna prenderlo [3 parole] (Marco 8:34)"
+  verticali[30]{num,word,clue}:
+    2,ARCO,"2. Si usava per cacciare selvaggina (Genesi 27:3)"
+    3,SEM,"3. Antenato di Abraamo che sopravvisse al diluvio (1 Cronache 1:4, 24-27)"
+    4,DINA,"4. Figlia di Giacobbe che fu violentata da Sichem (Genesi 34:1, 2)"
+    5,CASA,"5. Ha sempre un costruttore (Ebrei 3:4)"
+    6,NOE,"6. A 600 anni vide il primo arcobaleno della sua vita (Genesi 7:11; 9:12-17)"
+    7,AHIO,"7. Insieme al fratello Uzza trasportò l’arca del patto (2 Samuele 6:3)"
+    8,ETANIM,"8. Settimo mese del calendario sacro degli israeliti (1 Re 8:2)"
+    10,ABIRAM,"10. Si unì a Cora nella ribellione contro Mosè (Numeri 26:9)"
+    12,AMICI,"12. Chi è ricco ne ha molti (Proverbi 14:20)"
+    13,SINAR,"13. Il paese in cui sorse la torre di Babele (Genesi 11:2-4)"
+    15,MERIBBAAL,"15. Figlio di Gionatan, forse più noto col nome di Mefiboset (2 Samuele 9:12; 1 Cronache 8:34)"
+    16,SEIR,"16. Regione montagnosa il cui nome divenne sinonimo di Edom (Numeri 24:18)"
+    17,NAIN,"17. Vi abitava la vedova a cui Gesù risuscitò il figlio (Luca 7:11-15)"
+    18,MADIANITI,"18. Vendettero Giuseppe a Potifar (Genesi 37:36)"
+    20,NATIO,"20. Lo è il paese dove si è nati (Salmo 37:35)"
+    21,AMNON,"21. Violentò la sorellastra Tamar (2 Samuele 13:1, 6-14)"
+    22,ZOFAR,"22. Uno dei falsi confortatori di Giobbe (Giobbe 2:11)"
+    23,TORRE,"23. Dava protezione a chi vi fuggiva (Giudici 9:51; Proverbi 18:10)"
+    26,EFRAIM,"26. Secondo figlio di Giuseppe (Genesi 41:52)"
+    27,ABIA,"27. Figlio di Roboamo e secondo re di Giuda (2 Cronache 12:16)"
+    28,CALEB,"28. Lui e Giosuè furono gli unici della loro generazione a entrare nella Terra Promessa (Numeri 14:30)"
+    30,AGILI,"30. Svelti, sciolti, disinvolti (Isaia 3:16)"
+    31,OSSI,"31. Li possono rodere i lupi (Sofonia 3:3)"
+    32,ETERNA,"32. La vita che Dio offre grazie al riscatto di Gesù (Romani 6:23)"
+    35,FUGA,"35. Giuseppe si diede ad essa per non concedersi alla moglie di Potifar (Genesi 39:12)"
+    36,SIRI,"36. I sudditi di Ben-Adad (1 Re 20:26)"
+    37,GAIO,"37. Cristiano di Corinto che ospitò sia Paolo che la locale congregazione (Romani 16:23)"
+    39,ASER,"39. Secondo figlio di Zilpa, serva di Lea (Genesi 35:26)"
+    40,AGO,"40. Per la sua cruna non ci può certo passare un cammello (Marco 10:25)"
+    41,LOT,"41. Ospitò angeli (Genesi 19:1-3)"
+placements[48]:
+  - num: 1
+    word: PAESEDICANAAN
+    clue: "1. Costituiva la Terra Promessa [3 parole] (Genesi 17:8)"
+    type: H
+    start: B1
+    positions[13]{row,col,letter}:
+      0,1,P
+      0,2,A
+      0,3,E
+      0,4,S
+      0,5,E
+      0,6,D
+      0,7,I
+      0,8,C
+      0,9,A
+      0,10,N
+      0,11,A
+      0,12,A
+      0,13,N
+  - num: 8
+    word: EBREE
+    clue: "8. Donne israelite (Esodo 1:19)"
+    type: H
+    start: A2
+    positions[5]{row,col,letter}:
+      1,0,E
+      1,1,B
+      1,2,R
+      1,3,E
+      1,4,E
+  - num: 9
+    word: OSHEA
+    clue: "9. Ultimo re del regno settentrionale di Israele (2 Re 17:1, 2)"
+    type: H
+    start: K2
+    positions[5]{row,col,letter}:
+      1,10,O
+      1,11,S
+      1,12,H
+      1,13,E
+      1,14,A
+  - num: 11
+    word: MANASSE
+    clue: "11. Re di Giuda che si macchiò di peccati orribili ma fu perdonato (2 Cronache 33:1-13)"
+    type: H
+    start: E3
+    positions[7]{row,col,letter}:
+      2,4,M
+      2,5,A
+      2,6,N
+      2,7,A
+      2,8,S
+      2,9,S
+      2,10,E
+  - num: 14
+    word: AMOS
+    clue: "14. Uno dei profeti cosiddetti “minori”"
+    type: H
+    start: A4
+    positions[4]{row,col,letter}:
+      3,0,A
+      3,1,M
+      3,2,O
+      3,3,S
+  - num: 17
+    word: NOMI
+    clue: "17. Adamo li diede a tutti gli animali (Genesi 2:20)"
+    type: H
+    start: L4
+    positions[4]{row,col,letter}:
+      3,11,N
+      3,12,O
+      3,13,M
+      3,14,I
+  - num: 19
+    word: INCALZATI
+    clue: "19. “Siamo --------- in ogni modo, ma non alle strette da non muoverci” (2 Corinti 4:8)"
+    type: H
+    start: D6
+    positions[9]{row,col,letter}:
+      5,3,I
+      5,4,N
+      5,5,C
+      5,6,A
+      5,7,L
+      5,8,Z
+      5,9,A
+      5,10,T
+      5,11,I
+  - num: 24
+    word: MIZRAIM
+    clue: "24. Figlio di Cam il cui nome diventò sinonimo di Egitto (Genesi 10:6; 50:11)"
+    type: H
+    start: A7
+    positions[7]{row,col,letter}:
+      6,0,M
+      6,1,I
+      6,2,Z
+      6,3,R
+      6,4,A
+      6,5,I
+      6,6,M
+  - num: 25
+    word: ORONAIM
+    clue: "25. Località di Moab inclusa fra quelle contro cui era diretto il giudizio di Geova (Isaia 15:1, 5)"
+    type: H
+    start: I7
+    positions[7]{row,col,letter}:
+      6,8,O
+      6,9,R
+      6,10,O
+      6,11,N
+      6,12,A
+      6,13,I
+      6,14,M
+  - num: 26
+    word: EBRAICO
+    clue: "26. Una delle lingue in cui fu scritto il titolo sul palo di Gesù (Giovanni 19:20)"
+    type: H
+    start: A9
+    positions[7]{row,col,letter}:
+      8,0,E
+      8,1,B
+      8,2,R
+      8,3,A
+      8,4,I
+      8,5,C
+      8,6,O
+  - num: 29
+    word: AARONNE
+    clue: "29. Il primo sommo sacerdote di Israele (Esodo 28:1-3)"
+    type: H
+    start: I9
+    positions[7]{row,col,letter}:
+      8,8,A
+      8,9,A
+      8,10,R
+      8,11,O
+      8,12,N
+      8,13,N
+      8,14,E
+  - num: 33
+    word: BOANERGES
+    clue: "33. Il soprannome degli apostoli Giacomo e Giovanni (Marco 3:17)"
+    type: H
+    start: D10
+    positions[9]{row,col,letter}:
+      9,3,B
+      9,4,O
+      9,5,A
+      9,6,N
+      9,7,E
+      9,8,R
+      9,9,G
+      9,10,E
+      9,11,S
+  - num: 34
+    word: ALFA
+    clue: "34. Prima lettera dell’alfabeto greco (Rivelazione 1:8)"
+    type: H
+    start: A12
+    positions[4]{row,col,letter}:
+      11,0,A
+      11,1,L
+      11,2,F
+      11,3,A
+  - num: 38
+    word: IAIR
+    clue: "38. Settimo giudice d’Israele (Giudici 10:3)"
+    type: H
+    start: L12
+    positions[4]{row,col,letter}:
+      11,11,I
+      11,12,A
+      11,13,I
+      11,14,R
+  - num: 40
+    word: ABIGAIL
+    clue: "40. Si dimostrò molto più saggia del marito (1 Samuele 25)"
+    type: H
+    start: E13
+    positions[7]{row,col,letter}:
+      12,4,A
+      12,5,B
+      12,6,I
+      12,7,G
+      12,8,A
+      12,9,I
+      12,10,L
+  - num: 42
+    word: MAGOG
+    clue: "42. Il paese di Gog (Ezechiele 38:2)"
+    type: H
+    start: A14
+    positions[5]{row,col,letter}:
+      13,0,M
+      13,1,A
+      13,2,G
+      13,3,O
+      13,4,G
+  - num: 43
+    word: OMEGA
+    clue: "43. Ultima lettera dell’alfabeto greco (Rivelazione 21:6)"
+    type: H
+    start: K14
+    positions[5]{row,col,letter}:
+      13,10,O
+      13,11,M
+      13,12,E
+      13,13,G
+      13,14,A
+  - num: 44
+    word: PALODITORTURA
+    clue: "44. Per essere discepoli di Gesù bisogna prenderlo [3 parole] (Marco 8:34)"
+    type: H
+    start: B15
+    positions[13]{row,col,letter}:
+      14,1,P
+      14,2,A
+      14,3,L
+      14,4,O
+      14,5,D
+      14,6,I
+      14,7,T
+      14,8,O
+      14,9,R
+      14,10,T
+      14,11,U
+      14,12,R
+      14,13,A
+  - num: 2
+    word: ARCO
+    clue: "2. Si usava per cacciare selvaggina (Genesi 27:3)"
+    type: V
+    start: C1
+    positions[4]{row,col,letter}:
+      0,2,A
+      1,2,R
+      2,2,C
+      3,2,O
+  - num: 3
+    word: SEM
+    clue: "3. Antenato di Abraamo che sopravvisse al diluvio (1 Cronache 1:4, 24-27)"
+    type: V
+    start: E1
+    positions[3]{row,col,letter}:
+      0,4,S
+      1,4,E
+      2,4,M
+  - num: 4
+    word: DINA
+    clue: "4. Figlia di Giacobbe che fu violentata da Sichem (Genesi 34:1, 2)"
+    type: V
+    start: G1
+    positions[4]{row,col,letter}:
+      0,6,D
+      1,6,I
+      2,6,N
+      3,6,A
+  - num: 5
+    word: CASA
+    clue: "5. Ha sempre un costruttore (Ebrei 3:4)"
+    type: V
+    start: I1
+    positions[4]{row,col,letter}:
+      0,8,C
+      1,8,A
+      2,8,S
+      3,8,A
+  - num: 6
+    word: NOE
+    clue: "6. A 600 anni vide il primo arcobaleno della sua vita (Genesi 7:11; 9:12-17)"
+    type: V
+    start: K1
+    positions[3]{row,col,letter}:
+      0,10,N
+      1,10,O
+      2,10,E
+  - num: 7
+    word: AHIO
+    clue: "7. Insieme al fratello Uzza trasportò l’arca del patto (2 Samuele 6:3)"
+    type: V
+    start: M1
+    positions[4]{row,col,letter}:
+      0,12,A
+      1,12,H
+      2,12,I
+      3,12,O
+  - num: 8
+    word: ETANIM
+    clue: "8. Settimo mese del calendario sacro degli israeliti (1 Re 8:2)"
+    type: V
+    start: A2
+    positions[6]{row,col,letter}:
+      1,0,E
+      2,0,T
+      3,0,A
+      4,0,N
+      5,0,I
+      6,0,M
+  - num: 10
+    word: ABIRAM
+    clue: "10. Si unì a Cora nella ribellione contro Mosè (Numeri 26:9)"
+    type: V
+    start: O2
+    positions[6]{row,col,letter}:
+      1,14,A
+      2,14,B
+      3,14,I
+      4,14,R
+      5,14,A
+      6,14,M
+  - num: 12
+    word: AMICI
+    clue: "12. Chi è ricco ne ha molti (Proverbi 14:20)"
+    type: V
+    start: F3
+    positions[5]{row,col,letter}:
+      2,5,A
+      3,5,M
+      4,5,I
+      5,5,C
+      6,5,I
+  - num: 13
+    word: SINAR
+    clue: "13. Il paese in cui sorse la torre di Babele (Genesi 11:2-4)"
+    type: V
+    start: J3
+    positions[5]{row,col,letter}:
+      2,9,S
+      3,9,I
+      4,9,N
+      5,9,A
+      6,9,R
+  - num: 15
+    word: MERIBBAAL
+    clue: "15. Figlio di Gionatan, forse più noto col nome di Mefiboset (2 Samuele 9:12; 1 Cronache 8:34)"
+    type: V
+    start: B4
+    positions[9]{row,col,letter}:
+      3,1,M
+      4,1,E
+      5,1,R
+      6,1,I
+      7,1,B
+      8,1,B
+      9,1,A
+      10,1,A
+      11,1,L
+  - num: 16
+    word: SEIR
+    clue: "16. Regione montagnosa il cui nome divenne sinonimo di Edom (Numeri 24:18)"
+    type: V
+    start: D4
+    positions[4]{row,col,letter}:
+      3,3,S
+      4,3,E
+      5,3,I
+      6,3,R
+  - num: 17
+    word: NAIN
+    clue: "17. Vi abitava la vedova a cui Gesù risuscitò il figlio (Luca 7:11-15)"
+    type: V
+    start: L4
+    positions[4]{row,col,letter}:
+      3,11,N
+      4,11,A
+      5,11,I
+      6,11,N
+  - num: 18
+    word: MADIANITI
+    clue: "18. Vendettero Giuseppe a Potifar (Genesi 37:36)"
+    type: V
+    start: N4
+    positions[9]{row,col,letter}:
+      3,13,M
+      4,13,A
+      5,13,D
+      6,13,I
+      7,13,A
+      8,13,N
+      9,13,I
+      10,13,T
+      11,13,I
+  - num: 20
+    word: NATIO
+    clue: "20. Lo è il paese dove si è nati (Salmo 37:35)"
+    type: V
+    start: E6
+    positions[5]{row,col,letter}:
+      5,4,N
+      6,4,A
+      7,4,T
+      8,4,I
+      9,4,O
+  - num: 21
+    word: AMNON
+    clue: "21. Violentò la sorellastra Tamar (2 Samuele 13:1, 6-14)"
+    type: V
+    start: G6
+    positions[5]{row,col,letter}:
+      5,6,A
+      6,6,M
+      7,6,N
+      8,6,O
+      9,6,N
+  - num: 22
+    word: ZOFAR
+    clue: "22. Uno dei falsi confortatori di Giobbe (Giobbe 2:11)"
+    type: V
+    start: I6
+    positions[5]{row,col,letter}:
+      5,8,Z
+      6,8,O
+      7,8,F
+      8,8,A
+      9,8,R
+  - num: 23
+    word: TORRE
+    clue: "23. Dava protezione a chi vi fuggiva (Giudici 9:51; Proverbi 18:10)"
+    type: V
+    start: K6
+    positions[5]{row,col,letter}:
+      5,10,T
+      6,10,O
+      7,10,R
+      8,10,R
+      9,10,E
+  - num: 26
+    word: EFRAIM
+    clue: "26. Secondo figlio di Giuseppe (Genesi 41:52)"
+    type: V
+    start: A9
+    positions[6]{row,col,letter}:
+      8,0,E
+      9,0,F
+      10,0,R
+      11,0,A
+      12,0,I
+      13,0,M
+  - num: 27
+    word: ABIA
+    clue: "27. Figlio di Roboamo e secondo re di Giuda (2 Cronache 12:16)"
+    type: V
+    start: D9
+    positions[4]{row,col,letter}:
+      8,3,A
+      9,3,B
+      10,3,I
+      11,3,A
+  - num: 28
+    word: CALEB
+    clue: "28. Lui e Giosuè furono gli unici della loro generazione a entrare nella Terra Promessa (Numeri 14:30)"
+    type: V
+    start: F9
+    positions[5]{row,col,letter}:
+      8,5,C
+      9,5,A
+      10,5,L
+      11,5,E
+      12,5,B
+  - num: 30
+    word: AGILI
+    clue: "30. Svelti, sciolti, disinvolti (Isaia 3:16)"
+    type: V
+    start: J9
+    positions[5]{row,col,letter}:
+      8,9,A
+      9,9,G
+      10,9,I
+      11,9,L
+      12,9,I
+  - num: 31
+    word: OSSI
+    clue: "31. Li possono rodere i lupi (Sofonia 3:3)"
+    type: V
+    start: L9
+    positions[4]{row,col,letter}:
+      8,11,O
+      9,11,S
+      10,11,S
+      11,11,I
+  - num: 32
+    word: ETERNA
+    clue: "32. La vita che Dio offre grazie al riscatto di Gesù (Romani 6:23)"
+    type: V
+    start: O9
+    positions[6]{row,col,letter}:
+      8,14,E
+      9,14,T
+      10,14,E
+      11,14,R
+      12,14,N
+      13,14,A
+  - num: 35
+    word: FUGA
+    clue: "35. Giuseppe si diede ad essa per non concedersi alla moglie di Potifar (Genesi 39:12)"
+    type: V
+    start: C12
+    positions[4]{row,col,letter}:
+      11,2,F
+      12,2,U
+      13,2,G
+      14,2,A
+  - num: 36
+    word: SIRI
+    clue: "36. I sudditi di Ben-Adad (1 Re 20:26)"
+    type: V
+    start: G12
+    positions[4]{row,col,letter}:
+      11,6,S
+      12,6,I
+      13,6,R
+      14,6,I
+  - num: 37
+    word: GAIO
+    clue: "37. Cristiano di Corinto che ospitò sia Paolo che la locale congregazione (Romani 16:23)"
+    type: V
+    start: I12
+    positions[4]{row,col,letter}:
+      11,8,G
+      12,8,A
+      13,8,I
+      14,8,O
+  - num: 39
+    word: ASER
+    clue: "39. Secondo figlio di Zilpa, serva di Lea (Genesi 35:26)"
+    type: V
+    start: M12
+    positions[4]{row,col,letter}:
+      11,12,A
+      12,12,S
+      13,12,E
+      14,12,R
+  - num: 40
+    word: AGO
+    clue: "40. Per la sua cruna non ci può certo passare un cammello (Marco 10:25)"
+    type: V
+    start: E13
+    positions[3]{row,col,letter}:
+      12,4,A
+      13,4,G
+      14,4,O
+  - num: 41
+    word: LOT
+    clue: "41. Ospitò angeli (Genesi 19:1-3)"
+    type: V
+    start: K13
+    positions[3]{row,col,letter}:
+      12,10,L
+      13,10,O
+      14,10,T
+metadata:
+  totalNumbers: 44
+  horizontalStarts: 18
+  verticalStarts: 30
+  totalWords: 48
+  createdAt: "2025-12-26T17:27:01.934Z"

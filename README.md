@@ -1,4 +1,4 @@
-# Crucibibia
+# CruciBibbia
 
 App Android di cruciverba tratti dalla Bibbia, originariamente pubblicati nelle riviste Svegliatevi! dal 1994 al 2005.
 

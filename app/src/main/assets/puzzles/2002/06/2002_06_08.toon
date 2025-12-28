@@ -1,0 +1,623 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+  - [15]: 1,0,1,1,1,1,0,1,0,1,1,1,1,0,1
+  - [15]: 1,1,0,1,1,0,1,1,1,0,1,1,0,1,1
+  - [15]: 1,1,1,0,1,1,0,1,0,1,1,0,1,1,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,0,1,0,1,1,0,1,0,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,0,1,0,1,1,0,1,0,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,1,1,0,1,1,0,1,0,1,1,0,1,1,1
+  - [15]: 1,1,0,1,1,0,1,1,1,0,1,1,0,1,1
+  - [15]: 1,0,1,1,1,1,0,1,0,1,1,1,1,0,1
+  - [15]: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+numberedCells[43]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,3,2,false,true
+  0,4,3,false,true
+  0,7,4,false,true
+  0,10,5,false,true
+  0,11,6,false,true
+  0,14,7,false,true
+  1,2,8,true,false
+  1,9,9,true,false
+  2,1,10,false,true
+  2,6,11,true,false
+  2,13,12,false,true
+  3,0,13,true,false
+  3,5,14,false,true
+  3,9,15,false,true
+  3,12,16,true,false
+  4,0,17,true,false
+  4,5,18,true,false
+  4,11,19,true,false
+  5,3,20,true,false
+  5,4,21,false,true
+  5,10,22,false,true
+  6,2,23,false,true
+  6,12,24,false,true
+  7,0,25,true,false
+  7,8,26,true,false
+  8,7,27,false,true
+  9,1,28,false,true
+  9,3,29,true,false
+  9,13,30,false,true
+  10,0,31,true,false
+  10,5,32,true,false
+  10,11,33,true,false
+  11,0,34,true,false
+  11,4,35,false,true
+  11,10,36,false,true
+  11,12,37,true,false
+  12,3,38,false,true
+  12,6,39,true,false
+  12,11,40,false,true
+  13,2,41,true,false
+  13,9,42,true,false
+  14,0,43,true,false
+words:
+  orizzontali[22]{num,word,clue}:
+    1,ALBERODELLAVITA,"1. Cresceva in mezzo al giardino d’Eden [3 parole] (Genesi 2:9)"
+    8,ESAU,"8. Non apprezzò le cose sacre (Ebrei 12:16)"
+    9,URIA,"9. Il marito di Betsabea che Davide mandò a morire (2 Samuele 11:3, 15)"
+    11,SET,"11. Figlio di Adamo ed Eva (Genesi 4:25)"
+    13,ALI,"13. Le può spiegare un uccello (Deuteronomio 32:11)"
+    16,NOE,"16. Con la sua fede condannò il mondo (Ebrei 11:7)"
+    17,TIRO,"17. Ezechiele predisse la sua distruzione per mano dei babilonesi (Ezechiele 26:7, 8)"
+    18,REGAL,"18. I cristiani unti con lo spirito sono “una razza eletta, un ----- sacerdozio” (1 Pietro 2:9)"
+    19,OBED,"19. Figlio di Rut e padre di Iesse (Rut 4:13, 17)"
+    20,SETTIMANE,"20. La profezia di Daniele 9:24-27 ne menziona settanta"
+    25,ANSIOSI,"25. Grazie al privilegio della preghiera i cristiani non hanno bisogno di esserlo (Filippesi 4:6)"
+    26,ZABULON,"26. Figlio di Giacobbe e di Lea (Genesi 35:23)"
+    29,CERBIATTO,"29. Animale agile e veloce (Il Cantico dei Cantici 8:14)"
+    31,ODIO,"31. Suscita contese (Proverbi 10:12)"
+    32,SINAR,"32. La zona compresa fra il Tigri e l’Eufrate dove si cominciò a erigere la torre di Babele (Genesi 11:2-4)"
+    33,AGAG,"33. Il re amalechita a cui Saul risparmiò la vita (1 Samuele 15:8, 9)"
+    34,LEA,"34. La sorella maggiore di Rachele (Genesi 29:16)"
+    37,DAN,"37. Città in cui Geroboamo pose uno dei due vitelli d’oro (1 Re 12:25-29)"
+    39,RUT,"39. Moglie di Boaz (Matteo 1:5)"
+    41,IAEL,"41. La donna coraggiosa che uccise Sisera, comandante dell’esercito cananeo (Giudici 4:17-21)"
+    42,SARA,"42. La madre di Isacco (Genesi 21:3)"
+    43,ESATTOREDITASSE,"43. Lo era Matteo [3 parole] (Matteo 10:3)"
+  verticali[22]{num,word,clue}:
+    1,ARPATRIANGOLARE,"1. Strumento musicale in uso a Babilonia [2 parole] (Daniele 3:5)"
+    2,EST,"2. Punto cardinale (Genesi 13:14)"
+    3,RANE,"3. Una delle dieci piaghe che colpirono l’Egitto (Esodo 8:6)"
+    4,ENERGIA,"4. Geova ne ha in abbondanza (Isaia 40:26)"
+    5,ARMI,"5. I cristiani indossano quelle della luce (Romani 13:12)"
+    6,VIE,"6. Quelle di Geova sono molto più alte delle nostre (Isaia 55:9)"
+    7,ARTEDIINSEGNARE,"7. Una qualità del sorvegliante cristiano [3 parole] (Tito 1:9)"
+    10,ELIA,"10. Fu cibato dai corvi (1 Re 17:1-6)"
+    12,DOEG,"12. Edomita che fece la spia a Saul sul conto di Davide (1 Samuele 22:9)"
+    14,ARTASERSE,"14. Il re persiano che concesse a Neemia di andare a Gerusalemme (Neemia 2:1-6)"
+    15,ALABASTRO,"15. Pietra pregiata con cui si facevano boccette per profumi (Marco 14:3)"
+    21,ERODE,"21. Era re quando nacque Gesù (Matteo 2:1)"
+    22,NABOT,"22. Fu assassinato per la sua vigna (1 Re 21:5-16)"
+    23,ASA,"23. Il fedele re di Giuda che sconfisse Zera l’etiope (2 Cronache 14:8-12)"
+    24,ELI,"24. Sommo sacerdote i cui figli erano buoni a nulla (1 Samuele 2:12)"
+    27,CINTURE,"27. Adamo ed Eva le fecero con foglie di fico (Genesi 3:7)"
+    28,EDEN,"28. Il giardino affidato ad Adamo (Genesi 2:15)"
+    30,BAAL,"30. Ieu ne sterminò gli adoratori (2 Re 10:18-28)"
+    35,ERET,"35. La foresta in cui si nascose Davide quando era inseguito da Saul (1 Samuele 22:5)"
+    36,NAAT,"36. Nipote di Esaù che divenne sceicco di Edom (Genesi 36:17)"
+    38,BAT,"38. Unità di misura per liquidi (2 Cronache 2:10)"
+    40,IRA,"40. Quella di Satana attualmente è grande (Rivelazione 12:12)"
+placements[44]:
+  - num: 1
+    word: ALBERODELLAVITA
+    clue: "1. Cresceva in mezzo al giardino d’Eden [3 parole] (Genesi 2:9)"
+    type: H
+    start: A1
+    positions[15]{row,col,letter}:
+      0,0,A
+      0,1,L
+      0,2,B
+      0,3,E
+      0,4,R
+      0,5,O
+      0,6,D
+      0,7,E
+      0,8,L
+      0,9,L
+      0,10,A
+      0,11,V
+      0,12,I
+      0,13,T
+      0,14,A
+  - num: 8
+    word: ESAU
+    clue: "8. Non apprezzò le cose sacre (Ebrei 12:16)"
+    type: H
+    start: C2
+    positions[4]{row,col,letter}:
+      1,2,E
+      1,3,S
+      1,4,A
+      1,5,U
+  - num: 9
+    word: URIA
+    clue: "9. Il marito di Betsabea che Davide mandò a morire (2 Samuele 11:3, 15)"
+    type: H
+    start: J2
+    positions[4]{row,col,letter}:
+      1,9,U
+      1,10,R
+      1,11,I
+      1,12,A
+  - num: 11
+    word: SET
+    clue: "11. Figlio di Adamo ed Eva (Genesi 4:25)"
+    type: H
+    start: G3
+    positions[3]{row,col,letter}:
+      2,6,S
+      2,7,E
+      2,8,T
+  - num: 13
+    word: ALI
+    clue: "13. Le può spiegare un uccello (Deuteronomio 32:11)"
+    type: H
+    start: A4
+    positions[3]{row,col,letter}:
+      3,0,A
+      3,1,L
+      3,2,I
+  - num: 16
+    word: NOE
+    clue: "16. Con la sua fede condannò il mondo (Ebrei 11:7)"
+    type: H
+    start: M4
+    positions[3]{row,col,letter}:
+      3,12,N
+      3,13,O
+      3,14,E
+  - num: 17
+    word: TIRO
+    clue: "17. Ezechiele predisse la sua distruzione per mano dei babilonesi (Ezechiele 26:7, 8)"
+    type: H
+    start: A5
+    positions[4]{row,col,letter}:
+      4,0,T
+      4,1,I
+      4,2,R
+      4,3,O
+  - num: 18
+    word: REGAL
+    clue: "18. I cristiani unti con lo spirito sono “una razza eletta, un ----- sacerdozio” (1 Pietro 2:9)"
+    type: H
+    start: F5
+    positions[5]{row,col,letter}:
+      4,5,R
+      4,6,E
+      4,7,G
+      4,8,A
+      4,9,L
+  - num: 19
+    word: OBED
+    clue: "19. Figlio di Rut e padre di Iesse (Rut 4:13, 17)"
+    type: H
+    start: L5
+    positions[4]{row,col,letter}:
+      4,11,O
+      4,12,B
+      4,13,E
+      4,14,D
+  - num: 20
+    word: SETTIMANE
+    clue: "20. La profezia di Daniele 9:24-27 ne menziona settanta"
+    type: H
+    start: D6
+    positions[9]{row,col,letter}:
+      5,3,S
+      5,4,E
+      5,5,T
+      5,6,T
+      5,7,I
+      5,8,M
+      5,9,A
+      5,10,N
+      5,11,E
+  - num: 25
+    word: ANSIOSI
+    clue: "25. Grazie al privilegio della preghiera i cristiani non hanno bisogno di esserlo (Filippesi 4:6)"
+    type: H
+    start: A8
+    positions[7]{row,col,letter}:
+      7,0,A
+      7,1,N
+      7,2,S
+      7,3,I
+      7,4,O
+      7,5,S
+      7,6,I
+  - num: 26
+    word: ZABULON
+    clue: "26. Figlio di Giacobbe e di Lea (Genesi 35:23)"
+    type: H
+    start: I8
+    positions[7]{row,col,letter}:
+      7,8,Z
+      7,9,A
+      7,10,B
+      7,11,U
+      7,12,L
+      7,13,O
+      7,14,N
+  - num: 29
+    word: CERBIATTO
+    clue: "29. Animale agile e veloce (Il Cantico dei Cantici 8:14)"
+    type: H
+    start: D10
+    positions[9]{row,col,letter}:
+      9,3,C
+      9,4,E
+      9,5,R
+      9,6,B
+      9,7,I
+      9,8,A
+      9,9,T
+      9,10,T
+      9,11,O
+  - num: 31
+    word: ODIO
+    clue: "31. Suscita contese (Proverbi 10:12)"
+    type: H
+    start: A11
+    positions[4]{row,col,letter}:
+      10,0,O
+      10,1,D
+      10,2,I
+      10,3,O
+  - num: 32
+    word: SINAR
+    clue: "32. La zona compresa fra il Tigri e l’Eufrate dove si cominciò a erigere la torre di Babele (Genesi 11:2-4)"
+    type: H
+    start: F11
+    positions[5]{row,col,letter}:
+      10,5,S
+      10,6,I
+      10,7,N
+      10,8,A
+      10,9,R
+  - num: 33
+    word: AGAG
+    clue: "33. Il re amalechita a cui Saul risparmiò la vita (1 Samuele 15:8, 9)"
+    type: H
+    start: L11
+    positions[4]{row,col,letter}:
+      10,11,A
+      10,12,G
+      10,13,A
+      10,14,G
+  - num: 34
+    word: LEA
+    clue: "34. La sorella maggiore di Rachele (Genesi 29:16)"
+    type: H
+    start: A12
+    positions[3]{row,col,letter}:
+      11,0,L
+      11,1,E
+      11,2,A
+  - num: 37
+    word: DAN
+    clue: "37. Città in cui Geroboamo pose uno dei due vitelli d’oro (1 Re 12:25-29)"
+    type: H
+    start: M12
+    positions[3]{row,col,letter}:
+      11,12,D
+      11,13,A
+      11,14,N
+  - num: 39
+    word: RUT
+    clue: "39. Moglie di Boaz (Matteo 1:5)"
+    type: H
+    start: G13
+    positions[3]{row,col,letter}:
+      12,6,R
+      12,7,U
+      12,8,T
+  - num: 41
+    word: IAEL
+    clue: "41. La donna coraggiosa che uccise Sisera, comandante dell’esercito cananeo (Giudici 4:17-21)"
+    type: H
+    start: C14
+    positions[4]{row,col,letter}:
+      13,2,I
+      13,3,A
+      13,4,E
+      13,5,L
+  - num: 42
+    word: SARA
+    clue: "42. La madre di Isacco (Genesi 21:3)"
+    type: H
+    start: J14
+    positions[4]{row,col,letter}:
+      13,9,S
+      13,10,A
+      13,11,R
+      13,12,A
+  - num: 43
+    word: ESATTOREDITASSE
+    clue: "43. Lo era Matteo [3 parole] (Matteo 10:3)"
+    type: H
+    start: A15
+    positions[15]{row,col,letter}:
+      14,0,E
+      14,1,S
+      14,2,A
+      14,3,T
+      14,4,T
+      14,5,O
+      14,6,R
+      14,7,E
+      14,8,D
+      14,9,I
+      14,10,T
+      14,11,A
+      14,12,S
+      14,13,S
+      14,14,E
+  - num: 1
+    word: ARPATRIANGOLARE
+    clue: "1. Strumento musicale in uso a Babilonia [2 parole] (Daniele 3:5)"
+    type: V
+    start: A1
+    positions[15]{row,col,letter}:
+      0,0,A
+      1,0,R
+      2,0,P
+      3,0,A
+      4,0,T
+      5,0,R
+      6,0,I
+      7,0,A
+      8,0,N
+      9,0,G
+      10,0,O
+      11,0,L
+      12,0,A
+      13,0,R
+      14,0,E
+  - num: 2
+    word: EST
+    clue: "2. Punto cardinale (Genesi 13:14)"
+    type: V
+    start: D1
+    positions[3]{row,col,letter}:
+      0,3,E
+      1,3,S
+      2,3,T
+  - num: 3
+    word: RANE
+    clue: "3. Una delle dieci piaghe che colpirono l’Egitto (Esodo 8:6)"
+    type: V
+    start: E1
+    positions[4]{row,col,letter}:
+      0,4,R
+      1,4,A
+      2,4,N
+      3,4,E
+  - num: 4
+    word: ENERGIA
+    clue: "4. Geova ne ha in abbondanza (Isaia 40:26)"
+    type: V
+    start: H1
+    positions[7]{row,col,letter}:
+      0,7,E
+      1,7,N
+      2,7,E
+      3,7,R
+      4,7,G
+      5,7,I
+      6,7,A
+  - num: 5
+    word: ARMI
+    clue: "5. I cristiani indossano quelle della luce (Romani 13:12)"
+    type: V
+    start: K1
+    positions[4]{row,col,letter}:
+      0,10,A
+      1,10,R
+      2,10,M
+      3,10,I
+  - num: 6
+    word: VIE
+    clue: "6. Quelle di Geova sono molto più alte delle nostre (Isaia 55:9)"
+    type: V
+    start: L1
+    positions[3]{row,col,letter}:
+      0,11,V
+      1,11,I
+      2,11,E
+  - num: 7
+    word: ARTEDIINSEGNARE
+    clue: "7. Una qualità del sorvegliante cristiano [3 parole] (Tito 1:9)"
+    type: V
+    start: O1
+    positions[15]{row,col,letter}:
+      0,14,A
+      1,14,R
+      2,14,T
+      3,14,E
+      4,14,D
+      5,14,I
+      6,14,I
+      7,14,N
+      8,14,S
+      9,14,E
+      10,14,G
+      11,14,N
+      12,14,A
+      13,14,R
+      14,14,E
+  - num: 10
+    word: ELIA
+    clue: "10. Fu cibato dai corvi (1 Re 17:1-6)"
+    type: V
+    start: B3
+    positions[4]{row,col,letter}:
+      2,1,E
+      3,1,L
+      4,1,I
+      5,1,A
+  - num: 12
+    word: DOEG
+    clue: "12. Edomita che fece la spia a Saul sul conto di Davide (1 Samuele 22:9)"
+    type: V
+    start: N3
+    positions[4]{row,col,letter}:
+      2,13,D
+      3,13,O
+      4,13,E
+      5,13,G
+  - num: 14
+    word: ARTASERSE
+    clue: "14. Il re persiano che concesse a Neemia di andare a Gerusalemme (Neemia 2:1-6)"
+    type: V
+    start: F4
+    positions[9]{row,col,letter}:
+      3,5,A
+      4,5,R
+      5,5,T
+      6,5,A
+      7,5,S
+      8,5,E
+      9,5,R
+      10,5,S
+      11,5,E
+  - num: 15
+    word: ALABASTRO
+    clue: "15. Pietra pregiata con cui si facevano boccette per profumi (Marco 14:3)"
+    type: V
+    start: J4
+    positions[9]{row,col,letter}:
+      3,9,A
+      4,9,L
+      5,9,A
+      6,9,B
+      7,9,A
+      8,9,S
+      9,9,T
+      10,9,R
+      11,9,O
+  - num: 21
+    word: ERODE
+    clue: "21. Era re quando nacque Gesù (Matteo 2:1)"
+    type: V
+    start: E6
+    positions[5]{row,col,letter}:
+      5,4,E
+      6,4,R
+      7,4,O
+      8,4,D
+      9,4,E
+  - num: 22
+    word: NABOT
+    clue: "22. Fu assassinato per la sua vigna (1 Re 21:5-16)"
+    type: V
+    start: K6
+    positions[5]{row,col,letter}:
+      5,10,N
+      6,10,A
+      7,10,B
+      8,10,O
+      9,10,T
+  - num: 23
+    word: ASA
+    clue: "23. Il fedele re di Giuda che sconfisse Zera l’etiope (2 Cronache 14:8-12)"
+    type: V
+    start: C7
+    positions[3]{row,col,letter}:
+      6,2,A
+      7,2,S
+      8,2,A
+  - num: 24
+    word: ELI
+    clue: "24. Sommo sacerdote i cui figli erano buoni a nulla (1 Samuele 2:12)"
+    type: V
+    start: M7
+    positions[3]{row,col,letter}:
+      6,12,E
+      7,12,L
+      8,12,I
+  - num: 27
+    word: CINTURE
+    clue: "27. Adamo ed Eva le fecero con foglie di fico (Genesi 3:7)"
+    type: V
+    start: H9
+    positions[7]{row,col,letter}:
+      8,7,C
+      9,7,I
+      10,7,N
+      11,7,T
+      12,7,U
+      13,7,R
+      14,7,E
+  - num: 28
+    word: EDEN
+    clue: "28. Il giardino affidato ad Adamo (Genesi 2:15)"
+    type: V
+    start: B10
+    positions[4]{row,col,letter}:
+      9,1,E
+      10,1,D
+      11,1,E
+      12,1,N
+  - num: 30
+    word: BAAL
+    clue: "30. Ieu ne sterminò gli adoratori (2 Re 10:18-28)"
+    type: V
+    start: N10
+    positions[4]{row,col,letter}:
+      9,13,B
+      10,13,A
+      11,13,A
+      12,13,L
+  - num: 35
+    word: ERET
+    clue: "35. La foresta in cui si nascose Davide quando era inseguito da Saul (1 Samuele 22:5)"
+    type: V
+    start: E12
+    positions[4]{row,col,letter}:
+      11,4,E
+      12,4,R
+      13,4,E
+      14,4,T
+  - num: 36
+    word: NAAT
+    clue: "36. Nipote di Esaù che divenne sceicco di Edom (Genesi 36:17)"
+    type: V
+    start: K12
+    positions[4]{row,col,letter}:
+      11,10,N
+      12,10,A
+      13,10,A
+      14,10,T
+  - num: 38
+    word: BAT
+    clue: "38. Unità di misura per liquidi (2 Cronache 2:10)"
+    type: V
+    start: D13
+    positions[3]{row,col,letter}:
+      12,3,B
+      13,3,A
+      14,3,T
+  - num: 40
+    word: IRA
+    clue: "40. Quella di Satana attualmente è grande (Rivelazione 12:12)"
+    type: V
+    start: L13
+    positions[3]{row,col,letter}:
+      12,11,I
+      13,11,R
+      14,11,A
+metadata:
+  totalNumbers: 43
+  horizontalStarts: 22
+  verticalStarts: 22
+  totalWords: 44
+  createdAt: "2025-12-26T18:31:06.674Z"

@@ -1,0 +1,633 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,0,1,0,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 0,1,1,0,1,1,0,1,0,1,1,0,1,1,0
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 0,1,1,0,1,1,0,1,0,1,1,0,1,1,0
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,0,1,0,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+numberedCells[65]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,2,2,false,true
+  0,4,3,false,true
+  0,5,4,false,true
+  0,7,5,false,true
+  0,9,6,true,true
+  0,10,7,false,true
+  0,12,8,false,true
+  0,14,9,false,true
+  1,4,10,true,false
+  1,6,11,false,true
+  1,8,12,false,true
+  2,0,13,true,false
+  2,6,14,true,false
+  2,10,15,true,false
+  3,4,16,true,false
+  3,5,17,false,true
+  3,9,18,true,true
+  4,0,19,true,false
+  4,1,20,false,true
+  4,3,21,false,true
+  4,6,22,false,true
+  4,8,23,true,true
+  4,11,24,false,true
+  4,13,25,false,true
+  5,0,26,true,false
+  5,3,27,true,false
+  5,7,28,false,true
+  5,13,29,true,false
+  6,1,30,true,false
+  6,2,31,false,true
+  6,4,32,true,false
+  6,9,33,true,false
+  6,12,34,true,true
+  7,0,35,true,false
+  7,5,36,true,false
+  7,11,37,true,false
+  8,1,38,true,false
+  8,4,39,true,true
+  8,9,40,true,false
+  8,10,41,false,true
+  8,12,42,true,false
+  9,0,43,true,true
+  9,3,44,true,true
+  9,6,45,false,true
+  9,8,46,false,true
+  9,11,47,false,true
+  9,13,48,true,false
+  9,14,49,false,true
+  10,0,50,true,false
+  10,2,51,false,true
+  10,8,52,true,false
+  10,12,53,false,true
+  11,4,54,true,false
+  11,7,55,false,true
+  11,9,56,true,false
+  12,0,57,true,false
+  12,6,58,true,true
+  12,8,59,false,true
+  12,10,60,true,false
+  13,4,61,true,false
+  13,5,62,false,true
+  13,9,63,false,true
+  14,0,64,true,false
+  14,9,65,true,false
+words:
+  orizzontali[21]{num,word,clue}:
+    1,FIASCA,"1. Recipiente per liquidi fatto di terracotta (Geremia 19:1)"
+    5,ELCANA,"5. Padre di Samuele (1 Samuele 1:19, 20)"
+    9,OFFERTE,"9. Potevano essere per il peccato o per la colpa (2 Re 12:16)"
+    10,ERMON,"10. Monte della Palestina noto per la ristoratrice rugiada (Salmo 133:3)"
+    11,ADA,"11. Una delle mogli di Lamec (Genesi 4:19)"
+    12,TRONO,"12. Simbolo dell’autorità regale (Luca 1:32)"
+    15,DANIELE,"15. Predisse la desolazione di Gerusalemme (Matteo 24:15)"
+    17,EDIFICI,"17. Quelli del tempio di Gerusalemme erano alquanto imponenti (Marco 13:1)"
+    19,ASTROLOGI,"19. Furono convocati da Erode e mandati a Betleem (Matteo 2:7, 8)"
+    23,BAAL,"23. Fu svergognato al monte Carmelo (1 Re 18:20-40)"
+    24,RIBLA,"24. La città in cui si era accampato Nabucodonosor e dove Sedechia, prigioniero, vide scannare i suoi figli (Geremia 39:5, 6)"
+    25,BOAZ,"25. Il figlio di Raab che divenne antenato di Gesù (Matteo 1:5)"
+    29,VIGNAIOLO,"29. Agricoltore specializzato (Luca 13:7)"
+    31,MORTAIO,"31. Recipiente in cui vari alimenti venivano triturati con un pestello (Proverbi 27:22)"
+    33,TRALCIO,"33. Porta frutto solo se resta unito alla vite (Giovanni 15:4)"
+    36,ACUTI,"36. Possono esserlo i dolori (Salmo 73:21)"
+    37,BLU,"37. Il colore del giacinto (Rivelazione 9:17)"
+    38,DAGHE,"38. Spade corte a due tagli (1 Re 18:28)"
+    39,RIFIUTI,"39. A motivo dell’alto valore che attribuiva alle cose spirituali Paolo considerava i vantaggi materiali derivanti dalla sua posizione alla stregua d’essi (Filippesi 3:4-8)"
+    40,SILOAM,"40. Riserva d’acqua di Gerusalemme dove Gesù mandò un cieco a lavarsi per acquistare la vista (Giovanni 9:6, 7)"
+    41,ROTOLO,"41. Gesù aprì quello di Isaia (Luca 4:16-18)"
+  verticali[21]{num,word,clue}:
+    1,FREDDO,"1. Si combatte con il fuoco (Giovanni 18:18)"
+    2,AMMON,"2. Figlio di Lot e della sua figlia minore (Genesi 19:36, 38)"
+    3,CONTESA,"3. Fa parte delle “opere della carne” (Galati 5:20)"
+    4,FEDE,"4. Costituisce il “grande scudo” dell’armatura spirituale del cristiano (Efesini 6:16)"
+    6,LETTIGA,"6. Letto portatile, di solito coperto con un baldacchino, su cui venivano trasportati i personaggi importanti (Il Cantico dei Cantici 3:9, 10)"
+    7,AROMI,"7. Li usavano gli ebrei nel preparare le salme per la sepoltura (Giovanni 19:40)"
+    8,AVORIO,"8. Materiale pregiato di cui era fatto il trono di Salomone (1 Re 10:18)"
+    13,ALTERIGIA,"13. Atteggiamento superbo e sprezzante (Geremia 48:29)"
+    14,ADORATORI,"14. Quelli veri devono adorare con spirito e verità (Giovanni 4:23)"
+    16,ABRAAMO,"16. Fu chiamato “amico di Geova” (Giacomo 2:23)"
+    18,CORALLI,"18. Erano molto preziosi (Proverbi 31:10)"
+    20,OMBRA,"20. Si apprezza quando il sole picchia (Isaia 32:2)"
+    21,CAM,"21. Entrò nell’arca (Genesi 7:13)"
+    22,LOT,"22. Sua moglie è un esempio ammonitore per noi (Luca 17:32)"
+    26,TIATIRA,"26. Una delle sette congregazioni a cui fu indirizzato il libro di Rivelazione (Rivelazione 1:11)"
+    27,CLAUDIO,"27. L’imperatore romano che espulse gli ebrei da Roma (Atti 18:2)"
+    28,EMMAUS,"28. Il villaggio a cui erano diretti i due discepoli a cui apparve Gesù risorto (Luca 24:13-15)"
+    30,ROVETO,"30. Ardeva senza consumarsi davanti agli occhi di Mosè (Esodo 3:2)"
+    32,REUEL,"32. Suocero di Mosè, chiamato anche Ietro (Esodo 2:16-21)"
+    34,CIGNO,"34. Elegante uccello acquatico che era impuro per gli ebrei (Levitico 11:18)"
+    35,ELIA,"35. Apparve in visione durante la trasfigurazione di Gesù (Luca 9:29, 30)"
+placements[42]:
+  - num: 1
+    word: FIASCA
+    clue: "1. Recipiente per liquidi fatto di terracotta (Geremia 19:1)"
+    type: H
+    start: A1
+    positions[6]{row,col,letter}:
+      0,0,F
+      0,1,I
+      0,2,A
+      0,3,S
+      0,4,C
+      0,5,A
+  - num: 5
+    word: ELCANA
+    clue: "5. Padre di Samuele (1 Samuele 1:19, 20)"
+    type: H
+    start: J1
+    positions[6]{row,col,letter}:
+      0,9,E
+      0,10,L
+      0,11,C
+      0,12,A
+      0,13,N
+      0,14,A
+  - num: 9
+    word: OFFERTE
+    clue: "9. Potevano essere per il peccato o per la colpa (2 Re 12:16)"
+    type: H
+    start: E2
+    positions[7]{row,col,letter}:
+      1,4,O
+      1,5,F
+      1,6,F
+      1,7,E
+      1,8,R
+      1,9,T
+      1,10,E
+  - num: 10
+    word: ERMON
+    clue: "10. Monte della Palestina noto per la ristoratrice rugiada (Salmo 133:3)"
+    type: H
+    start: A3
+    positions[5]{row,col,letter}:
+      2,0,E
+      2,1,R
+      2,2,M
+      2,3,O
+      2,4,N
+  - num: 11
+    word: ADA
+    clue: "11. Una delle mogli di Lamec (Genesi 4:19)"
+    type: H
+    start: G3
+    positions[3]{row,col,letter}:
+      2,6,A
+      2,7,D
+      2,8,A
+  - num: 12
+    word: TRONO
+    clue: "12. Simbolo dell’autorità regale (Luca 1:32)"
+    type: H
+    start: K3
+    positions[5]{row,col,letter}:
+      2,10,T
+      2,11,R
+      2,12,O
+      2,13,N
+      2,14,O
+  - num: 15
+    word: DANIELE
+    clue: "15. Predisse la desolazione di Gerusalemme (Matteo 24:15)"
+    type: H
+    start: A5
+    positions[7]{row,col,letter}:
+      4,0,D
+      4,1,A
+      4,2,N
+      4,3,I
+      4,4,E
+      4,5,L
+      4,6,E
+  - num: 17
+    word: EDIFICI
+    clue: "17. Quelli del tempio di Gerusalemme erano alquanto imponenti (Marco 13:1)"
+    type: H
+    start: I5
+    positions[7]{row,col,letter}:
+      4,8,E
+      4,9,D
+      4,10,I
+      4,11,F
+      4,12,I
+      4,13,C
+      4,14,I
+  - num: 19
+    word: ASTROLOGI
+    clue: "19. Furono convocati da Erode e mandati a Betleem (Matteo 2:7, 8)"
+    type: H
+    start: D6
+    positions[9]{row,col,letter}:
+      5,3,A
+      5,4,S
+      5,5,T
+      5,6,R
+      5,7,O
+      5,8,L
+      5,9,O
+      5,10,G
+      5,11,I
+  - num: 23
+    word: BAAL
+    clue: "23. Fu svergognato al monte Carmelo (1 Re 18:20-40)"
+    type: H
+    start: A8
+    positions[4]{row,col,letter}:
+      7,0,B
+      7,1,A
+      7,2,A
+      7,3,L
+  - num: 24
+    word: RIBLA
+    clue: "24. La città in cui si era accampato Nabucodonosor e dove Sedechia, prigioniero, vide scannare i suoi figli (Geremia 39:5, 6)"
+    type: H
+    start: F8
+    positions[5]{row,col,letter}:
+      7,5,R
+      7,6,I
+      7,7,B
+      7,8,L
+      7,9,A
+  - num: 25
+    word: BOAZ
+    clue: "25. Il figlio di Raab che divenne antenato di Gesù (Matteo 1:5)"
+    type: H
+    start: L8
+    positions[4]{row,col,letter}:
+      7,11,B
+      7,12,O
+      7,13,A
+      7,14,Z
+  - num: 29
+    word: VIGNAIOLO
+    clue: "29. Agricoltore specializzato (Luca 13:7)"
+    type: H
+    start: D10
+    positions[9]{row,col,letter}:
+      9,3,V
+      9,4,I
+      9,5,G
+      9,6,N
+      9,7,A
+      9,8,I
+      9,9,O
+      9,10,L
+      9,11,O
+  - num: 31
+    word: MORTAIO
+    clue: "31. Recipiente in cui vari alimenti venivano triturati con un pestello (Proverbi 27:22)"
+    type: H
+    start: A11
+    positions[7]{row,col,letter}:
+      10,0,M
+      10,1,O
+      10,2,R
+      10,3,T
+      10,4,A
+      10,5,I
+      10,6,O
+  - num: 33
+    word: TRALCIO
+    clue: "33. Porta frutto solo se resta unito alla vite (Giovanni 15:4)"
+    type: H
+    start: I11
+    positions[7]{row,col,letter}:
+      10,8,T
+      10,9,R
+      10,10,A
+      10,11,L
+      10,12,C
+      10,13,I
+      10,14,O
+  - num: 36
+    word: ACUTI
+    clue: "36. Possono esserlo i dolori (Salmo 73:21)"
+    type: H
+    start: A13
+    positions[5]{row,col,letter}:
+      12,0,A
+      12,1,C
+      12,2,U
+      12,3,T
+      12,4,I
+  - num: 37
+    word: BLU
+    clue: "37. Il colore del giacinto (Rivelazione 9:17)"
+    type: H
+    start: G13
+    positions[3]{row,col,letter}:
+      12,6,B
+      12,7,L
+      12,8,U
+  - num: 38
+    word: DAGHE
+    clue: "38. Spade corte a due tagli (1 Re 18:28)"
+    type: H
+    start: K13
+    positions[5]{row,col,letter}:
+      12,10,D
+      12,11,A
+      12,12,G
+      12,13,H
+      12,14,E
+  - num: 39
+    word: RIFIUTI
+    clue: "39. A motivo dell’alto valore che attribuiva alle cose spirituali Paolo considerava i vantaggi materiali derivanti dalla sua posizione alla stregua d’essi (Filippesi 3:4-8)"
+    type: H
+    start: E14
+    positions[7]{row,col,letter}:
+      13,4,R
+      13,5,I
+      13,6,F
+      13,7,I
+      13,8,U
+      13,9,T
+      13,10,I
+  - num: 40
+    word: SILOAM
+    clue: "40. Riserva d’acqua di Gerusalemme dove Gesù mandò un cieco a lavarsi per acquistare la vista (Giovanni 9:6, 7)"
+    type: H
+    start: A15
+    positions[6]{row,col,letter}:
+      14,0,S
+      14,1,I
+      14,2,L
+      14,3,O
+      14,4,A
+      14,5,M
+  - num: 41
+    word: ROTOLO
+    clue: "41. Gesù aprì quello di Isaia (Luca 4:16-18)"
+    type: H
+    start: J15
+    positions[6]{row,col,letter}:
+      14,9,R
+      14,10,O
+      14,11,T
+      14,12,O
+      14,13,L
+      14,14,O
+  - num: 1
+    word: FREDDO
+    clue: "1. Si combatte con il fuoco (Giovanni 18:18)"
+    type: V
+    start: A1
+    positions[6]{row,col,letter}:
+      0,0,F
+      1,0,R
+      2,0,E
+      3,0,D
+      4,0,D
+      5,0,O
+  - num: 2
+    word: AMMON
+    clue: "2. Figlio di Lot e della sua figlia minore (Genesi 19:36, 38)"
+    type: V
+    start: C1
+    positions[5]{row,col,letter}:
+      0,2,A
+      1,2,M
+      2,2,M
+      3,2,O
+      4,2,N
+  - num: 3
+    word: CONTESA
+    clue: "3. Fa parte delle “opere della carne” (Galati 5:20)"
+    type: V
+    start: E1
+    positions[7]{row,col,letter}:
+      0,4,C
+      1,4,O
+      2,4,N
+      3,4,T
+      4,4,E
+      5,4,S
+      6,4,A
+  - num: 4
+    word: FEDE
+    clue: "4. Costituisce il “grande scudo” dell’armatura spirituale del cristiano (Efesini 6:16)"
+    type: V
+    start: H1
+    positions[4]{row,col,letter}:
+      0,7,F
+      1,7,E
+      2,7,D
+      3,7,E
+  - num: 6
+    word: LETTIGA
+    clue: "6. Letto portatile, di solito coperto con un baldacchino, su cui venivano trasportati i personaggi importanti (Il Cantico dei Cantici 3:9, 10)"
+    type: V
+    start: K1
+    positions[7]{row,col,letter}:
+      0,10,L
+      1,10,E
+      2,10,T
+      3,10,T
+      4,10,I
+      5,10,G
+      6,10,A
+  - num: 7
+    word: AROMI
+    clue: "7. Li usavano gli ebrei nel preparare le salme per la sepoltura (Giovanni 19:40)"
+    type: V
+    start: M1
+    positions[5]{row,col,letter}:
+      0,12,A
+      1,12,R
+      2,12,O
+      3,12,M
+      4,12,I
+  - num: 8
+    word: AVORIO
+    clue: "8. Materiale pregiato di cui era fatto il trono di Salomone (1 Re 10:18)"
+    type: V
+    start: O1
+    positions[6]{row,col,letter}:
+      0,14,A
+      1,14,V
+      2,14,O
+      3,14,R
+      4,14,I
+      5,14,O
+  - num: 13
+    word: ALTERIGIA
+    clue: "13. Atteggiamento superbo e sprezzante (Geremia 48:29)"
+    type: V
+    start: F4
+    positions[9]{row,col,letter}:
+      3,5,A
+      4,5,L
+      5,5,T
+      6,5,E
+      7,5,R
+      8,5,I
+      9,5,G
+      10,5,I
+      11,5,A
+  - num: 14
+    word: ADORATORI
+    clue: "14. Quelli veri devono adorare con spirito e verità (Giovanni 4:23)"
+    type: V
+    start: J4
+    positions[9]{row,col,letter}:
+      3,9,A
+      4,9,D
+      5,9,O
+      6,9,R
+      7,9,A
+      8,9,T
+      9,9,O
+      10,9,R
+      11,9,I
+  - num: 16
+    word: ABRAAMO
+    clue: "16. Fu chiamato “amico di Geova” (Giacomo 2:23)"
+    type: V
+    start: B5
+    positions[7]{row,col,letter}:
+      4,1,A
+      5,1,B
+      6,1,R
+      7,1,A
+      8,1,A
+      9,1,M
+      10,1,O
+  - num: 18
+    word: CORALLI
+    clue: "18. Erano molto preziosi (Proverbi 31:10)"
+    type: V
+    start: N5
+    positions[7]{row,col,letter}:
+      4,13,C
+      5,13,O
+      6,13,R
+      7,13,A
+      8,13,L
+      9,13,L
+      10,13,I
+  - num: 20
+    word: OMBRA
+    clue: "20. Si apprezza quando il sole picchia (Isaia 32:2)"
+    type: V
+    start: H6
+    positions[5]{row,col,letter}:
+      5,7,O
+      6,7,M
+      7,7,B
+      8,7,R
+      9,7,A
+  - num: 21
+    word: CAM
+    clue: "21. Entrò nell’arca (Genesi 7:13)"
+    type: V
+    start: C7
+    positions[3]{row,col,letter}:
+      6,2,C
+      7,2,A
+      8,2,M
+  - num: 22
+    word: LOT
+    clue: "22. Sua moglie è un esempio ammonitore per noi (Luca 17:32)"
+    type: V
+    start: M7
+    positions[3]{row,col,letter}:
+      6,12,L
+      7,12,O
+      8,12,T
+  - num: 26
+    word: TIATIRA
+    clue: "26. Una delle sette congregazioni a cui fu indirizzato il libro di Rivelazione (Rivelazione 1:11)"
+    type: V
+    start: E9
+    positions[7]{row,col,letter}:
+      8,4,T
+      9,4,I
+      10,4,A
+      11,4,T
+      12,4,I
+      13,4,R
+      14,4,A
+  - num: 27
+    word: CLAUDIO
+    clue: "27. L’imperatore romano che espulse gli ebrei da Roma (Atti 18:2)"
+    type: V
+    start: K9
+    positions[7]{row,col,letter}:
+      8,10,C
+      9,10,L
+      10,10,A
+      11,10,U
+      12,10,D
+      13,10,I
+      14,10,O
+  - num: 28
+    word: EMMAUS
+    clue: "28. Il villaggio a cui erano diretti i due discepoli a cui apparve Gesù risorto (Luca 24:13-15)"
+    type: V
+    start: A10
+    positions[6]{row,col,letter}:
+      9,0,E
+      10,0,M
+      11,0,M
+      12,0,A
+      13,0,U
+      14,0,S
+  - num: 30
+    word: ROVETO
+    clue: "30. Ardeva senza consumarsi davanti agli occhi di Mosè (Esodo 3:2)"
+    type: V
+    start: O10
+    positions[6]{row,col,letter}:
+      9,14,R
+      10,14,O
+      11,14,V
+      12,14,E
+      13,14,T
+      14,14,O
+  - num: 32
+    word: REUEL
+    clue: "32. Suocero di Mosè, chiamato anche Ietro (Esodo 2:16-21)"
+    type: V
+    start: C11
+    positions[5]{row,col,letter}:
+      10,2,R
+      11,2,E
+      12,2,U
+      13,2,E
+      14,2,L
+  - num: 34
+    word: CIGNO
+    clue: "34. Elegante uccello acquatico che era impuro per gli ebrei (Levitico 11:18)"
+    type: V
+    start: M11
+    positions[5]{row,col,letter}:
+      10,12,C
+      11,12,I
+      12,12,G
+      13,12,N
+      14,12,O
+  - num: 35
+    word: ELIA
+    clue: "35. Apparve in visione durante la trasfigurazione di Gesù (Luca 9:29, 30)"
+    type: V
+    start: H12
+    positions[4]{row,col,letter}:
+      11,7,E
+      12,7,L
+      13,7,I
+      14,7,A
+metadata:
+  totalNumbers: 65
+  horizontalStarts: 37
+  verticalStarts: 37
+  totalWords: 42
+  createdAt: "2025-12-27T11:21:41.554Z"

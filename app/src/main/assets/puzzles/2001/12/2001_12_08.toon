@@ -1,0 +1,580 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,1,0,0,1,0,0,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,0,0,1,0,0,1,1,1,1,1
+  - [15]: 1,0,1,1,1,1,1,1,1,1,1,1,1,0,1
+  - [15]: 1,1,1,1,0,0,0,1,0,0,0,1,1,1,1
+  - [15]: 0,1,0,1,1,1,1,1,1,1,1,1,0,1,0
+  - [15]: 0,1,0,0,0,1,0,1,0,1,0,0,0,1,0
+  - [15]: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+  - [15]: 0,1,0,0,0,1,0,1,0,1,0,0,0,1,0
+  - [15]: 0,1,0,1,1,1,1,1,1,1,1,1,0,1,0
+  - [15]: 1,1,1,1,0,0,0,1,0,0,0,1,1,1,1
+  - [15]: 1,0,1,1,1,1,1,1,1,1,1,1,1,0,1
+  - [15]: 1,1,1,1,1,0,0,1,0,0,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,0,0,1,0,0,1,1,1,1,1
+numberedCells[36]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,2,2,false,true
+  0,4,3,false,true
+  0,7,4,false,true
+  0,10,5,true,true
+  0,12,6,false,true
+  0,14,7,false,true
+  1,4,8,true,false
+  2,0,9,true,false
+  2,3,10,false,true
+  2,10,11,true,false
+  2,11,12,false,true
+  3,2,13,true,false
+  4,0,14,true,false
+  4,1,15,false,true
+  4,11,16,true,false
+  4,13,17,false,true
+  5,3,18,true,false
+  5,5,19,false,true
+  5,9,20,false,true
+  7,0,21,true,false
+  9,3,22,true,true
+  9,11,23,false,true
+  10,0,24,true,true
+  10,2,25,false,true
+  10,11,26,true,false
+  10,12,27,false,true
+  10,14,28,false,true
+  11,2,29,true,false
+  11,4,30,false,true
+  11,10,31,false,true
+  12,0,32,true,false
+  12,10,33,true,false
+  13,4,34,true,false
+  14,0,35,true,false
+  14,10,36,true,false
+words:
+  orizzontali[19]{num,word,clue}:
+    1,GEOVA,"1. Il nome dell’Altissimo (Salmo 83:18)"
+    5,LEMBO,"5. Davide recise quello del manto di Saul (1 Samuele 24:4)"
+    8,CAVALLI,"8. Erano simbolo di potenza militare (Isaia 31:1)"
+    9,ANIMA,"9. Gesù venne per darla come riscatto (Matteo 20:28)"
+    11,TARME,"11. Possono rodere la stoffa (Giacomo 5:2)"
+    13,CONSIGLIERI,"13. Nella loro moltitudine c’è la riuscita (Proverbi 15:22)"
+    14,ADES,"14. Verrà gettato nel simbolico “lago di fuoco” (Rivelazione 20:14)"
+    16,SABA,"16. Il paese della regina che fece visita a Salomone (2 Cronache 9:1)"
+    18,ESONERATI,"18. Esentati, dispensati (Romani 7:6)"
+    21,INCIRCONCISIONE,"21. La condizione in cui erano i gentili che abbracciavano il cristianesimo (Efesini 2:11)"
+    22,SPIGOLARE,"22. Rut continuò a farlo per tutto il tempo della mietitura (Rut 2:23)"
+    24,SETE,"24. Si placa con l’acqua (Proverbi 25:21)"
+    26,NAAS,"26. Re degli ammoniti che attaccò Iabes di Galaad e fu sconfitto da Saul (1 Samuele 11:1-11)"
+    29,ABBEVERATOI,"29. Vi bevono le pecore (Genesi 30:38)"
+    32,ASSAI,"32. Molto, tanto (Giona 4:1)"
+    33,ACCAD,"33. Una delle quattro città fondate da Nimrod che furono “il principio del suo regno” (Genesi 10:10)"
+    34,LETTURA,"34. Quella pubblica aveva un posto importante nelle adunanze dei primi cristiani (1 Timoteo 4:13)"
+    35,AMARA,"35. Può esserlo l’ira o la gelosia (Ebrei 3:15; Giacomo 3:14)"
+    36,SOMMA,"36. Era grossa quella che Claudio Lisia pagò per avere la cittadinanza romana (Atti 22:28)"
+  verticali[21]{num,word,clue}:
+    1,GIARA,"1. Contenitore per liquidi (Genesi 24:45)"
+    2,ONICE,"2. Pietra dura e pregiata di cui era ricco il “paese di Avila” (Genesi 2:11, 12)"
+    3,ACAN,"3. La sua infedeltà costò cara a tutto Israele (Giosuè 22:20)"
+    4,SANGUEINNOCENTE,"4. Manasse ne sparse in grandissima quantità (2 parole) (2 Re 21:16)"
+    5,LITE,"5. È meglio andarsene prima che scoppi (Proverbi 17:14)"
+    6,MARIA,"6. Divenne una fedele discepola di suo figlio (Atti 1:14)"
+    7,OMEGA,"7. L’ultima lettera dell’alfabeto greco (Rivelazione 1:8)"
+    10,MOSE,"10. Dopo la nascita fu nascosto per tre mesi dai genitori (Ebrei 11:23)"
+    12,ARSI,"12. Bruciati, combusti (Rivelazione 16:9)"
+    15,DANNOSE,"15. Lo sono le cose che nascono dall’amore del denaro (1 Timoteo 6:10)"
+    17,BARNABA,"17. Il “Figlio di Conforto” (Atti 4:36)"
+    19,OCCHI,"19. Li appesantisce il sonno (Matteo 26:43)"
+    20,ASINA,"20. Parlò a Balaam (Numeri 22:27, 28)"
+    22,SEBA,"22. Per la sua rivolta contro Davide fu decapitato (2 Samuele 20:1, 2, 21, 22)"
+    23,ENOC,"23. La prima città menzionata nella Bibbia (Genesi 4:17)"
+    24,SPADA,"24. I cristiani devono saper brandire quella dello spirito (Efesini 6:17)"
+    25,TASSA,"25. A chi la chiede bisogna renderla (Romani 13:7)"
+    27,AICAM,"27. Protesse Geremia quando la sua vita era minacciata (Geremia 26:24)"
+    28,SEDIA,"28. Serve per sedersi (2 Re 4:10)"
+    30,BILA,"30. La serva di Rachele che generò Dan e Neftali (Genesi 35:25)"
+    31,TAAS,"31. Figlio del fratello di Abraamo, Nahor, e della sua concubina Reuma (Genesi 22:23, 24)"
+placements[40]:
+  - num: 1
+    word: GEOVA
+    clue: "1. Il nome dell’Altissimo (Salmo 83:18)"
+    type: H
+    start: A1
+    positions[5]{row,col,letter}:
+      0,0,G
+      0,1,E
+      0,2,O
+      0,3,V
+      0,4,A
+  - num: 5
+    word: LEMBO
+    clue: "5. Davide recise quello del manto di Saul (1 Samuele 24:4)"
+    type: H
+    start: K1
+    positions[5]{row,col,letter}:
+      0,10,L
+      0,11,E
+      0,12,M
+      0,13,B
+      0,14,O
+  - num: 8
+    word: CAVALLI
+    clue: "8. Erano simbolo di potenza militare (Isaia 31:1)"
+    type: H
+    start: E2
+    positions[7]{row,col,letter}:
+      1,4,C
+      1,5,A
+      1,6,V
+      1,7,A
+      1,8,L
+      1,9,L
+      1,10,I
+  - num: 9
+    word: ANIMA
+    clue: "9. Gesù venne per darla come riscatto (Matteo 20:28)"
+    type: H
+    start: A3
+    positions[5]{row,col,letter}:
+      2,0,A
+      2,1,N
+      2,2,I
+      2,3,M
+      2,4,A
+  - num: 11
+    word: TARME
+    clue: "11. Possono rodere la stoffa (Giacomo 5:2)"
+    type: H
+    start: K3
+    positions[5]{row,col,letter}:
+      2,10,T
+      2,11,A
+      2,12,R
+      2,13,M
+      2,14,E
+  - num: 13
+    word: CONSIGLIERI
+    clue: "13. Nella loro moltitudine c’è la riuscita (Proverbi 15:22)"
+    type: H
+    start: C4
+    positions[11]{row,col,letter}:
+      3,2,C
+      3,3,O
+      3,4,N
+      3,5,S
+      3,6,I
+      3,7,G
+      3,8,L
+      3,9,I
+      3,10,E
+      3,11,R
+      3,12,I
+  - num: 14
+    word: ADES
+    clue: "14. Verrà gettato nel simbolico “lago di fuoco” (Rivelazione 20:14)"
+    type: H
+    start: A5
+    positions[4]{row,col,letter}:
+      4,0,A
+      4,1,D
+      4,2,E
+      4,3,S
+  - num: 16
+    word: SABA
+    clue: "16. Il paese della regina che fece visita a Salomone (2 Cronache 9:1)"
+    type: H
+    start: L5
+    positions[4]{row,col,letter}:
+      4,11,S
+      4,12,A
+      4,13,B
+      4,14,A
+  - num: 18
+    word: ESONERATI
+    clue: "18. Esentati, dispensati (Romani 7:6)"
+    type: H
+    start: D6
+    positions[9]{row,col,letter}:
+      5,3,E
+      5,4,S
+      5,5,O
+      5,6,N
+      5,7,E
+      5,8,R
+      5,9,A
+      5,10,T
+      5,11,I
+  - num: 21
+    word: INCIRCONCISIONE
+    clue: "21. La condizione in cui erano i gentili che abbracciavano il cristianesimo (Efesini 2:11)"
+    type: H
+    start: A8
+    positions[15]{row,col,letter}:
+      7,0,I
+      7,1,N
+      7,2,C
+      7,3,I
+      7,4,R
+      7,5,C
+      7,6,O
+      7,7,N
+      7,8,C
+      7,9,I
+      7,10,S
+      7,11,I
+      7,12,O
+      7,13,N
+      7,14,E
+  - num: 22
+    word: SPIGOLARE
+    clue: "22. Rut continuò a farlo per tutto il tempo della mietitura (Rut 2:23)"
+    type: H
+    start: D10
+    positions[9]{row,col,letter}:
+      9,3,S
+      9,4,P
+      9,5,I
+      9,6,G
+      9,7,O
+      9,8,L
+      9,9,A
+      9,10,R
+      9,11,E
+  - num: 24
+    word: SETE
+    clue: "24. Si placa con l’acqua (Proverbi 25:21)"
+    type: H
+    start: A11
+    positions[4]{row,col,letter}:
+      10,0,S
+      10,1,E
+      10,2,T
+      10,3,E
+  - num: 26
+    word: NAAS
+    clue: "26. Re degli ammoniti che attaccò Iabes di Galaad e fu sconfitto da Saul (1 Samuele 11:1-11)"
+    type: H
+    start: L11
+    positions[4]{row,col,letter}:
+      10,11,N
+      10,12,A
+      10,13,A
+      10,14,S
+  - num: 29
+    word: ABBEVERATOI
+    clue: "29. Vi bevono le pecore (Genesi 30:38)"
+    type: H
+    start: C12
+    positions[11]{row,col,letter}:
+      11,2,A
+      11,3,B
+      11,4,B
+      11,5,E
+      11,6,V
+      11,7,E
+      11,8,R
+      11,9,A
+      11,10,T
+      11,11,O
+      11,12,I
+  - num: 32
+    word: ASSAI
+    clue: "32. Molto, tanto (Giona 4:1)"
+    type: H
+    start: A13
+    positions[5]{row,col,letter}:
+      12,0,A
+      12,1,S
+      12,2,S
+      12,3,A
+      12,4,I
+  - num: 33
+    word: ACCAD
+    clue: "33. Una delle quattro città fondate da Nimrod che furono “il principio del suo regno” (Genesi 10:10)"
+    type: H
+    start: K13
+    positions[5]{row,col,letter}:
+      12,10,A
+      12,11,C
+      12,12,C
+      12,13,A
+      12,14,D
+  - num: 34
+    word: LETTURA
+    clue: "34. Quella pubblica aveva un posto importante nelle adunanze dei primi cristiani (1 Timoteo 4:13)"
+    type: H
+    start: E14
+    positions[7]{row,col,letter}:
+      13,4,L
+      13,5,E
+      13,6,T
+      13,7,T
+      13,8,U
+      13,9,R
+      13,10,A
+  - num: 35
+    word: AMARA
+    clue: "35. Può esserlo l’ira o la gelosia (Ebrei 3:15; Giacomo 3:14)"
+    type: H
+    start: A15
+    positions[5]{row,col,letter}:
+      14,0,A
+      14,1,M
+      14,2,A
+      14,3,R
+      14,4,A
+  - num: 36
+    word: SOMMA
+    clue: "36. Era grossa quella che Claudio Lisia pagò per avere la cittadinanza romana (Atti 22:28)"
+    type: H
+    start: K15
+    positions[5]{row,col,letter}:
+      14,10,S
+      14,11,O
+      14,12,M
+      14,13,M
+      14,14,A
+  - num: 1
+    word: GIARA
+    clue: "1. Contenitore per liquidi (Genesi 24:45)"
+    type: V
+    start: A1
+    positions[5]{row,col,letter}:
+      0,0,G
+      1,0,I
+      2,0,A
+      3,0,R
+      4,0,A
+  - num: 2
+    word: ONICE
+    clue: "2. Pietra dura e pregiata di cui era ricco il “paese di Avila” (Genesi 2:11, 12)"
+    type: V
+    start: C1
+    positions[5]{row,col,letter}:
+      0,2,O
+      1,2,N
+      2,2,I
+      3,2,C
+      4,2,E
+  - num: 3
+    word: ACAN
+    clue: "3. La sua infedeltà costò cara a tutto Israele (Giosuè 22:20)"
+    type: V
+    start: E1
+    positions[4]{row,col,letter}:
+      0,4,A
+      1,4,C
+      2,4,A
+      3,4,N
+  - num: 4
+    word: SANGUEINNOCENTE
+    clue: "4. Manasse ne sparse in grandissima quantità (2 parole) (2 Re 21:16)"
+    type: V
+    start: H1
+    positions[15]{row,col,letter}:
+      0,7,S
+      1,7,A
+      2,7,N
+      3,7,G
+      4,7,U
+      5,7,E
+      6,7,I
+      7,7,N
+      8,7,N
+      9,7,O
+      10,7,C
+      11,7,E
+      12,7,N
+      13,7,T
+      14,7,E
+  - num: 5
+    word: LITE
+    clue: "5. È meglio andarsene prima che scoppi (Proverbi 17:14)"
+    type: V
+    start: K1
+    positions[4]{row,col,letter}:
+      0,10,L
+      1,10,I
+      2,10,T
+      3,10,E
+  - num: 6
+    word: MARIA
+    clue: "6. Divenne una fedele discepola di suo figlio (Atti 1:14)"
+    type: V
+    start: M1
+    positions[5]{row,col,letter}:
+      0,12,M
+      1,12,A
+      2,12,R
+      3,12,I
+      4,12,A
+  - num: 7
+    word: OMEGA
+    clue: "7. L’ultima lettera dell’alfabeto greco (Rivelazione 1:8)"
+    type: V
+    start: O1
+    positions[5]{row,col,letter}:
+      0,14,O
+      1,14,M
+      2,14,E
+      3,14,G
+      4,14,A
+  - num: 10
+    word: MOSE
+    clue: "10. Dopo la nascita fu nascosto per tre mesi dai genitori (Ebrei 11:23)"
+    type: V
+    start: D3
+    positions[4]{row,col,letter}:
+      2,3,M
+      3,3,O
+      4,3,S
+      5,3,E
+  - num: 12
+    word: ARSI
+    clue: "12. Bruciati, combusti (Rivelazione 16:9)"
+    type: V
+    start: L3
+    positions[4]{row,col,letter}:
+      2,11,A
+      3,11,R
+      4,11,S
+      5,11,I
+  - num: 15
+    word: DANNOSE
+    clue: "15. Lo sono le cose che nascono dall’amore del denaro (1 Timoteo 6:10)"
+    type: V
+    start: B5
+    positions[7]{row,col,letter}:
+      4,1,D
+      5,1,A
+      6,1,N
+      7,1,N
+      8,1,O
+      9,1,S
+      10,1,E
+  - num: 17
+    word: BARNABA
+    clue: "17. Il “Figlio di Conforto” (Atti 4:36)"
+    type: V
+    start: N5
+    positions[7]{row,col,letter}:
+      4,13,B
+      5,13,A
+      6,13,R
+      7,13,N
+      8,13,A
+      9,13,B
+      10,13,A
+  - num: 19
+    word: OCCHI
+    clue: "19. Li appesantisce il sonno (Matteo 26:43)"
+    type: V
+    start: F6
+    positions[5]{row,col,letter}:
+      5,5,O
+      6,5,C
+      7,5,C
+      8,5,H
+      9,5,I
+  - num: 20
+    word: ASINA
+    clue: "20. Parlò a Balaam (Numeri 22:27, 28)"
+    type: V
+    start: J6
+    positions[5]{row,col,letter}:
+      5,9,A
+      6,9,S
+      7,9,I
+      8,9,N
+      9,9,A
+  - num: 22
+    word: SEBA
+    clue: "22. Per la sua rivolta contro Davide fu decapitato (2 Samuele 20:1, 2, 21, 22)"
+    type: V
+    start: D10
+    positions[4]{row,col,letter}:
+      9,3,S
+      10,3,E
+      11,3,B
+      12,3,A
+  - num: 23
+    word: ENOC
+    clue: "23. La prima città menzionata nella Bibbia (Genesi 4:17)"
+    type: V
+    start: L10
+    positions[4]{row,col,letter}:
+      9,11,E
+      10,11,N
+      11,11,O
+      12,11,C
+  - num: 24
+    word: SPADA
+    clue: "24. I cristiani devono saper brandire quella dello spirito (Efesini 6:17)"
+    type: V
+    start: A11
+    positions[5]{row,col,letter}:
+      10,0,S
+      11,0,P
+      12,0,A
+      13,0,D
+      14,0,A
+  - num: 25
+    word: TASSA
+    clue: "25. A chi la chiede bisogna renderla (Romani 13:7)"
+    type: V
+    start: C11
+    positions[5]{row,col,letter}:
+      10,2,T
+      11,2,A
+      12,2,S
+      13,2,S
+      14,2,A
+  - num: 27
+    word: AICAM
+    clue: "27. Protesse Geremia quando la sua vita era minacciata (Geremia 26:24)"
+    type: V
+    start: M11
+    positions[5]{row,col,letter}:
+      10,12,A
+      11,12,I
+      12,12,C
+      13,12,A
+      14,12,M
+  - num: 28
+    word: SEDIA
+    clue: "28. Serve per sedersi (2 Re 4:10)"
+    type: V
+    start: O11
+    positions[5]{row,col,letter}:
+      10,14,S
+      11,14,E
+      12,14,D
+      13,14,I
+      14,14,A
+  - num: 30
+    word: BILA
+    clue: "30. La serva di Rachele che generò Dan e Neftali (Genesi 35:25)"
+    type: V
+    start: E12
+    positions[4]{row,col,letter}:
+      11,4,B
+      12,4,I
+      13,4,L
+      14,4,A
+  - num: 31
+    word: TAAS
+    clue: "31. Figlio del fratello di Abraamo, Nahor, e della sua concubina Reuma (Genesi 22:23, 24)"
+    type: V
+    start: K12
+    positions[4]{row,col,letter}:
+      11,10,T
+      12,10,A
+      13,10,A
+      14,10,S
+metadata:
+  totalNumbers: 36
+  horizontalStarts: 19
+  verticalStarts: 21
+  totalWords: 40
+  createdAt: "2025-12-27T11:23:55.681Z"

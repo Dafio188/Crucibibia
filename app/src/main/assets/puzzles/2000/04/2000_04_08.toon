@@ -1,0 +1,836 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,1,1,1,1,0,0,1,1,1,1,1
+  - [15]: 1,1,1,1,1,1,0,1,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,1,0,1,1,1,1,0,1,1,1,1
+  - [15]: 1,1,1,1,1,1,0,1,1,1,1,1,0,1,1
+  - [15]: 0,1,1,0,0,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,0,1,1,1,1,1,0,0,1,1,1,1,1,1
+  - [15]: 1,1,0,0,1,1,1,1,1,0,1,0,1,1,1
+  - [15]: 1,1,1,1,1,0,1,0,1,0,1,1,1,1,1
+  - [15]: 1,1,1,0,1,0,1,1,1,1,1,0,0,1,1
+  - [15]: 1,1,1,1,1,1,0,0,1,1,1,1,1,0,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,0,0,1,1,0
+  - [15]: 1,1,0,1,1,1,1,1,0,1,1,1,1,1,1
+  - [15]: 1,1,1,1,0,1,1,1,1,0,1,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,1,0,1,1,1,1,1,1
+  - [15]: 1,1,1,1,1,0,0,1,1,1,1,1,1,1,1
+numberedCells[60]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,1,2,false,true
+  0,2,3,false,true
+  0,3,4,false,true
+  0,4,5,false,true
+  0,7,6,false,true
+  0,10,7,true,false
+  0,11,8,false,true
+  0,13,9,false,true
+  0,14,10,false,true
+  1,0,11,true,false
+  1,7,12,true,false
+  1,8,13,false,true
+  1,9,14,false,true
+  2,0,15,true,false
+  2,6,16,true,false
+  2,11,17,true,false
+  3,0,18,true,false
+  3,5,19,false,true
+  3,7,20,true,false
+  3,10,21,false,true
+  4,5,22,true,false
+  4,6,23,false,true
+  4,12,24,false,true
+  5,0,25,false,true
+  5,2,26,true,false
+  5,4,27,false,true
+  5,9,28,true,false
+  5,13,29,false,true
+  6,1,30,false,true
+  6,4,31,true,false
+  6,8,32,false,true
+  6,12,33,true,false
+  7,0,34,true,false
+  7,2,35,false,true
+  7,10,36,true,false
+  8,0,37,true,false
+  8,6,38,true,false
+  8,9,39,false,true
+  9,0,40,true,false
+  9,5,41,false,true
+  9,8,42,true,false
+  9,12,43,false,true
+  10,4,44,true,false
+  10,6,45,false,true
+  10,7,46,false,true
+  10,13,47,false,true
+  11,1,48,false,true
+  11,3,49,true,true
+  11,9,50,true,false
+  11,10,51,false,true
+  11,11,52,false,true
+  11,14,53,false,true
+  12,0,54,true,false
+  12,5,55,true,false
+  12,10,56,true,false
+  13,3,57,true,false
+  13,9,58,true,false
+  14,0,59,true,false
+  14,7,60,true,false
+words:
+  orizzontali[30]{num,word,clue}:
+    1,SALOMONE,"1. Figlio di Betsabea (2 Samuele 12:24)"
+    7,ARETA,"7. Regnava a Damasco al tempo di Paolo (2 Corinti 11:32)"
+    11,ARARAT,"11. La regione in cui si posò l’arca dopo il Diluvio (Genesi 8:4)"
+    12,LETTO,"12. Vi sta chi è malato (2 Samuele 13:5)"
+    15,RUBEN,"15. Il primogenito di Giacobbe (Genesi 35:23)"
+    16,SABA,"16. Il paese della regina che fece visita a Salomone (2 Cronache 9:1)"
+    17,VOLO,"17. Lo possono prendere gli uccelli (Giobbe 39:26)"
+    18,AMASIA,"18. Figlio di Zicri, capo dell’esercito di Giuda (2 Cronache 17:16)"
+    20,SERPI,"20. Lo divennero le verghe dei sacerdoti egiziani (Esodo 7:11, 12)"
+    22,RIARSO,"22. Lo è il suolo senz’acqua (Isaia 35:7)"
+    26,OPACA,"26. Non lucida (Levitico 13:6)"
+    28,OTNIEL,"28. Il primo dei giudici d’Israele (Giudici 3:9)"
+    31,SAFAT,"31. Il padre del profeta Eliseo (2 Re 3:11)"
+    33,ORE,"33. Sono dodici di giorno (Giovanni 11:9)"
+    34,MELEC,"34. Figlio di Mica e discendente di Saul (1 Cronache 8:33-35)"
+    36,FERMA,"36. Deve esserlo un’ancora (Ebrei 6:19)"
+    37,ALA,"37. Quella dello struzzo non è adatta al volo (Giobbe 39:13)"
+    38,TASCA,"38. Può averla la camicia (Giobbe 31:33)"
+    40,REGALO,"40. Se è perfetto, viene dall’alto (Giacomo 1:17)"
+    42,TARME,"42. Possono rovinare i mantelli (Giacomo 5:2)"
+    44,OPERAI,"44. Ce n’è bisogno quando la messe è grande (Luca 10:2)"
+    49,ANETO,"49. Pianta dai semi aromatici di cui i farisei davano la decima (Matteo 23:23)"
+    50,NEMICI,"50. Gesù comandò di amarli (Matteo 5:44)"
+    54,AMOS,"54. Uno dei dodici profeti “minori”"
+    55,RASE,"55. Lo erano le barbe degli ottanta uomini che caddero in un’imboscata dopo la morte del governatore Ghedalia (Geremia 41:4-7)"
+    56,NUTRE,"56. “Nessun uomo odiò mai la propria carne, ma la ----- e ne ha tenera cura” (Efesini 5:29)"
+    57,ATENE,"57. Città che colpì Paolo per il gran numero di idoli (Atti 17:16)"
+    58,PORTAR,"58. “Il tralcio non può da se stesso ------ frutto se non resta nella vite” (Giovanni 15:4)"
+    59,ANANI,"59. Figlio di Elioenai e discendente del re Davide (1 Cronache 3:24)"
+    60,OPINIONI,"60. Su quelle personali è bene non esprimere giudizi (Romani 14:1)"
+  verticali[32]{num,word,clue}:
+    1,SARA,"1. Fu una moglie esemplare (1 Pietro 3:5, 6)"
+    2,ARUMA,"2. Città del territorio di Efraim dove risiedeva Abimelec (Giudici 9:41)"
+    3,LABANO,"3. Il padre di Rachele (Genesi 29:10)"
+    4,ORES,"4. Località del deserto di Zif dove Davide fece un patto con Gionatan (1 Samuele 23:15-18)"
+    5,MANI,"5. Per i farisei, lavarsele era diventato un cerimoniale (Marco 7:3)"
+    6,ELASA,"6. Figlio di Safan che Sedechia inviò da Nabucodonosor e a cui Geremia affidò la sua lettera per gli esiliati in Babilonia (Geremia 29:1-3)"
+    8,ROVI,"8. Crescono nei terreni incolti (Isaia 5:6)"
+    9,TELI,"9. Quelli del tabernacolo erano uniti da lacci e uncini (Esodo 36:10-13)"
+    10,AMORELEALE,"10. Lo dimostra chi non abbandona gli amici nel bisogno [2 parole] (Genesi 21:23; 24:14)"
+    13,EBER,"13. Antenato di Abraamo; figlio di Sela e padre di Peleg (Genesi 11:14-19, 26)"
+    14,TARSO,"14. La città dell’apostolo Paolo (Atti 21:39)"
+    19,ARCA,"19. Uzza morì per averla toccata (2 Samuele 6:6, 7)"
+    21,POTIFAR,"21. Il funzionario egiziano che comprò Giuseppe (Genesi 39:1)"
+    23,IAFET,"23. Uno dei passeggeri dell’arca (Genesi 7:13)"
+    24,FIOR,"24. Quello di farina poteva essere usato come offerta a Geova (Levitico 2:1)"
+    25,SAMARITANA,"25. Lo era la donna con cui Gesù conversò presso un pozzo (Giovanni 4:7-9)"
+    27,ASCALON,"27. Importante città filistea (1 Samuele 6:17)"
+    29,ERMA,"29. Cristiano di Roma a cui Paolo mandò i saluti (Romani 16:14)"
+    30,MELE,"30. Sono proverbiali quelle “d’oro in cesellature d’argento” (Proverbi 25:11)"
+    32,TESTA,"32. Quella dell’immagine sognata da Nabucodonosor era d’oro (Daniele 2:31, 32)"
+    35,LAGO,"35. Quello di fuoco simboleggia la seconda morte (Rivelazione 20:14)"
+    39,CAIN,"39. Città della regione montagnosa di Giuda (Giosuè 15:1, 48, 57)"
+    41,OPERE,"41. Senza di esse la fede è morta (Giacomo 2:26)"
+    43,EGITTO,"43. Vi fuggì la famiglia di Gesù per paura di Erode (Matteo 2:13-15)"
+    45,ETAN,"45. Contemporaneo di Salomone famoso per la sua sapienza (1 Re 4:31)"
+    46,ROSEO,"46. Lo era il colorito di Davide (1 Samuele 17:42)"
+    47,OCRAN,"47. Il padre del Paghiel che fu nominato capo principale della tribù di Aser (Numeri 2:27)"
+    48,AMEN,"48. Uno dei titoli di Cristo (Rivelazione 3:14)"
+    49,ASAN,"49. Città assegnata prima a Giuda e poi a Simeone (Giosuè 19:7, 9)"
+    51,ENON,"51. Località ricca d’acqua dove Giovanni battezzava (Giovanni 3:23)"
+    52,MURI,"52. A volte recintavano le vigne (Salmo 80:8, 12)"
+    53,IERI,"53. Un giorno fa (Salmo 90:4)"
+placements[62]:
+  - num: 1
+    word: SALOMONE
+    clue: "1. Figlio di Betsabea (2 Samuele 12:24)"
+    type: H
+    start: A1
+    positions[8]{row,col,letter}:
+      0,0,S
+      0,1,A
+      0,2,L
+      0,3,O
+      0,4,M
+      0,5,O
+      0,6,N
+      0,7,E
+  - num: 7
+    word: ARETA
+    clue: "7. Regnava a Damasco al tempo di Paolo (2 Corinti 11:32)"
+    type: H
+    start: K1
+    positions[5]{row,col,letter}:
+      0,10,A
+      0,11,R
+      0,12,E
+      0,13,T
+      0,14,A
+  - num: 11
+    word: ARARAT
+    clue: "11. La regione in cui si posò l’arca dopo il Diluvio (Genesi 8:4)"
+    type: H
+    start: A2
+    positions[6]{row,col,letter}:
+      1,0,A
+      1,1,R
+      1,2,A
+      1,3,R
+      1,4,A
+      1,5,T
+  - num: 12
+    word: LETTO
+    clue: "12. Vi sta chi è malato (2 Samuele 13:5)"
+    type: H
+    start: H2
+    positions[5]{row,col,letter}:
+      1,7,L
+      1,8,E
+      1,9,T
+      1,10,T
+      1,11,O
+  - num: 15
+    word: RUBEN
+    clue: "15. Il primogenito di Giacobbe (Genesi 35:23)"
+    type: H
+    start: A3
+    positions[5]{row,col,letter}:
+      2,0,R
+      2,1,U
+      2,2,B
+      2,3,E
+      2,4,N
+  - num: 16
+    word: SABA
+    clue: "16. Il paese della regina che fece visita a Salomone (2 Cronache 9:1)"
+    type: H
+    start: G3
+    positions[4]{row,col,letter}:
+      2,6,S
+      2,7,A
+      2,8,B
+      2,9,A
+  - num: 17
+    word: VOLO
+    clue: "17. Lo possono prendere gli uccelli (Giobbe 39:26)"
+    type: H
+    start: L3
+    positions[4]{row,col,letter}:
+      2,11,V
+      2,12,O
+      2,13,L
+      2,14,O
+  - num: 18
+    word: AMASIA
+    clue: "18. Figlio di Zicri, capo dell’esercito di Giuda (2 Cronache 17:16)"
+    type: H
+    start: A4
+    positions[6]{row,col,letter}:
+      3,0,A
+      3,1,M
+      3,2,A
+      3,3,S
+      3,4,I
+      3,5,A
+  - num: 20
+    word: SERPI
+    clue: "20. Lo divennero le verghe dei sacerdoti egiziani (Esodo 7:11, 12)"
+    type: H
+    start: H4
+    positions[5]{row,col,letter}:
+      3,7,S
+      3,8,E
+      3,9,R
+      3,10,P
+      3,11,I
+  - num: 22
+    word: RIARSO
+    clue: "22. Lo è il suolo senz’acqua (Isaia 35:7)"
+    type: H
+    start: F5
+    positions[6]{row,col,letter}:
+      4,5,R
+      4,6,I
+      4,7,A
+      4,8,R
+      4,9,S
+      4,10,O
+  - num: 26
+    word: OPACA
+    clue: "26. Non lucida (Levitico 13:6)"
+    type: H
+    start: C6
+    positions[5]{row,col,letter}:
+      5,2,O
+      5,3,P
+      5,4,A
+      5,5,C
+      5,6,A
+  - num: 28
+    word: OTNIEL
+    clue: "28. Il primo dei giudici d’Israele (Giudici 3:9)"
+    type: H
+    start: J6
+    positions[6]{row,col,letter}:
+      5,9,O
+      5,10,T
+      5,11,N
+      5,12,I
+      5,13,E
+      5,14,L
+  - num: 31
+    word: SAFAT
+    clue: "31. Il padre del profeta Eliseo (2 Re 3:11)"
+    type: H
+    start: E7
+    positions[5]{row,col,letter}:
+      6,4,S
+      6,5,A
+      6,6,F
+      6,7,A
+      6,8,T
+  - num: 33
+    word: ORE
+    clue: "33. Sono dodici di giorno (Giovanni 11:9)"
+    type: H
+    start: M7
+    positions[3]{row,col,letter}:
+      6,12,O
+      6,13,R
+      6,14,E
+  - num: 34
+    word: MELEC
+    clue: "34. Figlio di Mica e discendente di Saul (1 Cronache 8:33-35)"
+    type: H
+    start: A8
+    positions[5]{row,col,letter}:
+      7,0,M
+      7,1,E
+      7,2,L
+      7,3,E
+      7,4,C
+  - num: 36
+    word: FERMA
+    clue: "36. Deve esserlo un’ancora (Ebrei 6:19)"
+    type: H
+    start: K8
+    positions[5]{row,col,letter}:
+      7,10,F
+      7,11,E
+      7,12,R
+      7,13,M
+      7,14,A
+  - num: 37
+    word: ALA
+    clue: "37. Quella dello struzzo non è adatta al volo (Giobbe 39:13)"
+    type: H
+    start: A9
+    positions[3]{row,col,letter}:
+      8,0,A
+      8,1,L
+      8,2,A
+  - num: 38
+    word: TASCA
+    clue: "38. Può averla la camicia (Giobbe 31:33)"
+    type: H
+    start: G9
+    positions[5]{row,col,letter}:
+      8,6,T
+      8,7,A
+      8,8,S
+      8,9,C
+      8,10,A
+  - num: 40
+    word: REGALO
+    clue: "40. Se è perfetto, viene dall’alto (Giacomo 1:17)"
+    type: H
+    start: A10
+    positions[6]{row,col,letter}:
+      9,0,R
+      9,1,E
+      9,2,G
+      9,3,A
+      9,4,L
+      9,5,O
+  - num: 42
+    word: TARME
+    clue: "42. Possono rovinare i mantelli (Giacomo 5:2)"
+    type: H
+    start: I10
+    positions[5]{row,col,letter}:
+      9,8,T
+      9,9,A
+      9,10,R
+      9,11,M
+      9,12,E
+  - num: 44
+    word: OPERAI
+    clue: "44. Ce n’è bisogno quando la messe è grande (Luca 10:2)"
+    type: H
+    start: E11
+    positions[6]{row,col,letter}:
+      10,4,O
+      10,5,P
+      10,6,E
+      10,7,R
+      10,8,A
+      10,9,I
+  - num: 49
+    word: ANETO
+    clue: "49. Pianta dai semi aromatici di cui i farisei davano la decima (Matteo 23:23)"
+    type: H
+    start: D12
+    positions[5]{row,col,letter}:
+      11,3,A
+      11,4,N
+      11,5,E
+      11,6,T
+      11,7,O
+  - num: 50
+    word: NEMICI
+    clue: "50. Gesù comandò di amarli (Matteo 5:44)"
+    type: H
+    start: J12
+    positions[6]{row,col,letter}:
+      11,9,N
+      11,10,E
+      11,11,M
+      11,12,I
+      11,13,C
+      11,14,I
+  - num: 54
+    word: AMOS
+    clue: "54. Uno dei dodici profeti “minori”"
+    type: H
+    start: A13
+    positions[4]{row,col,letter}:
+      12,0,A
+      12,1,M
+      12,2,O
+      12,3,S
+  - num: 55
+    word: RASE
+    clue: "55. Lo erano le barbe degli ottanta uomini che caddero in un’imboscata dopo la morte del governatore Ghedalia (Geremia 41:4-7)"
+    type: H
+    start: F13
+    positions[4]{row,col,letter}:
+      12,5,R
+      12,6,A
+      12,7,S
+      12,8,E
+  - num: 56
+    word: NUTRE
+    clue: "56. “Nessun uomo odiò mai la propria carne, ma la ----- e ne ha tenera cura” (Efesini 5:29)"
+    type: H
+    start: K13
+    positions[5]{row,col,letter}:
+      12,10,N
+      12,11,U
+      12,12,T
+      12,13,R
+      12,14,E
+  - num: 57
+    word: ATENE
+    clue: "57. Città che colpì Paolo per il gran numero di idoli (Atti 17:16)"
+    type: H
+    start: D14
+    positions[5]{row,col,letter}:
+      13,3,A
+      13,4,T
+      13,5,E
+      13,6,N
+      13,7,E
+  - num: 58
+    word: PORTAR
+    clue: "58. “Il tralcio non può da se stesso ------ frutto se non resta nella vite” (Giovanni 15:4)"
+    type: H
+    start: J14
+    positions[6]{row,col,letter}:
+      13,9,P
+      13,10,O
+      13,11,R
+      13,12,T
+      13,13,A
+      13,14,R
+  - num: 59
+    word: ANANI
+    clue: "59. Figlio di Elioenai e discendente del re Davide (1 Cronache 3:24)"
+    type: H
+    start: A15
+    positions[5]{row,col,letter}:
+      14,0,A
+      14,1,N
+      14,2,A
+      14,3,N
+      14,4,I
+  - num: 60
+    word: OPINIONI
+    clue: "60. Su quelle personali è bene non esprimere giudizi (Romani 14:1)"
+    type: H
+    start: H15
+    positions[8]{row,col,letter}:
+      14,7,O
+      14,8,P
+      14,9,I
+      14,10,N
+      14,11,I
+      14,12,O
+      14,13,N
+      14,14,I
+  - num: 1
+    word: SARA
+    clue: "1. Fu una moglie esemplare (1 Pietro 3:5, 6)"
+    type: V
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,S
+      1,0,A
+      2,0,R
+      3,0,A
+  - num: 2
+    word: ARUMA
+    clue: "2. Città del territorio di Efraim dove risiedeva Abimelec (Giudici 9:41)"
+    type: V
+    start: B1
+    positions[5]{row,col,letter}:
+      0,1,A
+      1,1,R
+      2,1,U
+      3,1,M
+      4,1,A
+  - num: 3
+    word: LABANO
+    clue: "3. Il padre di Rachele (Genesi 29:10)"
+    type: V
+    start: C1
+    positions[6]{row,col,letter}:
+      0,2,L
+      1,2,A
+      2,2,B
+      3,2,A
+      4,2,N
+      5,2,O
+  - num: 4
+    word: ORES
+    clue: "4. Località del deserto di Zif dove Davide fece un patto con Gionatan (1 Samuele 23:15-18)"
+    type: V
+    start: D1
+    positions[4]{row,col,letter}:
+      0,3,O
+      1,3,R
+      2,3,E
+      3,3,S
+  - num: 5
+    word: MANI
+    clue: "5. Per i farisei, lavarsele era diventato un cerimoniale (Marco 7:3)"
+    type: V
+    start: E1
+    positions[4]{row,col,letter}:
+      0,4,M
+      1,4,A
+      2,4,N
+      3,4,I
+  - num: 6
+    word: ELASA
+    clue: "6. Figlio di Safan che Sedechia inviò da Nabucodonosor e a cui Geremia affidò la sua lettera per gli esiliati in Babilonia (Geremia 29:1-3)"
+    type: V
+    start: H1
+    positions[5]{row,col,letter}:
+      0,7,E
+      1,7,L
+      2,7,A
+      3,7,S
+      4,7,A
+  - num: 8
+    word: ROVI
+    clue: "8. Crescono nei terreni incolti (Isaia 5:6)"
+    type: V
+    start: L1
+    positions[4]{row,col,letter}:
+      0,11,R
+      1,11,O
+      2,11,V
+      3,11,I
+  - num: 9
+    word: TELI
+    clue: "9. Quelli del tabernacolo erano uniti da lacci e uncini (Esodo 36:10-13)"
+    type: V
+    start: N1
+    positions[4]{row,col,letter}:
+      0,13,T
+      1,13,E
+      2,13,L
+      3,13,I
+  - num: 10
+    word: AMORELEALE
+    clue: "10. Lo dimostra chi non abbandona gli amici nel bisogno [2 parole] (Genesi 21:23; 24:14)"
+    type: V
+    start: O1
+    positions[10]{row,col,letter}:
+      0,14,A
+      1,14,M
+      2,14,O
+      3,14,R
+      4,14,E
+      5,14,L
+      6,14,E
+      7,14,A
+      8,14,L
+      9,14,E
+  - num: 13
+    word: EBER
+    clue: "13. Antenato di Abraamo; figlio di Sela e padre di Peleg (Genesi 11:14-19, 26)"
+    type: V
+    start: I2
+    positions[4]{row,col,letter}:
+      1,8,E
+      2,8,B
+      3,8,E
+      4,8,R
+  - num: 14
+    word: TARSO
+    clue: "14. La città dell’apostolo Paolo (Atti 21:39)"
+    type: V
+    start: J2
+    positions[5]{row,col,letter}:
+      1,9,T
+      2,9,A
+      3,9,R
+      4,9,S
+      5,9,O
+  - num: 19
+    word: ARCA
+    clue: "19. Uzza morì per averla toccata (2 Samuele 6:6, 7)"
+    type: V
+    start: F4
+    positions[4]{row,col,letter}:
+      3,5,A
+      4,5,R
+      5,5,C
+      6,5,A
+  - num: 21
+    word: POTIFAR
+    clue: "21. Il funzionario egiziano che comprò Giuseppe (Genesi 39:1)"
+    type: V
+    start: K4
+    positions[7]{row,col,letter}:
+      3,10,P
+      4,10,O
+      5,10,T
+      6,10,I
+      7,10,F
+      8,10,A
+      9,10,R
+  - num: 23
+    word: IAFET
+    clue: "23. Uno dei passeggeri dell’arca (Genesi 7:13)"
+    type: V
+    start: G5
+    positions[5]{row,col,letter}:
+      4,6,I
+      5,6,A
+      6,6,F
+      7,6,E
+      8,6,T
+  - num: 24
+    word: FIOR
+    clue: "24. Quello di farina poteva essere usato come offerta a Geova (Levitico 2:1)"
+    type: V
+    start: M5
+    positions[4]{row,col,letter}:
+      4,12,F
+      5,12,I
+      6,12,O
+      7,12,R
+  - num: 25
+    word: SAMARITANA
+    clue: "25. Lo era la donna con cui Gesù conversò presso un pozzo (Giovanni 4:7-9)"
+    type: V
+    start: A6
+    positions[10]{row,col,letter}:
+      5,0,S
+      6,0,A
+      7,0,M
+      8,0,A
+      9,0,R
+      10,0,I
+      11,0,T
+      12,0,A
+      13,0,N
+      14,0,A
+  - num: 27
+    word: ASCALON
+    clue: "27. Importante città filistea (1 Samuele 6:17)"
+    type: V
+    start: E6
+    positions[7]{row,col,letter}:
+      5,4,A
+      6,4,S
+      7,4,C
+      8,4,A
+      9,4,L
+      10,4,O
+      11,4,N
+  - num: 29
+    word: ERMA
+    clue: "29. Cristiano di Roma a cui Paolo mandò i saluti (Romani 16:14)"
+    type: V
+    start: N6
+    positions[4]{row,col,letter}:
+      5,13,E
+      6,13,R
+      7,13,M
+      8,13,A
+  - num: 30
+    word: MELE
+    clue: "30. Sono proverbiali quelle “d’oro in cesellature d’argento” (Proverbi 25:11)"
+    type: V
+    start: B7
+    positions[4]{row,col,letter}:
+      6,1,M
+      7,1,E
+      8,1,L
+      9,1,E
+  - num: 32
+    word: TESTA
+    clue: "32. Quella dell’immagine sognata da Nabucodonosor era d’oro (Daniele 2:31, 32)"
+    type: V
+    start: I7
+    positions[5]{row,col,letter}:
+      6,8,T
+      7,8,E
+      8,8,S
+      9,8,T
+      10,8,A
+  - num: 35
+    word: LAGO
+    clue: "35. Quello di fuoco simboleggia la seconda morte (Rivelazione 20:14)"
+    type: V
+    start: C8
+    positions[4]{row,col,letter}:
+      7,2,L
+      8,2,A
+      9,2,G
+      10,2,O
+  - num: 39
+    word: CAIN
+    clue: "39. Città della regione montagnosa di Giuda (Giosuè 15:1, 48, 57)"
+    type: V
+    start: J9
+    positions[4]{row,col,letter}:
+      8,9,C
+      9,9,A
+      10,9,I
+      11,9,N
+  - num: 41
+    word: OPERE
+    clue: "41. Senza di esse la fede è morta (Giacomo 2:26)"
+    type: V
+    start: F10
+    positions[5]{row,col,letter}:
+      9,5,O
+      10,5,P
+      11,5,E
+      12,5,R
+      13,5,E
+  - num: 43
+    word: EGITTO
+    clue: "43. Vi fuggì la famiglia di Gesù per paura di Erode (Matteo 2:13-15)"
+    type: V
+    start: M10
+    positions[6]{row,col,letter}:
+      9,12,E
+      10,12,G
+      11,12,I
+      12,12,T
+      13,12,T
+      14,12,O
+  - num: 45
+    word: ETAN
+    clue: "45. Contemporaneo di Salomone famoso per la sua sapienza (1 Re 4:31)"
+    type: V
+    start: G11
+    positions[4]{row,col,letter}:
+      10,6,E
+      11,6,T
+      12,6,A
+      13,6,N
+  - num: 46
+    word: ROSEO
+    clue: "46. Lo era il colorito di Davide (1 Samuele 17:42)"
+    type: V
+    start: H11
+    positions[5]{row,col,letter}:
+      10,7,R
+      11,7,O
+      12,7,S
+      13,7,E
+      14,7,O
+  - num: 47
+    word: OCRAN
+    clue: "47. Il padre del Paghiel che fu nominato capo principale della tribù di Aser (Numeri 2:27)"
+    type: V
+    start: N11
+    positions[5]{row,col,letter}:
+      10,13,O
+      11,13,C
+      12,13,R
+      13,13,A
+      14,13,N
+  - num: 48
+    word: AMEN
+    clue: "48. Uno dei titoli di Cristo (Rivelazione 3:14)"
+    type: V
+    start: B12
+    positions[4]{row,col,letter}:
+      11,1,A
+      12,1,M
+      13,1,E
+      14,1,N
+  - num: 49
+    word: ASAN
+    clue: "49. Città assegnata prima a Giuda e poi a Simeone (Giosuè 19:7, 9)"
+    type: V
+    start: D12
+    positions[4]{row,col,letter}:
+      11,3,A
+      12,3,S
+      13,3,A
+      14,3,N
+  - num: 51
+    word: ENON
+    clue: "51. Località ricca d’acqua dove Giovanni battezzava (Giovanni 3:23)"
+    type: V
+    start: K12
+    positions[4]{row,col,letter}:
+      11,10,E
+      12,10,N
+      13,10,O
+      14,10,N
+  - num: 52
+    word: MURI
+    clue: "52. A volte recintavano le vigne (Salmo 80:8, 12)"
+    type: V
+    start: L12
+    positions[4]{row,col,letter}:
+      11,11,M
+      12,11,U
+      13,11,R
+      14,11,I
+  - num: 53
+    word: IERI
+    clue: "53. Un giorno fa (Salmo 90:4)"
+    type: V
+    start: O12
+    positions[4]{row,col,letter}:
+      11,14,I
+      12,14,E
+      13,14,R
+      14,14,I
+metadata:
+  totalNumbers: 60
+  horizontalStarts: 30
+  verticalStarts: 32
+  totalWords: 62
+  createdAt: "2025-12-27T11:29:00.178Z"

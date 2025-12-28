@@ -1,0 +1,673 @@
+gridSize: 15
+structure[15]:
+  - [15]: 0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+  - [15]: 1,1,0,1,0,0,1,0,1,0,0,1,0,1,1
+  - [15]: 1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,0,1,1,0,1,1,0,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 0,1,1,0,1,0,1,1,1,0,1,0,1,1,0
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,0,1,1,0,1,1,0,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+  - [15]: 1,1,0,1,0,0,1,0,1,0,0,1,0,1,1
+  - [15]: 0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+numberedCells[43]{row,col,num,hasH,hasV}:
+  0,1,1,true,true
+  0,3,2,false,true
+  0,6,3,false,true
+  0,8,4,false,true
+  0,11,5,false,true
+  0,13,6,false,true
+  1,0,7,false,true
+  1,14,8,false,true
+  2,0,9,true,false
+  2,6,10,true,false
+  2,10,11,true,false
+  3,3,12,true,false
+  3,5,13,false,true
+  3,9,14,false,true
+  4,0,15,true,false
+  4,2,16,false,true
+  4,11,17,true,false
+  4,12,18,false,true
+  5,4,19,true,true
+  5,7,20,false,true
+  5,10,21,false,true
+  6,0,22,true,false
+  6,1,23,false,true
+  6,9,24,true,false
+  6,13,25,false,true
+  7,6,26,true,false
+  8,0,27,true,true
+  8,5,28,false,true
+  8,9,29,true,true
+  8,14,30,false,true
+  9,4,31,true,false
+  9,6,32,false,true
+  9,8,33,false,true
+  10,0,34,true,false
+  10,1,35,false,true
+  10,3,36,false,true
+  10,11,37,true,true
+  10,13,38,false,true
+  11,3,39,true,false
+  12,0,40,true,false
+  12,6,41,true,false
+  12,10,42,true,false
+  14,1,43,true,false
+words:
+  orizzontali[21]{num,word,clue}:
+    1,PICCOLOGREGGE,"1. Così Gesù chiamò coloro che avrebbero ricevuto il Regno [due parole] (Luca 12:32)"
+    9,ARABA,"9. Stretta valle semiarida vicino al Mar Morto (Deuteronomio 3:17)"
+    10,COR,"10. Misura per aridi e per l’olio pari a dieci bat (Ezechiele 45:14)"
+    11,ALTEA,"11. Pianta dal succo viscoso e insipido (Giobbe 6:6)"
+    12,UFFICIALI,"12. Prestano servizio nell’esercito (Atti 23:23)"
+    15,IAEL,"15. Donna coraggiosa che uccise il cananeo Sisera (Giudici 4:17, 21)"
+    17,AMOS,"17. Uno dei dodici profeti “minori”"
+    19,ABINOAM,"19. Padre del giudice Barac (Giudici 5:1)"
+    22,EUNICE,"22. Madre di Timoteo (2 Timoteo 1:5)"
+    24,FINEAS,"24. Uno dei due figli “buoni a nulla” di Eli (1 Samuele 1:3; 2:12)"
+    26,LOT,"26. Uscì da Ur insieme ad Abraamo (Genesi 11:31)"
+    27,LACHIS,"27. Città giudea da cui Sennacherib mandò messaggeri a Ezechia (2 Cronache 32:9)"
+    29,MATTIA,"29. Fu scelto come apostolo per sostituire Giuda Iscariota (Atti 1:26)"
+    31,BEZALEL,"31. Principale artigiano e costruttore del tabernacolo (Esodo 31:1-11)"
+    34,NAIN,"34. Città in cui Gesù risuscitò il figlio di una vedova (Luca 7:11)"
+    37,GOLA,"37. Valle dalle pareti molto ripide (1 Samuele 13:23)"
+    39,EVOCATORI,"39. Non seppero leggere a Baldassarre la scritta comparsa miracolosamente sul muro (Daniele 5:15)"
+    40,RABBI,"40. Titolo che piaceva ai farisei (Matteo 23:6, 7)"
+    41,LEA,"41. La madre di Ruben, primogenito di Giacobbe (Genesi 29:32)"
+    42,SOMMO,"42. Lo era il sacerdote da cui fu condotto Gesù per essere interrogato (Marco 14:53)"
+    43,OLTRAGGIATORI,"43. Non erediteranno il regno di Dio (1 Corinti 6:10)"
+  verticali[27]{num,word,clue}:
+    1,PERLA,"1. Era di alto valore quella menzionata da Gesù in una parabola (Matteo 13:46)"
+    2,CABUL,"2. Distretto della Galilea che includeva 20 città date da Salomone a Hiram re di Tiro (1 Re 9:10-13)"
+    3,LUCIDI,"3. Lucenti, lustri (Geremia 5:28)"
+    4,GERICO,"4. La città di Raab (Giosuè 2:1)"
+    5,GOLIA,"5. Il gigante filisteo ucciso da Davide (1 Samuele 17:4, 50)"
+    6,EFESO,"6. Ospitava il celeberrimo tempio di Artemide (Atti 19:35)"
+    7,DAVIDE,"7. Geova lo definì un “uomo secondo il mio cuore” (Atti 13:22)"
+    8,TARSIS,"8. Voleva fuggirvi Giona (Giona 1:3)"
+    13,FEBE,"13. Fedele cristiana della congregazione di Cencrea (Romani 16:1, 2)"
+    14,ASAF,"14. Rischiò di inciampare a causa dell’apparente prosperità dei malvagi (Salmo 73:2, 3 e soprascritta)"
+    16,EUNUCHI,"16. In Matteo 19:12 Gesù Cristo ne menziona tre categorie"
+    18,MAESTRO,"18. Il discepolo non gli è superiore (Matteo 10:24)"
+    19,ACZIB,"19. Città fenicia che la tribù di Aser non riuscì mai a conquistare (Giudici 1:31, 32)"
+    20,NUORA,"20. Rut lo era di Naomi (Rut 1:22)"
+    21,MICAL,"21. La moglie di Davide che gli mancò di rispetto e fu punita (2 Samuele 6:16, 20-23)"
+    23,UVA,"23. Era proibita ai nazirei (Numeri 6:1-4)"
+    25,ALI,"25. Si possono spiegare senza proferire parola (Deuteronomio 32:11)"
+    27,LUNARI,"27. Lo erano i mesi nell’antichità (Esodo 2:2)"
+    28,SENO,"28. Termine che nella Bibbia indica il grembo materno (Genesi 29:31)"
+    29,MELO,"29. Albero da frutto (Gioele 1:12)"
+    30,ANATOT,"30. La città di Geremia (Geremia 1:1)"
+    32,ZICLAG,"32. La città che gli amalechiti saccheggiarono, prendendo prigioniere anche le mogli di Davide (1 Samuele 30:1-5)"
+    33,LETALI,"33. Mortali, fatali (Salmo 73:4)"
+    35,ADAMO,"35. Mise nome a sua moglie (Genesi 3:20)"
+    36,NEBAT,"36. Padre di Geroboamo, primo re del regno delle dieci tribù d’Israele (1 Re 11:26)"
+    37,GIOGO,"37. Quello di Cristo è piacevole (Matteo 11:30)"
+    38,LOMBI,"38. Si cingevano quando ci si preparava a svolgere un’attività (2 Re 4:29)"
+placements[48]:
+  - num: 1
+    word: PICCOLOGREGGE
+    clue: "1. Così Gesù chiamò coloro che avrebbero ricevuto il Regno [due parole] (Luca 12:32)"
+    type: H
+    start: B1
+    positions[13]{row,col,letter}:
+      0,1,P
+      0,2,I
+      0,3,C
+      0,4,C
+      0,5,O
+      0,6,L
+      0,7,O
+      0,8,G
+      0,9,R
+      0,10,E
+      0,11,G
+      0,12,G
+      0,13,E
+  - num: 9
+    word: ARABA
+    clue: "9. Stretta valle semiarida vicino al Mar Morto (Deuteronomio 3:17)"
+    type: H
+    start: A3
+    positions[5]{row,col,letter}:
+      2,0,A
+      2,1,R
+      2,2,A
+      2,3,B
+      2,4,A
+  - num: 10
+    word: COR
+    clue: "10. Misura per aridi e per l’olio pari a dieci bat (Ezechiele 45:14)"
+    type: H
+    start: G3
+    positions[3]{row,col,letter}:
+      2,6,C
+      2,7,O
+      2,8,R
+  - num: 11
+    word: ALTEA
+    clue: "11. Pianta dal succo viscoso e insipido (Giobbe 6:6)"
+    type: H
+    start: K3
+    positions[5]{row,col,letter}:
+      2,10,A
+      2,11,L
+      2,12,T
+      2,13,E
+      2,14,A
+  - num: 12
+    word: UFFICIALI
+    clue: "12. Prestano servizio nell’esercito (Atti 23:23)"
+    type: H
+    start: D4
+    positions[9]{row,col,letter}:
+      3,3,U
+      3,4,F
+      3,5,F
+      3,6,I
+      3,7,C
+      3,8,I
+      3,9,A
+      3,10,L
+      3,11,I
+  - num: 15
+    word: IAEL
+    clue: "15. Donna coraggiosa che uccise il cananeo Sisera (Giudici 4:17, 21)"
+    type: H
+    start: A5
+    positions[4]{row,col,letter}:
+      4,0,I
+      4,1,A
+      4,2,E
+      4,3,L
+  - num: 17
+    word: AMOS
+    clue: "17. Uno dei dodici profeti “minori”"
+    type: H
+    start: L5
+    positions[4]{row,col,letter}:
+      4,11,A
+      4,12,M
+      4,13,O
+      4,14,S
+  - num: 19
+    word: ABINOAM
+    clue: "19. Padre del giudice Barac (Giudici 5:1)"
+    type: H
+    start: E6
+    positions[7]{row,col,letter}:
+      5,4,A
+      5,5,B
+      5,6,I
+      5,7,N
+      5,8,O
+      5,9,A
+      5,10,M
+  - num: 22
+    word: EUNICE
+    clue: "22. Madre di Timoteo (2 Timoteo 1:5)"
+    type: H
+    start: A7
+    positions[6]{row,col,letter}:
+      6,0,E
+      6,1,U
+      6,2,N
+      6,3,I
+      6,4,C
+      6,5,E
+  - num: 24
+    word: FINEAS
+    clue: "24. Uno dei due figli “buoni a nulla” di Eli (1 Samuele 1:3; 2:12)"
+    type: H
+    start: J7
+    positions[6]{row,col,letter}:
+      6,9,F
+      6,10,I
+      6,11,N
+      6,12,E
+      6,13,A
+      6,14,S
+  - num: 26
+    word: LOT
+    clue: "26. Uscì da Ur insieme ad Abraamo (Genesi 11:31)"
+    type: H
+    start: G8
+    positions[3]{row,col,letter}:
+      7,6,L
+      7,7,O
+      7,8,T
+  - num: 27
+    word: LACHIS
+    clue: "27. Città giudea da cui Sennacherib mandò messaggeri a Ezechia (2 Cronache 32:9)"
+    type: H
+    start: A9
+    positions[6]{row,col,letter}:
+      8,0,L
+      8,1,A
+      8,2,C
+      8,3,H
+      8,4,I
+      8,5,S
+  - num: 29
+    word: MATTIA
+    clue: "29. Fu scelto come apostolo per sostituire Giuda Iscariota (Atti 1:26)"
+    type: H
+    start: J9
+    positions[6]{row,col,letter}:
+      8,9,M
+      8,10,A
+      8,11,T
+      8,12,T
+      8,13,I
+      8,14,A
+  - num: 31
+    word: BEZALEL
+    clue: "31. Principale artigiano e costruttore del tabernacolo (Esodo 31:1-11)"
+    type: H
+    start: E10
+    positions[7]{row,col,letter}:
+      9,4,B
+      9,5,E
+      9,6,Z
+      9,7,A
+      9,8,L
+      9,9,E
+      9,10,L
+  - num: 34
+    word: NAIN
+    clue: "34. Città in cui Gesù risuscitò il figlio di una vedova (Luca 7:11)"
+    type: H
+    start: A11
+    positions[4]{row,col,letter}:
+      10,0,N
+      10,1,A
+      10,2,I
+      10,3,N
+  - num: 37
+    word: GOLA
+    clue: "37. Valle dalle pareti molto ripide (1 Samuele 13:23)"
+    type: H
+    start: L11
+    positions[4]{row,col,letter}:
+      10,11,G
+      10,12,O
+      10,13,L
+      10,14,A
+  - num: 39
+    word: EVOCATORI
+    clue: "39. Non seppero leggere a Baldassarre la scritta comparsa miracolosamente sul muro (Daniele 5:15)"
+    type: H
+    start: D12
+    positions[9]{row,col,letter}:
+      11,3,E
+      11,4,V
+      11,5,O
+      11,6,C
+      11,7,A
+      11,8,T
+      11,9,O
+      11,10,R
+      11,11,I
+  - num: 40
+    word: RABBI
+    clue: "40. Titolo che piaceva ai farisei (Matteo 23:6, 7)"
+    type: H
+    start: A13
+    positions[5]{row,col,letter}:
+      12,0,R
+      12,1,A
+      12,2,B
+      12,3,B
+      12,4,I
+  - num: 41
+    word: LEA
+    clue: "41. La madre di Ruben, primogenito di Giacobbe (Genesi 29:32)"
+    type: H
+    start: G13
+    positions[3]{row,col,letter}:
+      12,6,L
+      12,7,E
+      12,8,A
+  - num: 42
+    word: SOMMO
+    clue: "42. Lo era il sacerdote da cui fu condotto Gesù per essere interrogato (Marco 14:53)"
+    type: H
+    start: K13
+    positions[5]{row,col,letter}:
+      12,10,S
+      12,11,O
+      12,12,M
+      12,13,M
+      12,14,O
+  - num: 43
+    word: OLTRAGGIATORI
+    clue: "43. Non erediteranno il regno di Dio (1 Corinti 6:10)"
+    type: H
+    start: B15
+    positions[13]{row,col,letter}:
+      14,1,O
+      14,2,L
+      14,3,T
+      14,4,R
+      14,5,A
+      14,6,G
+      14,7,G
+      14,8,I
+      14,9,A
+      14,10,T
+      14,11,O
+      14,12,R
+      14,13,I
+  - num: 1
+    word: PERLA
+    clue: "1. Era di alto valore quella menzionata da Gesù in una parabola (Matteo 13:46)"
+    type: V
+    start: B1
+    positions[5]{row,col,letter}:
+      0,1,P
+      1,1,E
+      2,1,R
+      3,1,L
+      4,1,A
+  - num: 2
+    word: CABUL
+    clue: "2. Distretto della Galilea che includeva 20 città date da Salomone a Hiram re di Tiro (1 Re 9:10-13)"
+    type: V
+    start: D1
+    positions[5]{row,col,letter}:
+      0,3,C
+      1,3,A
+      2,3,B
+      3,3,U
+      4,3,L
+  - num: 3
+    word: LUCIDI
+    clue: "3. Lucenti, lustri (Geremia 5:28)"
+    type: V
+    start: G1
+    positions[6]{row,col,letter}:
+      0,6,L
+      1,6,U
+      2,6,C
+      3,6,I
+      4,6,D
+      5,6,I
+  - num: 4
+    word: GERICO
+    clue: "4. La città di Raab (Giosuè 2:1)"
+    type: V
+    start: I1
+    positions[6]{row,col,letter}:
+      0,8,G
+      1,8,E
+      2,8,R
+      3,8,I
+      4,8,C
+      5,8,O
+  - num: 5
+    word: GOLIA
+    clue: "5. Il gigante filisteo ucciso da Davide (1 Samuele 17:4, 50)"
+    type: V
+    start: L1
+    positions[5]{row,col,letter}:
+      0,11,G
+      1,11,O
+      2,11,L
+      3,11,I
+      4,11,A
+  - num: 6
+    word: EFESO
+    clue: "6. Ospitava il celeberrimo tempio di Artemide (Atti 19:35)"
+    type: V
+    start: N1
+    positions[5]{row,col,letter}:
+      0,13,E
+      1,13,F
+      2,13,E
+      3,13,S
+      4,13,O
+  - num: 7
+    word: DAVIDE
+    clue: "7. Geova lo definì un “uomo secondo il mio cuore” (Atti 13:22)"
+    type: V
+    start: A2
+    positions[6]{row,col,letter}:
+      1,0,D
+      2,0,A
+      3,0,V
+      4,0,I
+      5,0,D
+      6,0,E
+  - num: 8
+    word: TARSIS
+    clue: "8. Voleva fuggirvi Giona (Giona 1:3)"
+    type: V
+    start: O2
+    positions[6]{row,col,letter}:
+      1,14,T
+      2,14,A
+      3,14,R
+      4,14,S
+      5,14,I
+      6,14,S
+  - num: 13
+    word: FEBE
+    clue: "13. Fedele cristiana della congregazione di Cencrea (Romani 16:1, 2)"
+    type: V
+    start: F4
+    positions[4]{row,col,letter}:
+      3,5,F
+      4,5,E
+      5,5,B
+      6,5,E
+  - num: 14
+    word: ASAF
+    clue: "14. Rischiò di inciampare a causa dell’apparente prosperità dei malvagi (Salmo 73:2, 3 e soprascritta)"
+    type: V
+    start: J4
+    positions[4]{row,col,letter}:
+      3,9,A
+      4,9,S
+      5,9,A
+      6,9,F
+  - num: 16
+    word: EUNUCHI
+    clue: "16. In Matteo 19:12 Gesù Cristo ne menziona tre categorie"
+    type: V
+    start: C5
+    positions[7]{row,col,letter}:
+      4,2,E
+      5,2,U
+      6,2,N
+      7,2,U
+      8,2,C
+      9,2,H
+      10,2,I
+  - num: 18
+    word: MAESTRO
+    clue: "18. Il discepolo non gli è superiore (Matteo 10:24)"
+    type: V
+    start: M5
+    positions[7]{row,col,letter}:
+      4,12,M
+      5,12,A
+      6,12,E
+      7,12,S
+      8,12,T
+      9,12,R
+      10,12,O
+  - num: 19
+    word: ACZIB
+    clue: "19. Città fenicia che la tribù di Aser non riuscì mai a conquistare (Giudici 1:31, 32)"
+    type: V
+    start: E6
+    positions[5]{row,col,letter}:
+      5,4,A
+      6,4,C
+      7,4,Z
+      8,4,I
+      9,4,B
+  - num: 20
+    word: NUORA
+    clue: "20. Rut lo era di Naomi (Rut 1:22)"
+    type: V
+    start: H6
+    positions[5]{row,col,letter}:
+      5,7,N
+      6,7,U
+      7,7,O
+      8,7,R
+      9,7,A
+  - num: 21
+    word: MICAL
+    clue: "21. La moglie di Davide che gli mancò di rispetto e fu punita (2 Samuele 6:16, 20-23)"
+    type: V
+    start: K6
+    positions[5]{row,col,letter}:
+      5,10,M
+      6,10,I
+      7,10,C
+      8,10,A
+      9,10,L
+  - num: 23
+    word: UVA
+    clue: "23. Era proibita ai nazirei (Numeri 6:1-4)"
+    type: V
+    start: B7
+    positions[3]{row,col,letter}:
+      6,1,U
+      7,1,V
+      8,1,A
+  - num: 25
+    word: ALI
+    clue: "25. Si possono spiegare senza proferire parola (Deuteronomio 32:11)"
+    type: V
+    start: N7
+    positions[3]{row,col,letter}:
+      6,13,A
+      7,13,L
+      8,13,I
+  - num: 27
+    word: LUNARI
+    clue: "27. Lo erano i mesi nell’antichità (Esodo 2:2)"
+    type: V
+    start: A9
+    positions[6]{row,col,letter}:
+      8,0,L
+      9,0,U
+      10,0,N
+      11,0,A
+      12,0,R
+      13,0,I
+  - num: 28
+    word: SENO
+    clue: "28. Termine che nella Bibbia indica il grembo materno (Genesi 29:31)"
+    type: V
+    start: F9
+    positions[4]{row,col,letter}:
+      8,5,S
+      9,5,E
+      10,5,N
+      11,5,O
+  - num: 29
+    word: MELO
+    clue: "29. Albero da frutto (Gioele 1:12)"
+    type: V
+    start: J9
+    positions[4]{row,col,letter}:
+      8,9,M
+      9,9,E
+      10,9,L
+      11,9,O
+  - num: 30
+    word: ANATOT
+    clue: "30. La città di Geremia (Geremia 1:1)"
+    type: V
+    start: O9
+    positions[6]{row,col,letter}:
+      8,14,A
+      9,14,N
+      10,14,A
+      11,14,T
+      12,14,O
+      13,14,T
+  - num: 32
+    word: ZICLAG
+    clue: "32. La città che gli amalechiti saccheggiarono, prendendo prigioniere anche le mogli di Davide (1 Samuele 30:1-5)"
+    type: V
+    start: G10
+    positions[6]{row,col,letter}:
+      9,6,Z
+      10,6,I
+      11,6,C
+      12,6,L
+      13,6,A
+      14,6,G
+  - num: 33
+    word: LETALI
+    clue: "33. Mortali, fatali (Salmo 73:4)"
+    type: V
+    start: I10
+    positions[6]{row,col,letter}:
+      9,8,L
+      10,8,E
+      11,8,T
+      12,8,A
+      13,8,L
+      14,8,I
+  - num: 35
+    word: ADAMO
+    clue: "35. Mise nome a sua moglie (Genesi 3:20)"
+    type: V
+    start: B11
+    positions[5]{row,col,letter}:
+      10,1,A
+      11,1,D
+      12,1,A
+      13,1,M
+      14,1,O
+  - num: 36
+    word: NEBAT
+    clue: "36. Padre di Geroboamo, primo re del regno delle dieci tribù d’Israele (1 Re 11:26)"
+    type: V
+    start: D11
+    positions[5]{row,col,letter}:
+      10,3,N
+      11,3,E
+      12,3,B
+      13,3,A
+      14,3,T
+  - num: 37
+    word: GIOGO
+    clue: "37. Quello di Cristo è piacevole (Matteo 11:30)"
+    type: V
+    start: L11
+    positions[5]{row,col,letter}:
+      10,11,G
+      11,11,I
+      12,11,O
+      13,11,G
+      14,11,O
+  - num: 38
+    word: LOMBI
+    clue: "38. Si cingevano quando ci si preparava a svolgere un’attività (2 Re 4:29)"
+    type: V
+    start: N11
+    positions[5]{row,col,letter}:
+      10,13,L
+      11,13,O
+      12,13,M
+      13,13,B
+      14,13,I
+metadata:
+  totalNumbers: 43
+  horizontalStarts: 21
+  verticalStarts: 27
+  totalWords: 48
+  createdAt: "2025-12-26T17:59:01.571Z"

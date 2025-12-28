@@ -1,0 +1,689 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,0,1,0,1,0,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 0,1,1,1,1,1,1,0,1,1,1,1,1,1,0
+  - [15]: 1,1,0,1,1,0,1,1,1,0,1,1,0,1,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,1,0,1,0,1,1,1,1,1,0,1,0,1,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,1,0,1,1,0,1,1,1,0,1,1,0,1,1
+  - [15]: 0,1,1,1,1,1,1,0,1,1,1,1,1,1,0
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,1,0,1,0,1,0,1,1,1,1,1
+  - [15]: 1,0,1,0,1,1,1,1,1,1,1,0,1,0,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+numberedCells[45]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,2,2,false,true
+  0,5,3,true,false
+  0,6,4,false,true
+  0,8,5,false,true
+  0,11,6,true,false
+  0,12,7,false,true
+  0,14,8,false,true
+  1,4,9,true,true
+  1,10,10,false,true
+  2,0,11,true,false
+  2,10,12,true,false
+  3,4,13,true,false
+  4,1,14,true,true
+  4,3,15,false,true
+  4,8,16,true,false
+  4,11,17,false,true
+  4,13,18,false,true
+  5,0,19,false,true
+  5,6,20,true,false
+  5,7,21,false,true
+  5,14,22,false,true
+  6,0,23,true,false
+  6,5,24,false,true
+  6,9,25,true,true
+  7,5,26,true,false
+  8,0,27,true,false
+  8,4,28,false,true
+  8,9,29,true,false
+  8,10,30,false,true
+  9,6,31,true,true
+  9,8,32,false,true
+  10,1,33,true,false
+  10,2,34,false,true
+  10,8,35,true,false
+  10,12,36,false,true
+  11,0,37,false,true
+  11,4,38,true,false
+  11,14,39,false,true
+  12,0,40,true,false
+  12,10,41,true,false
+  13,4,42,true,false
+  14,0,43,true,false
+  14,5,44,true,false
+  14,11,45,true,false
+words:
+  orizzontali[25]{num,word,clue}:
+    1,ENOS,"1. Il nipote di Adamo da cui discendiamo (1 Cronache 1:1)"
+    3,ATENE,"3. Città in cui Paolo predicò a filosofi epicurei e stoici (Atti 17:16-19)"
+    6,URIM,"6. Stavano nel pettorale del sommo sacerdote e servivano per conoscere la volontà divina in questioni d’importanza nazionale (Esodo 28:30)"
+    9,MOABITA,"9. Lo era Rut (Rut 1:22)"
+    11,ASINA,"11. Quella di Balaam parlò (Numeri 22:27, 28)"
+    12,NABAL,"12. Il ricco e cattivo marito di Abigail (1 Samuele 25:2, 3)"
+    13,REDEIRE,"13. Titolo di Cristo (Rivelazione 17:14)"
+    14,SECCHE,"14. Lo erano le ossa di una visione data a Ezechiele (Ezechiele 37:1, 2)"
+    16,VELENO,"16. Lo secerne la vipera (Proverbi 23:32)"
+    20,ORE,"20. Unità di tempo (Atti 5:7)"
+    23,UMILIA,"23. “Chi si ------ sarà esaltato” (Matteo 23:12)"
+    25,MONETE,"25. I ricchi ne gettavano tante nelle casse del tesoro (Marco 12:41)"
+    26,DAGHE,"26. Spade corte a due tagli (1 Re 18:28)"
+    27,TROMBA,"27. Si suonava in battaglia (1 Corinti 14:8)"
+    29,MACINA,"29. Se era piccola si azionava a mano, se era grande si usava un asino (Isaia 47:2; Matteo 18:6)"
+    31,NOE,"31. Fu un predicatore di giustizia (2 Pietro 2:5)"
+    33,APELLE,"33. Cristiano di Roma chiamato “l’approvato in Cristo” (Romani 16:10)"
+    35,TABITA,"35. Confezionava vesti e mantelli per le vedove bisognose della congregazione (Atti 9:36, 39)"
+    38,DORMIRE,"38. Piace farlo al pigro (Proverbi 6:9-11)"
+    40,UZZIA,"40. Il re di Giuda che divenne lebbroso per la sua presunzione (2 Cronache 26:16-21)"
+    41,RUOTE,"41. Quelle del carro visto in visione da Ezechiele erano piene di occhi (Ezechiele 10:12)"
+    42,DIASPRO,"42. Pietra preziosa presente sul pettorale del sommo sacerdote (Esodo 39:8-11)"
+    43,EFOD,"43. Gedeone, con il bottino di una guerra, ne fece uno che poi divenne un idolo (Giudici 8:26, 27)"
+    44,ALFEO,"44. Il padre dell’apostolo Matteo Levi (Matteo 9:9; Marco 2:14)"
+    45,MOSE,"45. Se non annegò è solo perché si trovava in un’arca (Esodo 2:2-10)"
+  verticali[25]{num,word,clue}:
+    1,ESAU,"1. Il primo figlio nato a Isacco e Rebecca (Genesi 25:21-25)"
+    2,OVILE,"2. In quello del “piccolo gregge” non ci sono le “altre pecore” (Giovanni 10:16)"
+    4,TADDEO,"4. Uno dei dodici apostoli (Matteo 10:2-4)"
+    5,NINIVE,"5. Doveva predicarvi Giona (Giona 1:2)"
+    7,RUBEN,"7. Il primogenito di Giacobbe (Genesi 35:23)"
+    8,MULA,"8. Salomone cavalcò quella di Davide quando fu unto re (1 Re 1:38)"
+    9,MARCHI,"9. Paolo disse che portava sul suo corpo quelli di uno schiavo di Gesù (Galati 6:17)"
+    10,ANELLO,"10. Poteva ornare il naso o la mano (Ezechiele 16:12; Luca 15:22)"
+    14,SAMARIA,"14. Regione in cui si cominciò a predicare sistematicamente dopo la morte di Gesù (Atti 1:8)"
+    15,COLOMBE,"15. Gesù le usò come simbolo di innocenza (Matteo 10:16)"
+    17,EUNUCHI,"17. Isaia predisse che a quelli fedeli Geova avrebbe dato “un monumento e un nome” (Isaia 56:4, 5)"
+    18,OTTANTA,"18. Per raggiungere questa età bisogna avere “speciale potenza” (Salmo 90:10)"
+    19,LUTTO,"19. Si fa per i morti (Ezechiele 24:17)"
+    21,REGNO,"21. È il tema della buona notizia (Matteo 24:14)"
+    22,MESAC,"22. Non si inchinò davanti all’immagine d’oro fatta erigere da Nabucodonosor (Daniele 3:12)"
+    24,ADA,"24. La prima delle mogli di Lamec (Genesi 4:19)"
+    25,MEM,"25. Tredicesima lettera dell’alfabeto ebraico (Salmo 25:12)"
+    28,BILDAD,"28. Uno dei falsi confortatori di Giobbe (Giobbe 2:11)"
+    30,ALBERO,"30. Si riconosce dal suo frutto (Matteo 12:33)"
+    31,NERGAL,"31. Divinità babilonese che le popolazioni deportate dall’Assiria nel territorio di Samaria continuarono ad adorare (2 Re 17:24, 30, 33)"
+    32,ETIOPE,"32. Lo era Ebed-Melec (Geremia 38:7)"
+    34,POZZO,"34. Vi si attingeva l’acqua (Genesi 24:20)"
+    36,TRONO,"36. Quello di Geova è nei cieli (Salmo 11:4)"
+    37,LUCE,"37. Non può mischiarsi con le tenebre (2 Corinti 6:14)"
+    39,PECE,"39. Sostanza vischiosa impermeabilizzante (Esodo 2:3)"
+placements[50]:
+  - num: 1
+    word: ENOS
+    clue: "1. Il nipote di Adamo da cui discendiamo (1 Cronache 1:1)"
+    type: H
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,E
+      0,1,N
+      0,2,O
+      0,3,S
+  - num: 3
+    word: ATENE
+    clue: "3. Città in cui Paolo predicò a filosofi epicurei e stoici (Atti 17:16-19)"
+    type: H
+    start: F1
+    positions[5]{row,col,letter}:
+      0,5,A
+      0,6,T
+      0,7,E
+      0,8,N
+      0,9,E
+  - num: 6
+    word: URIM
+    clue: "6. Stavano nel pettorale del sommo sacerdote e servivano per conoscere la volontà divina in questioni d’importanza nazionale (Esodo 28:30)"
+    type: H
+    start: L1
+    positions[4]{row,col,letter}:
+      0,11,U
+      0,12,R
+      0,13,I
+      0,14,M
+  - num: 9
+    word: MOABITA
+    clue: "9. Lo era Rut (Rut 1:22)"
+    type: H
+    start: E2
+    positions[7]{row,col,letter}:
+      1,4,M
+      1,5,O
+      1,6,A
+      1,7,B
+      1,8,I
+      1,9,T
+      1,10,A
+  - num: 11
+    word: ASINA
+    clue: "11. Quella di Balaam parlò (Numeri 22:27, 28)"
+    type: H
+    start: A3
+    positions[5]{row,col,letter}:
+      2,0,A
+      2,1,S
+      2,2,I
+      2,3,N
+      2,4,A
+  - num: 12
+    word: NABAL
+    clue: "12. Il ricco e cattivo marito di Abigail (1 Samuele 25:2, 3)"
+    type: H
+    start: K3
+    positions[5]{row,col,letter}:
+      2,10,N
+      2,11,A
+      2,12,B
+      2,13,A
+      2,14,L
+  - num: 13
+    word: REDEIRE
+    clue: "13. Titolo di Cristo (Rivelazione 17:14)"
+    type: H
+    start: E4
+    positions[7]{row,col,letter}:
+      3,4,R
+      3,5,E
+      3,6,D
+      3,7,E
+      3,8,I
+      3,9,R
+      3,10,E
+  - num: 14
+    word: SECCHE
+    clue: "14. Lo erano le ossa di una visione data a Ezechiele (Ezechiele 37:1, 2)"
+    type: H
+    start: B5
+    positions[6]{row,col,letter}:
+      4,1,S
+      4,2,E
+      4,3,C
+      4,4,C
+      4,5,H
+      4,6,E
+  - num: 16
+    word: VELENO
+    clue: "16. Lo secerne la vipera (Proverbi 23:32)"
+    type: H
+    start: I5
+    positions[6]{row,col,letter}:
+      4,8,V
+      4,9,E
+      4,10,L
+      4,11,E
+      4,12,N
+      4,13,O
+  - num: 20
+    word: ORE
+    clue: "20. Unità di tempo (Atti 5:7)"
+    type: H
+    start: G6
+    positions[3]{row,col,letter}:
+      5,6,O
+      5,7,R
+      5,8,E
+  - num: 23
+    word: UMILIA
+    clue: "23. “Chi si ------ sarà esaltato” (Matteo 23:12)"
+    type: H
+    start: A7
+    positions[6]{row,col,letter}:
+      6,0,U
+      6,1,M
+      6,2,I
+      6,3,L
+      6,4,I
+      6,5,A
+  - num: 25
+    word: MONETE
+    clue: "25. I ricchi ne gettavano tante nelle casse del tesoro (Marco 12:41)"
+    type: H
+    start: J7
+    positions[6]{row,col,letter}:
+      6,9,M
+      6,10,O
+      6,11,N
+      6,12,E
+      6,13,T
+      6,14,E
+  - num: 26
+    word: DAGHE
+    clue: "26. Spade corte a due tagli (1 Re 18:28)"
+    type: H
+    start: F8
+    positions[5]{row,col,letter}:
+      7,5,D
+      7,6,A
+      7,7,G
+      7,8,H
+      7,9,E
+  - num: 27
+    word: TROMBA
+    clue: "27. Si suonava in battaglia (1 Corinti 14:8)"
+    type: H
+    start: A9
+    positions[6]{row,col,letter}:
+      8,0,T
+      8,1,R
+      8,2,O
+      8,3,M
+      8,4,B
+      8,5,A
+  - num: 29
+    word: MACINA
+    clue: "29. Se era piccola si azionava a mano, se era grande si usava un asino (Isaia 47:2; Matteo 18:6)"
+    type: H
+    start: J9
+    positions[6]{row,col,letter}:
+      8,9,M
+      8,10,A
+      8,11,C
+      8,12,I
+      8,13,N
+      8,14,A
+  - num: 31
+    word: NOE
+    clue: "31. Fu un predicatore di giustizia (2 Pietro 2:5)"
+    type: H
+    start: G10
+    positions[3]{row,col,letter}:
+      9,6,N
+      9,7,O
+      9,8,E
+  - num: 33
+    word: APELLE
+    clue: "33. Cristiano di Roma chiamato “l’approvato in Cristo” (Romani 16:10)"
+    type: H
+    start: B11
+    positions[6]{row,col,letter}:
+      10,1,A
+      10,2,P
+      10,3,E
+      10,4,L
+      10,5,L
+      10,6,E
+  - num: 35
+    word: TABITA
+    clue: "35. Confezionava vesti e mantelli per le vedove bisognose della congregazione (Atti 9:36, 39)"
+    type: H
+    start: I11
+    positions[6]{row,col,letter}:
+      10,8,T
+      10,9,A
+      10,10,B
+      10,11,I
+      10,12,T
+      10,13,A
+  - num: 38
+    word: DORMIRE
+    clue: "38. Piace farlo al pigro (Proverbi 6:9-11)"
+    type: H
+    start: E12
+    positions[7]{row,col,letter}:
+      11,4,D
+      11,5,O
+      11,6,R
+      11,7,M
+      11,8,I
+      11,9,R
+      11,10,E
+  - num: 40
+    word: UZZIA
+    clue: "40. Il re di Giuda che divenne lebbroso per la sua presunzione (2 Cronache 26:16-21)"
+    type: H
+    start: A13
+    positions[5]{row,col,letter}:
+      12,0,U
+      12,1,Z
+      12,2,Z
+      12,3,I
+      12,4,A
+  - num: 41
+    word: RUOTE
+    clue: "41. Quelle del carro visto in visione da Ezechiele erano piene di occhi (Ezechiele 10:12)"
+    type: H
+    start: K13
+    positions[5]{row,col,letter}:
+      12,10,R
+      12,11,U
+      12,12,O
+      12,13,T
+      12,14,E
+  - num: 42
+    word: DIASPRO
+    clue: "42. Pietra preziosa presente sul pettorale del sommo sacerdote (Esodo 39:8-11)"
+    type: H
+    start: E14
+    positions[7]{row,col,letter}:
+      13,4,D
+      13,5,I
+      13,6,A
+      13,7,S
+      13,8,P
+      13,9,R
+      13,10,O
+  - num: 43
+    word: EFOD
+    clue: "43. Gedeone, con il bottino di una guerra, ne fece uno che poi divenne un idolo (Giudici 8:26, 27)"
+    type: H
+    start: A15
+    positions[4]{row,col,letter}:
+      14,0,E
+      14,1,F
+      14,2,O
+      14,3,D
+  - num: 44
+    word: ALFEO
+    clue: "44. Il padre dell’apostolo Matteo Levi (Matteo 9:9; Marco 2:14)"
+    type: H
+    start: F15
+    positions[5]{row,col,letter}:
+      14,5,A
+      14,6,L
+      14,7,F
+      14,8,E
+      14,9,O
+  - num: 45
+    word: MOSE
+    clue: "45. Se non annegò è solo perché si trovava in un’arca (Esodo 2:2-10)"
+    type: H
+    start: L15
+    positions[4]{row,col,letter}:
+      14,11,M
+      14,12,O
+      14,13,S
+      14,14,E
+  - num: 1
+    word: ESAU
+    clue: "1. Il primo figlio nato a Isacco e Rebecca (Genesi 25:21-25)"
+    type: V
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,E
+      1,0,S
+      2,0,A
+      3,0,U
+  - num: 2
+    word: OVILE
+    clue: "2. In quello del “piccolo gregge” non ci sono le “altre pecore” (Giovanni 10:16)"
+    type: V
+    start: C1
+    positions[5]{row,col,letter}:
+      0,2,O
+      1,2,V
+      2,2,I
+      3,2,L
+      4,2,E
+  - num: 4
+    word: TADDEO
+    clue: "4. Uno dei dodici apostoli (Matteo 10:2-4)"
+    type: V
+    start: G1
+    positions[6]{row,col,letter}:
+      0,6,T
+      1,6,A
+      2,6,D
+      3,6,D
+      4,6,E
+      5,6,O
+  - num: 5
+    word: NINIVE
+    clue: "5. Doveva predicarvi Giona (Giona 1:2)"
+    type: V
+    start: I1
+    positions[6]{row,col,letter}:
+      0,8,N
+      1,8,I
+      2,8,N
+      3,8,I
+      4,8,V
+      5,8,E
+  - num: 7
+    word: RUBEN
+    clue: "7. Il primogenito di Giacobbe (Genesi 35:23)"
+    type: V
+    start: M1
+    positions[5]{row,col,letter}:
+      0,12,R
+      1,12,U
+      2,12,B
+      3,12,E
+      4,12,N
+  - num: 8
+    word: MULA
+    clue: "8. Salomone cavalcò quella di Davide quando fu unto re (1 Re 1:38)"
+    type: V
+    start: O1
+    positions[4]{row,col,letter}:
+      0,14,M
+      1,14,U
+      2,14,L
+      3,14,A
+  - num: 9
+    word: MARCHI
+    clue: "9. Paolo disse che portava sul suo corpo quelli di uno schiavo di Gesù (Galati 6:17)"
+    type: V
+    start: E2
+    positions[6]{row,col,letter}:
+      1,4,M
+      2,4,A
+      3,4,R
+      4,4,C
+      5,4,H
+      6,4,I
+  - num: 10
+    word: ANELLO
+    clue: "10. Poteva ornare il naso o la mano (Ezechiele 16:12; Luca 15:22)"
+    type: V
+    start: K2
+    positions[6]{row,col,letter}:
+      1,10,A
+      2,10,N
+      3,10,E
+      4,10,L
+      5,10,L
+      6,10,O
+  - num: 14
+    word: SAMARIA
+    clue: "14. Regione in cui si cominciò a predicare sistematicamente dopo la morte di Gesù (Atti 1:8)"
+    type: V
+    start: B5
+    positions[7]{row,col,letter}:
+      4,1,S
+      5,1,A
+      6,1,M
+      7,1,A
+      8,1,R
+      9,1,I
+      10,1,A
+  - num: 15
+    word: COLOMBE
+    clue: "15. Gesù le usò come simbolo di innocenza (Matteo 10:16)"
+    type: V
+    start: D5
+    positions[7]{row,col,letter}:
+      4,3,C
+      5,3,O
+      6,3,L
+      7,3,O
+      8,3,M
+      9,3,B
+      10,3,E
+  - num: 17
+    word: EUNUCHI
+    clue: "17. Isaia predisse che a quelli fedeli Geova avrebbe dato “un monumento e un nome” (Isaia 56:4, 5)"
+    type: V
+    start: L5
+    positions[7]{row,col,letter}:
+      4,11,E
+      5,11,U
+      6,11,N
+      7,11,U
+      8,11,C
+      9,11,H
+      10,11,I
+  - num: 18
+    word: OTTANTA
+    clue: "18. Per raggiungere questa età bisogna avere “speciale potenza” (Salmo 90:10)"
+    type: V
+    start: N5
+    positions[7]{row,col,letter}:
+      4,13,O
+      5,13,T
+      6,13,T
+      7,13,A
+      8,13,N
+      9,13,T
+      10,13,A
+  - num: 19
+    word: LUTTO
+    clue: "19. Si fa per i morti (Ezechiele 24:17)"
+    type: V
+    start: A6
+    positions[5]{row,col,letter}:
+      5,0,L
+      6,0,U
+      7,0,T
+      8,0,T
+      9,0,O
+  - num: 21
+    word: REGNO
+    clue: "21. È il tema della buona notizia (Matteo 24:14)"
+    type: V
+    start: H6
+    positions[5]{row,col,letter}:
+      5,7,R
+      6,7,E
+      7,7,G
+      8,7,N
+      9,7,O
+  - num: 22
+    word: MESAC
+    clue: "22. Non si inchinò davanti all’immagine d’oro fatta erigere da Nabucodonosor (Daniele 3:12)"
+    type: V
+    start: O6
+    positions[5]{row,col,letter}:
+      5,14,M
+      6,14,E
+      7,14,S
+      8,14,A
+      9,14,C
+  - num: 24
+    word: ADA
+    clue: "24. La prima delle mogli di Lamec (Genesi 4:19)"
+    type: V
+    start: F7
+    positions[3]{row,col,letter}:
+      6,5,A
+      7,5,D
+      8,5,A
+  - num: 25
+    word: MEM
+    clue: "25. Tredicesima lettera dell’alfabeto ebraico (Salmo 25:12)"
+    type: V
+    start: J7
+    positions[3]{row,col,letter}:
+      6,9,M
+      7,9,E
+      8,9,M
+  - num: 28
+    word: BILDAD
+    clue: "28. Uno dei falsi confortatori di Giobbe (Giobbe 2:11)"
+    type: V
+    start: E9
+    positions[6]{row,col,letter}:
+      8,4,B
+      9,4,I
+      10,4,L
+      11,4,D
+      12,4,A
+      13,4,D
+  - num: 30
+    word: ALBERO
+    clue: "30. Si riconosce dal suo frutto (Matteo 12:33)"
+    type: V
+    start: K9
+    positions[6]{row,col,letter}:
+      8,10,A
+      9,10,L
+      10,10,B
+      11,10,E
+      12,10,R
+      13,10,O
+  - num: 31
+    word: NERGAL
+    clue: "31. Divinità babilonese che le popolazioni deportate dall’Assiria nel territorio di Samaria continuarono ad adorare (2 Re 17:24, 30, 33)"
+    type: V
+    start: G10
+    positions[6]{row,col,letter}:
+      9,6,N
+      10,6,E
+      11,6,R
+      12,6,G
+      13,6,A
+      14,6,L
+  - num: 32
+    word: ETIOPE
+    clue: "32. Lo era Ebed-Melec (Geremia 38:7)"
+    type: V
+    start: I10
+    positions[6]{row,col,letter}:
+      9,8,E
+      10,8,T
+      11,8,I
+      12,8,O
+      13,8,P
+      14,8,E
+  - num: 34
+    word: POZZO
+    clue: "34. Vi si attingeva l’acqua (Genesi 24:20)"
+    type: V
+    start: C11
+    positions[5]{row,col,letter}:
+      10,2,P
+      11,2,O
+      12,2,Z
+      13,2,Z
+      14,2,O
+  - num: 36
+    word: TRONO
+    clue: "36. Quello di Geova è nei cieli (Salmo 11:4)"
+    type: V
+    start: M11
+    positions[5]{row,col,letter}:
+      10,12,T
+      11,12,R
+      12,12,O
+      13,12,N
+      14,12,O
+  - num: 37
+    word: LUCE
+    clue: "37. Non può mischiarsi con le tenebre (2 Corinti 6:14)"
+    type: V
+    start: A12
+    positions[4]{row,col,letter}:
+      11,0,L
+      12,0,U
+      13,0,C
+      14,0,E
+  - num: 39
+    word: PECE
+    clue: "39. Sostanza vischiosa impermeabilizzante (Esodo 2:3)"
+    type: V
+    start: O12
+    positions[4]{row,col,letter}:
+      11,14,P
+      12,14,E
+      13,14,C
+      14,14,E
+metadata:
+  totalNumbers: 45
+  horizontalStarts: 25
+  verticalStarts: 25
+  totalWords: 50
+  createdAt: "2025-12-26T18:01:09.235Z"

@@ -1,0 +1,900 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,0,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,1,0,1,0,1,0,1,0,1,0,1,0,1,1
+  - [15]: 0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+  - [15]: 1,1,1,1,0,0,1,0,1,0,0,1,1,1,1
+  - [15]: 1,1,0,0,1,1,1,1,1,1,1,0,0,1,1
+  - [15]: 1,0,1,1,1,0,1,0,1,0,1,1,1,0,1
+  - [15]: 1,1,0,0,1,1,1,1,1,1,1,0,0,1,1
+  - [15]: 1,1,1,1,0,0,1,0,1,0,0,1,1,1,1
+  - [15]: 0,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+  - [15]: 1,1,0,1,0,1,0,1,0,1,0,1,0,1,1
+  - [15]: 1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,0,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+numberedCells[63]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,1,2,false,true
+  0,3,3,false,true
+  0,5,4,true,true
+  0,6,5,false,true
+  0,8,6,false,true
+  0,9,7,false,true
+  0,11,8,true,true
+  0,13,9,false,true
+  0,14,10,false,true
+  1,0,11,true,false
+  1,3,12,true,false
+  1,4,13,false,true
+  1,8,14,true,false
+  1,10,15,false,true
+  1,13,16,true,false
+  2,0,17,true,false
+  2,7,18,false,true
+  2,9,19,true,false
+  3,0,20,true,false
+  3,13,21,true,false
+  4,1,22,true,false
+  4,2,23,false,true
+  4,6,24,false,true
+  4,8,25,false,true
+  4,12,26,false,true
+  5,0,27,true,true
+  5,11,28,true,false
+  5,14,29,false,true
+  6,0,30,true,false
+  6,4,31,true,true
+  6,10,32,false,true
+  6,13,33,true,false
+  7,2,34,true,false
+  7,10,35,true,false
+  8,0,36,true,false
+  8,1,37,false,true
+  8,4,38,true,false
+  8,13,39,true,true
+  9,0,40,true,false
+  9,2,41,false,true
+  9,3,42,false,true
+  9,11,43,true,true
+  9,12,44,false,true
+  10,1,45,true,false
+  10,5,46,false,true
+  10,7,47,false,true
+  10,9,48,false,true
+  11,0,49,true,true
+  11,13,50,true,false
+  11,14,51,false,true
+  12,0,52,true,false
+  12,4,53,false,true
+  12,9,54,true,false
+  12,10,55,false,true
+  13,0,56,true,false
+  13,3,57,true,false
+  13,6,58,false,true
+  13,8,59,true,true
+  13,13,60,true,false
+  14,0,61,true,false
+  14,5,62,true,false
+  14,11,63,true,false
+words:
+  orizzontali[24]{num,word,clue}:
+    1,TAAS,"1. Nipote di Abraamo, figlio di Nahor e di Reuma (Genesi 22:23, 24)"
+    4,LANCE,"4. Saranno trasformate in cesoie (Isaia 2:4)"
+    8,ARCA,"8. Uzza mori per averla toccata (2 Samuele 6:6, 7)"
+    11,ADORAM,"11. Il capo dei coscritti per i lavori forzati che fu lapidato al tempo di Roboamo (1 Re 12:18)"
+    12,CLAN,"12. Gruppo di famiglie discendenti da un ceppo comune (Genesi 25:16)"
+    14,EREC,"14. Una delle quattro citta che furono il principio del regno di Nimrod (Genesi 10:10)"
+    16,MICAIA,"16. Profeta di Geova che non ebbe timore di pronunciare la verita al re Acab (1 Re 22:1-17)"
+    17,ATTI,"17. Libro della Bibbia"
+    19,ENOC,"19. Patriarca antidiluviano"
+    20,LIEVITO,"20. Simbolo di corruzione"
+    21,NABUCODONOSOR,"21. Il re che voleva uccidere Sadrac, Mesac e Abednego (Daniele 3:19, 20)"
+    22,AGO,"22. Strumento per cucire"
+    27,DEMA,"27. Abbandono Paolo (2 Timoteo 4:10)"
+    28,ENOC,"28. Figlio di Caino"
+    30,SUPPLICAZIONI,"30. Preghiere insistenti"
+    31,TICHICO,"31. Collaboratore di Paolo"
+    33,RUT,"33. Moabita fedele"
+    34,ROMA,"34. Capitale dell'impero"
+    35,OFNI,"35. Figlio di Eli"
+    36,TRALCI,"36. Rami della vite"
+    40,DEMA,"40. Compagno di Paolo"
+    43,ROMA,"43. Citta dove Paolo fu prigioniero"
+    45,SUPPLICAZIONI,"45. Richieste umili"
+    49,ATAC,"49. Citta di Giuda (1 Cronache 2:54)"
+    50,LECITE,"50. Permesse"
+    52,TRALCI,"52. Rami"
+    54,LODE,"54. Espressione di gloria"
+    56,CAPO,"56. Leader"
+    57,LODE,"57. Ringraziamento"
+    59,OFNI,"59. Sacerdote indegno"
+    60,EFESO,"60. Citta dell'Asia Minore"
+    61,ASIA,"61. Provincia romana"
+    62,EFESO,"62. Sede di una congregazione"
+    63,ASIA,"63. Continente"
+  verticali[24]{num,word,clue}:
+    1,TRAE,"1. Ricava"
+    2,ARDENTE,"2. Infuocato"
+    3,SCRIBI,"3. Copisti della Legge"
+    4,LAMEC,"4. Padre di Noe"
+    5,ERMON,"5. Monte"
+    6,ACCUSE,"6. Imputazioni"
+    7,CHIDRON,"7. Torrente vicino a Gerusalemme"
+    8,ACAN,"8. Prese cose destinate alla distruzione"
+    13,EUD,"13. Giudice mancino"
+    15,ORECCHI,"15. Organi dell'udito"
+    18,OMICIDA,"18. Assassino"
+    23,ASDOD,"23. Citta filistea"
+    24,CORDA,"24. Fune"
+    25,LOT,"25. Nipote di Abraamo"
+    26,ORO,"26. Metallo prezioso"
+    29,CESAREA,"29. Porto della Palestina"
+    32,AMITTAI,"32. Padre di Giona"
+    37,APOLLO,"37. Eloquente alessandrino"
+    39,ROCCIA,"39. Pietra"
+    41,LOIDE,"41. Nonna di Timoteo"
+    42,CAM,"42. Figlio di Noe"
+    44,ZOLFO,"44. Elemento"
+    46,ATAC,"46. Localita"
+    47,CEFA,"47. Pietro"
+    48,IONE,"48. Profeta inghiottito"
+    51,EFOD,"51. Paramento sacerdotale"
+    53,ALFA,"53. Prima lettera greca"
+    55,OSIA,"55. Re di Giuda"
+    58,ASIA,"58. Regione"
+placements[48]:
+  - num: 1
+    word: TAAS
+    clue: "1. Nipote di Abraamo, figlio di Nahor e di Reuma (Genesi 22:23, 24)"
+    type: H
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,T
+      0,1,A
+      0,2,A
+      0,3,S
+  - num: 4
+    word: LANCE
+    clue: "4. Saranno trasformate in cesoie (Isaia 2:4)"
+    type: H
+    start: F1
+    positions[5]{row,col,letter}:
+      0,5,L
+      0,6,A
+      0,7,N
+      0,8,C
+      0,9,E
+  - num: 8
+    word: ARCA
+    clue: "8. Uzza mori per averla toccata (2 Samuele 6:6, 7)"
+    type: H
+    start: L1
+    positions[4]{row,col,letter}:
+      0,11,A
+      0,12,R
+      0,13,C
+      0,14,A
+  - num: 11
+    word: ADORAM
+    clue: "11. Il capo dei coscritti per i lavori forzati che fu lapidato al tempo di Roboamo (1 Re 12:18)"
+    type: H
+    start: A2
+    positions[6]{row,col,letter}:
+      1,0,A
+      1,1,D
+      1,2,O
+      1,3,R
+      1,4,A
+      1,5,M
+  - num: 12
+    word: CLAN
+    clue: "12. Gruppo di famiglie discendenti da un ceppo comune (Genesi 25:16)"
+    type: H
+    start: D2
+    positions[4]{row,col,letter}:
+      1,3,C
+      1,4,L
+      1,5,A
+      1,6,N
+  - num: 14
+    word: EREC
+    clue: "14. Una delle quattro citta che furono il principio del regno di Nimrod (Genesi 10:10)"
+    type: H
+    start: I2
+    positions[4]{row,col,letter}:
+      1,8,E
+      1,9,R
+      1,10,E
+      1,11,C
+  - num: 16
+    word: MICAIA
+    clue: "16. Profeta di Geova che non ebbe timore di pronunciare la verita al re Acab (1 Re 22:1-17)"
+    type: H
+    start: N2
+    positions[6]{row,col,letter}:
+      1,13,M
+      1,14,I
+      2,0,C
+      2,1,A
+      2,2,I
+      2,3,A
+  - num: 17
+    word: ATTI
+    clue: "17. Libro della Bibbia"
+    type: H
+    start: A3
+    positions[4]{row,col,letter}:
+      2,0,A
+      2,1,T
+      2,2,T
+      2,3,I
+  - num: 19
+    word: ENOC
+    clue: "19. Patriarca antidiluviano"
+    type: H
+    start: J3
+    positions[4]{row,col,letter}:
+      2,9,E
+      2,10,N
+      2,11,O
+      2,12,C
+  - num: 20
+    word: LIEVITO
+    clue: "20. Simbolo di corruzione"
+    type: H
+    start: A4
+    positions[7]{row,col,letter}:
+      3,0,L
+      3,1,I
+      3,2,E
+      3,3,V
+      3,4,I
+      3,5,T
+      3,6,O
+  - num: 21
+    word: NABUCODONOSOR
+    clue: "21. Il re che voleva uccidere Sadrac, Mesac e Abednego (Daniele 3:19, 20)"
+    type: H
+    start: B5
+    positions[13]{row,col,letter}:
+      4,1,N
+      4,2,A
+      4,3,B
+      4,4,U
+      4,5,C
+      4,6,O
+      4,7,D
+      4,8,O
+      4,9,N
+      4,10,O
+      4,11,S
+      4,12,O
+      4,13,R
+  - num: 22
+    word: AGO
+    clue: "22. Strumento per cucire"
+    type: H
+    start: A6
+    positions[3]{row,col,letter}:
+      5,0,A
+      5,1,G
+      5,2,O
+  - num: 27
+    word: DEMA
+    clue: "27. Abbandono Paolo (2 Timoteo 4:10)"
+    type: H
+    start: A6
+    positions[4]{row,col,letter}:
+      5,0,D
+      5,1,E
+      5,2,M
+      5,3,A
+  - num: 28
+    word: ENOC
+    clue: "28. Figlio di Caino"
+    type: H
+    start: L6
+    positions[4]{row,col,letter}:
+      5,11,E
+      5,12,N
+      5,13,O
+      5,14,C
+  - num: 30
+    word: SUPPLICAZIONI
+    clue: "30. Preghiere insistenti"
+    type: H
+    start: A7
+    positions[13]{row,col,letter}:
+      6,0,S
+      6,1,U
+      6,2,P
+      6,3,P
+      6,4,L
+      6,5,I
+      6,6,C
+      6,7,A
+      6,8,Z
+      6,9,I
+      6,10,O
+      6,11,N
+      6,12,I
+  - num: 31
+    word: TICHICO
+    clue: "31. Collaboratore di Paolo"
+    type: H
+    start: E7
+    positions[7]{row,col,letter}:
+      6,4,T
+      6,5,I
+      6,6,C
+      6,7,H
+      6,8,I
+      6,9,C
+      6,10,O
+  - num: 33
+    word: RUT
+    clue: "33. Moabita fedele"
+    type: H
+    start: N7
+    positions[3]{row,col,letter}:
+      6,13,R
+      6,14,U
+      7,0,T
+  - num: 34
+    word: ROMA
+    clue: "34. Capitale dell'impero"
+    type: H
+    start: C8
+    positions[4]{row,col,letter}:
+      7,2,R
+      7,3,O
+      7,4,M
+      7,5,A
+  - num: 35
+    word: OFNI
+    clue: "35. Figlio di Eli"
+    type: H
+    start: K8
+    positions[4]{row,col,letter}:
+      7,10,O
+      7,11,F
+      7,12,N
+      7,13,I
+  - num: 36
+    word: TRALCI
+    clue: "36. Rami della vite"
+    type: H
+    start: A9
+    positions[6]{row,col,letter}:
+      8,0,T
+      8,1,R
+      8,2,A
+      8,3,L
+      8,4,C
+      8,5,I
+  - num: 38
+    word: TICHICO
+    clue: "38. Messaggero fedele"
+    type: H
+    start: E9
+    positions[7]{row,col,letter}:
+      8,4,T
+      8,5,I
+      8,6,C
+      8,7,H
+      8,8,I
+      8,9,C
+      8,10,O
+  - num: 39
+    word: AD
+    clue: "39. Preposizione"
+    type: H
+    start: N9
+    positions[2]{row,col,letter}:
+      8,13,A
+      8,14,D
+  - num: 40
+    word: DEMA
+    clue: "40. Compagno di Paolo"
+    type: H
+    start: A10
+    positions[4]{row,col,letter}:
+      9,0,D
+      9,1,E
+      9,2,M
+      9,3,A
+  - num: 43
+    word: ROMA
+    clue: "43. Citta dove Paolo fu prigioniero"
+    type: H
+    start: L10
+    positions[4]{row,col,letter}:
+      9,11,R
+      9,12,O
+      9,13,M
+      9,14,A
+  - num: 45
+    word: SUPPLICAZIONI
+    clue: "45. Richieste umili"
+    type: H
+    start: B11
+    positions[13]{row,col,letter}:
+      10,1,S
+      10,2,U
+      10,3,P
+      10,4,P
+      10,5,L
+      10,6,I
+      10,7,C
+      10,8,A
+      10,9,Z
+      10,10,I
+      10,11,O
+      10,12,N
+      10,13,I
+  - num: 49
+    word: ATAC
+    clue: "49. Citta di Giuda (1 Cronache 2:54)"
+    type: H
+    start: A12
+    positions[4]{row,col,letter}:
+      11,0,A
+      11,1,T
+      11,2,A
+      11,3,C
+  - num: 50
+    word: LECITE
+    clue: "50. Permesse"
+    type: H
+    start: N12
+    positions[6]{row,col,letter}:
+      11,13,L
+      11,14,E
+      12,0,C
+      12,1,I
+      12,2,T
+      12,3,E
+  - num: 52
+    word: TRALCI
+    clue: "52. Rami"
+    type: H
+    start: A13
+    positions[6]{row,col,letter}:
+      12,0,T
+      12,1,R
+      12,2,A
+      12,3,L
+      12,4,C
+      12,5,I
+  - num: 54
+    word: LODE
+    clue: "54. Espressione di gloria"
+    type: H
+    start: J13
+    positions[4]{row,col,letter}:
+      12,9,L
+      12,10,O
+      12,11,D
+      12,12,E
+  - num: 56
+    word: CAPO
+    clue: "56. Leader"
+    type: H
+    start: A14
+    positions[4]{row,col,letter}:
+      13,0,C
+      13,1,A
+      13,2,P
+      13,3,O
+  - num: 57
+    word: LODE
+    clue: "57. Ringraziamento"
+    type: H
+    start: D14
+    positions[4]{row,col,letter}:
+      13,3,L
+      13,4,O
+      13,5,D
+      13,6,E
+  - num: 59
+    word: OFNI
+    clue: "59. Sacerdote indegno"
+    type: H
+    start: I14
+    positions[4]{row,col,letter}:
+      13,8,O
+      13,9,F
+      13,10,N
+      13,11,I
+  - num: 60
+    word: EFESO
+    clue: "60. Citta dell'Asia Minore"
+    type: H
+    start: N14
+    positions[5]{row,col,letter}:
+      13,13,E
+      13,14,F
+      14,0,E
+      14,1,S
+      14,2,O
+  - num: 61
+    word: ASIA
+    clue: "61. Provincia romana"
+    type: H
+    start: A15
+    positions[4]{row,col,letter}:
+      14,0,A
+      14,1,S
+      14,2,I
+      14,3,A
+  - num: 62
+    word: EFESO
+    clue: "62. Sede di una congregazione"
+    type: H
+    start: F15
+    positions[5]{row,col,letter}:
+      14,5,E
+      14,6,F
+      14,7,E
+      14,8,S
+      14,9,O
+  - num: 63
+    word: ASIA
+    clue: "63. Continente"
+    type: H
+    start: L15
+    positions[4]{row,col,letter}:
+      14,11,A
+      14,12,S
+      14,13,I
+      14,14,A
+  - num: 1
+    word: TRAE
+    clue: "1. Ricava"
+    type: V
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,T
+      1,0,R
+      2,0,A
+      3,0,E
+  - num: 2
+    word: ARDENTE
+    clue: "2. Infuocato"
+    type: V
+    start: B1
+    positions[7]{row,col,letter}:
+      0,1,A
+      1,1,R
+      2,1,D
+      3,1,E
+      4,1,N
+      5,1,T
+      6,1,E
+  - num: 3
+    word: SCRIBI
+    clue: "3. Copisti della Legge"
+    type: V
+    start: D1
+    positions[6]{row,col,letter}:
+      0,3,S
+      1,3,C
+      2,3,R
+      3,3,I
+      4,3,B
+      5,3,I
+  - num: 4
+    word: LAMEC
+    clue: "4. Padre di Noe"
+    type: V
+    start: F1
+    positions[5]{row,col,letter}:
+      0,5,L
+      1,5,A
+      2,5,M
+      3,5,E
+      4,5,C
+  - num: 5
+    word: ERMON
+    clue: "5. Monte"
+    type: V
+    start: G1
+    positions[5]{row,col,letter}:
+      0,6,E
+      1,6,R
+      2,6,M
+      3,6,O
+      4,6,N
+  - num: 6
+    word: ACCUSE
+    clue: "6. Imputazioni"
+    type: V
+    start: I1
+    positions[6]{row,col,letter}:
+      0,8,A
+      1,8,C
+      2,8,C
+      3,8,U
+      4,8,S
+      5,8,E
+  - num: 7
+    word: CHIDRON
+    clue: "7. Torrente vicino a Gerusalemme"
+    type: V
+    start: J1
+    positions[7]{row,col,letter}:
+      0,9,C
+      1,9,H
+      2,9,I
+      3,9,D
+      4,9,R
+      5,9,O
+      6,9,N
+  - num: 8
+    word: ACAN
+    clue: "8. Prese cose destinate alla distruzione"
+    type: V
+    start: L1
+    positions[4]{row,col,letter}:
+      0,11,A
+      1,11,C
+      2,11,A
+      3,11,N
+  - num: 9
+    word: CHIDRON
+    clue: "9. Valle"
+    type: V
+    start: N1
+    positions[7]{row,col,letter}:
+      0,13,C
+      1,13,H
+      2,13,I
+      3,13,D
+      4,13,R
+      5,13,O
+      6,13,N
+  - num: 10
+    word: ACAN
+    clue: "10. Trasgressore"
+    type: V
+    start: O1
+    positions[4]{row,col,letter}:
+      0,14,A
+      1,14,C
+      2,14,A
+      3,14,N
+  - num: 13
+    word: EUD
+    clue: "13. Giudice mancino"
+    type: V
+    start: E2
+    positions[3]{row,col,letter}:
+      1,4,E
+      2,4,U
+      3,4,D
+  - num: 15
+    word: ORECCHI
+    clue: "15. Organi dell'udito"
+    type: V
+    start: K2
+    positions[7]{row,col,letter}:
+      1,10,O
+      2,10,R
+      3,10,E
+      4,10,C
+      5,10,C
+      6,10,H
+      7,10,I
+  - num: 18
+    word: OMICIDA
+    clue: "18. Assassino"
+    type: V
+    start: H3
+    positions[7]{row,col,letter}:
+      2,7,O
+      3,7,M
+      4,7,I
+      5,7,C
+      6,7,I
+      7,7,D
+      8,7,A
+  - num: 23
+    word: ASDOD
+    clue: "23. Citta filistea"
+    type: V
+    start: C5
+    positions[5]{row,col,letter}:
+      4,2,A
+      5,2,S
+      6,2,D
+      7,2,O
+      8,2,D
+  - num: 24
+    word: CORDA
+    clue: "24. Fune"
+    type: V
+    start: G5
+    positions[5]{row,col,letter}:
+      4,6,C
+      5,6,O
+      6,6,R
+      7,6,D
+      8,6,A
+  - num: 25
+    word: LOT
+    clue: "25. Nipote di Abraamo"
+    type: V
+    start: I5
+    positions[3]{row,col,letter}:
+      4,8,L
+      5,8,O
+      6,8,T
+  - num: 26
+    word: ORO
+    clue: "26. Metallo prezioso"
+    type: V
+    start: M5
+    positions[3]{row,col,letter}:
+      4,12,O
+      5,12,R
+      6,12,O
+  - num: 29
+    word: CESAREA
+    clue: "29. Porto della Palestina"
+    type: V
+    start: O6
+    positions[7]{row,col,letter}:
+      5,14,C
+      6,14,E
+      7,14,S
+      8,14,A
+      9,14,R
+      10,14,E
+      11,14,A
+  - num: 32
+    word: AMITTAI
+    clue: "32. Padre di Giona"
+    type: V
+    start: K7
+    positions[7]{row,col,letter}:
+      6,10,A
+      7,10,M
+      8,10,I
+      9,10,T
+      10,10,T
+      11,10,A
+      12,10,I
+  - num: 37
+    word: APOLLO
+    clue: "37. Eloquente alessandrino"
+    type: V
+    start: B9
+    positions[6]{row,col,letter}:
+      8,1,A
+      9,1,P
+      10,1,O
+      11,1,L
+      12,1,L
+      13,1,O
+  - num: 39
+    word: ROCCIA
+    clue: "39. Pietra"
+    type: V
+    start: N9
+    positions[6]{row,col,letter}:
+      8,13,R
+      9,13,O
+      10,13,C
+      11,13,C
+      12,13,I
+      13,13,A
+  - num: 41
+    word: LOIDE
+    clue: "41. Nonna di Timoteo"
+    type: V
+    start: C10
+    positions[5]{row,col,letter}:
+      9,2,L
+      10,2,O
+      11,2,I
+      12,2,D
+      13,2,E
+  - num: 42
+    word: CAM
+    clue: "42. Figlio di Noe"
+    type: V
+    start: D10
+    positions[3]{row,col,letter}:
+      9,3,C
+      10,3,A
+      11,3,M
+  - num: 44
+    word: ZOLFO
+    clue: "44. Elemento"
+    type: V
+    start: M10
+    positions[5]{row,col,letter}:
+      9,12,Z
+      10,12,O
+      11,12,L
+      12,12,F
+      13,12,O
+  - num: 46
+    word: ATAC
+    clue: "46. Localita"
+    type: V
+    start: F11
+    positions[4]{row,col,letter}:
+      10,5,A
+      11,5,T
+      12,5,A
+      13,5,C
+  - num: 47
+    word: CEFA
+    clue: "47. Pietro"
+    type: V
+    start: H11
+    positions[4]{row,col,letter}:
+      10,7,C
+      11,7,E
+      12,7,F
+      13,7,A
+  - num: 48
+    word: IONE
+    clue: "48. Profeta inghiottito"
+    type: V
+    start: J11
+    positions[4]{row,col,letter}:
+      10,9,I
+      11,9,O
+      12,9,N
+      13,9,E
+  - num: 51
+    word: EFOD
+    clue: "51. Paramento sacerdotale"
+    type: V
+    start: O12
+    positions[4]{row,col,letter}:
+      11,14,E
+      12,14,F
+      13,14,O
+      14,14,D
+  - num: 53
+    word: ALFA
+    clue: "53. Prima lettera greca"
+    type: V
+    start: E13
+    positions[4]{row,col,letter}:
+      12,4,A
+      13,4,L
+      14,4,F
+      15,4,A
+  - num: 55
+    word: OSIA
+    clue: "55. Re di Giuda"
+    type: V
+    start: K13
+    positions[4]{row,col,letter}:
+      12,10,O
+      13,10,S
+      14,10,I
+      15,10,A
+  - num: 58
+    word: ASIA
+    clue: "58. Regione"
+    type: V
+    start: G14
+    positions[4]{row,col,letter}:
+      13,6,A
+      14,6,S
+      15,6,I
+      16,6,A
+metadata:
+  totalNumbers: 63
+  horizontalStarts: 36
+  verticalStarts: 36
+  totalWords: 48
+  createdAt: "2025-12-26T10:33:46.053Z"

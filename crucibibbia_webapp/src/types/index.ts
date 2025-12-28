@@ -83,3 +83,70 @@ export interface PuzzleSummary {
   completed: boolean;
   inProgress: boolean;
 }
+
+// Score breakdown
+export interface ScoreBreakdown {
+  baseScore: number;
+  timeBonus: number;
+  hintPenalty: number;
+  errorPenalty: number;
+  perfectBonus: number;
+  streakBonus: number;
+  total: number;
+}
+
+// Player level
+export type PlayerLevel =
+  | 'principiante'
+  | 'apprendista'
+  | 'studente'
+  | 'lettore'
+  | 'esperto'
+  | 'maestro'
+  | 'sapiente'
+  | 'erudito';
+
+export interface PlayerLevelInfo {
+  id: PlayerLevel;
+  title: string;
+  minScore: number;
+}
+
+// Player statistics
+export interface PlayerStats {
+  totalScore: number;
+  totalCompleted: number;
+  perfectPuzzles: number;
+  averageTime: number | null;
+  currentStreak: number;
+  bestStreak: number;
+  totalHintsUsed: number;
+  level: PlayerLevelInfo;
+}
+
+// Puzzle completion record
+export interface CompletedPuzzle {
+  puzzleId: string;
+  completedAt: string;
+  time: number;
+  score: number;
+  hintsUsed: number;
+  errorsCount: number;
+  perfectCompletion: boolean;
+}
+
+// Game state saved in localStorage
+export interface SavedGameState {
+  puzzleId: string;
+  userGrid: string[][];
+  elapsedTime: number;
+  hintsUsed: number;
+  errorsFound: number;
+  lastModified: string;
+}
+
+// App settings
+export interface AppSettings {
+  darkMode: boolean;
+  soundEnabled: boolean;
+}

@@ -18,6 +18,13 @@ class PuzzleRepository(
     // Cache per i dati dei puzzle caricati
     private val puzzleDataCache = mutableMapOf<String, PuzzleData>()
 
+    // SharedPreferences for storing best streak
+    private val prefs = context.getSharedPreferences("puzzle_stats", Context.MODE_PRIVATE)
+
+    private companion object {
+        const val PREF_BEST_STREAK = "best_streak"
+    }
+
     fun getAllPuzzles(): Flow<List<Puzzle>> = puzzleDao.getAllPuzzles()
 
     fun getPuzzlesByYear(year: Int): Flow<List<Puzzle>> = puzzleDao.getPuzzlesByYear(year)
@@ -290,6 +297,23 @@ class PuzzleRepository(
         return streak
     }
 
+    /**
+     * Gets the best (highest) streak ever achieved by the player
+     */
+    private fun getBestStreak(): Int {
+        return prefs.getInt(PREF_BEST_STREAK, 0)
+    }
+
+    /**
+     * Updates the best streak if the current streak is higher
+     */
+    private fun updateBestStreakIfNeeded(currentStreak: Int) {
+        val bestStreak = getBestStreak()
+        if (currentStreak > bestStreak) {
+            prefs.edit().putInt(PREF_BEST_STREAK, currentStreak).apply()
+        }
+    }
+
     suspend fun getPlayerStats(): PlayerStats {
         val totalScore = getTotalScore()
         val totalCompleted = getCompletedPuzzleCount()
@@ -300,6 +324,10 @@ class PuzzleRepository(
         val totalHintsUsed = getTotalHintsUsed()
         val level = PlayerLevel.fromScore(totalScore)
 
+        // Update best streak if current streak is higher
+        updateBestStreakIfNeeded(currentStreak)
+        val bestStreak = getBestStreak()
+
         return PlayerStats(
             totalScore = totalScore,
             totalCompleted = totalCompleted,
@@ -307,7 +335,7 @@ class PuzzleRepository(
             perfectPuzzles = perfectPuzzles,
             averageTime = averageTime,
             currentStreak = currentStreak,
-            bestStreak = currentStreak, // TODO: Store best streak separately
+            bestStreak = bestStreak,
             totalHintsUsed = totalHintsUsed,
             level = level
         )

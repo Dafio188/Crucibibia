@@ -1,0 +1,832 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 1,1,1,1,1,1,0,0,0,1,1,1,1,1,1
+  - [15]: 1,1,0,0,1,1,1,1,1,1,1,0,0,1,1
+  - [15]: 1,1,0,1,1,1,1,0,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+  - [15]: 1,0,1,1,1,1,0,1,0,1,1,1,1,0,1
+  - [15]: 0,0,1,0,1,1,1,1,1,1,1,0,1,0,0
+  - [15]: 1,0,1,1,1,1,0,1,0,1,1,1,1,0,1
+  - [15]: 1,1,1,1,1,0,1,1,1,0,1,1,1,1,1
+  - [15]: 1,1,1,1,0,1,1,1,1,1,0,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,0,1,1,1,1,0,1,1
+  - [15]: 1,1,0,0,1,1,1,1,1,1,1,0,0,1,1
+  - [15]: 1,1,1,1,1,1,0,0,0,1,1,1,1,1,1
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+numberedCells[56]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,1,2,false,true
+  0,4,3,false,true
+  0,5,4,false,true
+  0,8,5,true,false
+  0,9,6,false,true
+  0,10,7,false,true
+  0,13,8,false,true
+  0,14,9,false,true
+  1,0,10,true,false
+  1,9,11,true,false
+  2,4,12,true,false
+  2,6,13,false,true
+  2,8,14,false,true
+  3,3,15,true,true
+  3,8,16,true,false
+  3,11,17,false,true
+  4,0,18,true,false
+  4,2,19,false,true
+  4,5,20,true,false
+  4,7,21,false,true
+  4,11,22,true,false
+  4,12,23,false,true
+  5,0,24,true,false
+  5,4,25,false,true
+  5,6,26,true,false
+  5,10,27,true,true
+  6,2,28,true,false
+  6,5,29,false,true
+  6,9,30,true,true
+  7,4,31,true,false
+  8,0,32,false,true
+  8,2,33,true,false
+  8,3,34,false,true
+  8,9,35,true,false
+  8,11,36,false,true
+  8,14,37,false,true
+  9,0,38,true,false
+  9,1,39,false,true
+  9,6,40,true,true
+  9,8,41,false,true
+  9,10,42,true,false
+  9,13,43,false,true
+  10,0,44,true,false
+  10,5,45,true,true
+  10,9,46,false,true
+  10,11,47,true,false
+  11,3,48,true,false
+  11,4,49,false,true
+  11,8,50,true,false
+  11,10,51,false,true
+  12,4,52,true,false
+  13,0,53,true,false
+  13,9,54,true,false
+  14,0,55,true,false
+  14,8,56,true,false
+words:
+  orizzontali[31]{num,word,clue}:
+    1,CATRAME,"1. Impermeabilizzava l’arca di Noè (Genesi 6:14)"
+    5,CLAUDIA,"5. Cristiana di Roma (2 Timoteo 4:21)"
+    10,OSCURE,"10. Buie (Salmo 139:12)"
+    11,ESTASI,"11. Chi vi cade può ricevere visioni (Atti 22:17, 18)"
+    12,INFERMI,"12. Gesù li guariva (Luca 4:40)"
+    15,GESU,"15. Il mediatore del nuovo patto (Ebrei 12:24)"
+    16,OBAB,"16. Il cognato di Mosè che funse da guida per Israele (Numeri 10:29-31)"
+    18,SAZI,"18. Non hanno fame (1 Samuele 2:5)"
+    20,AGABO,"20. Profeta cristiano che predisse l’arresto di Paolo (Atti 21:10, 11)"
+    22,ESCA,"22. Si usa per prendere in trappola una vittima ignara (Isaia 29:21)"
+    24,STARE,"24. “Chi pensa di ----- in piedi badi di non cadere” (1 Corinti 10:12)"
+    26,ASA,"26. Re di Giuda che combatté l’idolatria (1 Re 15:11-13)"
+    27,PETOR,"27. Luogo da cui proveniva Balaam (Numeri 22:5)"
+    28,NOMI,"28. Adamo li dava agli animali (Genesi 2:20)"
+    30,MARE,"30. Gesù vi camminò sopra (Matteo 14:26)"
+    31,POTIFAR,"31. Acquistò Giuseppe (Genesi 39:1)"
+    33,ABIA,"33. Secondo re delle due tribù del regno di Giuda (2 Cronache 12:16)"
+    35,LANA,"35. La lavoravano le donne israelite (Proverbi 31:13)"
+    38,AUREA,"38. Lo è una lega che contiene oro (1 Re 10:16)"
+    40,VIE,"40. Quelle di Geova sono molto più alte delle nostre (Isaia 55:9)"
+    42,NENIA,"42. Canto funebre (Amos 8:10)"
+    44,GRAN,"44. Gerusalemme era “la città del ---- Re” (Matteo 5:35)"
+    45,PIAGA,"45. L’israelita a cui se ne formava una doveva farsi vedere dal sacerdote (Levitico 13:2, 3)"
+    47,VOTI,"47. Chi li fa li deve pagare (Matteo 5:33)"
+    48,ENOS,"48. Nipote di Adamo da cui discendiamo (1 Cronache 1:1)"
+    50,ALTE,"50. Lo erano in genere le mura delle città (Deuteronomio 3:5)"
+    52,UDITIVE,"52. Le facoltà che Gesù ripristinò a un sordo (Marco 7:32, 35)"
+    53,ARREDI,"53. Quelli del tabernacolo furono fatti secondo un modello divino (Esodo 25:9)"
+    54,ELIFAZ,"54. Uno dei falsi confortatori di Giobbe (Giobbe 2:11)"
+    55,NEBAIOT,"55. Primogenito di Ismaele i cui discendenti erano pastori nomadi (Genesi 25:13; Isaia 60:7)"
+    56,TIATIRA,"56. Una delle sette congregazioni a cui fu indirizzato il libro di Rivelazione (Rivelazione 1:11)"
+  verticali[31]{num,word,clue}:
+    1,COLOSSE,"1. Città dell’Asia Minore dove c’era una fiorente congregazione (Colossesi 1:2)"
+    2,ASENAT,"2. Moglie egiziana di Giuseppe, madre di Manasse ed Efraim (Genesi 46:20)"
+    3,ARIE,"3. Se le danno gli orgogliosi (Sofonia 2:10)"
+    4,MENSA,"4. Si può imbandire (Salmo 23:5)"
+    6,LEMBO,"6. La parte estrema di una veste (Zaccaria 8:23)"
+    7,ASIA,"7. Il distretto delle sette congregazioni a cui scrisse Giovanni (Rivelazione 1:4)"
+    8,ISACCO,"8. Sposò Rebecca (Genesi 24:67)"
+    9,AIUTARE,"9. Geova è sempre in grado di farlo, non importa quanti siano i nemici (2 Cronache 14:11)"
+    13,FUGA,"13. Giuseppe si diede ad essa per non concedersi alla moglie di Potifar (Genesi 39:12)"
+    14,ROBA,"14. Non è bene frugare in quella degli altri (Genesi 31:37)"
+    15,GIRO,"15. Gesù ne intraprese uno nelle città e nei villaggi della Galilea (Matteo 9:35)"
+    17,BEER,"17. Termine ebraico che significa “pozzo” (Genesi 16:14; 26:32, 33; Numeri 21:16)"
+    19,ZANZARA,"19. Insetto che succhia il sangue (Geremia 46:20)"
+    21,ASSIRIA,"21. La patria di Sennacherib (2 Re 18:13)"
+    23,STEFANO,"23. Primo martire cristiano (Atti 7:59)"
+    25,EMPIA,"25. Malvagia, blasfema (Numeri 14:27)"
+    27,PARAN,"27. Regione desertica in cui Israele vagò prima di entrare nella Terra Promessa (Numeri 13:26)"
+    29,IOA,"29. Uno dei tre delegati che Ezechia mandò ad ascoltare l’inviato assiro Rabsache (Isaia 36:2, 3)"
+    30,MAL,"30. Gesù ebbe pietà delle folle perché “erano --- ridotte e disperse” (Matteo 9:36)"
+    32,MAGADAN,"32. Zona presso il Mar di Galilea dove Gesù si ritirò dopo avere sfamato miracolosamente circa 4.000 uomini (Matteo 15:39)"
+    34,BENE,"34. Chi lo sa fare deve farlo (Giacomo 4:17)"
+    36,NEVE,"36. È fuori luogo d’estate (Proverbi 26:1)"
+    37,GAIEZZA,"37. Grande allegria, festosità (Giobbe 3:22)"
+    39,URLARE,"39. Nella presa di Gerico bisognava farlo solo su ordine di Giosuè (Giosuè 6:10)"
+    40,VISI,"40. Facce, volti (Daniele 1:15)"
+    41,EGAI,"41. Eunuco che praticò trattamenti di bellezza a Ester (Ester 2:3, 8)"
+    43,ITAMAR,"43. Figlio di Aaronne (Esodo 28:1)"
+    45,PODIO,"45. È utile a chi deve parlare in pubblico (Neemia 8:4)"
+    46,ALVEI,"46. Solchi in cui scorrono fiumi o torrenti (Gioele 3:18)"
+    49,NUDI,"49. Lo erano in origine Adamo ed Eva (Genesi 2:25)"
+    51,TELA,"51. La tesse il ragno (Isaia 59:5)"
+placements[62]:
+  - num: 1
+    word: CATRAME
+    clue: "1. Impermeabilizzava l’arca di Noè (Genesi 6:14)"
+    type: H
+    start: A1
+    positions[7]{row,col,letter}:
+      0,0,C
+      0,1,A
+      0,2,T
+      0,3,R
+      0,4,A
+      0,5,M
+      0,6,E
+  - num: 5
+    word: CLAUDIA
+    clue: "5. Cristiana di Roma (2 Timoteo 4:21)"
+    type: H
+    start: I1
+    positions[7]{row,col,letter}:
+      0,8,C
+      0,9,L
+      0,10,A
+      0,11,U
+      0,12,D
+      0,13,I
+      0,14,A
+  - num: 10
+    word: OSCURE
+    clue: "10. Buie (Salmo 139:12)"
+    type: H
+    start: A2
+    positions[6]{row,col,letter}:
+      1,0,O
+      1,1,S
+      1,2,C
+      1,3,U
+      1,4,R
+      1,5,E
+  - num: 11
+    word: ESTASI
+    clue: "11. Chi vi cade può ricevere visioni (Atti 22:17, 18)"
+    type: H
+    start: J2
+    positions[6]{row,col,letter}:
+      1,9,E
+      1,10,S
+      1,11,T
+      1,12,A
+      1,13,S
+      1,14,I
+  - num: 12
+    word: INFERMI
+    clue: "12. Gesù li guariva (Luca 4:40)"
+    type: H
+    start: E3
+    positions[7]{row,col,letter}:
+      2,4,I
+      2,5,N
+      2,6,F
+      2,7,E
+      2,8,R
+      2,9,M
+      2,10,I
+  - num: 15
+    word: GESU
+    clue: "15. Il mediatore del nuovo patto (Ebrei 12:24)"
+    type: H
+    start: D4
+    positions[4]{row,col,letter}:
+      3,3,G
+      3,4,E
+      3,5,S
+      3,6,U
+  - num: 16
+    word: OBAB
+    clue: "16. Il cognato di Mosè che funse da guida per Israele (Numeri 10:29-31)"
+    type: H
+    start: I4
+    positions[4]{row,col,letter}:
+      3,8,O
+      3,9,B
+      3,10,A
+      3,11,B
+  - num: 18
+    word: SAZI
+    clue: "18. Non hanno fame (1 Samuele 2:5)"
+    type: H
+    start: A5
+    positions[4]{row,col,letter}:
+      4,0,S
+      4,1,A
+      4,2,Z
+      4,3,I
+  - num: 20
+    word: AGABO
+    clue: "20. Profeta cristiano che predisse l’arresto di Paolo (Atti 21:10, 11)"
+    type: H
+    start: F5
+    positions[5]{row,col,letter}:
+      4,5,A
+      4,6,G
+      4,7,A
+      4,8,B
+      4,9,O
+  - num: 22
+    word: ESCA
+    clue: "22. Si usa per prendere in trappola una vittima ignara (Isaia 29:21)"
+    type: H
+    start: L5
+    positions[4]{row,col,letter}:
+      4,11,E
+      4,12,S
+      4,13,C
+      4,14,A
+  - num: 24
+    word: STARE
+    clue: "24. “Chi pensa di ----- in piedi badi di non cadere” (1 Corinti 10:12)"
+    type: H
+    start: A6
+    positions[5]{row,col,letter}:
+      5,0,S
+      5,1,T
+      5,2,A
+      5,3,R
+      5,4,E
+  - num: 26
+    word: ASA
+    clue: "26. Re di Giuda che combatté l’idolatria (1 Re 15:11-13)"
+    type: H
+    start: G6
+    positions[3]{row,col,letter}:
+      5,6,A
+      5,7,S
+      5,8,A
+  - num: 27
+    word: PETOR
+    clue: "27. Luogo da cui proveniva Balaam (Numeri 22:5)"
+    type: H
+    start: K6
+    positions[5]{row,col,letter}:
+      5,10,P
+      5,11,E
+      5,12,T
+      5,13,O
+      5,14,R
+  - num: 28
+    word: NOMI
+    clue: "28. Adamo li dava agli animali (Genesi 2:20)"
+    type: H
+    start: C7
+    positions[4]{row,col,letter}:
+      6,2,N
+      6,3,O
+      6,4,M
+      6,5,I
+  - num: 30
+    word: MARE
+    clue: "30. Gesù vi camminò sopra (Matteo 14:26)"
+    type: H
+    start: J7
+    positions[4]{row,col,letter}:
+      6,9,M
+      6,10,A
+      6,11,R
+      6,12,E
+  - num: 31
+    word: POTIFAR
+    clue: "31. Acquistò Giuseppe (Genesi 39:1)"
+    type: H
+    start: E8
+    positions[7]{row,col,letter}:
+      7,4,P
+      7,5,O
+      7,6,T
+      7,7,I
+      7,8,F
+      7,9,A
+      7,10,R
+  - num: 33
+    word: ABIA
+    clue: "33. Secondo re delle due tribù del regno di Giuda (2 Cronache 12:16)"
+    type: H
+    start: C9
+    positions[4]{row,col,letter}:
+      8,2,A
+      8,3,B
+      8,4,I
+      8,5,A
+  - num: 35
+    word: LANA
+    clue: "35. La lavoravano le donne israelite (Proverbi 31:13)"
+    type: H
+    start: J9
+    positions[4]{row,col,letter}:
+      8,9,L
+      8,10,A
+      8,11,N
+      8,12,A
+  - num: 38
+    word: AUREA
+    clue: "38. Lo è una lega che contiene oro (1 Re 10:16)"
+    type: H
+    start: A10
+    positions[5]{row,col,letter}:
+      9,0,A
+      9,1,U
+      9,2,R
+      9,3,E
+      9,4,A
+  - num: 40
+    word: VIE
+    clue: "40. Quelle di Geova sono molto più alte delle nostre (Isaia 55:9)"
+    type: H
+    start: G10
+    positions[3]{row,col,letter}:
+      9,6,V
+      9,7,I
+      9,8,E
+  - num: 42
+    word: NENIA
+    clue: "42. Canto funebre (Amos 8:10)"
+    type: H
+    start: K10
+    positions[5]{row,col,letter}:
+      9,10,N
+      9,11,E
+      9,12,N
+      9,13,I
+      9,14,A
+  - num: 44
+    word: GRAN
+    clue: "44. Gerusalemme era “la città del ---- Re” (Matteo 5:35)"
+    type: H
+    start: A11
+    positions[4]{row,col,letter}:
+      10,0,G
+      10,1,R
+      10,2,A
+      10,3,N
+  - num: 45
+    word: PIAGA
+    clue: "45. L’israelita a cui se ne formava una doveva farsi vedere dal sacerdote (Levitico 13:2, 3)"
+    type: H
+    start: F11
+    positions[5]{row,col,letter}:
+      10,5,P
+      10,6,I
+      10,7,A
+      10,8,G
+      10,9,A
+  - num: 47
+    word: VOTI
+    clue: "47. Chi li fa li deve pagare (Matteo 5:33)"
+    type: H
+    start: L11
+    positions[4]{row,col,letter}:
+      10,11,V
+      10,12,O
+      10,13,T
+      10,14,I
+  - num: 48
+    word: ENOS
+    clue: "48. Nipote di Adamo da cui discendiamo (1 Cronache 1:1)"
+    type: H
+    start: D12
+    positions[4]{row,col,letter}:
+      11,3,E
+      11,4,N
+      11,5,O
+      11,6,S
+  - num: 50
+    word: ALTE
+    clue: "50. Lo erano in genere le mura delle città (Deuteronomio 3:5)"
+    type: H
+    start: I12
+    positions[4]{row,col,letter}:
+      11,8,A
+      11,9,L
+      11,10,T
+      11,11,E
+  - num: 52
+    word: UDITIVE
+    clue: "52. Le facoltà che Gesù ripristinò a un sordo (Marco 7:32, 35)"
+    type: H
+    start: E13
+    positions[7]{row,col,letter}:
+      12,4,U
+      12,5,D
+      12,6,I
+      12,7,T
+      12,8,I
+      12,9,V
+      12,10,E
+  - num: 53
+    word: ARREDI
+    clue: "53. Quelli del tabernacolo furono fatti secondo un modello divino (Esodo 25:9)"
+    type: H
+    start: A14
+    positions[6]{row,col,letter}:
+      13,0,A
+      13,1,R
+      13,2,R
+      13,3,E
+      13,4,D
+      13,5,I
+  - num: 54
+    word: ELIFAZ
+    clue: "54. Uno dei falsi confortatori di Giobbe (Giobbe 2:11)"
+    type: H
+    start: J14
+    positions[6]{row,col,letter}:
+      13,9,E
+      13,10,L
+      13,11,I
+      13,12,F
+      13,13,A
+      13,14,Z
+  - num: 55
+    word: NEBAIOT
+    clue: "55. Primogenito di Ismaele i cui discendenti erano pastori nomadi (Genesi 25:13; Isaia 60:7)"
+    type: H
+    start: A15
+    positions[7]{row,col,letter}:
+      14,0,N
+      14,1,E
+      14,2,B
+      14,3,A
+      14,4,I
+      14,5,O
+      14,6,T
+  - num: 56
+    word: TIATIRA
+    clue: "56. Una delle sette congregazioni a cui fu indirizzato il libro di Rivelazione (Rivelazione 1:11)"
+    type: H
+    start: I15
+    positions[7]{row,col,letter}:
+      14,8,T
+      14,9,I
+      14,10,A
+      14,11,T
+      14,12,I
+      14,13,R
+      14,14,A
+  - num: 1
+    word: COLOSSE
+    clue: "1. Città dell’Asia Minore dove c’era una fiorente congregazione (Colossesi 1:2)"
+    type: V
+    start: A1
+    positions[7]{row,col,letter}:
+      0,0,C
+      1,0,O
+      2,0,L
+      3,0,O
+      4,0,S
+      5,0,S
+      6,0,E
+  - num: 2
+    word: ASENAT
+    clue: "2. Moglie egiziana di Giuseppe, madre di Manasse ed Efraim (Genesi 46:20)"
+    type: V
+    start: B1
+    positions[6]{row,col,letter}:
+      0,1,A
+      1,1,S
+      2,1,E
+      3,1,N
+      4,1,A
+      5,1,T
+  - num: 3
+    word: ARIE
+    clue: "3. Se le danno gli orgogliosi (Sofonia 2:10)"
+    type: V
+    start: E1
+    positions[4]{row,col,letter}:
+      0,4,A
+      1,4,R
+      2,4,I
+      3,4,E
+  - num: 4
+    word: MENSA
+    clue: "4. Si può imbandire (Salmo 23:5)"
+    type: V
+    start: F1
+    positions[5]{row,col,letter}:
+      0,5,M
+      1,5,E
+      2,5,N
+      3,5,S
+      4,5,A
+  - num: 6
+    word: LEMBO
+    clue: "6. La parte estrema di una veste (Zaccaria 8:23)"
+    type: V
+    start: J1
+    positions[5]{row,col,letter}:
+      0,9,L
+      1,9,E
+      2,9,M
+      3,9,B
+      4,9,O
+  - num: 7
+    word: ASIA
+    clue: "7. Il distretto delle sette congregazioni a cui scrisse Giovanni (Rivelazione 1:4)"
+    type: V
+    start: K1
+    positions[4]{row,col,letter}:
+      0,10,A
+      1,10,S
+      2,10,I
+      3,10,A
+  - num: 8
+    word: ISACCO
+    clue: "8. Sposò Rebecca (Genesi 24:67)"
+    type: V
+    start: N1
+    positions[6]{row,col,letter}:
+      0,13,I
+      1,13,S
+      2,13,A
+      3,13,C
+      4,13,C
+      5,13,O
+  - num: 9
+    word: AIUTARE
+    clue: "9. Geova è sempre in grado di farlo, non importa quanti siano i nemici (2 Cronache 14:11)"
+    type: V
+    start: O1
+    positions[7]{row,col,letter}:
+      0,14,A
+      1,14,I
+      2,14,U
+      3,14,T
+      4,14,A
+      5,14,R
+      6,14,E
+  - num: 13
+    word: FUGA
+    clue: "13. Giuseppe si diede ad essa per non concedersi alla moglie di Potifar (Genesi 39:12)"
+    type: V
+    start: G3
+    positions[4]{row,col,letter}:
+      2,6,F
+      3,6,U
+      4,6,G
+      5,6,A
+  - num: 14
+    word: ROBA
+    clue: "14. Non è bene frugare in quella degli altri (Genesi 31:37)"
+    type: V
+    start: I3
+    positions[4]{row,col,letter}:
+      2,8,R
+      3,8,O
+      4,8,B
+      5,8,A
+  - num: 15
+    word: GIRO
+    clue: "15. Gesù ne intraprese uno nelle città e nei villaggi della Galilea (Matteo 9:35)"
+    type: V
+    start: D4
+    positions[4]{row,col,letter}:
+      3,3,G
+      4,3,I
+      5,3,R
+      6,3,O
+  - num: 17
+    word: BEER
+    clue: "17. Termine ebraico che significa “pozzo” (Genesi 16:14; 26:32, 33; Numeri 21:16)"
+    type: V
+    start: L4
+    positions[4]{row,col,letter}:
+      3,11,B
+      4,11,E
+      5,11,E
+      6,11,R
+  - num: 19
+    word: ZANZARA
+    clue: "19. Insetto che succhia il sangue (Geremia 46:20)"
+    type: V
+    start: C5
+    positions[7]{row,col,letter}:
+      4,2,Z
+      5,2,A
+      6,2,N
+      7,2,Z
+      8,2,A
+      9,2,R
+      10,2,A
+  - num: 21
+    word: ASSIRIA
+    clue: "21. La patria di Sennacherib (2 Re 18:13)"
+    type: V
+    start: H5
+    positions[7]{row,col,letter}:
+      4,7,A
+      5,7,S
+      6,7,S
+      7,7,I
+      8,7,R
+      9,7,I
+      10,7,A
+  - num: 23
+    word: STEFANO
+    clue: "23. Primo martire cristiano (Atti 7:59)"
+    type: V
+    start: M5
+    positions[7]{row,col,letter}:
+      4,12,S
+      5,12,T
+      6,12,E
+      7,12,F
+      8,12,A
+      9,12,N
+      10,12,O
+  - num: 25
+    word: EMPIA
+    clue: "25. Malvagia, blasfema (Numeri 14:27)"
+    type: V
+    start: E6
+    positions[5]{row,col,letter}:
+      5,4,E
+      6,4,M
+      7,4,P
+      8,4,I
+      9,4,A
+  - num: 27
+    word: PARAN
+    clue: "27. Regione desertica in cui Israele vagò prima di entrare nella Terra Promessa (Numeri 13:26)"
+    type: V
+    start: K6
+    positions[5]{row,col,letter}:
+      5,10,P
+      6,10,A
+      7,10,R
+      8,10,A
+      9,10,N
+  - num: 29
+    word: IOA
+    clue: "29. Uno dei tre delegati che Ezechia mandò ad ascoltare l’inviato assiro Rabsache (Isaia 36:2, 3)"
+    type: V
+    start: F7
+    positions[3]{row,col,letter}:
+      6,5,I
+      7,5,O
+      8,5,A
+  - num: 30
+    word: MAL
+    clue: "30. Gesù ebbe pietà delle folle perché “erano --- ridotte e disperse” (Matteo 9:36)"
+    type: V
+    start: J7
+    positions[3]{row,col,letter}:
+      6,9,M
+      7,9,A
+      8,9,L
+  - num: 32
+    word: MAGADAN
+    clue: "32. Zona presso il Mar di Galilea dove Gesù si ritirò dopo avere sfamato miracolosamente circa 4.000 uomini (Matteo 15:39)"
+    type: V
+    start: A9
+    positions[7]{row,col,letter}:
+      8,0,M
+      9,0,A
+      10,0,G
+      11,0,A
+      12,0,D
+      13,0,A
+      14,0,N
+  - num: 34
+    word: BENE
+    clue: "34. Chi lo sa fare deve farlo (Giacomo 4:17)"
+    type: V
+    start: D9
+    positions[4]{row,col,letter}:
+      8,3,B
+      9,3,E
+      10,3,N
+      11,3,E
+  - num: 36
+    word: NEVE
+    clue: "36. È fuori luogo d’estate (Proverbi 26:1)"
+    type: V
+    start: L9
+    positions[4]{row,col,letter}:
+      8,11,N
+      9,11,E
+      10,11,V
+      11,11,E
+  - num: 37
+    word: GAIEZZA
+    clue: "37. Grande allegria, festosità (Giobbe 3:22)"
+    type: V
+    start: O9
+    positions[7]{row,col,letter}:
+      8,14,G
+      9,14,A
+      10,14,I
+      11,14,E
+      12,14,Z
+      13,14,Z
+      14,14,A
+  - num: 39
+    word: URLARE
+    clue: "39. Nella presa di Gerico bisognava farlo solo su ordine di Giosuè (Giosuè 6:10)"
+    type: V
+    start: B10
+    positions[6]{row,col,letter}:
+      9,1,U
+      10,1,R
+      11,1,L
+      12,1,A
+      13,1,R
+      14,1,E
+  - num: 40
+    word: VISI
+    clue: "40. Facce, volti (Daniele 1:15)"
+    type: V
+    start: G10
+    positions[4]{row,col,letter}:
+      9,6,V
+      10,6,I
+      11,6,S
+      12,6,I
+  - num: 41
+    word: EGAI
+    clue: "41. Eunuco che praticò trattamenti di bellezza a Ester (Ester 2:3, 8)"
+    type: V
+    start: I10
+    positions[4]{row,col,letter}:
+      9,8,E
+      10,8,G
+      11,8,A
+      12,8,I
+  - num: 43
+    word: ITAMAR
+    clue: "43. Figlio di Aaronne (Esodo 28:1)"
+    type: V
+    start: N10
+    positions[6]{row,col,letter}:
+      9,13,I
+      10,13,T
+      11,13,A
+      12,13,M
+      13,13,A
+      14,13,R
+  - num: 45
+    word: PODIO
+    clue: "45. È utile a chi deve parlare in pubblico (Neemia 8:4)"
+    type: V
+    start: F11
+    positions[5]{row,col,letter}:
+      10,5,P
+      11,5,O
+      12,5,D
+      13,5,I
+      14,5,O
+  - num: 46
+    word: ALVEI
+    clue: "46. Solchi in cui scorrono fiumi o torrenti (Gioele 3:18)"
+    type: V
+    start: J11
+    positions[5]{row,col,letter}:
+      10,9,A
+      11,9,L
+      12,9,V
+      13,9,E
+      14,9,I
+  - num: 49
+    word: NUDI
+    clue: "49. Lo erano in origine Adamo ed Eva (Genesi 2:25)"
+    type: V
+    start: E12
+    positions[4]{row,col,letter}:
+      11,4,N
+      12,4,U
+      13,4,D
+      14,4,I
+  - num: 51
+    word: TELA
+    clue: "51. La tesse il ragno (Isaia 59:5)"
+    type: V
+    start: K12
+    positions[4]{row,col,letter}:
+      11,10,T
+      12,10,E
+      13,10,L
+      14,10,A
+metadata:
+  totalNumbers: 56
+  horizontalStarts: 31
+  verticalStarts: 31
+  totalWords: 62
+  createdAt: "2025-12-26T18:38:18.928Z"

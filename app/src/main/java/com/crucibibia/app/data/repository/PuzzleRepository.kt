@@ -3,6 +3,7 @@ package com.crucibibia.app.data.repository
 import android.content.Context
 import com.crucibibia.app.data.local.PuzzleDao
 import com.crucibibia.app.data.model.*
+import com.crucibibia.app.data.parser.ToonParser
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.coroutines.Dispatchers
@@ -14,6 +15,7 @@ class PuzzleRepository(
     private val context: Context
 ) {
     private val gson = Gson()
+    private val toonParser = ToonParser()
 
     // Cache per i dati dei puzzle caricati
     private val puzzleDataCache = mutableMapOf<String, PuzzleData>()
@@ -58,6 +60,7 @@ class PuzzleRepository(
 
     /**
      * Carica i dati completi del puzzle dagli assets
+     * Supporta sia formato .toon che .json
      */
     suspend fun loadPuzzleData(puzzleId: String): PuzzleData? = withContext(Dispatchers.IO) {
         // Controlla cache
@@ -65,31 +68,19 @@ class PuzzleRepository(
 
         try {
             val puzzle = puzzleDao.getPuzzleById(puzzleId) ?: return@withContext null
-
-            // Carica griglia da assets/puzzles/{year}/{month}/{puzzleId}_grid.json
             val monthStr = String.format("%02d", puzzle.month)
-            val gridJson = loadJsonFromAssets("puzzles/${puzzle.year}/$monthStr/${puzzleId}_grid.json")
+            val basePath = "puzzles/${puzzle.year}/$monthStr"
 
-            // Carica definizioni da assets/puzzles/{year}/{month}/{puzzleId}_clues.json
-            val cluesJson = loadJsonFromAssets("puzzles/${puzzle.year}/$monthStr/${puzzleId}_clues.json")
+            // Prima prova a caricare il file .toon
+            val toonPath = "$basePath/${puzzleId}.toon"
+            val puzzleData = if (assetExists(toonPath)) {
+                loadFromToon(toonPath, puzzle)
+            } else {
+                // Fallback ai file JSON separati
+                loadFromJson(basePath, puzzleId, puzzle)
+            }
 
-            // Prima parsa le definizioni per ottenere i numeri corretti
-            val schemaJson = gson.fromJson(cluesJson, SchemaJson::class.java)
-
-            // Poi parsa la griglia usando le definizioni per la numerazione
-            val grid = parseGridWithClues(gridJson, schemaJson)
-
-            // Infine crea le definizioni con le posizioni corrette
-            val (horizontal, vertical) = parseCluesWithGrid(schemaJson, grid)
-
-            val puzzleData = PuzzleData(
-                puzzle = puzzle,
-                grid = grid,
-                horizontalClues = horizontal,
-                verticalClues = vertical
-            )
-
-            puzzleDataCache[puzzleId] = puzzleData
+            puzzleData?.let { puzzleDataCache[puzzleId] = it }
             puzzleData
         } catch (e: Exception) {
             e.printStackTrace()
@@ -97,7 +88,67 @@ class PuzzleRepository(
         }
     }
 
-    private fun loadJsonFromAssets(path: String): String {
+    /**
+     * Carica puzzle da file .toon
+     */
+    private fun loadFromToon(path: String, puzzle: Puzzle): PuzzleData? {
+        return try {
+            val content = loadFileFromAssets(path)
+            val toonData = toonParser.parse(content)
+            val (grid, clues) = toonParser.toGridAndClues(toonData)
+
+            PuzzleData(
+                puzzle = puzzle,
+                grid = grid,
+                horizontalClues = clues.first,
+                verticalClues = clues.second
+            )
+        } catch (e: Exception) {
+            e.printStackTrace()
+            null
+        }
+    }
+
+    /**
+     * Carica puzzle da file JSON separati (grid + clues)
+     */
+    private fun loadFromJson(basePath: String, puzzleId: String, puzzle: Puzzle): PuzzleData? {
+        // Carica griglia da assets/puzzles/{year}/{month}/{puzzleId}_grid.json
+        val gridJson = loadFileFromAssets("$basePath/${puzzleId}_grid.json")
+
+        // Carica definizioni da assets/puzzles/{year}/{month}/{puzzleId}_clues.json
+        val cluesJson = loadFileFromAssets("$basePath/${puzzleId}_clues.json")
+
+        // Prima parsa le definizioni per ottenere i numeri corretti
+        val schemaJson = gson.fromJson(cluesJson, SchemaJson::class.java)
+
+        // Poi parsa la griglia usando le definizioni per la numerazione
+        val grid = parseGridWithClues(gridJson, schemaJson)
+
+        // Infine crea le definizioni con le posizioni corrette
+        val (horizontal, vertical) = parseCluesWithGrid(schemaJson, grid)
+
+        return PuzzleData(
+            puzzle = puzzle,
+            grid = grid,
+            horizontalClues = horizontal,
+            verticalClues = vertical
+        )
+    }
+
+    /**
+     * Verifica se un asset esiste
+     */
+    private fun assetExists(path: String): Boolean {
+        return try {
+            context.assets.open(path).close()
+            true
+        } catch (e: Exception) {
+            false
+        }
+    }
+
+    private fun loadFileFromAssets(path: String): String {
         return context.assets.open(path).bufferedReader().use { it.readText() }
     }
 
@@ -237,7 +288,7 @@ class PuzzleRepository(
 
         try {
             // Carica indice dei puzzle da assets/puzzles/index.json
-            val indexJson = loadJsonFromAssets("puzzles/index.json")
+            val indexJson = loadFileFromAssets("puzzles/index.json")
             val type = object : TypeToken<List<Puzzle>>() {}.type
             val puzzles: List<Puzzle> = gson.fromJson(indexJson, type)
             puzzleDao.insertPuzzles(puzzles)

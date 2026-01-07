@@ -1,5 +1,7 @@
 package com.crucibibia.app.ui.screens
 
+import android.content.Intent
+import android.net.Uri
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -15,6 +17,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -27,6 +30,7 @@ import com.crucibibia.app.data.model.Direction
 import com.crucibibia.app.data.repository.PuzzleRepository
 import com.crucibibia.app.ui.theme.GridColors
 import com.crucibibia.app.ui.viewmodel.GameViewModel
+import com.crucibibia.app.util.BibleHelper
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -108,47 +112,100 @@ fun GameScreen(
                     .fillMaxSize()
                     .padding(paddingValues)
             ) {
-                // Grid
-                CrosswordGrid(
-                    puzzleData = uiState.puzzleData!!,
-                    userGrid = uiState.userGrid,
-                    selectedCell = uiState.selectedCell,
-                    highlightedCells = uiState.highlightedCells,
-                    errorCells = uiState.errorCells,
-                    correctCells = uiState.correctCells,
-                    revealedCells = uiState.revealedCells,
-                    onCellClick = { row, col -> viewModel.selectCell(row, col) },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(8.dp)
-                )
-
-                // Action buttons
-                ActionButtons(
-                    onCheck = { viewModel.checkAnswers() },
-                    onHint = { viewModel.revealCurrentCell() },
-                    onSolution = { showSolutionDialog = true },
-                    modifier = Modifier.padding(horizontal = 8.dp)
-                )
-
-                // Clues list
-                CluesList(
-                    horizontalClues = uiState.puzzleData!!.horizontalClues,
-                    verticalClues = uiState.puzzleData!!.verticalClues,
-                    selectedDirection = uiState.selectedDirection,
-                    onClueClick = { clue -> viewModel.selectClue(clue) },
+                // Top content (scrollable if needed)
+                Column(
                     modifier = Modifier
                         .weight(1f)
-                        .padding(8.dp)
-                )
+                        .fillMaxWidth()
+                ) {
+                    // Current clue display
+                    val context = LocalContext.current
+                    uiState.currentClue?.let { clue ->
+                        val scriptureUrl = BibleHelper.getWolUrl(clue.text)
 
-                // Keyboard
+                        Card(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(horizontal = 8.dp, vertical = 4.dp),
+                            colors = CardDefaults.cardColors(
+                                containerColor = MaterialTheme.colorScheme.primaryContainer
+                            )
+                        ) {
+                            Row(
+                                modifier = Modifier.padding(12.dp),
+                                verticalAlignment = Alignment.Top
+                            ) {
+                                Text(
+                                    text = "${clue.number}.",
+                                    style = MaterialTheme.typography.titleMedium,
+                                    fontWeight = FontWeight.Bold,
+                                    color = MaterialTheme.colorScheme.primary,
+                                    modifier = Modifier.padding(end = 8.dp)
+                                )
+                                Column(modifier = Modifier.weight(1f)) {
+                                    Text(
+                                        text = if (clue.direction == Direction.HORIZONTAL) "Orizzontale" else "Verticale",
+                                        style = MaterialTheme.typography.labelSmall,
+                                        color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.7f)
+                                    )
+                                    Text(
+                                        text = clue.text,
+                                        style = MaterialTheme.typography.bodyMedium,
+                                        color = MaterialTheme.colorScheme.onPrimaryContainer
+                                    )
+                                }
+
+                                // Bible icon - opens scripture in browser
+                                if (scriptureUrl != null) {
+                                    IconButton(
+                                        onClick = {
+                                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(scriptureUrl))
+                                            context.startActivity(intent)
+                                        },
+                                        modifier = Modifier.size(40.dp)
+                                    ) {
+                                        Icon(
+                                            imageVector = Icons.Default.MenuBook,
+                                            contentDescription = "Apri scrittura",
+                                            tint = MaterialTheme.colorScheme.primary,
+                                            modifier = Modifier.size(28.dp)
+                                        )
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    // Grid
+                    CrosswordGrid(
+                        puzzleData = uiState.puzzleData!!,
+                        userGrid = uiState.userGrid,
+                        selectedCell = uiState.selectedCell,
+                        highlightedCells = uiState.highlightedCells,
+                        errorCells = uiState.errorCells,
+                        correctCells = uiState.correctCells,
+                        revealedCells = uiState.revealedCells,
+                        onCellClick = { row, col -> viewModel.selectCell(row, col) },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(8.dp)
+                    )
+
+                    // Action buttons
+                    ActionButtons(
+                        onCheck = { viewModel.checkAnswers() },
+                        onHint = { viewModel.revealCurrentCell() },
+                        onSolution = { showSolutionDialog = true },
+                        modifier = Modifier.padding(horizontal = 8.dp)
+                    )
+                }
+
+                // Keyboard - ALWAYS at bottom with fixed height
                 CustomKeyboard(
                     onKeyPress = { letter -> viewModel.inputLetter(letter) },
                     onDelete = { viewModel.deleteLetter() },
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(4.dp)
                 )
             }
         }
@@ -385,25 +442,75 @@ fun ActionButtons(
     modifier: Modifier = Modifier
 ) {
     Row(
-        modifier = modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.SpaceEvenly
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(vertical = 8.dp),
+        horizontalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        FilledTonalButton(onClick = onCheck) {
-            Icon(Icons.Default.CheckCircle, contentDescription = null, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(4.dp))
-            Text(stringResource(R.string.check), fontSize = 12.sp)
+        // Verifica button
+        Button(
+            onClick = onCheck,
+            modifier = Modifier.weight(1f),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = MaterialTheme.colorScheme.primary
+            ),
+            contentPadding = PaddingValues(vertical = 12.dp)
+        ) {
+            Icon(
+                Icons.Default.CheckCircle,
+                contentDescription = null,
+                modifier = Modifier.size(20.dp)
+            )
+            Spacer(Modifier.width(6.dp))
+            Text(
+                text = stringResource(R.string.check),
+                fontSize = 13.sp,
+                maxLines = 1
+            )
         }
 
-        FilledTonalButton(onClick = onHint) {
-            Icon(Icons.Default.Lightbulb, contentDescription = null, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(4.dp))
-            Text(stringResource(R.string.hint), fontSize = 12.sp)
+        // Suggerimento button
+        Button(
+            onClick = onHint,
+            modifier = Modifier.weight(1f),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = MaterialTheme.colorScheme.secondary
+            ),
+            contentPadding = PaddingValues(vertical = 12.dp)
+        ) {
+            Icon(
+                Icons.Default.Lightbulb,
+                contentDescription = null,
+                modifier = Modifier.size(20.dp)
+            )
+            Spacer(Modifier.width(6.dp))
+            Text(
+                text = stringResource(R.string.hint),
+                fontSize = 13.sp,
+                maxLines = 1
+            )
         }
 
-        FilledTonalButton(onClick = onSolution) {
-            Icon(Icons.Default.Visibility, contentDescription = null, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(4.dp))
-            Text(stringResource(R.string.solution), fontSize = 12.sp)
+        // Soluzione button
+        Button(
+            onClick = onSolution,
+            modifier = Modifier.weight(1f),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = MaterialTheme.colorScheme.tertiary
+            ),
+            contentPadding = PaddingValues(vertical = 12.dp)
+        ) {
+            Icon(
+                Icons.Default.Visibility,
+                contentDescription = null,
+                modifier = Modifier.size(20.dp)
+            )
+            Spacer(Modifier.width(6.dp))
+            Text(
+                text = stringResource(R.string.solution),
+                fontSize = 13.sp,
+                maxLines = 1
+            )
         }
     }
 }

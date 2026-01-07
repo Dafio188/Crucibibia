@@ -1,0 +1,751 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,1,1,1,1,0,1,1,1,1,1,1
+  - [15]: 1,0,1,1,0,1,1,1,1,0,1,1,1,1,1
+  - [15]: 1,1,1,1,1,0,1,0,1,0,1,1,0,1,1
+  - [15]: 1,1,1,1,1,0,1,0,1,1,1,1,1,1,1
+  - [15]: 0,1,1,1,1,1,1,1,1,0,1,0,0,1,0
+  - [15]: 1,0,1,1,1,1,1,1,0,1,1,1,1,0,1
+  - [15]: 1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+  - [15]: 1,1,1,0,0,1,0,1,0,1,0,0,1,1,1
+  - [15]: 1,1,1,1,1,1,1,1,1,0,1,1,0,1,1
+  - [15]: 1,0,1,1,1,1,0,1,1,1,1,1,1,0,1
+  - [15]: 0,1,0,0,1,0,1,1,1,1,1,1,1,1,0
+  - [15]: 1,1,1,1,1,1,1,0,1,0,1,1,1,1,1
+  - [15]: 1,1,0,1,1,0,1,0,1,0,1,1,1,1,1
+  - [15]: 1,1,1,1,1,0,1,1,1,1,0,1,1,0,1
+  - [15]: 1,1,1,1,1,1,0,1,1,1,1,1,1,1,1
+numberedCells[51]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,2,2,false,true
+  0,3,3,false,true
+  0,6,4,false,true
+  0,9,5,true,false
+  0,10,6,false,true
+  0,11,7,false,true
+  0,13,8,false,true
+  0,14,9,false,true
+  1,5,10,true,false
+  1,8,11,false,true
+  1,10,12,true,false
+  2,0,13,true,false
+  2,1,14,false,true
+  2,4,15,false,true
+  3,0,16,true,false
+  3,8,17,true,false
+  4,1,18,true,false
+  4,7,19,false,true
+  5,0,20,false,true
+  5,2,21,true,false
+  5,9,22,true,true
+  5,12,23,false,true
+  5,14,24,false,true
+  6,1,25,false,true
+  6,6,26,true,false
+  6,13,27,false,true
+  7,0,28,true,false
+  7,2,29,false,true
+  7,5,30,false,true
+  7,12,31,true,false
+  8,0,32,true,false
+  8,4,33,false,true
+  8,8,34,false,true
+  8,10,35,false,true
+  8,11,36,false,true
+  9,2,37,true,false
+  9,7,38,true,false
+  9,12,39,false,true
+  10,1,40,false,true
+  10,6,41,true,true
+  10,13,42,false,true
+  11,0,43,true,true
+  11,3,44,false,true
+  11,10,45,true,false
+  11,14,46,false,true
+  12,10,47,true,false
+  13,0,48,true,false
+  13,6,49,true,false
+  14,0,50,true,false
+  14,7,51,true,false
+words:
+  orizzontali[24]{num,word,clue}:
+    1,PORTIERE,"1. Custodiva l’entrata dell’ovile (Giovanni 10:3)"
+    5,ISACCO,"5. Sposò la sorella di Labano (Genesi 24:29, 67)"
+    10,SIRI,"10. Acab re d’Israele li abbatté con una grande strage a Samaria (1 Re 20:13, 21)"
+    12,ASSUR,"12. Il figlio di Sem che fu capostipite degli assiri (Genesi 10:22)"
+    13,COPRI,"13. Persino il re di Ninive “si ----- di sacco e sedette sulla cenere” (Giona 3:6)"
+    16,ERODE,"16. Cedette alla richiesta di una danzatrice (Matteo 14:6-9)"
+    17,ENTRARE,"17. “Sforzatevi con vigore per ------- dalla porta stretta” (Luca 13:24)"
+    18,ESATTORE,"18. Il mestiere di Matteo (Matteo 10:3)"
+    21,ORRORE,"21. Sensazione mista di spavento e ripugnanza (Ezechiele 32:10)"
+    22,ATAD,"22. Il corteo funebre di Giacobbe si fermò nella sua aia per sette giorni per i riti del lutto (Genesi 50:7-10)"
+    26,OPERATORE,"26. Deve divenirlo il cristiano che non vuole essere un “uditore dimentico” (Giacomo 1:25)"
+    28,ORA,"28. Quella in cui Gesù parlò con un funzionario di Erode Antipa era la stessa in cui il figlio di quell’uomo guarì (Giovanni 4:46-53)"
+    31,REO,"31. Colpevole (Matteo 26:66)"
+    32,TESSITORI,"32. Lavoravano al telaio (Isaia 19:9, 10)"
+    37,ANNA,"37. Mandò Gesù legato a Caiafa (Giovanni 18:24)"
+    38,TSOHAR,"38. Copriva l’arca di Noè (Genesi 6:16)"
+    41,CORNELIO,"41. Il centurione che vide un angelo (Atti 10:1-3)"
+    43,CONTESA,"43. La suscita l’uomo infuriato (Proverbi 15:18)"
+    45,BAALA,"45. Città nota anche come Chiriat-Iearim (Giosuè 15:9)"
+    47,ADRIA,"47. Al tempo dell’apostolo Paolo dava nome a un mare (Atti 27:27)"
+    48,SAFAN,"48. Il segretario che lesse al re Giosia il libro della legge ritrovato nel tempio (2 Re 22:8-10)"
+    49,ORLO,"49. Quello del campo non andava mietuto (Levitico 19:9)"
+    50,AROSET,"50. Località che funse da quartier generale di Sisera (Giudici 4:2)"
+    51,VELENOSA,"51. Può esserlo una serpe (Isaia 11:8)"
+  verticali[31]{num,word,clue}:
+    1,PACE,"1. Fa parte del frutto dello spirito (Galati 5:22)"
+    2,RIPOSO,"2. Bisogna ‘fare tutto il possibile per entrare’ in quello di Dio (Ebrei 4:10, 11)"
+    3,TARDARE,"3. Indugiare, attardarsi (Genesi 45:9)"
+    4,RISTORO,"4. Lo trova chi prende su di sé il giogo di Gesù (Matteo 11:29)"
+    6,SANTITA,"6. Gli ebrei dovevano ricordare che appartiene a Geova (Esodo 28:36-38)"
+    7,ASER,"7. Secondo figlio di Zilpa, serva di Lea (Genesi 35:26)"
+    8,CUORE,"8. Molti vi commettono adulterio segretamente (Matteo 5:28)"
+    9,ORME,"9. Quelle di Cristo vanno seguite attentamente (1 Pietro 2:21)"
+    11,IDEE,"11. Non è bene averle alte (Romani 11:20)"
+    14,ORE,"14. Ce ne sono dodici di luce ogni giorno (Giovanni 11:9)"
+    15,IETRO,"15. Suocero di Mosè (Esodo 4:18)"
+    19,REPARTO,"19. Gesù fu schernito e picchiato alla presenza dell’“intero ------- delle truppe” (Marco 15:16-20)"
+    20,VUOTA,"20. Lo era la terra prima che iniziassero i giorni creativi (Genesi 1:2)"
+    22,ARD,"22. I suoi discendenti erano... arditi (Numeri 26:40)"
+    23,DOR,"23. Una delle città della Palestina che combatterono contro Giosuè (Giosuè 12:23)"
+    24,LEONE,"24. La prima delle quattro bestie della visione di Daniele era simile a esso (Daniele 7:4)"
+    25,TRE,"25. Il numero delle grandi feste annuali che Geova comandò agli israeliti di celebrare (Esodo 23:14-17)"
+    27,REI,"27. Uno degli uomini potenti di Davide che rifiutarono di unirsi alla congiura di Adonia (1 Re 1:8)"
+    29,ASA,"29. Terzo re di Giuda dopo la divisione della nazione in due regni (1 Re 15:9)"
+    30,ETA,"30. Si misura in anni (Isaia 65:20)"
+    33,INTERNE,"33. Le stanze più protette di una casa (Isaia 26:20)"
+    34,ISRAELE,"34. Il nome dato dall’angelo al patriarca che aveva “conteso con Dio” (Genesi 32:28)"
+    35,GHEBA,"35. Città in cui Gionatan abbatté una guarnigione di filistei (1 Samuele 13:3)"
+    36,BALADAN,"36. Il padre del re di Babilonia che mandò una delegazione a Ezechia (Isaia 39:1)"
+    39,RIARSO,"39. Inaridito, secco (Isaia 35:7)"
+    40,ZOFAR,"40. Uno dei falsi confortatori di Giobbe (Giobbe 2:11)"
+    41,CAPO,"41. Ce l’hanno sia l’uomo che la donna che il Cristo (1 Corinti 11:3)"
+    42,OLI,"42. Erano usati per la loro fragranza (Il Cantico dei Cantici 1:3)"
+    43,CASA,"43. Il sorvegliante deve sapere dirigere bene la sua (1 Timoteo 3:4, 5)"
+    44,TAAS,"44. Figlio di Nahor e della sua concubina Reuma (Genesi 22:23, 24)"
+    46,AAVA,"46. Fiume presso cui Esdra indisse un digiuno prima di intraprendere il viaggio verso Gerusalemme (Esdra 8:21, 31)"
+placements[55]:
+  - num: 1
+    word: PORTIERE
+    clue: "1. Custodiva l’entrata dell’ovile (Giovanni 10:3)"
+    type: H
+    start: A1
+    positions[8]{row,col,letter}:
+      0,0,P
+      0,1,O
+      0,2,R
+      0,3,T
+      0,4,I
+      0,5,E
+      0,6,R
+      0,7,E
+  - num: 5
+    word: ISACCO
+    clue: "5. Sposò la sorella di Labano (Genesi 24:29, 67)"
+    type: H
+    start: J1
+    positions[6]{row,col,letter}:
+      0,9,I
+      0,10,S
+      0,11,A
+      0,12,C
+      0,13,C
+      0,14,O
+  - num: 10
+    word: SIRI
+    clue: "10. Acab re d’Israele li abbatté con una grande strage a Samaria (1 Re 20:13, 21)"
+    type: H
+    start: F2
+    positions[4]{row,col,letter}:
+      1,5,S
+      1,6,I
+      1,7,R
+      1,8,I
+  - num: 12
+    word: ASSUR
+    clue: "12. Il figlio di Sem che fu capostipite degli assiri (Genesi 10:22)"
+    type: H
+    start: K2
+    positions[5]{row,col,letter}:
+      1,10,A
+      1,11,S
+      1,12,S
+      1,13,U
+      1,14,R
+  - num: 13
+    word: COPRI
+    clue: "13. Persino il re di Ninive “si ----- di sacco e sedette sulla cenere” (Giona 3:6)"
+    type: H
+    start: A3
+    positions[5]{row,col,letter}:
+      2,0,C
+      2,1,O
+      2,2,P
+      2,3,R
+      2,4,I
+  - num: 16
+    word: ERODE
+    clue: "16. Cedette alla richiesta di una danzatrice (Matteo 14:6-9)"
+    type: H
+    start: A4
+    positions[5]{row,col,letter}:
+      3,0,E
+      3,1,R
+      3,2,O
+      3,3,D
+      3,4,E
+  - num: 17
+    word: ENTRARE
+    clue: "17. “Sforzatevi con vigore per ------- dalla porta stretta” (Luca 13:24)"
+    type: H
+    start: I4
+    positions[7]{row,col,letter}:
+      3,8,E
+      3,9,N
+      3,10,T
+      3,11,R
+      3,12,A
+      3,13,R
+      3,14,E
+  - num: 18
+    word: ESATTORE
+    clue: "18. Il mestiere di Matteo (Matteo 10:3)"
+    type: H
+    start: B5
+    positions[8]{row,col,letter}:
+      4,1,E
+      4,2,S
+      4,3,A
+      4,4,T
+      4,5,T
+      4,6,O
+      4,7,R
+      4,8,E
+  - num: 21
+    word: ORRORE
+    clue: "21. Sensazione mista di spavento e ripugnanza (Ezechiele 32:10)"
+    type: H
+    start: C6
+    positions[6]{row,col,letter}:
+      5,2,O
+      5,3,R
+      5,4,R
+      5,5,O
+      5,6,R
+      5,7,E
+  - num: 22
+    word: ATAD
+    clue: "22. Il corteo funebre di Giacobbe si fermò nella sua aia per sette giorni per i riti del lutto (Genesi 50:7-10)"
+    type: H
+    start: J6
+    positions[4]{row,col,letter}:
+      5,9,A
+      5,10,T
+      5,11,A
+      5,12,D
+  - num: 26
+    word: OPERATORE
+    clue: "26. Deve divenirlo il cristiano che non vuole essere un “uditore dimentico” (Giacomo 1:25)"
+    type: H
+    start: G7
+    positions[9]{row,col,letter}:
+      6,6,O
+      6,7,P
+      6,8,E
+      6,9,R
+      6,10,A
+      6,11,T
+      6,12,O
+      6,13,R
+      6,14,E
+  - num: 28
+    word: ORA
+    clue: "28. Quella in cui Gesù parlò con un funzionario di Erode Antipa era la stessa in cui il figlio di quell’uomo guarì (Giovanni 4:46-53)"
+    type: H
+    start: A8
+    positions[3]{row,col,letter}:
+      7,0,O
+      7,1,R
+      7,2,A
+  - num: 31
+    word: REO
+    clue: "31. Colpevole (Matteo 26:66)"
+    type: H
+    start: M8
+    positions[3]{row,col,letter}:
+      7,12,R
+      7,13,E
+      7,14,O
+  - num: 32
+    word: TESSITORI
+    clue: "32. Lavoravano al telaio (Isaia 19:9, 10)"
+    type: H
+    start: A9
+    positions[9]{row,col,letter}:
+      8,0,T
+      8,1,E
+      8,2,S
+      8,3,S
+      8,4,I
+      8,5,T
+      8,6,O
+      8,7,R
+      8,8,I
+  - num: 37
+    word: ANNA
+    clue: "37. Mandò Gesù legato a Caiafa (Giovanni 18:24)"
+    type: H
+    start: C10
+    positions[4]{row,col,letter}:
+      9,2,A
+      9,3,N
+      9,4,N
+      9,5,A
+  - num: 38
+    word: TSOHAR
+    clue: "38. Copriva l’arca di Noè (Genesi 6:16)"
+    type: H
+    start: H10
+    positions[6]{row,col,letter}:
+      9,7,T
+      9,8,S
+      9,9,O
+      9,10,H
+      9,11,A
+      9,12,R
+  - num: 41
+    word: CORNELIO
+    clue: "41. Il centurione che vide un angelo (Atti 10:1-3)"
+    type: H
+    start: G11
+    positions[8]{row,col,letter}:
+      10,6,C
+      10,7,O
+      10,8,R
+      10,9,N
+      10,10,E
+      10,11,L
+      10,12,I
+      10,13,O
+  - num: 43
+    word: CONTESA
+    clue: "43. La suscita l’uomo infuriato (Proverbi 15:18)"
+    type: H
+    start: A12
+    positions[7]{row,col,letter}:
+      11,0,C
+      11,1,O
+      11,2,N
+      11,3,T
+      11,4,E
+      11,5,S
+      11,6,A
+  - num: 45
+    word: BAALA
+    clue: "45. Città nota anche come Chiriat-Iearim (Giosuè 15:9)"
+    type: H
+    start: K12
+    positions[5]{row,col,letter}:
+      11,10,B
+      11,11,A
+      11,12,A
+      11,13,L
+      11,14,A
+  - num: 47
+    word: ADRIA
+    clue: "47. Al tempo dell’apostolo Paolo dava nome a un mare (Atti 27:27)"
+    type: H
+    start: K13
+    positions[5]{row,col,letter}:
+      12,10,A
+      12,11,D
+      12,12,R
+      12,13,I
+      12,14,A
+  - num: 48
+    word: SAFAN
+    clue: "48. Il segretario che lesse al re Giosia il libro della legge ritrovato nel tempio (2 Re 22:8-10)"
+    type: H
+    start: A14
+    positions[5]{row,col,letter}:
+      13,0,S
+      13,1,A
+      13,2,F
+      13,3,A
+      13,4,N
+  - num: 49
+    word: ORLO
+    clue: "49. Quello del campo non andava mietuto (Levitico 19:9)"
+    type: H
+    start: G14
+    positions[4]{row,col,letter}:
+      13,6,O
+      13,7,R
+      13,8,L
+      13,9,O
+  - num: 50
+    word: AROSET
+    clue: "50. Località che funse da quartier generale di Sisera (Giudici 4:2)"
+    type: H
+    start: A15
+    positions[6]{row,col,letter}:
+      14,0,A
+      14,1,R
+      14,2,O
+      14,3,S
+      14,4,E
+      14,5,T
+  - num: 51
+    word: VELENOSA
+    clue: "51. Può esserlo una serpe (Isaia 11:8)"
+    type: H
+    start: H15
+    positions[8]{row,col,letter}:
+      14,7,V
+      14,8,E
+      14,9,L
+      14,10,E
+      14,11,N
+      14,12,O
+      14,13,S
+      14,14,A
+  - num: 1
+    word: PACE
+    clue: "1. Fa parte del frutto dello spirito (Galati 5:22)"
+    type: V
+    start: A1
+    positions[4]{row,col,letter}:
+      0,0,P
+      1,0,A
+      2,0,C
+      3,0,E
+  - num: 2
+    word: RIPOSO
+    clue: "2. Bisogna ‘fare tutto il possibile per entrare’ in quello di Dio (Ebrei 4:10, 11)"
+    type: V
+    start: C1
+    positions[6]{row,col,letter}:
+      0,2,R
+      1,2,I
+      2,2,P
+      3,2,O
+      4,2,S
+      5,2,O
+  - num: 3
+    word: TARDARE
+    clue: "3. Indugiare, attardarsi (Genesi 45:9)"
+    type: V
+    start: D1
+    positions[7]{row,col,letter}:
+      0,3,T
+      1,3,A
+      2,3,R
+      3,3,D
+      4,3,A
+      5,3,R
+      6,3,E
+  - num: 4
+    word: RISTORO
+    clue: "4. Lo trova chi prende su di sé il giogo di Gesù (Matteo 11:29)"
+    type: V
+    start: G1
+    positions[7]{row,col,letter}:
+      0,6,R
+      1,6,I
+      2,6,S
+      3,6,T
+      4,6,O
+      5,6,R
+      6,6,O
+  - num: 6
+    word: SANTITA
+    clue: "6. Gli ebrei dovevano ricordare che appartiene a Geova (Esodo 28:36-38)"
+    type: V
+    start: K1
+    positions[7]{row,col,letter}:
+      0,10,S
+      1,10,A
+      2,10,N
+      3,10,T
+      4,10,I
+      5,10,T
+      6,10,A
+  - num: 7
+    word: ASER
+    clue: "7. Secondo figlio di Zilpa, serva di Lea (Genesi 35:26)"
+    type: V
+    start: L1
+    positions[4]{row,col,letter}:
+      0,11,A
+      1,11,S
+      2,11,E
+      3,11,R
+  - num: 8
+    word: CUORE
+    clue: "8. Molti vi commettono adulterio segretamente (Matteo 5:28)"
+    type: V
+    start: N1
+    positions[5]{row,col,letter}:
+      0,13,C
+      1,13,U
+      2,13,O
+      3,13,R
+      4,13,E
+  - num: 9
+    word: ORME
+    clue: "9. Quelle di Cristo vanno seguite attentamente (1 Pietro 2:21)"
+    type: V
+    start: O1
+    positions[4]{row,col,letter}:
+      0,14,O
+      1,14,R
+      2,14,M
+      3,14,E
+  - num: 11
+    word: IDEE
+    clue: "11. Non è bene averle alte (Romani 11:20)"
+    type: V
+    start: I2
+    positions[4]{row,col,letter}:
+      1,8,I
+      2,8,D
+      3,8,E
+      4,8,E
+  - num: 14
+    word: ORE
+    clue: "14. Ce ne sono dodici di luce ogni giorno (Giovanni 11:9)"
+    type: V
+    start: B3
+    positions[3]{row,col,letter}:
+      2,1,O
+      3,1,R
+      4,1,E
+  - num: 15
+    word: IETRO
+    clue: "15. Suocero di Mosè (Esodo 4:18)"
+    type: V
+    start: E3
+    positions[5]{row,col,letter}:
+      2,4,I
+      3,4,E
+      4,4,T
+      5,4,R
+      6,4,O
+  - num: 19
+    word: REPARTO
+    clue: "19. Gesù fu schernito e picchiato alla presenza dell’“intero ------- delle truppe” (Marco 15:16-20)"
+    type: V
+    start: H5
+    positions[7]{row,col,letter}:
+      4,7,R
+      5,7,E
+      6,7,P
+      7,7,A
+      8,7,R
+      9,7,T
+      10,7,O
+  - num: 20
+    word: VUOTA
+    clue: "20. Lo era la terra prima che iniziassero i giorni creativi (Genesi 1:2)"
+    type: V
+    start: A6
+    positions[5]{row,col,letter}:
+      5,0,V
+      6,0,U
+      7,0,O
+      8,0,T
+      9,0,A
+  - num: 22
+    word: ARD
+    clue: "22. I suoi discendenti erano... arditi (Numeri 26:40)"
+    type: V
+    start: J6
+    positions[3]{row,col,letter}:
+      5,9,A
+      6,9,R
+      7,9,D
+  - num: 23
+    word: DOR
+    clue: "23. Una delle città della Palestina che combatterono contro Giosuè (Giosuè 12:23)"
+    type: V
+    start: M6
+    positions[3]{row,col,letter}:
+      5,12,D
+      6,12,O
+      7,12,R
+  - num: 24
+    word: LEONE
+    clue: "24. La prima delle quattro bestie della visione di Daniele era simile a esso (Daniele 7:4)"
+    type: V
+    start: O6
+    positions[5]{row,col,letter}:
+      5,14,L
+      6,14,E
+      7,14,O
+      8,14,N
+      9,14,E
+  - num: 25
+    word: TRE
+    clue: "25. Il numero delle grandi feste annuali che Geova comandò agli israeliti di celebrare (Esodo 23:14-17)"
+    type: V
+    start: B7
+    positions[3]{row,col,letter}:
+      6,1,T
+      7,1,R
+      8,1,E
+  - num: 27
+    word: REI
+    clue: "27. Uno degli uomini potenti di Davide che rifiutarono di unirsi alla congiura di Adonia (1 Re 1:8)"
+    type: V
+    start: N7
+    positions[3]{row,col,letter}:
+      6,13,R
+      7,13,E
+      8,13,I
+  - num: 29
+    word: ASA
+    clue: "29. Terzo re di Giuda dopo la divisione della nazione in due regni (1 Re 15:9)"
+    type: V
+    start: C8
+    positions[3]{row,col,letter}:
+      7,2,A
+      8,2,S
+      9,2,A
+  - num: 30
+    word: ETA
+    clue: "30. Si misura in anni (Isaia 65:20)"
+    type: V
+    start: F8
+    positions[3]{row,col,letter}:
+      7,5,E
+      8,5,T
+      9,5,A
+  - num: 33
+    word: INTERNE
+    clue: "33. Le stanze più protette di una casa (Isaia 26:20)"
+    type: V
+    start: E9
+    positions[7]{row,col,letter}:
+      8,4,I
+      9,4,N
+      10,4,T
+      11,4,E
+      12,4,R
+      13,4,N
+      14,4,E
+  - num: 34
+    word: ISRAELE
+    clue: "34. Il nome dato dall’angelo al patriarca che aveva “conteso con Dio” (Genesi 32:28)"
+    type: V
+    start: I9
+    positions[7]{row,col,letter}:
+      8,8,I
+      9,8,S
+      10,8,R
+      11,8,A
+      12,8,E
+      13,8,L
+      14,8,E
+  - num: 35
+    word: GHEBA
+    clue: "35. Città in cui Gionatan abbatté una guarnigione di filistei (1 Samuele 13:3)"
+    type: V
+    start: K9
+    positions[5]{row,col,letter}:
+      8,10,G
+      9,10,H
+      10,10,E
+      11,10,B
+      12,10,A
+  - num: 36
+    word: BALADAN
+    clue: "36. Il padre del re di Babilonia che mandò una delegazione a Ezechia (Isaia 39:1)"
+    type: V
+    start: L9
+    positions[7]{row,col,letter}:
+      8,11,B
+      9,11,A
+      10,11,L
+      11,11,A
+      12,11,D
+      13,11,A
+      14,11,N
+  - num: 39
+    word: RIARSO
+    clue: "39. Inaridito, secco (Isaia 35:7)"
+    type: V
+    start: M10
+    positions[6]{row,col,letter}:
+      9,12,R
+      10,12,I
+      11,12,A
+      12,12,R
+      13,12,S
+      14,12,O
+  - num: 40
+    word: ZOFAR
+    clue: "40. Uno dei falsi confortatori di Giobbe (Giobbe 2:11)"
+    type: V
+    start: B11
+    positions[5]{row,col,letter}:
+      10,1,Z
+      11,1,O
+      12,1,F
+      13,1,A
+      14,1,R
+  - num: 41
+    word: CAPO
+    clue: "41. Ce l’hanno sia l’uomo che la donna che il Cristo (1 Corinti 11:3)"
+    type: V
+    start: G11
+    positions[4]{row,col,letter}:
+      10,6,C
+      11,6,A
+      12,6,P
+      13,6,O
+  - num: 42
+    word: OLI
+    clue: "42. Erano usati per la loro fragranza (Il Cantico dei Cantici 1:3)"
+    type: V
+    start: N11
+    positions[3]{row,col,letter}:
+      10,13,O
+      11,13,L
+      12,13,I
+  - num: 43
+    word: CASA
+    clue: "43. Il sorvegliante deve sapere dirigere bene la sua (1 Timoteo 3:4, 5)"
+    type: V
+    start: A12
+    positions[4]{row,col,letter}:
+      11,0,C
+      12,0,A
+      13,0,S
+      14,0,A
+  - num: 44
+    word: TAAS
+    clue: "44. Figlio di Nahor e della sua concubina Reuma (Genesi 22:23, 24)"
+    type: V
+    start: D12
+    positions[4]{row,col,letter}:
+      11,3,T
+      12,3,A
+      13,3,A
+      14,3,S
+  - num: 46
+    word: AAVA
+    clue: "46. Fiume presso cui Esdra indisse un digiuno prima di intraprendere il viaggio verso Gerusalemme (Esdra 8:21, 31)"
+    type: V
+    start: O12
+    positions[4]{row,col,letter}:
+      11,14,A
+      12,14,A
+      13,14,V
+      14,14,A
+metadata:
+  totalNumbers: 51
+  horizontalStarts: 24
+  verticalStarts: 31
+  totalWords: 55
+  createdAt: "2025-12-27T11:26:07.552Z"

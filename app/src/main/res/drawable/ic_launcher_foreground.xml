@@ -5,35 +5,127 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- Background grid pattern -->
-    <group
-        android:translateX="27"
-        android:translateY="27">
+    <!-- 3D Shadow for grid -->
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M28,32 L78,32 L78,82 L28,82 Z"/>
 
-        <!-- Cross shape representing crossword -->
-        <path
-            android:fillColor="#FFFFFF"
-            android:pathData="M22,10 L32,10 L32,22 L44,22 L44,32 L32,32 L32,44 L22,44 L22,32 L10,32 L10,22 L22,22 Z"/>
+    <!-- Crossword Grid Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,28 L74,28 L74,78 L24,78 Z"/>
 
-        <!-- Bible book shape -->
-        <path
-            android:fillColor="#FFD54F"
-            android:pathData="M18,38 L36,38 L36,50 L18,50 Z"/>
+    <!-- Grid lines - horizontal -->
+    <path
+        android:strokeColor="#1565C0"
+        android:strokeWidth="1.2"
+        android:pathData="M24,28 L74,28 M24,38 L74,38 M24,48 L74,48 M24,58 L74,58 M24,68 L74,68 M24,78 L74,78"/>
 
-        <!-- Book spine -->
-        <path
-            android:fillColor="#FF8F00"
-            android:pathData="M18,38 L20,38 L20,50 L18,50 Z"/>
+    <!-- Grid lines - vertical -->
+    <path
+        android:strokeColor="#1565C0"
+        android:strokeWidth="1.2"
+        android:pathData="M24,28 L24,78 M34,28 L34,78 M44,28 L44,78 M54,28 L54,78 M64,28 L64,78 M74,28 L74,78"/>
 
-        <!-- Cross on book -->
-        <path
-            android:fillColor="#FFFFFF"
-            android:pathData="M26,40 L28,40 L28,43 L31,43 L31,45 L28,45 L28,48 L26,48 L26,45 L23,45 L23,43 L26,43 Z"/>
+    <!-- Black blocks pattern -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M24,28 L34,28 L34,38 L24,38 Z"/>
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M64,28 L74,28 L74,38 L64,38 Z"/>
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M44,48 L54,48 L54,58 L44,58 Z"/>
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M24,68 L34,68 L34,78 L24,78 Z"/>
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M64,68 L74,68 L74,78 L64,78 Z"/>
 
-        <!-- Grid lines -->
-        <path
-            android:strokeColor="#1565C0"
-            android:strokeWidth="1"
-            android:pathData="M10,16 L44,16 M10,22 L44,22 M10,28 L44,28 M16,10 L16,34 M22,10 L22,34 M28,10 L28,34 M34,10 L34,34"/>
-    </group>
+    <!-- Letters in cells -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M37,31 L37,36 L39.5,36 Q42,36 42,33.5 Q42,31 39.5,31 Z M38.5,32.5 L39.5,32.5 Q40.5,32.5 40.5,33.5 Q40.5,34.5 39.5,34.5 L38.5,34.5 Z"/>
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M47,31 L49,31 L49,36 L47,36 Z"/>
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M55,33.5 Q55,31 58,31 Q61,31 61,33.5 Q61,36 58,36 Q55,36 55,33.5 Z M56.5,33.5 Q56.5,32 58,32 Q59.5,32 59.5,33.5 Q59.5,35 58,35 Q56.5,35 56.5,33.5 Z"/>
+
+    <!-- 3D Shadow for open Bible -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M32,18 Q54,26 76,18 L76,22 Q54,30 32,22 Z"/>
+
+    <!-- Open Bible - Left page shadow -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M30,16 Q54,24 54,24 L54,6 Q54,6 30,14 Z"/>
+
+    <!-- Open Bible - Right page shadow -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M78,16 Q54,24 54,24 L54,6 Q54,6 78,14 Z"/>
+
+    <!-- Open Bible - Left cover (brown) -->
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M28,14 L30,16 L30,14 Q54,22 54,22 L54,4 Q54,4 28,12 Z"/>
+
+    <!-- Open Bible - Right cover (brown) -->
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M80,14 L78,16 L78,14 Q54,22 54,22 L54,4 Q54,4 80,12 Z"/>
+
+    <!-- Open Bible - Left page (cream) -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M32,15 Q54,22 54,22 L54,5 Q54,5 32,12 Z"/>
+
+    <!-- Open Bible - Right page (cream) -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M76,15 Q54,22 54,22 L54,5 Q54,5 76,12 Z"/>
+
+    <!-- Bible spine -->
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M52,4 L56,4 L56,24 L52,24 Z"/>
+
+    <!-- Text lines on left page -->
+    <path
+        android:strokeColor="#BCAAA4"
+        android:strokeWidth="0.8"
+        android:pathData="M36,11 L50,16"/>
+    <path
+        android:strokeColor="#BCAAA4"
+        android:strokeWidth="0.8"
+        android:pathData="M38,13 L51,18"/>
+    <path
+        android:strokeColor="#BCAAA4"
+        android:strokeWidth="0.8"
+        android:pathData="M40,15 L52,20"/>
+
+    <!-- Text lines on right page -->
+    <path
+        android:strokeColor="#BCAAA4"
+        android:strokeWidth="0.8"
+        android:pathData="M58,16 L72,11"/>
+    <path
+        android:strokeColor="#BCAAA4"
+        android:strokeWidth="0.8"
+        android:pathData="M57,18 L70,13"/>
+    <path
+        android:strokeColor="#BCAAA4"
+        android:strokeWidth="0.8"
+        android:pathData="M56,20 L68,15"/>
+
+    <!-- Red ribbon bookmark hanging -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M53,24 L55,24 L56,32 L54,30 L52,32 Z"/>
+
 </vector>

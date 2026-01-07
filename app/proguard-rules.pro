@@ -1,4 +1,4 @@
-# Crucibibia ProGuard Rules
+# CruciBibbia ProGuard Rules
 
 # Keep Gson classes
 -keepattributes Signature

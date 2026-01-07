@@ -1,0 +1,852 @@
+gridSize: 15
+structure[15]:
+  - [15]: 1,1,1,1,1,1,0,1,1,1,1,1,1,1,0
+  - [15]: 1,1,1,1,1,0,1,1,1,1,0,1,1,1,1
+  - [15]: 1,1,1,1,1,0,1,1,1,1,1,0,1,1,1
+  - [15]: 1,1,1,0,1,1,1,0,1,1,1,1,1,1,1
+  - [15]: 1,1,0,1,1,1,1,1,0,0,1,1,0,1,1
+  - [15]: 1,1,1,1,1,1,1,1,0,1,1,1,1,1,0
+  - [15]: 1,1,0,1,0,1,0,1,1,1,0,1,0,1,0
+  - [15]: 1,0,1,1,1,1,1,0,1,1,1,1,1,0,1
+  - [15]: 0,1,0,1,0,1,1,1,0,1,0,1,0,1,1
+  - [15]: 0,1,1,1,1,1,0,1,1,1,1,1,1,1,1
+  - [15]: 1,1,0,1,1,0,0,1,1,1,1,1,0,1,1
+  - [15]: 1,1,1,1,1,1,1,0,1,1,1,0,1,1,1
+  - [15]: 1,1,1,0,1,1,1,1,1,0,1,1,1,1,1
+  - [15]: 1,1,1,1,0,1,1,1,1,0,1,1,1,1,1
+  - [15]: 0,1,1,1,1,1,1,1,0,1,1,1,1,1,1
+numberedCells[58]{row,col,num,hasH,hasV}:
+  0,0,1,true,true
+  0,1,2,false,true
+  0,2,3,false,true
+  0,3,4,false,true
+  0,4,5,false,true
+  0,7,6,true,true
+  0,8,7,false,true
+  0,9,8,false,true
+  0,12,9,false,true
+  0,13,10,false,true
+  1,0,11,true,false
+  1,6,12,true,true
+  1,11,13,true,false
+  1,14,14,false,true
+  2,0,15,true,false
+  2,6,16,true,false
+  2,10,17,false,true
+  2,12,18,true,false
+  3,0,19,true,false
+  3,4,20,true,false
+  3,5,21,false,true
+  3,8,22,true,false
+  3,11,23,false,true
+  4,3,24,true,true
+  4,7,25,false,true
+  5,0,26,true,false
+  5,9,27,true,true
+  6,7,28,true,false
+  7,2,29,true,false
+  7,8,30,true,false
+  7,14,31,false,true
+  8,1,32,false,true
+  8,5,33,true,false
+  8,7,34,false,true
+  8,13,35,false,true
+  9,1,36,true,false
+  9,4,37,false,true
+  9,7,38,true,false
+  9,8,39,false,true
+  9,10,40,false,true
+  10,0,41,false,true
+  10,7,42,true,false
+  11,0,43,true,false
+  11,2,44,false,true
+  11,5,45,false,true
+  11,6,46,false,true
+  11,8,47,true,false
+  11,12,48,true,true
+  12,0,49,true,false
+  12,4,50,true,false
+  12,7,51,false,true
+  12,10,52,true,false
+  12,11,53,false,true
+  13,0,54,true,false
+  13,5,55,true,false
+  13,10,56,true,false
+  14,1,57,true,false
+  14,9,58,true,false
+words:
+  orizzontali[32]{num,word,clue}:
+    1,LIBERA,"1. Lo è la “Gerusalemme di sopra” (Galati 4:26)"
+    6,COLOMBA,"6. Noè la fece uscire dall’arca (Genesi 8:8)"
+    11,ESILE,"11. Snella, magra (Genesi 49:21)"
+    12,MARE,"12. Si divise a un cenno di Mosè (Esodo 14:21)"
+    13,NUBI,"13. Chi è operoso non le guarda (Ecclesiaste 11:4)"
+    15,OBLIO,"15. Abbandono, dimenticanza (Salmo 88:12)"
+    16,OMEGA,"16. Ultima lettera dell’alfabeto greco (Rivelazione 1:8)"
+    18,ZIA,"18. La moglie del fratello del padre (Levitico 18:14)"
+    19,NOA,"19. Una delle cinque figlie di Zelofead (Numeri 36:10-12)"
+    20,BEL,"20. Divinità babilonese (Isaia 46:1)"
+    22,BANDITI,"22. Rappresentavano un pericolo per chi viaggiava (2 Corinti 11:26)"
+    24,COSTA,"24. Fiancheggia il mare (Giosuè 9:1)"
+    26,SEALTIEL,"26. Il padre di Zorobabele (Aggeo 1:1)"
+    27,RAMOT,"27. Città di rifugio nella regione di Galaad (Giosuè 21:38)"
+    28,AIE,"28. In esse si metteva il grano falciato (Gioele 2:24)"
+    29,AMRAM,"29. Il padre di Mosè (Esodo 6:20)"
+    30,SCURE,"30. Serve per tagliare gli alberi (Luca 3:9)"
+    33,REO,"33. Colpevole (Marco 14:64)"
+    36,LANCE,"36. Vanno trasformate in cesoie (Isaia 2:4)"
+    38,BENEDITE,"38. “-------- Geova, o angeli suoi” (Salmo 103:20)"
+    42,ALTRE,"42. Le “pecore” che “non sono di questo ovile” (Giovanni 10:16)"
+    43,REDEIRE,"43. Lo è l’Agnello (Rivelazione 17:14)"
+    47,IOB,"47. Figlio di Issacar (Genesi 46:13)"
+    48,SEM,"48. Sopravvisse al Diluvio (Genesi 9:18)"
+    49,AZO,"49. Figlio di Nahor e nipote di Abraamo (Genesi 22:20-22)"
+    50,SALEM,"50. Vi regnava Melchisedec (Genesi 14:18)"
+    52,OPERA,"52. Bisogna avere molto da fare in quella del Signore (1 Corinti 15:58)"
+    54,MENE,"54. La prima parola del misterioso messaggio indirizzato al re Baldassarre (Daniele 5:25)"
+    55,SALA,"55. Locale ampio destinato a un uso particolare (Atti 25:23)"
+    56,SITRI,"56. Cugino di Mosè (Esodo 6:18, 20, 22)"
+    57,ROTTAMI,"57. Macerie, rovine (Amos 6:11)"
+    58,SIMEAM,"58. Beniaminita figlio di Miclot, imparentato con gli antenati di Saul (1 Cronache 9:35-39)"
+  verticali[32]{num,word,clue}:
+    1,LEONESSA,"1. Alleva i leoncelli (Ezechiele 19:2)"
+    2,ISBOSET,"2. Il figlio di Saul che gli succedette al trono (2 Samuele 2:10)"
+    3,BILA,"3. La madre di Dan e Neftali (Genesi 30:3-8)"
+    4,ELI,"4. Il nonno materno di Gesù (Luca 3:23)"
+    5,REOBOT,"5. Nome che Isacco diede a un pozzo da lui scavato (Genesi 26:22)"
+    6,CAM,"6. Nonno di Nimrod (Genesi 10:6, 8)"
+    7,OREB,"7. Principe madianita ucciso dagli efraimiti (Giudici 7:24–8:3)"
+    8,LEGA,"8. Era aurea quella con cui Salomone fece degli scudi (1 Re 10:16, 17)"
+    9,BUZI,"9. Il padre di Ezechiele (Ezechiele 1:3)"
+    10,ABITATA,"10. Lo è la terra in cui si deve predicare (Matteo 24:14)"
+    12,MOLTE,"12. “Tutti inciampiamo ----- volte” (Giacomo 3:2)"
+    14,IAIR,"14. Settimo giudice d’Israele (Giudici 10:3)"
+    17,ANNA,"17. La vedova che “non si assentava mai dal tempio” (Luca 2:36, 37)"
+    21,ESITARE,"21. Tentennare, trattenersi per l’indecisione (Atti 9:38)"
+    23,DAMARIDE,"23. Udì il discorso di Paolo sull’Areopago e divenne credente (Atti 17:33, 34)"
+    24,CLEMENTE,"24. Lo è Geova con chi è pentito (Gioele 2:13)"
+    25,ALA,"25. Quella dello struzzo non è adatta al volo (Giobbe 39:13)"
+    27,RECINTO,"27. Spazio delimitato in cui si possono tenere animali (Michea 2:12)"
+    31,ABELMAIM,"31. Città di Neftali abbattuta da Ben-Adad re di Siria (2 Cronache 16:4)"
+    32,ELIEZER,"32. Fu mandato a cercare moglie per Isacco (Genesi 15:2, 3; 24:2-4)"
+    34,OBA,"34. Località fino a cui Abraamo inseguì gli eserciti di Chedorlaomer (Genesi 14:14-16)"
+    35,ATTERRA,"35. “Nessuno può essere schiavo di due signori; poiché . . . si ------- all’uno e disprezzerà l’altro” (Matteo 6:24)"
+    37,CHIS,"37. Il padre di Saul (Atti 13:21)"
+    39,ELIMA,"39. Nome con cui era noto lo stregone Bar-Gesù (Atti 13:6-8)"
+    40,ERBOSI,"40. Lo sono i pascoli migliori (Salmo 23:2)"
+    41,ARAM,"41. Figlio di Sem (Genesi 10:22)"
+    44,DONO,"44. Chi ce l’ha lo deve usare servendo gli altri (1 Pietro 4:10)"
+    45,RASA,"45. Pelata, rapata (1 Corinti 11:6)"
+    46,ELAM,"46. Ne era re Chedorlaomer (Genesi 14:1)"
+    48,SETE,"48. L’aveva Gesù sul palo (Giovanni 19:28)"
+    51,ELI,"51. Non seppe disciplinare i figli (1 Samuele 2:22-24, 29)"
+    53,PIM,"53. Prezzo che i filistei facevano pagare agli israeliti per affilare vari arnesi di metallo (1 Samuele 13:20, 21)"
+placements[64]:
+  - num: 1
+    word: LIBERA
+    clue: "1. Lo è la “Gerusalemme di sopra” (Galati 4:26)"
+    type: H
+    start: A1
+    positions[6]{row,col,letter}:
+      0,0,L
+      0,1,I
+      0,2,B
+      0,3,E
+      0,4,R
+      0,5,A
+  - num: 6
+    word: COLOMBA
+    clue: "6. Noè la fece uscire dall’arca (Genesi 8:8)"
+    type: H
+    start: H1
+    positions[7]{row,col,letter}:
+      0,7,C
+      0,8,O
+      0,9,L
+      0,10,O
+      0,11,M
+      0,12,B
+      0,13,A
+  - num: 11
+    word: ESILE
+    clue: "11. Snella, magra (Genesi 49:21)"
+    type: H
+    start: A2
+    positions[5]{row,col,letter}:
+      1,0,E
+      1,1,S
+      1,2,I
+      1,3,L
+      1,4,E
+  - num: 12
+    word: MARE
+    clue: "12. Si divise a un cenno di Mosè (Esodo 14:21)"
+    type: H
+    start: G2
+    positions[4]{row,col,letter}:
+      1,6,M
+      1,7,A
+      1,8,R
+      1,9,E
+  - num: 13
+    word: NUBI
+    clue: "13. Chi è operoso non le guarda (Ecclesiaste 11:4)"
+    type: H
+    start: L2
+    positions[4]{row,col,letter}:
+      1,11,N
+      1,12,U
+      1,13,B
+      1,14,I
+  - num: 15
+    word: OBLIO
+    clue: "15. Abbandono, dimenticanza (Salmo 88:12)"
+    type: H
+    start: A3
+    positions[5]{row,col,letter}:
+      2,0,O
+      2,1,B
+      2,2,L
+      2,3,I
+      2,4,O
+  - num: 16
+    word: OMEGA
+    clue: "16. Ultima lettera dell’alfabeto greco (Rivelazione 1:8)"
+    type: H
+    start: G3
+    positions[5]{row,col,letter}:
+      2,6,O
+      2,7,M
+      2,8,E
+      2,9,G
+      2,10,A
+  - num: 18
+    word: ZIA
+    clue: "18. La moglie del fratello del padre (Levitico 18:14)"
+    type: H
+    start: M3
+    positions[3]{row,col,letter}:
+      2,12,Z
+      2,13,I
+      2,14,A
+  - num: 19
+    word: NOA
+    clue: "19. Una delle cinque figlie di Zelofead (Numeri 36:10-12)"
+    type: H
+    start: A4
+    positions[3]{row,col,letter}:
+      3,0,N
+      3,1,O
+      3,2,A
+  - num: 20
+    word: BEL
+    clue: "20. Divinità babilonese (Isaia 46:1)"
+    type: H
+    start: E4
+    positions[3]{row,col,letter}:
+      3,4,B
+      3,5,E
+      3,6,L
+  - num: 22
+    word: BANDITI
+    clue: "22. Rappresentavano un pericolo per chi viaggiava (2 Corinti 11:26)"
+    type: H
+    start: I4
+    positions[7]{row,col,letter}:
+      3,8,B
+      3,9,A
+      3,10,N
+      3,11,D
+      3,12,I
+      3,13,T
+      3,14,I
+  - num: 24
+    word: COSTA
+    clue: "24. Fiancheggia il mare (Giosuè 9:1)"
+    type: H
+    start: D5
+    positions[5]{row,col,letter}:
+      4,3,C
+      4,4,O
+      4,5,S
+      4,6,T
+      4,7,A
+  - num: 26
+    word: SEALTIEL
+    clue: "26. Il padre di Zorobabele (Aggeo 1:1)"
+    type: H
+    start: A6
+    positions[8]{row,col,letter}:
+      5,0,S
+      5,1,E
+      5,2,A
+      5,3,L
+      5,4,T
+      5,5,I
+      5,6,E
+      5,7,L
+  - num: 27
+    word: RAMOT
+    clue: "27. Città di rifugio nella regione di Galaad (Giosuè 21:38)"
+    type: H
+    start: J6
+    positions[5]{row,col,letter}:
+      5,9,R
+      5,10,A
+      5,11,M
+      5,12,O
+      5,13,T
+  - num: 28
+    word: AIE
+    clue: "28. In esse si metteva il grano falciato (Gioele 2:24)"
+    type: H
+    start: H7
+    positions[3]{row,col,letter}:
+      6,7,A
+      6,8,I
+      6,9,E
+  - num: 29
+    word: AMRAM
+    clue: "29. Il padre di Mosè (Esodo 6:20)"
+    type: H
+    start: C8
+    positions[5]{row,col,letter}:
+      7,2,A
+      7,3,M
+      7,4,R
+      7,5,A
+      7,6,M
+  - num: 30
+    word: SCURE
+    clue: "30. Serve per tagliare gli alberi (Luca 3:9)"
+    type: H
+    start: I8
+    positions[5]{row,col,letter}:
+      7,8,S
+      7,9,C
+      7,10,U
+      7,11,R
+      7,12,E
+  - num: 33
+    word: REO
+    clue: "33. Colpevole (Marco 14:64)"
+    type: H
+    start: F9
+    positions[3]{row,col,letter}:
+      8,5,R
+      8,6,E
+      8,7,O
+  - num: 36
+    word: LANCE
+    clue: "36. Vanno trasformate in cesoie (Isaia 2:4)"
+    type: H
+    start: B10
+    positions[5]{row,col,letter}:
+      9,1,L
+      9,2,A
+      9,3,N
+      9,4,C
+      9,5,E
+  - num: 38
+    word: BENEDITE
+    clue: "38. “-------- Geova, o angeli suoi” (Salmo 103:20)"
+    type: H
+    start: H10
+    positions[8]{row,col,letter}:
+      9,7,B
+      9,8,E
+      9,9,N
+      9,10,E
+      9,11,D
+      9,12,I
+      9,13,T
+      9,14,E
+  - num: 42
+    word: ALTRE
+    clue: "42. Le “pecore” che “non sono di questo ovile” (Giovanni 10:16)"
+    type: H
+    start: H11
+    positions[5]{row,col,letter}:
+      10,7,A
+      10,8,L
+      10,9,T
+      10,10,R
+      10,11,E
+  - num: 43
+    word: REDEIRE
+    clue: "43. Lo è l’Agnello (Rivelazione 17:14)"
+    type: H
+    start: A12
+    positions[7]{row,col,letter}:
+      11,0,R
+      11,1,E
+      11,2,D
+      11,3,E
+      11,4,I
+      11,5,R
+      11,6,E
+  - num: 47
+    word: IOB
+    clue: "47. Figlio di Issacar (Genesi 46:13)"
+    type: H
+    start: I12
+    positions[3]{row,col,letter}:
+      11,8,I
+      11,9,O
+      11,10,B
+  - num: 48
+    word: SEM
+    clue: "48. Sopravvisse al Diluvio (Genesi 9:18)"
+    type: H
+    start: M12
+    positions[3]{row,col,letter}:
+      11,12,S
+      11,13,E
+      11,14,M
+  - num: 49
+    word: AZO
+    clue: "49. Figlio di Nahor e nipote di Abraamo (Genesi 22:20-22)"
+    type: H
+    start: A13
+    positions[3]{row,col,letter}:
+      12,0,A
+      12,1,Z
+      12,2,O
+  - num: 50
+    word: SALEM
+    clue: "50. Vi regnava Melchisedec (Genesi 14:18)"
+    type: H
+    start: E13
+    positions[5]{row,col,letter}:
+      12,4,S
+      12,5,A
+      12,6,L
+      12,7,E
+      12,8,M
+  - num: 52
+    word: OPERA
+    clue: "52. Bisogna avere molto da fare in quella del Signore (1 Corinti 15:58)"
+    type: H
+    start: K13
+    positions[5]{row,col,letter}:
+      12,10,O
+      12,11,P
+      12,12,E
+      12,13,R
+      12,14,A
+  - num: 54
+    word: MENE
+    clue: "54. La prima parola del misterioso messaggio indirizzato al re Baldassarre (Daniele 5:25)"
+    type: H
+    start: A14
+    positions[4]{row,col,letter}:
+      13,0,M
+      13,1,E
+      13,2,N
+      13,3,E
+  - num: 55
+    word: SALA
+    clue: "55. Locale ampio destinato a un uso particolare (Atti 25:23)"
+    type: H
+    start: F14
+    positions[4]{row,col,letter}:
+      13,5,S
+      13,6,A
+      13,7,L
+      13,8,A
+  - num: 56
+    word: SITRI
+    clue: "56. Cugino di Mosè (Esodo 6:18, 20, 22)"
+    type: H
+    start: K14
+    positions[5]{row,col,letter}:
+      13,10,S
+      13,11,I
+      13,12,T
+      13,13,R
+      13,14,I
+  - num: 57
+    word: ROTTAMI
+    clue: "57. Macerie, rovine (Amos 6:11)"
+    type: H
+    start: B15
+    positions[7]{row,col,letter}:
+      14,1,R
+      14,2,O
+      14,3,T
+      14,4,T
+      14,5,A
+      14,6,M
+      14,7,I
+  - num: 58
+    word: SIMEAM
+    clue: "58. Beniaminita figlio di Miclot, imparentato con gli antenati di Saul (1 Cronache 9:35-39)"
+    type: H
+    start: J15
+    positions[6]{row,col,letter}:
+      14,9,S
+      14,10,I
+      14,11,M
+      14,12,E
+      14,13,A
+      14,14,M
+  - num: 1
+    word: LEONESSA
+    clue: "1. Alleva i leoncelli (Ezechiele 19:2)"
+    type: V
+    start: A1
+    positions[8]{row,col,letter}:
+      0,0,L
+      1,0,E
+      2,0,O
+      3,0,N
+      4,0,E
+      5,0,S
+      6,0,S
+      7,0,A
+  - num: 2
+    word: ISBOSET
+    clue: "2. Il figlio di Saul che gli succedette al trono (2 Samuele 2:10)"
+    type: V
+    start: B1
+    positions[7]{row,col,letter}:
+      0,1,I
+      1,1,S
+      2,1,B
+      3,1,O
+      4,1,S
+      5,1,E
+      6,1,T
+  - num: 3
+    word: BILA
+    clue: "3. La madre di Dan e Neftali (Genesi 30:3-8)"
+    type: V
+    start: C1
+    positions[4]{row,col,letter}:
+      0,2,B
+      1,2,I
+      2,2,L
+      3,2,A
+  - num: 4
+    word: ELI
+    clue: "4. Il nonno materno di Gesù (Luca 3:23)"
+    type: V
+    start: D1
+    positions[3]{row,col,letter}:
+      0,3,E
+      1,3,L
+      2,3,I
+  - num: 5
+    word: REOBOT
+    clue: "5. Nome che Isacco diede a un pozzo da lui scavato (Genesi 26:22)"
+    type: V
+    start: E1
+    positions[6]{row,col,letter}:
+      0,4,R
+      1,4,E
+      2,4,O
+      3,4,B
+      4,4,O
+      5,4,T
+  - num: 6
+    word: CAM
+    clue: "6. Nonno di Nimrod (Genesi 10:6, 8)"
+    type: V
+    start: H1
+    positions[3]{row,col,letter}:
+      0,7,C
+      1,7,A
+      2,7,M
+  - num: 7
+    word: OREB
+    clue: "7. Principe madianita ucciso dagli efraimiti (Giudici 7:24–8:3)"
+    type: V
+    start: I1
+    positions[4]{row,col,letter}:
+      0,8,O
+      1,8,R
+      2,8,E
+      3,8,B
+  - num: 8
+    word: LEGA
+    clue: "8. Era aurea quella con cui Salomone fece degli scudi (1 Re 10:16, 17)"
+    type: V
+    start: J1
+    positions[4]{row,col,letter}:
+      0,9,L
+      1,9,E
+      2,9,G
+      3,9,A
+  - num: 9
+    word: BUZI
+    clue: "9. Il padre di Ezechiele (Ezechiele 1:3)"
+    type: V
+    start: M1
+    positions[4]{row,col,letter}:
+      0,12,B
+      1,12,U
+      2,12,Z
+      3,12,I
+  - num: 10
+    word: ABITATA
+    clue: "10. Lo è la terra in cui si deve predicare (Matteo 24:14)"
+    type: V
+    start: N1
+    positions[7]{row,col,letter}:
+      0,13,A
+      1,13,B
+      2,13,I
+      3,13,T
+      4,13,A
+      5,13,T
+      6,13,A
+  - num: 12
+    word: MOLTE
+    clue: "12. “Tutti inciampiamo ----- volte” (Giacomo 3:2)"
+    type: V
+    start: G2
+    positions[5]{row,col,letter}:
+      1,6,M
+      2,6,O
+      3,6,L
+      4,6,T
+      5,6,E
+  - num: 14
+    word: IAIR
+    clue: "14. Settimo giudice d’Israele (Giudici 10:3)"
+    type: V
+    start: O2
+    positions[4]{row,col,letter}:
+      1,14,I
+      2,14,A
+      3,14,I
+      4,14,R
+  - num: 17
+    word: ANNA
+    clue: "17. La vedova che “non si assentava mai dal tempio” (Luca 2:36, 37)"
+    type: V
+    start: K3
+    positions[4]{row,col,letter}:
+      2,10,A
+      3,10,N
+      4,10,N
+      5,10,A
+  - num: 21
+    word: ESITARE
+    clue: "21. Tentennare, trattenersi per l’indecisione (Atti 9:38)"
+    type: V
+    start: F4
+    positions[7]{row,col,letter}:
+      3,5,E
+      4,5,S
+      5,5,I
+      6,5,T
+      7,5,A
+      8,5,R
+      9,5,E
+  - num: 23
+    word: DAMARIDE
+    clue: "23. Udì il discorso di Paolo sull’Areopago e divenne credente (Atti 17:33, 34)"
+    type: V
+    start: L4
+    positions[8]{row,col,letter}:
+      3,11,D
+      4,11,A
+      5,11,M
+      6,11,A
+      7,11,R
+      8,11,I
+      9,11,D
+      10,11,E
+  - num: 24
+    word: CLEMENTE
+    clue: "24. Lo è Geova con chi è pentito (Gioele 2:13)"
+    type: V
+    start: D5
+    positions[8]{row,col,letter}:
+      4,3,C
+      5,3,L
+      6,3,E
+      7,3,M
+      8,3,E
+      9,3,N
+      10,3,T
+      11,3,E
+  - num: 25
+    word: ALA
+    clue: "25. Quella dello struzzo non è adatta al volo (Giobbe 39:13)"
+    type: V
+    start: H5
+    positions[3]{row,col,letter}:
+      4,7,A
+      5,7,L
+      6,7,A
+  - num: 27
+    word: RECINTO
+    clue: "27. Spazio delimitato in cui si possono tenere animali (Michea 2:12)"
+    type: V
+    start: J6
+    positions[7]{row,col,letter}:
+      5,9,R
+      6,9,E
+      7,9,C
+      8,9,I
+      9,9,N
+      10,9,T
+      11,9,O
+  - num: 31
+    word: ABELMAIM
+    clue: "31. Città di Neftali abbattuta da Ben-Adad re di Siria (2 Cronache 16:4)"
+    type: V
+    start: O8
+    positions[8]{row,col,letter}:
+      7,14,A
+      8,14,B
+      9,14,E
+      10,14,L
+      11,14,M
+      12,14,A
+      13,14,I
+      14,14,M
+  - num: 32
+    word: ELIEZER
+    clue: "32. Fu mandato a cercare moglie per Isacco (Genesi 15:2, 3; 24:2-4)"
+    type: V
+    start: B9
+    positions[7]{row,col,letter}:
+      8,1,E
+      9,1,L
+      10,1,I
+      11,1,E
+      12,1,Z
+      13,1,E
+      14,1,R
+  - num: 34
+    word: OBA
+    clue: "34. Località fino a cui Abraamo inseguì gli eserciti di Chedorlaomer (Genesi 14:14-16)"
+    type: V
+    start: H9
+    positions[3]{row,col,letter}:
+      8,7,O
+      9,7,B
+      10,7,A
+  - num: 35
+    word: ATTERRA
+    clue: "35. “Nessuno può essere schiavo di due signori; poiché . . . si ------- all’uno e disprezzerà l’altro” (Matteo 6:24)"
+    type: V
+    start: N9
+    positions[7]{row,col,letter}:
+      8,13,A
+      9,13,T
+      10,13,T
+      11,13,E
+      12,13,R
+      13,13,R
+      14,13,A
+  - num: 37
+    word: CHIS
+    clue: "37. Il padre di Saul (Atti 13:21)"
+    type: V
+    start: E10
+    positions[4]{row,col,letter}:
+      9,4,C
+      10,4,H
+      11,4,I
+      12,4,S
+  - num: 39
+    word: ELIMA
+    clue: "39. Nome con cui era noto lo stregone Bar-Gesù (Atti 13:6-8)"
+    type: V
+    start: I10
+    positions[5]{row,col,letter}:
+      9,8,E
+      10,8,L
+      11,8,I
+      12,8,M
+      13,8,A
+  - num: 40
+    word: ERBOSI
+    clue: "40. Lo sono i pascoli migliori (Salmo 23:2)"
+    type: V
+    start: K10
+    positions[6]{row,col,letter}:
+      9,10,E
+      10,10,R
+      11,10,B
+      12,10,O
+      13,10,S
+      14,10,I
+  - num: 41
+    word: ARAM
+    clue: "41. Figlio di Sem (Genesi 10:22)"
+    type: V
+    start: A11
+    positions[4]{row,col,letter}:
+      10,0,A
+      11,0,R
+      12,0,A
+      13,0,M
+  - num: 44
+    word: DONO
+    clue: "44. Chi ce l’ha lo deve usare servendo gli altri (1 Pietro 4:10)"
+    type: V
+    start: C12
+    positions[4]{row,col,letter}:
+      11,2,D
+      12,2,O
+      13,2,N
+      14,2,O
+  - num: 45
+    word: RASA
+    clue: "45. Pelata, rapata (1 Corinti 11:6)"
+    type: V
+    start: F12
+    positions[4]{row,col,letter}:
+      11,5,R
+      12,5,A
+      13,5,S
+      14,5,A
+  - num: 46
+    word: ELAM
+    clue: "46. Ne era re Chedorlaomer (Genesi 14:1)"
+    type: V
+    start: G12
+    positions[4]{row,col,letter}:
+      11,6,E
+      12,6,L
+      13,6,A
+      14,6,M
+  - num: 48
+    word: SETE
+    clue: "48. L’aveva Gesù sul palo (Giovanni 19:28)"
+    type: V
+    start: M12
+    positions[4]{row,col,letter}:
+      11,12,S
+      12,12,E
+      13,12,T
+      14,12,E
+  - num: 51
+    word: ELI
+    clue: "51. Non seppe disciplinare i figli (1 Samuele 2:22-24, 29)"
+    type: V
+    start: H13
+    positions[3]{row,col,letter}:
+      12,7,E
+      13,7,L
+      14,7,I
+  - num: 53
+    word: PIM
+    clue: "53. Prezzo che i filistei facevano pagare agli israeliti per affilare vari arnesi di metallo (1 Samuele 13:20, 21)"
+    type: V
+    start: L13
+    positions[3]{row,col,letter}:
+      12,11,P
+      13,11,I
+      14,11,M
+metadata:
+  totalNumbers: 58
+  horizontalStarts: 32
+  verticalStarts: 32
+  totalWords: 64
+  createdAt: "2025-12-27T11:12:24.446Z"
